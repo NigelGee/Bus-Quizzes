@@ -53,26 +53,18 @@
 		8B0DBB49212DD0AE00D95D2B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8B2BAD0E2129A7F80050AF17 /* LaunchScreen.storyboard */,
 				8B2BAD092129A7F70050AF17 /* Main.storyboard */,
 				8B2BAD0C2129A7F80050AF17 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		8B0DBB4A212DD11000D95D2B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B2BAD112129A7F80050AF17 /* Info.plist */,
-				8B2BAD0E2129A7F80050AF17 /* LaunchScreen.storyboard */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		8B0DBB4B212DD14E00D95D2B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B2BAD072129A7F70050AF17 /* ViewController.swift */,
 				8B2BAD052129A7F70050AF17 /* AppDelegate.swift */,
+				8B2BAD072129A7F70050AF17 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -100,7 +92,7 @@
 				8B0DBB48212DD07F00D95D2B /* Model */,
 				8B0DBB4B212DD14E00D95D2B /* Controllers */,
 				8B0DBB49212DD0AE00D95D2B /* View */,
-				8B0DBB4A212DD11000D95D2B /* Supporting Files */,
+				8B2BAD112129A7F80050AF17 /* Info.plist */,
 			);
 			path = "Bus Quizzes";
 			sourceTree = "<group>";
