@@ -15,6 +15,8 @@
 		8B2BAD0B2129A7F70050AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BAD092129A7F70050AF17 /* Main.storyboard */; };
 		8B2BAD0D2129A7F80050AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BAD0C2129A7F80050AF17 /* Assets.xcassets */; };
 		8B2BAD102129A7F80050AF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BAD0E2129A7F80050AF17 /* LaunchScreen.storyboard */; };
+		8BC382C7212E906D00E07B14 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC382C6212E906D00E07B14 /* Answer.swift */; };
+		8BC382C9212E921E00E07B14 /* AnswerBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC382C8212E921E00E07B14 /* AnswerBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		8B2BAD0C2129A7F80050AF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2BAD0F2129A7F80050AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B2BAD112129A7F80050AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC382C6212E906D00E07B14 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		8BC382C8212E921E00E07B14 /* AnswerBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			children = (
 				8B0DBB4C212DD24E00D95D2B /* Question.swift */,
 				8B0DBB4E212DD77800D95D2B /* QuestionBank.swift */,
+				8BC382C6212E906D00E07B14 /* Answer.swift */,
+				8BC382C8212E921E00E07B14 /* AnswerBank.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,8 +177,10 @@
 			files = (
 				8B0DBB4D212DD24E00D95D2B /* Question.swift in Sources */,
 				8B0DBB4F212DD77800D95D2B /* QuestionBank.swift in Sources */,
+				8BC382C7212E906D00E07B14 /* Answer.swift in Sources */,
 				8B2BAD082129A7F70050AF17 /* ViewController.swift in Sources */,
 				8B2BAD062129A7F70050AF17 /* AppDelegate.swift in Sources */,
+				8BC382C9212E921E00E07B14 /* AnswerBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

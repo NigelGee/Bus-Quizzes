@@ -9,14 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let allQuestion = QuestionBank()
 
     @IBOutlet weak var questionLabel: UILabel!
-    @IBOutlet weak var imageLabel: UIView!
+    @IBOutlet weak var imageQuestion: UIImageView!
     @IBOutlet weak var progressLabel: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let firstQuestion = allQuestion.questionList[1]
+        questionLabel.text = firstQuestion.questionText
+        imageQuestion.image = UIImage(named: firstQuestion.questionImage)
+        
     }
 
     override func didReceiveMemoryWarning() {
