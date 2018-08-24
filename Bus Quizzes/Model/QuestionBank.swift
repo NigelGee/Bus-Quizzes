@@ -15,7 +15,7 @@ class QuestionBank {
     init() {
         questionList.append(Question(text: "What is this sign mean?", image: "No-Motor"))
         questionList.append(Question(text: "What is the height of a bridge with no signs", image: ""))
-        questionList.append(Question(text: "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: ""))
+        questionList.append(Question(text: "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", image: ""))
         
     }
 }

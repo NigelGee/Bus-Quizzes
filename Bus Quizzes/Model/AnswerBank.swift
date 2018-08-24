@@ -16,8 +16,8 @@ class AnswerBank {
         
         //MARK:- Q1
         answerList.append(Answer(text: "Low flying Motorbikes", correctAnswer: false))
-        answerList.append(Answer(text: "Motor Vecheles prohibited", correctAnswer: true))
         answerList.append(Answer(text: "Car below, Motorbikes above", correctAnswer: false))
+        answerList.append(Answer(text: "Motor Vehicles prohibited", correctAnswer: true))
         answerList.append(Answer(text: "Cars and Motorbikes prohibited", correctAnswer: false))
         
         //MARK:- Q2

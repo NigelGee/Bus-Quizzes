@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     let allQuestion = QuestionBank()
     let allAnswer = AnswerBank()
-    var pickedAnswer : Bool = false
+    var answerNumber = 0
     var usedQuestion = [Int]()
 
     @IBOutlet weak var questionLabel: UILabel!
@@ -34,7 +34,8 @@ class ViewController: UIViewController {
             fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
         }
         
-        checkRandomQuestion(maximumQuestion: maxQuestion)
+        randomQuestion(totalQuestion: maxQuestion)
+        
         
     }
     
@@ -43,8 +44,10 @@ class ViewController: UIViewController {
     }
 
     
-    //MARK:- Update to UI views
-    func updateUI (randomNumber number : Int) {
+    //MARK:- UPDATE TO UI VIEWS
+    func updateUI (pickedRandomNumber number : Int) {
+        
+        // Question UI Label update
         
         let question = allQuestion.questionList[number]
         
@@ -54,7 +57,9 @@ class ViewController: UIViewController {
             imageQuestion.image = UIImage(named: question.questionImage)
         }
         
-        let answerNumber = number * 4
+        // Answer Button text update
+        
+        answerNumber = number * 4
         let answerA = allAnswer.answerList[answerNumber]
         let answerB = allAnswer.answerList[answerNumber + 1]
         let answerC = allAnswer.answerList[answerNumber + 2]
@@ -67,20 +72,42 @@ class ViewController: UIViewController {
         
     }
     
-    //MARK- Pick Random Questions from Array
-    func randomQuestion () {
+    //MARK- PICK RANDOM QUESTIONS FROM ARRAY
+    func randomQuestion (totalQuestion: Int) {
+        
+        let randomNumber = 1 //Int(arc4random_uniform(UInt32(totalQuestion)))
+        
+        checkRandomQuestion(at: randomNumber)
         
     }
     
-    func checkRandomQuestion (maximumQuestion: Int) {
+    func checkRandomQuestion (at pickedQuestion: Int) {
         
-        let randomNumber = Int(arc4random_uniform(UInt32(maximumQuestion)))
-        
-        updateUI(randomNumber: randomNumber)
+        updateUI(pickedRandomNumber: pickedQuestion)
         
     }
+    
+    //MARK:- CHECK ANSWER ATFER BUTTON PRESSED
+    func checkAnswer(pickedAnswer: Int) {
+        
+        print(answerNumber, pickedAnswer)
+        
+        let correctAnswer = allAnswer.answerList[answerNumber + pickedAnswer].answer
+        if correctAnswer == true {
+            print("correct")
+        } else {
+            print("wrong")
+        }
+        
+    }
+    
+    //MARK:- Button pressed
     
     @IBAction func answerPressed(_ sender: UIButton) {
+        
+        let buttonPressed = sender.tag - 1
+        
+        checkAnswer(pickedAnswer: buttonPressed)
         
     }
     
