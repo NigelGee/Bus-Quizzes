@@ -17,6 +17,8 @@
 		8B2BAD102129A7F80050AF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BAD0E2129A7F80050AF17 /* LaunchScreen.storyboard */; };
 		8BC382C7212E906D00E07B14 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC382C6212E906D00E07B14 /* Answer.swift */; };
 		8BC382C9212E921E00E07B14 /* AnswerBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC382C8212E921E00E07B14 /* AnswerBank.swift */; };
+		8BD0FBB321328FEC00F50734 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FBB021328FEC00F50734 /* ProgressHUD.m */; };
+		8BD0FBB421328FEC00F50734 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BD0FBB121328FEC00F50734 /* ProgressHUD.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		8B2BAD112129A7F80050AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC382C6212E906D00E07B14 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		8BC382C8212E921E00E07B14 /* AnswerBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerBank.swift; sourceTree = "<group>"; };
+		8BD0FBAF21328FEB00F50734 /* Bus Quizzes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bus Quizzes-Bridging-Header.h"; sourceTree = "<group>"; };
+		8BD0FBB021328FEC00F50734 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		8BD0FBB121328FEC00F50734 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		8BD0FBB221328FEC00F50734 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +104,21 @@
 				8B0DBB48212DD07F00D95D2B /* Model */,
 				8B0DBB4B212DD14E00D95D2B /* Controllers */,
 				8B0DBB49212DD0AE00D95D2B /* View */,
+				8BD0FBAE21328F6B00F50734 /* Supporting Files */,
 				8B2BAD112129A7F80050AF17 /* Info.plist */,
 			);
 			path = "Bus Quizzes";
+			sourceTree = "<group>";
+		};
+		8BD0FBAE21328F6B00F50734 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0FBB121328FEC00F50734 /* ProgressHUD.bundle */,
+				8BD0FBB221328FEC00F50734 /* ProgressHUD.h */,
+				8BD0FBB021328FEC00F50734 /* ProgressHUD.m */,
+				8BD0FBAF21328FEB00F50734 /* Bus Quizzes-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +153,7 @@
 				TargetAttributes = {
 					8B2BAD012129A7F70050AF17 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -164,6 +183,7 @@
 				8B2BAD102129A7F80050AF17 /* LaunchScreen.storyboard in Resources */,
 				8B0DBB51212DD79000D95D2B /* Default-568h@2x.png in Resources */,
 				8B2BAD0D2129A7F80050AF17 /* Assets.xcassets in Resources */,
+				8BD0FBB421328FEC00F50734 /* ProgressHUD.bundle in Resources */,
 				8B2BAD0B2129A7F70050AF17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +198,7 @@
 				8B0DBB4D212DD24E00D95D2B /* Question.swift in Sources */,
 				8B0DBB4F212DD77800D95D2B /* QuestionBank.swift in Sources */,
 				8BC382C7212E906D00E07B14 /* Answer.swift in Sources */,
+				8BD0FBB321328FEC00F50734 /* ProgressHUD.m in Sources */,
 				8B2BAD082129A7F70050AF17 /* ViewController.swift in Sources */,
 				8B2BAD062129A7F70050AF17 /* AppDelegate.swift in Sources */,
 				8BC382C9212E921E00E07B14 /* AnswerBank.swift in Sources */,
@@ -324,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SYZQ266RF;
 				INFOPLIST_FILE = "Bus Quizzes/Info.plist";
@@ -333,6 +355,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NigelGee.Bus-Quizzes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bus Quizzes/Supporting Files/Bus Quizzes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SYZQ266RF;
 				INFOPLIST_FILE = "Bus Quizzes/Info.plist";
@@ -351,6 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NigelGee.Bus-Quizzes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bus Quizzes/Supporting Files/Bus Quizzes-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -15,7 +15,9 @@ class QuestionBank {
     init() {
         questionList.append(Question(text: "What is this sign mean?", image: "No-Motor"))
         questionList.append(Question(text: "What is the height of a bridge with no signs", image: ""))
-        questionList.append(Question(text: "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", image: ""))
-        
+        questionList.append(Question(text: "Your mobile rings while you are driving your vehicle. When is it appropriate for you to accept the call?", image: ""))
+        questionList.append(Question(text: "While waiting at a pelican crossing, an elderly person begins to cross the street. When the traffic lights turn to green, they are only halfway across the road. Do you:", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "No-Entry"))
+        questionList.append(Question(text: "You see a painted triangle on the road ahead. What does this marking mean?", image: "Giveway-Road"))
     }
 }

@@ -27,9 +27,27 @@ class AnswerBank {
         answerList.append(Answer(text: "25 Meters", correctAnswer: false))
         
         //MARK:- Q3
-        answerList.append(Answer(text: "Latin", correctAnswer: true))
-        answerList.append(Answer(text: "French", correctAnswer: false))
-        answerList.append(Answer(text: "Thai", correctAnswer: false))
-        answerList.append(Answer(text: "Spanish", correctAnswer: false))
+        answerList.append(Answer(text: "Once you have stopped in a legally-permitted place", correctAnswer: true))
+        answerList.append(Answer(text: "While travelling on rural roads which don't have much traffic", correctAnswer: false))
+        answerList.append(Answer(text: "If you are confident that your ability to drive will not be compromised by the distraction", correctAnswer: false))
+        answerList.append(Answer(text: "While on dual carriages and motorways", correctAnswer: false))
+        
+        //MARK:- Q4
+        answerList.append(Answer(text: "Give the person a wave that signals they should cross as quickly as possible", correctAnswer: false))
+        answerList.append(Answer(text: "Flash your headlights so the person is aware you are waiting", correctAnswer: false))
+        answerList.append(Answer(text: "Remain stationary until they have reached a pedestrian footpath", correctAnswer: true))
+        answerList.append(Answer(text: "Rev the car's engine so they cross the road more quickly", correctAnswer: false))
+        
+        //MARK- Q5
+        answerList.append(Answer(text: "National speed limits now in effect", correctAnswer: false))
+        answerList.append(Answer(text: "Road work ahead", correctAnswer: false))
+        answerList.append(Answer(text: "T-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "No vehicle entry", correctAnswer: true))
+        
+        //MARK- Q6
+        answerList.append(Answer(text: "You are on a one-way road.", correctAnswer: false))
+        answerList.append(Answer(text: "You will have to give way ahead.", correctAnswer: true))
+        answerList.append(Answer(text: "There is a level crossing ahead.", correctAnswer: false))
+        answerList.append(Answer(text: "There is no through road.", correctAnswer: false))
     }
 }
