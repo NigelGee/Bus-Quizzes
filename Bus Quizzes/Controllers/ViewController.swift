@@ -42,6 +42,10 @@ class ViewController: UIViewController {
     //MARK:- UPDATE TO UI VIEWS
     func updateUI (pickedRandomNumber number : Int) {
         
+        
+        usedQuestion.append(number)
+        
+        
         // Question UI Label update
         
         let question = allQuestion.questionList[number]
@@ -71,21 +75,34 @@ class ViewController: UIViewController {
         
     }
     
-    //MARK- PICK RANDOM QUESTIONS FROM ARRAY
-    func randomQuestion (totalQuestion: Int) {
+    //MARK- CHECK RANDOM QUESTIONS FROM ARRAY
+    func randomQuestion (maxQuestion: Int) {
         
-        let randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
+        let maxUsedQuestion = usedQuestion.count
+        var randomNumber = Int(arc4random_uniform(UInt32(maxQuestion)))
         
-        checkRandomQuestion(at: randomNumber)
+        if maxUsedQuestion != 0 {
+            var checkUsedQuestion = 0
+            while checkUsedQuestion < maxUsedQuestion {
+                
+                if checkUsedQuestion <= maxUsedQuestion {
+                    
+                    if randomNumber == usedQuestion[checkUsedQuestion] {
+                        
+                        randomNumber = Int(arc4random_uniform(UInt32(maxQuestion)))
+                        checkUsedQuestion = -1
+                        
+                    }
+                    
+                    checkUsedQuestion += 1
+                    
+                }
+            }
+        }
         
-    }
-    
-    func checkRandomQuestion (at pickedQuestion: Int) {
+        usedQuestion.append(randomNumber)
         
-        
-        usedQuestion.append(pickedQuestion)
-        
-        updateUI(pickedRandomNumber: pickedQuestion)
+        updateUI(pickedRandomNumber: randomNumber)
         
     }
     
@@ -104,7 +121,7 @@ class ViewController: UIViewController {
         
         count += 1
         
-        if count <= (countLimit)  {
+        if count <= countLimit  {
             nextQuestion()
         } else {
             showResults()
@@ -122,10 +139,11 @@ class ViewController: UIViewController {
             fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
         }
         
-        randomQuestion(totalQuestion: maxQuestion)
+        randomQuestion(maxQuestion: maxQuestion)
         
     }
     
+    //MARK:- SHOW RESULTS
     func showResults() {
         
         answerText1.isHidden = true
@@ -135,12 +153,25 @@ class ViewController: UIViewController {
         answerText4.setTitle("Try again!", for: .normal)
         progressLabel.isHidden = true
         
+        let scorePrecentage = score / countLimit * 100
+        questionLabel.text = "Your score is \(Int(scorePrecentage))%"
         
-        questionLabel.text = "Your score is \(Int(score/countLimit * 100))%"
-        imageQuestion.image = nil
-
+        
+        if scorePrecentage == 100 {
+           imageQuestion.image = UIImage(named: "PerfectEmoji")
+        }
+        else if scorePrecentage >= 75 {
+            imageQuestion.image = UIImage(named: "smiley-face")
+        }
+        else if scorePrecentage >= 50 {
+            imageQuestion.image = nil
+        }
+        else {
+            imageQuestion.image = nil
+        }
     }
     
+    // MARK:- RESTART
     func startAgain (){
         answerText1.isHidden = false
         answerText2.isHidden = false
@@ -149,6 +180,7 @@ class ViewController: UIViewController {
         progressLabel.isHidden = false
         score = 0
         count = 1
+        usedQuestion = []
         nextQuestion()
     }
     
