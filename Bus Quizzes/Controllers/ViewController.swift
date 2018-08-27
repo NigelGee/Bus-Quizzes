@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     let allAnswer = AnswerBank()
     var answerNumber = 0
     var usedQuestion = [Int]()
-    var score = 0
-    var count = 1
-    let countLimit = 3
+    var score: Double = 0
+    var count: Double = 1
+    let countLimit: Double = 4
 
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var imageQuestion: UIImageView!
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     //MARK:- UPDATE TO UI VIEWS
     func updateUI (pickedRandomNumber number : Int) {
         
-    // Question UI Label update
+        // Question UI Label update
         
         let question = allQuestion.questionList[number]
         
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
             imageQuestion.image = nil
         }
         
-    // Answer Button text update
+        // Answer Button text update
         
         answerNumber = number * 4
         let answerA = allAnswer.answerList[answerNumber]
@@ -66,6 +66,8 @@ class ViewController: UIViewController {
         answerText2.setTitle(answerB.answerText, for: .normal)
         answerText3.setTitle(answerC.answerText, for: .normal)
         answerText4.setTitle(answerD.answerText, for: .normal)
+        
+        progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         
     }
     
@@ -102,7 +104,7 @@ class ViewController: UIViewController {
         
         count += 1
         
-        if count <= countLimit {
+        if count <= (countLimit)  {
             nextQuestion()
         } else {
             showResults()
@@ -111,7 +113,6 @@ class ViewController: UIViewController {
     }
     
     //MARK:- NEXT QUESTION
-    
     func nextQuestion() {
         
         let maxQuestion : Int = allQuestion.questionList.count
@@ -126,17 +127,40 @@ class ViewController: UIViewController {
     }
     
     func showResults() {
-        print(score)
+        
+        answerText1.isHidden = true
+        answerText2.isHidden = true
+        answerText3.isHidden = true
+        answerText4.backgroundColor = .red
+        answerText4.setTitle("Try again!", for: .normal)
+        progressLabel.isHidden = true
+        
+        
+        questionLabel.text = "Your score is \(Int(score/countLimit * 100))%"
+        imageQuestion.image = nil
+
+    }
+    
+    func startAgain (){
+        answerText1.isHidden = false
+        answerText2.isHidden = false
+        answerText3.isHidden = false
+        answerText4.backgroundColor = .blue
+        progressLabel.isHidden = false
+        score = 0
+        count = 1
+        nextQuestion()
     }
     
     //MARK:- BUTTON PRESSED
-    
     @IBAction func answerPressed(_ sender: UIButton) {
         
         let buttonPressed = sender.tag - 1
-        
-        checkAnswer(pickedAnswer: buttonPressed)
-        
+        if count <= (countLimit) {
+            checkAnswer(pickedAnswer: buttonPressed)
+        } else {
+            startAgain()
+        }
     }
     
 }
