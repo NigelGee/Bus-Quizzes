@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var score: Double = 0
     var count: Double = 1
     let countLimit: Double = 4
+    var totalQuestion: Int = 0
 
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var imageQuestion: UIImageView!
@@ -30,14 +31,55 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nextQuestion()
+        let maxQuestion : Int = allQuestion.questionList.count
+        let maxAnswer : Int = allAnswer.answerList.count
+        
+        if maxAnswer != maxQuestion * 4 {
+            fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
+        }
+        
+        totalQuestion = maxQuestion
+        
+        randomQuestion()
         
     }
     
     override func viewWillLayoutSubviews() {
         questionLabel.sizeToFit()
     }
-
+    
+    
+    //MARK- CHECK RANDOM QUESTIONS FROM ARRAY
+    func randomQuestion () {
+        
+        let maxUsedQuestion = usedQuestion.count
+        
+        var randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
+        
+        if maxUsedQuestion != 0 {     //Check to see if first question
+            var checkUsedQuestion = 0
+            while checkUsedQuestion < maxUsedQuestion { // loop though the Array
+                
+                if checkUsedQuestion <= maxUsedQuestion {     //Check to see is within Array limit
+                    
+                    if randomNumber == usedQuestion[checkUsedQuestion] {  //Check to see if question number has been used
+                        
+                        randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
+                        checkUsedQuestion = -1  //Reset to 0 to recheck new random number
+                        
+                    }
+                    
+                    checkUsedQuestion += 1
+                    
+                }
+            }
+        }
+        
+        usedQuestion.append(randomNumber)
+        
+        updateUI(pickedRandomNumber: randomNumber)
+        
+    }
     
     //MARK:- UPDATE TO UI VIEWS
     func updateUI (pickedRandomNumber number : Int) {
@@ -75,38 +117,9 @@ class ViewController: UIViewController {
         
     }
     
-    //MARK- CHECK RANDOM QUESTIONS FROM ARRAY
-    func randomQuestion (maxQuestion: Int) {
-        
-        let maxUsedQuestion = usedQuestion.count
-        var randomNumber = Int(arc4random_uniform(UInt32(maxQuestion)))
-        
-        if maxUsedQuestion != 0 {
-            var checkUsedQuestion = 0
-            while checkUsedQuestion < maxUsedQuestion {
-                
-                if checkUsedQuestion <= maxUsedQuestion {
-                    
-                    if randomNumber == usedQuestion[checkUsedQuestion] {
-                        
-                        randomNumber = Int(arc4random_uniform(UInt32(maxQuestion)))
-                        checkUsedQuestion = -1
-                        
-                    }
-                    
-                    checkUsedQuestion += 1
-                    
-                }
-            }
-        }
-        
-        usedQuestion.append(randomNumber)
-        
-        updateUI(pickedRandomNumber: randomNumber)
-        
-    }
+
     
-    //MARK:- CHECK ANSWER ATFER BUTTON PRESSED
+    //MARK:- CHECK ANSWER AFTER BUTTON PRESSED
     func checkAnswer(pickedAnswer: Int) {
         
         let correctAnswer = allAnswer.answerList[answerNumber + pickedAnswer].answer
@@ -122,26 +135,14 @@ class ViewController: UIViewController {
         count += 1
         
         if count <= countLimit  {
-            nextQuestion()
+            randomQuestion()
         } else {
             showResults()
         }
         
     }
     
-    //MARK:- NEXT QUESTION
-    func nextQuestion() {
-        
-        let maxQuestion : Int = allQuestion.questionList.count
-        let maxAnswer : Int = allAnswer.answerList.count
-        
-        if maxAnswer != maxQuestion * 4 {
-            fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
-        }
-        
-        randomQuestion(maxQuestion: maxQuestion)
-        
-    }
+
     
     //MARK:- SHOW RESULTS
     func showResults() {
@@ -154,19 +155,21 @@ class ViewController: UIViewController {
         progressLabel.isHidden = true
         
         let scorePrecentage = score / countLimit * 100
-        questionLabel.text = "Your score is \(Int(scorePrecentage))%"
-        
         
         if scorePrecentage == 100 {
+            questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can score another perfect score."
            imageQuestion.image = UIImage(named: "PerfectEmoji")
         }
         else if scorePrecentage >= 75 {
+            questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed however you got \(Int(countLimit - score)) questions wrong. Try again as practice makes perfect!"
             imageQuestion.image = UIImage(named: "smiley-face")
         }
         else if scorePrecentage >= 50 {
+            questionLabel.text = "Your score is \(Int(scorePrecentage))%"
             imageQuestion.image = nil
         }
         else {
+            questionLabel.text = "Your score is \(Int(scorePrecentage))%"
             imageQuestion.image = nil
         }
     }
@@ -181,7 +184,7 @@ class ViewController: UIViewController {
         score = 0
         count = 1
         usedQuestion = []
-        nextQuestion()
+        randomQuestion()
     }
     
     //MARK:- BUTTON PRESSED
