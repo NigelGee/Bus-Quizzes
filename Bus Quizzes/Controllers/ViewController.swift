@@ -16,8 +16,9 @@ class ViewController: UIViewController {
     var usedQuestion = [Int]()
     var score: Double = 0
     var count: Double = 1
-    let countLimit: Double = 4
+    let countLimit: Double = 5
     var totalQuestion: Int = 0
+    var questionSingle = ""
 
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var imageQuestion: UIImageView!
@@ -157,20 +158,25 @@ class ViewController: UIViewController {
         let scorePrecentage = score / countLimit * 100
         
         if scorePrecentage == 100 {
-            questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can score another perfect score."
+            questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
            imageQuestion.image = UIImage(named: "PerfectEmoji")
         }
         else if scorePrecentage >= 75 {
-            questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed however you got \(Int(countLimit - score)) questions wrong. Try again as practice makes perfect!"
+            if countLimit - score == 1 {
+                questionSingle = "question"
+            } else {
+                questionSingle = "questions"
+            }
+            questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
             imageQuestion.image = UIImage(named: "smiley-face")
         }
         else if scorePrecentage >= 50 {
-            questionLabel.text = "Your score is \(Int(scorePrecentage))%"
-            imageQuestion.image = nil
+            questionLabel.text = "Your score is \(Int(scorePrecentage))%. Great work and so close to a pass keep on praticing and try again!"
+            imageQuestion.image = UIImage(named: "crying-face")
         }
         else {
-            questionLabel.text = "Your score is \(Int(scorePrecentage))%"
-            imageQuestion.image = nil
+            questionLabel.text = "Your score is \(Int(scorePrecentage))%. Why do you not try to check answers using The Highway Code. So try again and see if you can get better next time."
+            imageQuestion.image = UIImage(named: "loudly-crying-face")
         }
     }
     
