@@ -134,5 +134,70 @@ class AnswerBank {
         answerList.append(Answer(text: "Stop opposite to a passing place to let the oncoming vehicle pass", correctAnswer: false))
         answerList.append(Answer(text: "Do any of the above", correctAnswer: true))
         
+        //Q21
+        answerList.append(Answer(text: "Yes, as the driver has the potential to harm you, your passengers and other drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Not under any circumstances", correctAnswer: true))
+        answerList.append(Answer(text: "No, unless you're in a safe position to prevent the driver properly", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, as this driver is making you feel uncomfortable", correctAnswer: false))
+        
+        //Q22
+        answerList.append(Answer(text: "In all circumstances, except if the injured motorcyclist is in a shocked state", correctAnswer: false))
+        answerList.append(Answer(text: "Only if you deem it essential", correctAnswer: true))
+        answerList.append(Answer(text: "As soon as you arrive at the scene without hesitation", correctAnswer: false))
+        answerList.append(Answer(text: "Upon the motorcyclist's request", correctAnswer: false))
+        
+        //Q23
+        answerList.append(Answer(text: "Three seconds", correctAnswer: false))
+        answerList.append(Answer(text: "Four seconds", correctAnswer: true))
+        answerList.append(Answer(text: "Two seconds", correctAnswer: false))
+        answerList.append(Answer(text: "One second", correctAnswer: false))
+        
+        //Q24
+        answerList.append(Answer(text: "Ask a passenger to look behind", correctAnswer: false))
+        answerList.append(Answer(text: "Check your interior mirrors", correctAnswer: false))
+        answerList.append(Answer(text: "Look in a shop window's reflection of traffic", correctAnswer: true))
+        answerList.append(Answer(text: "Get out of the car and look", correctAnswer: false))
+        
+        //Q25
+        answerList.append(Answer(text: "Once you have stopped in a legally-permitted place", correctAnswer: true))
+        answerList.append(Answer(text: "While travelling on rural roads which don't have much traffic", correctAnswer: false))
+        answerList.append(Answer(text: "If you are confident that your ability to drive will not be compromised by the distraction", correctAnswer: false))
+        answerList.append(Answer(text: "While on dual carriages and motorways", correctAnswer: false))
+        
+        //Q26
+        answerList.append(Answer(text: "Give the person a wave that signals they should cross as quickly as possible", correctAnswer: false))
+        answerList.append(Answer(text: "Flash your headlights so the person is aware you are waiting", correctAnswer: false))
+        answerList.append(Answer(text: "Remain stationary until they have reached a pedestrian foot", correctAnswer: true))
+        answerList.append(Answer(text: "Rev the car's engine so they cross the road more quickly", correctAnswer: false))
+        
+        //Q27
+        answerList.append(Answer(text: "You need to overtake a slow-moving vehicle in front", correctAnswer: false))
+        answerList.append(Answer(text: "It is at a dip in the kerb", correctAnswer: false))
+        answerList.append(Answer(text: "You are getting to a property", correctAnswer: true))
+        answerList.append(Answer(text: "No pedestrians are using the footpath", correctAnswer: false))
+        
+        //Q28
+        answerList.append(Answer(text: "Switch on your hazard lights and call your breakdown company", correctAnswer: true))
+        answerList.append(Answer(text: "Get out of your car and stand behind it to show other drivers it isn't moving", correctAnswer: false))
+        answerList.append(Answer(text: "Wait in your car until it gets reported to the police", correctAnswer: false))
+        answerList.append(Answer(text: "Get out of your car and flag down any driver for help", correctAnswer: false))
+        
+        //Q29
+        answerList.append(Answer(text: "Cars", correctAnswer: false))
+        answerList.append(Answer(text: "Bikes", correctAnswer: true))
+        answerList.append(Answer(text: "Roadsweepers", correctAnswer: false))
+        answerList.append(Answer(text: "Tractors", correctAnswer: false))
+        
+        //Q30
+        answerList.append(Answer(text: "The driver's occupation", correctAnswer: false))
+        answerList.append(Answer(text: "How long the driver has been driving for", correctAnswer: false))
+        answerList.append(Answer(text: "The driver's history of accidents", correctAnswer: false))
+        answerList.append(Answer(text: "The driver's name, address, number and insurance details", correctAnswer: true))
+        
+        
+        
+        
+        
+        
     }
 }

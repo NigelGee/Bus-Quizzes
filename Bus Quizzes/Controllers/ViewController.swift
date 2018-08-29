@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var usedQuestion = [Int]()
     var score: Double = 0
     var count: Double = 1
-    let countLimit: Double = 5
+    let countLimit: Double = 10
     var totalQuestion: Int = 0
     var questionSingle = ""
 
@@ -45,10 +45,6 @@ class ViewController: UIViewController {
         
     }
     
-//    override func viewWillLayoutSubviews() {
-//        questionLabel.sizeToFit()
-//    }
-//    
     
     //MARK- CHECK RANDOM QUESTIONS FROM ARRAY
     func randomQuestion () {
@@ -89,6 +85,8 @@ class ViewController: UIViewController {
         
         // Question UI Label update
         
+        progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
+        
         let question = allQuestion.questionList[number]
         
         questionLabel.text = question.questionText
@@ -111,8 +109,6 @@ class ViewController: UIViewController {
         answerText2.setTitle(answerB.answerText, for: .normal)
         answerText3.setTitle(answerC.answerText, for: .normal)
         answerText4.setTitle(answerD.answerText, for: .normal)
-        
-        progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         
     }
     
@@ -159,7 +155,7 @@ class ViewController: UIViewController {
             questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
            imageQuestion.image = UIImage(named: "PerfectEmoji")
         }
-        else if scorePrecentage >= 75 {
+        else if scorePrecentage >= 83 {
             if countLimit - score == 1 {
                 questionSingle = "question"
             } else {
