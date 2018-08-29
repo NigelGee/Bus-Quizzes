@@ -45,10 +45,10 @@ class ViewController: UIViewController {
         
     }
     
-    override func viewWillLayoutSubviews() {
-        questionLabel.sizeToFit()
-    }
-    
+//    override func viewWillLayoutSubviews() {
+//        questionLabel.sizeToFit()
+//    }
+//    
     
     //MARK- CHECK RANDOM QUESTIONS FROM ARRAY
     func randomQuestion () {
@@ -56,17 +56,18 @@ class ViewController: UIViewController {
         let maxUsedQuestion = usedQuestion.count
         
         var randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
-        
-        if maxUsedQuestion != 0 {     //Check to see if first question
+        print("Random Nr \(randomNumber)")
+        if maxUsedQuestion != 0 {                                           //Check to see if first question
             var checkUsedQuestion = 0
-            while checkUsedQuestion < maxUsedQuestion { // loop though the Array
+            while checkUsedQuestion < maxUsedQuestion {                     // loop though the Array
                 
-                if checkUsedQuestion <= maxUsedQuestion {     //Check to see is within Array limit
+                if checkUsedQuestion <= maxUsedQuestion {                   //Check to see is within Array limit
                     
-                    if randomNumber == usedQuestion[checkUsedQuestion] {  //Check to see if question number has been used
+                    if randomNumber == usedQuestion[checkUsedQuestion] {    //Check to see if question number has been used
                         
                         randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
-                        checkUsedQuestion = -1  //Reset to 0 to recheck new random number
+                        checkUsedQuestion = -1                              //Reset to 0 to recheck new random number
+                        print("   New Nr \(randomNumber)")
                         
                     }
                     
@@ -77,6 +78,7 @@ class ViewController: UIViewController {
         }
         
         usedQuestion.append(randomNumber)
+        print("Used Question array \(usedQuestion)")
         
         updateUI(pickedRandomNumber: randomNumber)
         
@@ -84,10 +86,6 @@ class ViewController: UIViewController {
     
     //MARK:- UPDATE TO UI VIEWS
     func updateUI (pickedRandomNumber number : Int) {
-        
-        
-        usedQuestion.append(number)
-        
         
         // Question UI Label update
         
