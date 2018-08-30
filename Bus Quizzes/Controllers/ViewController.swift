@@ -39,6 +39,19 @@ class ViewController: UIViewController {
             fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
         }
         
+        answerText1.layer.cornerRadius = 10
+        answerText1.layer.masksToBounds = true
+        answerText2.layer.cornerRadius = 10
+        answerText2.layer.masksToBounds = true
+        answerText3.layer.cornerRadius = 10
+        answerText3.layer.masksToBounds = true
+        answerText3.layer.cornerRadius = 10
+        answerText3.layer.masksToBounds = true
+        answerText4.layer.cornerRadius = 10
+        answerText4.layer.masksToBounds = true
+        imageQuestion.layer.cornerRadius = 10
+        imageQuestion.layer.masksToBounds = true
+        
         totalQuestion = maxQuestion
         
         randomQuestion()
