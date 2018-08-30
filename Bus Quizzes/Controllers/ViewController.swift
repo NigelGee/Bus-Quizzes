@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var usedQuestion = [Int]()
     var score: Double = 0
     var count: Double = 1
-    let countLimit: Double = 10
+    var countLimit: Double?
     var totalQuestion: Int = 0
     var questionSingle = ""
 
@@ -98,7 +98,7 @@ class ViewController: UIViewController {
         
         // Question UI Label update
         
-        progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
+        progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit!)) * CGFloat(count)
         
         let question = allQuestion.questionList[number]
         
@@ -142,7 +142,7 @@ class ViewController: UIViewController {
         
         count += 1
         
-        if count <= countLimit  {
+        if count <= countLimit!  {
             randomQuestion()
         } else {
             showResults()
@@ -162,19 +162,19 @@ class ViewController: UIViewController {
         answerText4.setTitle("Try again!", for: .normal)
         progressLabel.isHidden = true
         
-        let scorePrecentage = score / countLimit * 100
+        let scorePrecentage = score / countLimit! * 100
         
         if scorePrecentage == 100 {
-            questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
+            questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit!)) other questions that are possible. Try again and see if can get another perfect score."
            imageQuestion.image = UIImage(named: "PerfectEmoji")
         }
         else if scorePrecentage >= 83 {
-            if countLimit - score == 1 {
+            if countLimit! - score == 1 {
                 questionSingle = "question"
             } else {
                 questionSingle = "questions"
             }
-            questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
+            questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed however you got \(Int(countLimit! - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
             imageQuestion.image = UIImage(named: "smiley-face")
         }
         else if scorePrecentage >= 50 {
@@ -204,7 +204,7 @@ class ViewController: UIViewController {
     @IBAction func answerPressed(_ sender: UIButton) {
         
         let buttonPressed = sender.tag - 1
-        if count <= (countLimit) {
+        if count <= (countLimit!) {
             checkAnswer(pickedAnswer: buttonPressed)
         } else {
             startAgain()
