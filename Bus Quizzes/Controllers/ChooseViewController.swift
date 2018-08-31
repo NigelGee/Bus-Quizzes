@@ -10,7 +10,7 @@ import UIKit
 
 class ChooseViewController: UIViewController {
     
-    var chosenNumber: Double = 0
+    var chosenNumber: Int = 0
 
     @IBOutlet weak var button25: UIButton!
     @IBOutlet weak var button50: UIButton!
@@ -37,7 +37,7 @@ class ChooseViewController: UIViewController {
     
     @IBAction func bottonPressed(_ sender: UIButton) {
         
-        chosenNumber = Double(sender.tag)
+        chosenNumber = sender.tag
         
         performSegue(withIdentifier: "goToQuiz", sender: self)
         
@@ -53,15 +53,4 @@ class ChooseViewController: UIViewController {
         }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

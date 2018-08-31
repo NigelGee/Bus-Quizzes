@@ -194,7 +194,65 @@ class AnswerBank {
         answerList.append(Answer(text: "The driver's history of accidents", correctAnswer: false))
         answerList.append(Answer(text: "The driver's name, address, number and insurance details", correctAnswer: true))
         
+        //Q31
+        answerList.append(Answer(text: "Beep your horn and drive through before they can", correctAnswer: false))
+        answerList.append(Answer(text: "Allow the cyclist time and room to move", correctAnswer: true))
+        answerList.append(Answer(text: "Drive as near to them as possible to ensure you get through", correctAnswer: false))
+        answerList.append(Answer(text: "Try to move before the cyclist does", correctAnswer: false))
         
+        //Q32
+        answerList.append(Answer(text: "Beep your horn", correctAnswer: false))
+        answerList.append(Answer(text: "Flash headlights", correctAnswer: false))
+        answerList.append(Answer(text: "Switch on your hazard lights", correctAnswer: true))
+        answerList.append(Answer(text: "Wave with your arm out of the window", correctAnswer: false))
+        
+        //Q33
+        answerList.append(Answer(text: "Competitive", correctAnswer: true))
+        answerList.append(Answer(text: "Cautious", correctAnswer: false))
+        answerList.append(Answer(text: "Defensive", correctAnswer: false))
+        answerList.append(Answer(text: "Responsible", correctAnswer: false))
+        
+        //Q34
+        answerList.append(Answer(text: "Slow down and let it turn", correctAnswer: true))
+        answerList.append(Answer(text: "Overtake it to avoid collision", correctAnswer: false))
+        answerList.append(Answer(text: "Accelerate and sound your horn", correctAnswer: false))
+        answerList.append(Answer(text: "Carry on and keep to the right", correctAnswer: false))
+        
+        //Q35
+        answerList.append(Answer(text: "Pull up on the left", correctAnswer: true))
+        answerList.append(Answer(text: "Turn left at the next roundabout", correctAnswer: false))
+        answerList.append(Answer(text: "Brake immediately", correctAnswer: false))
+        answerList.append(Answer(text: "Turn left at the next side road", correctAnswer: false))
+        
+        //Q36
+        answerList.append(Answer(text: "Beep as you pass the bus to notify the driver", correctAnswer: false))
+        answerList.append(Answer(text: "Be prepared to slow down and give way if the bus suddenly moves", correctAnswer: true))
+        answerList.append(Answer(text: "Brake suddenly behind it and wait for it to go", correctAnswer: false))
+        answerList.append(Answer(text: "Accelerate past the bus", correctAnswer: false))
+        
+        //Q37
+        answerList.append(Answer(text: "Flash your headlights when passing", correctAnswer: false))
+        answerList.append(Answer(text: "Sound your horn to alert them", correctAnswer: false))
+        answerList.append(Answer(text: "Drive faster to get past quickly", correctAnswer: false))
+        answerList.append(Answer(text: "Drive past slowly and give plenty of room", correctAnswer: true))
+        
+        //Q38
+        answerList.append(Answer(text: "Stop the vehicle and check your tyres", correctAnswer: false))
+        answerList.append(Answer(text: "Test your brakes to see they are functioning normally", correctAnswer: true))
+        answerList.append(Answer(text: "Stop the vehicle and dry your brakes", correctAnswer: false))
+        answerList.append(Answer(text: "Check your exhaust", correctAnswer: false))
+        
+        //Q39
+        answerList.append(Answer(text: "Check your rear mirrors only", correctAnswer: false))
+        answerList.append(Answer(text: "Get out of the car and check", correctAnswer: true))
+        answerList.append(Answer(text: "Assume it is and go anyway", correctAnswer: false))
+        answerList.append(Answer(text: "Check your side mirrors only", correctAnswer: false))
+        
+        //Q40
+        answerList.append(Answer(text: "Stop at the scene", correctAnswer: false))
+        answerList.append(Answer(text: "Call somebody you know to ask advice", correctAnswer: false))
+        answerList.append(Answer(text: "Call your insurance company", correctAnswer: false))
+        answerList.append(Answer(text: "Carry on driving", correctAnswer: false))
         
         
         

@@ -51,7 +51,18 @@ class QuestionBank {
         questionList.append(Question(text: "You're involved in an accident with another vehicle. Someone sustains a neck injury and your vehicle is damaged. What should you find out from the other driver involved?", image: ""))
         
         //Q31-40
+        questionList.append(Question(text: "You are waiting behind a cyclist at traffic lights, when they change should you:", image: ""))
+        questionList.append(Question(text: "If you have to slow down quickly on a motorway due to a hazard should you:", image: ""))
+        questionList.append(Question(text: "What driving style will cause risk to all on the road:", image: ""))
+        questionList.append(Question(text: "You are driving behind a large goods vehicle, it signals right but starts to move left. Should you:", image: ""))
+        questionList.append(Question(text: "A policeman flashes their headlights at you and points left. What should you do?", image: ""))
+        questionList.append(Question(text: "You are driving but ahead of you is a bus at a designated stop. Should you:", image: ""))
+        questionList.append(Question(text: "You're driving along a country road. A horse and rider are ahead of you. Do you:", image: ""))
+        questionList.append(Question(text: "Upon driving through a flooded area, what should you do?", image: ""))
+        questionList.append(Question(text: "You are going to reverse into a side road but you aren't sure the area is clear. Should you:", image: ""))
+        questionList.append(Question(text: "You have a collision while you're driving, what is the first thing to do?", image: ""))
         
+        //41-50
         
     }
 }
