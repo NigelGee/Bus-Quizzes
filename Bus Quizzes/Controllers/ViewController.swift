@@ -66,6 +66,16 @@ class ViewController: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToReview" {
+            
+            let destinationVC = segue.destination as! ReviewViewController
+            
+            destinationVC.reviewQuestionArray = incorrectAnswer
+            
+        }
+    }
+    
     
     //MARK- CHECK RANDOM QUESTIONS FROM ARRAY
     func randomQuestion () {
@@ -94,7 +104,6 @@ class ViewController: UIViewController {
         }
         
         usedQuestion.append(randomNumber)
-        print("Asked Question \(usedQuestion)")
         
         updateUI(pickedRandomNumber: randomNumber)
         
@@ -146,7 +155,6 @@ class ViewController: UIViewController {
         } else {
             ProgressHUD.showError("Wrong!")
             incorrectAnswer.append(answerNumber / 4)
-            print("Incorrect Answer \(incorrectAnswer)")
         }
         
         count += 1
@@ -223,6 +231,8 @@ class ViewController: UIViewController {
             checkAnswer(pickedAnswer: buttonPressed)
         } else if buttonPressed == 3 {
             startAgain()
+        } else if buttonPressed == 2 {
+            performSegue(withIdentifier: "goToReview", sender: self)
         }
     }
     
