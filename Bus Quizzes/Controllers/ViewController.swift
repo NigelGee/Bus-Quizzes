@@ -220,6 +220,7 @@ class ViewController: UIViewController {
         score = 0
         count = 1
         usedQuestion = []
+        incorrectAnswer = []
         randomQuestion()
     }
     
