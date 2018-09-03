@@ -26,10 +26,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="25" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSa-dF-jFv">
-                                <rect key="frame" x="130" y="256" width="115" height="115"/>
+                                <rect key="frame" x="210" y="355" width="115" height="115"/>
                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="dSa-dF-jFv" secondAttribute="height" multiplier="1:1" id="389-eB-5mp"/>
+                                    <constraint firstAttribute="width" secondItem="dSa-dF-jFv" secondAttribute="height" multiplier="1:1" id="QVi-rD-JbC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="25">
@@ -40,10 +40,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="50" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIO-fz-sk2">
-                                <rect key="frame" x="130" y="388" width="115" height="115"/>
+                                <rect key="frame" x="66" y="505" width="115" height="115"/>
                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="RIO-fz-sk2" secondAttribute="height" multiplier="1:1" id="Xn0-tu-HQ5"/>
+                                    <constraint firstAttribute="width" secondItem="RIO-fz-sk2" secondAttribute="height" multiplier="1:1" id="6HW-hn-l9q"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="50">
@@ -54,10 +54,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="100" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlu-Ca-cRU">
-                                <rect key="frame" x="130" y="524" width="115" height="115"/>
+                                <rect key="frame" x="210" y="505" width="115" height="115"/>
                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Rlu-Ca-cRU" secondAttribute="height" multiplier="1:1" id="jjT-nz-baW"/>
+                                    <constraint firstAttribute="width" secondItem="Rlu-Ca-cRU" secondAttribute="height" multiplier="1:1" id="KXn-Oe-3Kg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="100">
@@ -67,29 +67,47 @@
                                     <action selector="bottonPressed:" destination="0jS-KU-69l" eventType="touchUpInside" id="we0-Ss-SJN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="10" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81k-J4-gSb">
+                                <rect key="frame" x="66" y="355" width="115" height="115"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="81k-J4-gSb" secondAttribute="height" multiplier="1:1" id="Fyv-07-PZP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="10">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="bottonPressed:" destination="0jS-KU-69l" eventType="touchUpInside" id="PmD-dX-5tx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Rlu-Ca-cRU" firstAttribute="top" secondItem="RIO-fz-sk2" secondAttribute="bottom" constant="21" id="0s2-nf-ydj"/>
                             <constraint firstItem="ccR-cZ-GE8" firstAttribute="top" secondItem="npn-pn-7W5" secondAttribute="top" id="2FD-zX-hgj"/>
-                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="dSa-dF-jFv" secondAttribute="trailing" constant="130" id="80m-Uh-Cmo"/>
-                            <constraint firstItem="npn-pn-7W5" firstAttribute="bottom" secondItem="Rlu-Ca-cRU" secondAttribute="bottom" constant="28" id="Aaa-tg-1BC"/>
-                            <constraint firstItem="RIO-fz-sk2" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="130" id="E6J-hU-DTh"/>
-                            <constraint firstItem="RIO-fz-sk2" firstAttribute="top" secondItem="dSa-dF-jFv" secondAttribute="bottom" constant="17" id="ENh-4u-sRt"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="Rlu-Ca-cRU" secondAttribute="trailing" constant="50" id="31Z-Zf-02W"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="81k-J4-gSb" secondAttribute="trailing" constant="194" id="3HY-0Z-Mre"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="bottom" secondItem="81k-J4-gSb" secondAttribute="bottom" constant="197" id="AUY-ce-pxp"/>
                             <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="ccR-cZ-GE8" secondAttribute="trailing" constant="16" id="FvT-X5-8O5"/>
-                            <constraint firstItem="Rlu-Ca-cRU" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="130" id="VGg-jX-Uex"/>
-                            <constraint firstItem="dSa-dF-jFv" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="130" id="b14-KC-3tL"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="RIO-fz-sk2" secondAttribute="trailing" constant="194" id="MPi-0j-Nm8"/>
+                            <constraint firstItem="RIO-fz-sk2" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="66" id="aqd-VZ-d1p"/>
+                            <constraint firstItem="Rlu-Ca-cRU" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="210" id="cTi-vC-qNu"/>
+                            <constraint firstItem="81k-J4-gSb" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="66" id="dF6-Ra-PvE"/>
                             <constraint firstItem="ccR-cZ-GE8" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="16" id="eBo-J1-Ojc"/>
-                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="Rlu-Ca-cRU" secondAttribute="trailing" constant="130" id="fZF-ha-KYA"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="bottom" secondItem="RIO-fz-sk2" secondAttribute="bottom" constant="47" id="ePo-NK-fIn"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="dSa-dF-jFv" secondAttribute="trailing" constant="50" id="gjk-dX-6IY"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="bottom" secondItem="dSa-dF-jFv" secondAttribute="bottom" constant="197" id="hUc-gd-scO"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="bottom" secondItem="Rlu-Ca-cRU" secondAttribute="bottom" constant="47" id="ht0-96-TTT"/>
                             <constraint firstItem="npn-pn-7W5" firstAttribute="bottom" secondItem="ccR-cZ-GE8" secondAttribute="bottom" constant="372" id="mTK-oi-NKu"/>
-                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="RIO-fz-sk2" secondAttribute="trailing" constant="130" id="okk-t7-5gD"/>
+                            <constraint firstItem="dSa-dF-jFv" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="210" id="smC-eI-g4a"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="npn-pn-7W5"/>
                     </view>
-                    <navigationItem key="navigationItem" id="MlB-X3-h3F">
+                    <navigationItem key="navigationItem" title="Choose" id="MlB-X3-h3F">
                         <barButtonItem key="backBarButtonItem" title="Choose" id="1SA-5l-z28"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="button10" destination="81k-J4-gSb" id="3yl-mM-5Ef"/>
                         <outlet property="button100" destination="Rlu-Ca-cRU" id="ryi-kx-zgY"/>
                         <outlet property="button25" destination="dSa-dF-jFv" id="sj0-Fb-kzV"/>
                         <outlet property="button50" destination="RIO-fz-sk2" id="fti-5W-hYF"/>
@@ -144,7 +162,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Questions Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="ta9-jX-dUO">
                                         <rect key="frame" x="8" y="8" width="359" height="251"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>

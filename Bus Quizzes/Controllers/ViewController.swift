@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     let allAnswer = AnswerBank()
     var answerNumber = 0
     var usedQuestion = [Int]()
+    var incorrectAnswer = [Int]()
     var score: Int = 0
     var count: Int = 1
     var countLimit: Int = 0
@@ -56,6 +57,8 @@ class ViewController: UIViewController {
         answerText4.layer.masksToBounds = true
         imageQuestion.layer.cornerRadius = 10
         imageQuestion.layer.masksToBounds = true
+        progressLabel.layer.cornerRadius = 7
+        progressLabel.layer.masksToBounds = true
         
         totalQuestion = maxQuestion
         
@@ -70,8 +73,8 @@ class ViewController: UIViewController {
         let maxUsedQuestion = usedQuestion.count
         
         var randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
-        print("Random Nr \(randomNumber)")
-        if maxUsedQuestion != 0 {                                           //Check to see if first question
+        
+        if usedQuestion.isEmpty == false {                                   //Check to see if first question
             var checkUsedQuestion = 0
             while checkUsedQuestion < maxUsedQuestion {                     // loop though the Array
                 
@@ -81,7 +84,6 @@ class ViewController: UIViewController {
                         
                         randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
                         checkUsedQuestion = -1                              //Reset to 0 to recheck new random number
-                        print("   New Nr \(randomNumber)")
                         
                     }
                     
@@ -92,7 +94,7 @@ class ViewController: UIViewController {
         }
         
         usedQuestion.append(randomNumber)
-        print("Used Question array \(usedQuestion)")
+        print("Asked Question \(usedQuestion)")
         
         updateUI(pickedRandomNumber: randomNumber)
         
@@ -105,7 +107,7 @@ class ViewController: UIViewController {
         
         progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         
-        let question = allQuestion.questionList[number]
+         let question = allQuestion.questionList[number]
         
         questionLabel.text = question.questionText
         
@@ -143,6 +145,8 @@ class ViewController: UIViewController {
             
         } else {
             ProgressHUD.showError("Wrong!")
+            incorrectAnswer.append(answerNumber / 4)
+            print("Incorrect Answer \(incorrectAnswer)")
         }
         
         count += 1
@@ -162,7 +166,6 @@ class ViewController: UIViewController {
         
         answerText1.isHidden = true
         answerText2.isHidden = true
-        answerText3.isHidden = true
         answerText4.backgroundColor = .red
         answerText4.setTitle("Try again!", for: .normal)
         progressLabel.isHidden = true
@@ -171,7 +174,8 @@ class ViewController: UIViewController {
         
         if scorePrecentage == 100 {
             questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
-           imageQuestion.image = UIImage(named: "PerfectEmoji")
+            answerText3.isHidden = true
+            imageQuestion.image = UIImage(named: "PerfectEmoji")
         }
         else if scorePrecentage >= 86 {
             if countLimit - score == 1 {
@@ -179,16 +183,22 @@ class ViewController: UIViewController {
             } else {
                 questionSingle = "questions"
             }
-            questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
+            questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed, however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
             imageQuestion.image = UIImage(named: "smiley-face")
+            answerText3.setTitle("Review incorrect answers", for: .normal)
+        
         }
         else if scorePrecentage >= 50 {
-            questionLabel.text = "Your score is \(Int(scorePrecentage))%. Great work and so close to a pass keep on praticing and try again!"
+            questionLabel.text = "Your score is \(Int(scorePrecentage))%. Great work and so close to a pass. Keep on practising and try again!"
             imageQuestion.image = UIImage(named: "crying-face")
+            answerText3.setTitle("Review incorrect answers", for: .normal)
+            
         }
         else {
-            questionLabel.text = "Your score is \(Int(scorePrecentage))%. Why do you not try to check answers using The Highway Code. So try again and see if you can get better next time."
+            questionLabel.text = "Your score is \(Int(scorePrecentage))%. Try to check answers using \"The Highway Code\". Try again and see if you can get better next time."
             imageQuestion.image = UIImage(named: "loudly-crying-face")
+            answerText3.setTitle("Review incorrect answers", for: .normal)
+            
         }
     }
     
@@ -211,7 +221,7 @@ class ViewController: UIViewController {
         let buttonPressed = sender.tag - 1
         if count <= (countLimit) {
             checkAnswer(pickedAnswer: buttonPressed)
-        } else {
+        } else if buttonPressed == 3 {
             startAgain()
         }
     }

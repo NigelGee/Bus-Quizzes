@@ -15,15 +15,20 @@ class ChooseViewController: UIViewController {
     @IBOutlet weak var button25: UIButton!
     @IBOutlet weak var button50: UIButton!
     @IBOutlet weak var button100: UIButton!
+    @IBOutlet weak var button10: UIButton!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        button10.layer.cornerRadius = 10
         button25.layer.cornerRadius = 10
         button50.layer.cornerRadius = 10
         button100.layer.cornerRadius = 10
+        
+
+        button100.isEnabled = false
     
         
         

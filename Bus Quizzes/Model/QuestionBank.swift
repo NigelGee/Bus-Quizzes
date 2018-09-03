@@ -63,6 +63,53 @@ class QuestionBank {
         questionList.append(Question(text: "You have a collision while you're driving, what is the first thing to do?", image: ""))
         
         //41-50
+        questionList.append(Question(text: "It is unacceptable to reverse:", image: ""))
+        questionList.append(Question(text: "You are towing a trailer on the motorway. What is the maximum speed you can go at?", image: ""))
+        questionList.append(Question(text: "Following on from the purchase of a new car, when will the first MOT certificate need to be acquired?", image: ""))
+        questionList.append(Question(text: "If you have a collision what will reduce the risk of neck injury?", image: ""))
+        questionList.append(Question(text: "On a standard three-lane motorway, what is the purpose of the right-hand lane?", image: ""))
+        questionList.append(Question(text: "How long must you have held your full EC/EEA driving licence for, before supervising a learner driver:", image: ""))
+        questionList.append(Question(text: "In addition to sentencing for a driving offence, what is the procedure a disqualified driver has to follow to re-obtain a driving licence?", image: ""))
+        questionList.append(Question(text: "You are at a railway level crossing and the red light signal carries on flashing after the train has passed. Should you:", image: ""))
+        questionList.append(Question(text: "You are driving down the motorway and planning to turn off at the next junction, however you miss your exit. What should you do?", image: ""))
+        questionList.append(Question(text: "A roof rack fitted to your car will cause:", image: ""))
+        
+        //51-60
+        
+        questionList.append(Question(text: "You forget to switch off your rear fog lights when you have been driving in fog after it clears. This could:", image: ""))
+        questionList.append(Question(text: "You see a pedestrian with a red and white stick, what does this tell you about the pedestrian?", image: ""))
+        questionList.append(Question(text: "While travelling within the legal speed limit, the motorist behind flashes its headlights. What should you do?", image: ""))
+        questionList.append(Question(text: "While at a mini-roundabout, you need to:", image: ""))
+        questionList.append(Question(text: "When approaching an unmarked crossroads, who has right of way?", image: ""))
+        questionList.append(Question(text: "You want to park facing downhill, should you:", image: ""))
+        questionList.append(Question(text: "After heavy rain, the motorway is wet and road spray is affecting visibility and overall driving conditions. What do you do?", image: ""))
+        questionList.append(Question(text: "You're going down a steep hill, to help control the vehicle you should:", image: ""))
+        questionList.append(Question(text: "In which scenario should you never consider overtaking cyclists?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        
+        //61-70
+        questionList.append(Question(text: "You need to make a journey but it is very foggy. What should you do:", image: ""))
+        questionList.append(Question(text: "When you drive you should wear sensible footwear. This is because:", image: ""))
+        questionList.append(Question(text: "Why is there more risk involved in overtaking a lorry than a car:", image: ""))
+        questionList.append(Question(text: "You are at the scene of an accident. What should you NOT do:", image: ""))
+        questionList.append(Question(text: "When must you NOT sound your horn?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You are driving on a motorway and it is foggy. You know where the edge of the left hand lane is because there are reflective studs. What colour are they:", image: ""))
+        questionList.append(Question(text: "You are allowed to park on the right hand side of the road at night:", image: ""))
+        questionList.append(Question(text: "When you are preparing to turn left off the road, onto a side road, what should you be most wary of?", image: ""))
+        questionList.append(Question(text: "What could be badly affected if the tyres are under inflated:", image: ""))
+        
+        //71-80
+        questionList.append(Question(text: "What is the typical stopping distance in good conditions when travelling at 70mph:", image: ""))
+        questionList.append(Question(text: "You want to tow a caravan. What can you do to help with the handling:", image: ""))
+        questionList.append(Question(text: "During or after torrential rain, the motorway is causing you visibility problems. Spray is affecting your view of the motorway and affecting general driving conditions. What should you do?", image: ""))
+        questionList.append(Question(text: "How long is an MOT certificate usually valid for:", image: ""))
+        questionList.append(Question(text: "What is a cover note:", image: ""))
+        questionList.append(Question(text: "You are approaching a roundabout on a main road. There are yellow lines painted across the road. They are there:", image: ""))
+        questionList.append(Question(text: "On a motorway there are reflective studs between each lane. What colour are they:", image: ""))
+        questionList.append(Question(text: "You are driving along when you come to an area that is flooded. You drive through it but then you need to dry off your brakes. How do you do this:", image: ""))
+        questionList.append(Question(text: "When driving towards a crossroads that's unmarked, how do you know if you have right of way?", image: ""))
+        questionList.append(Question(text: "You are driving behind a long vehicle and are approaching crossroads. The long vehicle indicates right but moves over to the left of the road. What should you do:", image: ""))
         
     }
 }
