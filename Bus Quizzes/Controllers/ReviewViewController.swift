@@ -64,9 +64,20 @@ class ReviewViewController: UIViewController {
         reviewAnswer4.backgroundColor = .blue
         reviewAnswer4.textColor = .white
         
+        if arrayNumber == 0 {
+            reviewChoose.backgroundColor = .orange
+            reviewChoose.isEnabled = false
+        } else {
+            reviewChoose.backgroundColor = .blue
+            reviewChoose.isEnabled = true
+        }
+        
         if reviewQuestionArray.count == arrayNumber + 1 {
-            reviewNext.setTitle("No More", for: .normal)
+            reviewNext.backgroundColor = .orange
             reviewNext.isEnabled = false
+        } else {
+            reviewNext.backgroundColor = .blue
+            reviewNext.isEnabled = true
         }
         
         let incorrectQuestionNumber = reviewQuestionArray[arrayNumber]
@@ -113,7 +124,8 @@ class ReviewViewController: UIViewController {
         let buttonPressed = sender.tag
         
         if buttonPressed == 1 {
-            navigationController?.popToRootViewController(animated: true)
+            arrayNumber -= 1
+            updateUI()
         } else {
             arrayNumber += 1
             updateUI()
