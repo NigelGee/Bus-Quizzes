@@ -44,7 +44,6 @@ class ReviewViewController: UIViewController {
         reviewNext.layer.cornerRadius = 10
         reviewNext.layer.masksToBounds = true
         
-        print(reviewQuestionArray)
         updateUI()
         
     }

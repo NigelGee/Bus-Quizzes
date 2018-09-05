@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     var countLimit: Int = 0
     var totalQuestion: Int = 0
     var questionSingle = ""
+    var askedImage = ""
     
     
     @IBOutlet weak var questionLabel: UILabel!
@@ -29,6 +30,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var answerText2: UIButton!
     @IBOutlet weak var answerText3: UIButton!
     @IBOutlet weak var answerText4: UIButton!
+    @IBOutlet weak var enlargeImage: UIButton!
     
     
     override func viewDidLoad() {
@@ -59,6 +61,9 @@ class ViewController: UIViewController {
         imageQuestion.layer.masksToBounds = true
         progressLabel.layer.cornerRadius = 7
         progressLabel.layer.masksToBounds = true
+        enlargeImage.layer.cornerRadius = 10
+        enlargeImage.layer.masksToBounds = true
+        
         
         totalQuestion = maxQuestion
         
@@ -68,11 +73,12 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToReview" {
-            
-            let destinationVC = segue.destination as! ReviewViewController
-            
-            destinationVC.reviewQuestionArray = incorrectAnswer
-            
+            let reviewVC = segue.destination as! ReviewViewController
+            reviewVC.reviewQuestionArray = incorrectAnswer
+        }
+        if segue.identifier == "goToPhoto" {
+            let photoVC = segue.destination as! PhotoViewController
+            photoVC.enlargeViewImage = askedImage
         }
     }
     
@@ -121,9 +127,12 @@ class ViewController: UIViewController {
         questionLabel.text = question.questionText
         
         if question.questionImage != "" {
-            imageQuestion.image = UIImage(named: question.questionImage)
+            askedImage = question.questionImage
+            imageQuestion.image = UIImage(named: askedImage)
+            enlargeImage.isHidden = false
         } else {
             imageQuestion.image = nil
+            enlargeImage.isHidden = true
         }
         
         // Answer Button text update
@@ -236,6 +245,11 @@ class ViewController: UIViewController {
             performSegue(withIdentifier: "goToReview", sender: self)
         }
     }
+    
+    @IBAction func imagePressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "goToPhoto", sender: self)
+    }
+    
     
 }
 

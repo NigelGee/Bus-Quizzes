@@ -21,6 +21,7 @@
 		8BC382C9212E921E00E07B14 /* AnswerBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC382C8212E921E00E07B14 /* AnswerBank.swift */; };
 		8BD0FBB321328FEC00F50734 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FBB021328FEC00F50734 /* ProgressHUD.m */; };
 		8BD0FBB421328FEC00F50734 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BD0FBB121328FEC00F50734 /* ProgressHUD.bundle */; };
+		8BEC27B6213F1BC100A85833 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC27B5213F1BC100A85833 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		8BD0FBB021328FEC00F50734 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		8BD0FBB121328FEC00F50734 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		8BD0FBB221328FEC00F50734 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		8BEC27B5213F1BC100A85833 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				8B153B952138771000A2D736 /* ChooseViewController.swift */,
 				8B2BAD072129A7F70050AF17 /* ViewController.swift */,
 				8B4B7140213D475B00EA79E3 /* ReviewViewController.swift */,
+				8BEC27B5213F1BC100A85833 /* PhotoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				8B2BAD062129A7F70050AF17 /* AppDelegate.swift in Sources */,
 				8BC382C9212E921E00E07B14 /* AnswerBank.swift in Sources */,
 				8B4B7141213D475B00EA79E3 /* ReviewViewController.swift in Sources */,
+				8BEC27B6213F1BC100A85833 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
