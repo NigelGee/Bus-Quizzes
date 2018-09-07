@@ -111,5 +111,42 @@ class QuestionBank {
         questionList.append(Question(text: "When driving towards a crossroads that's unmarked, how do you know if you have right of way?", image: ""))
         questionList.append(Question(text: "You are driving behind a long vehicle and are approaching crossroads. The long vehicle indicates right but moves over to the left of the road. What should you do:", image: ""))
         
+        //81-90
+        questionList.append(Question(text: "If you are at the scene of an accident you should:", image: ""))
+        questionList.append(Question(text: "You are driving down a road that is lit by street lights but there are no signs to tell you what the speed limit is. In these circumstances the speed limit is usually:", image: ""))
+        questionList.append(Question(text: "You are driving towards traffic lights that have been on green for a while. What should you do:", image: ""))
+        questionList.append(Question(text: "It is important that you check tyre pressure regularly. This should be done:", image: ""))
+        questionList.append(Question(text: "To be allowed to drive on the roads a learner driver MUST:", image: ""))
+        questionList.append(Question(text: "It is possible that an elderly person's driving could be affected because:", image: ""))
+        questionList.append(Question(text: "When should you update your V5C:", image: ""))
+        questionList.append(Question(text: "When are you allowed to wait in a box junction:", image: ""))
+        questionList.append(Question(text: "You break down on a motorway and need to call for assistance. Why might it be better to use the emergency roadside phone rather than your mobile phone:", image: ""))
+        questionList.append(Question(text: "You intend to park within a 40 mph area, and there is traffic moving in both directions. During the night, you should park:", image: ""))
+        
+        //91-100
+        questionList.append(Question(text: "You are driving along when another driver does something that upsets you. It may help if:", image: ""))
+        questionList.append(Question(text: "You are towing a caravan and it starts to snake. How can you stop this from happening:", image: ""))
+        questionList.append(Question(text: "You are driving along when you see a hazard ahead. You should check your mirrors. Why is this:", image: ""))
+        questionList.append(Question(text: "Following too closely behind a large vehicle is not a good idea because:", image: ""))
+        questionList.append(Question(text: "You are driving behind a long vehicle when it reaches a crossroads. It indicates left but moves to the right. What should you do:", image: ""))
+        questionList.append(Question(text: "You are driving and towing a trailer, which starts to swerve and snake. You should:", image: ""))
+        questionList.append(Question(text: "You are asked by a police officer to produce your documents but you do not have them with you. You may take them to a police station within how many days:", image: ""))
+        questionList.append(Question(text: "Which of these emergency vehicles has a green flashing beacon:", image: ""))
+        questionList.append(Question(text: "The left hand lane on a motorway is for the use of:", image: ""))
+        questionList.append(Question(text: "You see people waiting at a pedestrian crossing. You should never wave them on to cross because:", image: ""))
+        
+        //101-110
+        questionList.append(Question(text: "Which of these emergency vehicles might have a blue flashing beacon", image: ""))
+        questionList.append(Question(text: "What is the most common cause for a vehicle to skid:", image: ""))
+        questionList.append(Question(text: "Where will you find a crawler lane on a motorway:", image: ""))
+        questionList.append(Question(text: "You see a vehicle with a green flashing beacon. Who is this:", image: ""))
+        questionList.append(Question(text: "You are driving in very heavy rain. Your stopping distances are likely to be:", image: ""))
+        questionList.append(Question(text: "You are driving behind a tractor and would like to get past but you are not sure if it is safe to do so. What should you do:", image: ""))
+        questionList.append(Question(text: "You want to make a U turn in the road. Before you do so you should:", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "If you park on the road at night when should you use parking lights:", image: ""))
+        
+        
     }
 }

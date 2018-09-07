@@ -65,18 +65,18 @@ class ReviewViewController: UIViewController {
         reviewAnswer4.textColor = .white
         
         if arrayNumber == 0 {
-            reviewChoose.backgroundColor = .orange
+            reviewChoose.setTitleColor(.white, for: .normal)
             reviewChoose.isEnabled = false
         } else {
-            reviewChoose.backgroundColor = .blue
+            reviewChoose.setTitleColor(.black, for: .normal)
             reviewChoose.isEnabled = true
         }
         
         if reviewQuestionArray.count == arrayNumber + 1 {
-            reviewNext.backgroundColor = .orange
+            reviewNext.setTitleColor(.white, for: .normal)
             reviewNext.isEnabled = false
         } else {
-            reviewNext.backgroundColor = .blue
+            reviewNext.setTitleColor(.black, for: .normal)
             reviewNext.isEnabled = true
         }
         

@@ -181,6 +181,7 @@ class ViewController: UIViewController {
     //MARK:- SHOW RESULTS
     func showResults() {
         
+        enlargeImage.isHidden = true
         answerText1.isHidden = true
         answerText2.isHidden = true
         answerText4.backgroundColor = .red

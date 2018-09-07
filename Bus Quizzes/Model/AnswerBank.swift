@@ -494,5 +494,187 @@ class AnswerBank {
         answerList.append(Answer(text: "Stay well behind the long vehicle and be prepared to stop", correctAnswer: true))
         answerList.append(Answer(text: "Overtake the long vehicle so that you can get away from it as quickly as possible", correctAnswer: false))
         
+        //Q81
+        answerList.append(Answer(text: "Attend to anyone who is screaming", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure that everybody gets out of their vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure that everybody has their hazard lights on", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure that you do not put yourself in any danger", correctAnswer: true))
+        
+        //Q82
+        answerList.append(Answer(text: "60mph", correctAnswer: false))
+        answerList.append(Answer(text: "50mph", correctAnswer: false))
+        answerList.append(Answer(text: "30mph", correctAnswer: true))
+        answerList.append(Answer(text: "40mph", correctAnswer: false))
+        
+        //Q83
+        answerList.append(Answer(text: "Stay at the same speed", correctAnswer: false))
+        answerList.append(Answer(text: "Be prepared to stop", correctAnswer: true))
+        answerList.append(Answer(text: "Speed up so that you can get through them before they change", correctAnswer: false))
+        answerList.append(Answer(text: "Brake hard so that you can be sure of stopping if they change to red", correctAnswer: false))
+        
+        //Q84
+        answerList.append(Answer(text: "If you have been driving fast", correctAnswer: false))
+        answerList.append(Answer(text: "When the tyres are hot", correctAnswer: false))
+        answerList.append(Answer(text: "After a long journey", correctAnswer: false))
+        answerList.append(Answer(text: "When the tyres are cold", correctAnswer: true))
+        
+        //Q85
+        answerList.append(Answer(text: "Apply to take their driving test within twelve months", correctAnswer: false))
+        answerList.append(Answer(text: "Have had professional driving lessons", correctAnswer: false))
+        answerList.append(Answer(text: "Have not received any penalty points on their licence", correctAnswer: false))
+        answerList.append(Answer(text: "Have a valid, signed provisional licence", correctAnswer: true))
+        
+        //Q86
+        answerList.append(Answer(text: "Their reaction times may not be as quick as they used to be", correctAnswer: true))
+        answerList.append(Answer(text: "They are unable to give signals correctly", correctAnswer: false))
+        answerList.append(Answer(text: "They find it difficult to read road signs and markings", correctAnswer: false))
+        answerList.append(Answer(text: "They get lost more easily", correctAnswer: false))
+        
+        //Q87
+        answerList.append(Answer(text: "When your MOT is due", correctAnswer: false))
+        answerList.append(Answer(text: "When you pass your driving test", correctAnswer: false))
+        answerList.append(Answer(text: "If you have an accident", correctAnswer: false))
+        answerList.append(Answer(text: "If you move house", correctAnswer: true))
+        
+        //Q88
+        answerList.append(Answer(text: "When you are waiting to turn right but are prevented from doing so by oncoming traffic", correctAnswer: true))
+        answerList.append(Answer(text: "Never", correctAnswer: false))
+        answerList.append(Answer(text: "When you are waiting at a zebra crossing", correctAnswer: false))
+        answerList.append(Answer(text: "When you are stuck in a queue of traffic", correctAnswer: false))
+        
+        //Q89
+        answerList.append(Answer(text: "The emergency roadside phone will put you straight through to a garage that can help", correctAnswer: false))
+        answerList.append(Answer(text: "Using a mobile phone could distract other drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Using a mobile phone will interfere with the frequency of the emergency services' radios", correctAnswer: false))
+        answerList.append(Answer(text: "The emergency roadside phone allows the emergency services to know where you are", correctAnswer: true))
+        
+        //Q90
+        answerList.append(Answer(text: "The left side of the road with your parking lights switched on", correctAnswer: true))
+        answerList.append(Answer(text: "The right side of the road with your parking lights switched on", correctAnswer: false))
+        answerList.append(Answer(text: "The right side of the road with your hazard lights on", correctAnswer: false))
+        answerList.append(Answer(text: "The left side of the road with your hazard lights on", correctAnswer: false))
+        
+        
+        //Q91
+        answerList.append(Answer(text: "You flash your lights", correctAnswer: false))
+        answerList.append(Answer(text: "You sound your horn", correctAnswer: false))
+        answerList.append(Answer(text: "You sound your horn flash your lights and gesticulate", correctAnswer: false))
+        answerList.append(Answer(text: "You stop your car and have a break until you feel calmer", correctAnswer: true))
+        
+        //Q92
+        answerList.append(Answer(text: "Slow down gently", correctAnswer: true))
+        answerList.append(Answer(text: "Slow down quickly", correctAnswer: false))
+        answerList.append(Answer(text: "Turn the steering wheel from side to side in the opposite direction to the snaking", correctAnswer: false))
+        answerList.append(Answer(text: "Speed up", correctAnswer: false))
+        
+        //Q93
+        answerList.append(Answer(text: "Because you have to brake really hard", correctAnswer: false))
+        answerList.append(Answer(text: "So that you can see what is happening on the road in front of you", correctAnswer: false))
+        answerList.append(Answer(text: "So you can assess how any action that you take will affect other road users", correctAnswer: true))
+        answerList.append(Answer(text: "Because you will need to speed up to get away from the hazard", correctAnswer: false))
+        
+        //Q94
+        answerList.append(Answer(text: "Your upholstery could be damaged", correctAnswer: false))
+        answerList.append(Answer(text: "You may need to change your speed drastically", correctAnswer: true))
+        answerList.append(Answer(text: "The length of your journey will increase", correctAnswer: false))
+        answerList.append(Answer(text: "The life of your battery can get shorter", correctAnswer: false))
+        
+        //Q95
+        answerList.append(Answer(text: "Stay well back; it needs to move to the right to give itself the room to make the left hand manoeuvre possible", correctAnswer: true))
+        answerList.append(Answer(text: "Assume that the driver has used the indicator incorrectly and wants to actually turn right", correctAnswer: false))
+        answerList.append(Answer(text: "Move to the left of the long vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Overtake as soon as you possibly can", correctAnswer: false))
+        
+        //Q96
+        answerList.append(Answer(text: "Brake hard", correctAnswer: false))
+        answerList.append(Answer(text: "Ease off the accelerator and slow down gently", correctAnswer: true))
+        answerList.append(Answer(text: "Speed up", correctAnswer: false))
+        answerList.append(Answer(text: "Release the steering wheel so that the swerving will correct itself", correctAnswer: false))
+        
+        //Q97
+        answerList.append(Answer(text: "Seven days", correctAnswer: true))
+        answerList.append(Answer(text: "Three days", correctAnswer: false))
+        answerList.append(Answer(text: "Thirty days", correctAnswer: false))
+        answerList.append(Answer(text: "Fourteen days", correctAnswer: false))
+        
+        //Q98
+        answerList.append(Answer(text: "A doctor's car", correctAnswer: true))
+        answerList.append(Answer(text: "A fire engine", correctAnswer: false))
+        answerList.append(Answer(text: "A blood transfusion vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "A bomb disposal vehicle", correctAnswer: false))
+        
+        //Q99
+        answerList.append(Answer(text: "Lorries and caravans", correctAnswer: false))
+        answerList.append(Answer(text: "Slow vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "The emergency services", correctAnswer: false))
+        answerList.append(Answer(text: "Anybody", correctAnswer: true))
+        
+        //Q100
+        answerList.append(Answer(text: "It would be safer for everyone if you just carried on driving", correctAnswer: false))
+        answerList.append(Answer(text: "They may just be chatting and not really wanting to cross", correctAnswer: false))
+        answerList.append(Answer(text: "They may not see you and you will look foolish", correctAnswer: false))
+        answerList.append(Answer(text: "There may be another vehicle coming and they would be in danger", correctAnswer: true))
+        
+        
+        //Q101
+        answerList.append(Answer(text: "An animal ambulance", correctAnswer: false))
+        answerList.append(Answer(text: "The coastguard", correctAnswer: true))
+        answerList.append(Answer(text: "A gritting lorry", correctAnswer: false))
+        answerList.append(Answer(text: "A doctor's car", correctAnswer: false))
+        
+        //Q102
+        answerList.append(Answer(text: "Because the driver makes a mistake", correctAnswer: true))
+        answerList.append(Answer(text: "Because the tyres are worn", correctAnswer: false))
+        answerList.append(Answer(text: "Because of pedestrians or other drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Because of other people's actions", correctAnswer: false))
+        
+        //Q103
+        answerList.append(Answer(text: "On a slip road", correctAnswer: false))
+        answerList.append(Answer(text: "On a steep gradient", correctAnswer: true))
+        answerList.append(Answer(text: "Before a service station", correctAnswer: false))
+        answerList.append(Answer(text: "Next to the hard shoulder", correctAnswer: false))
+        
+        //Q104
+        answerList.append(Answer(text: "A gritting lorry", correctAnswer: false))
+        answerList.append(Answer(text: "A refuse collector", correctAnswer: false))
+        answerList.append(Answer(text: "A doctor going to an emergency call", correctAnswer: true))
+        answerList.append(Answer(text: "The police carrying out duties that are not emergencies", correctAnswer: false))
+        
+        //Q105
+        answerList.append(Answer(text: "Ten times what they are in good conditions", correctAnswer: false))
+        answerList.append(Answer(text: "Twice what they are in good conditions", correctAnswer: true))
+        answerList.append(Answer(text: "Five times what they are in good conditions", correctAnswer: false))
+        answerList.append(Answer(text: "The same as they are in good conditions", correctAnswer: false))
+        
+        //Q106
+        answerList.append(Answer(text: "Overtake as quickly as possible while sounding your horn to warn any oncoming traffic that you are coming", correctAnswer: false))
+        answerList.append(Answer(text: "Overtake as quickly as possible while flashing your headlights to warn any oncoming traffic that you are coming", correctAnswer: false))
+        answerList.append(Answer(text: "Follow closely behind another car that is overtaking the tractor", correctAnswer: false))
+        answerList.append(Answer(text: "Not overtake until you are certain that it is safe to do so", correctAnswer: true))
+        
+        //Q107
+        answerList.append(Answer(text: "Signal and then begin the manoeuvre so that other drivers will slow down for you", correctAnswer: false))
+        answerList.append(Answer(text: "Use arm signals as well as indicators so that other drivers are fully aware of what you are about to do", correctAnswer: false))
+        answerList.append(Answer(text: "Look over your shoulder to make sure that all is clear", correctAnswer: true))
+        answerList.append(Answer(text: "Choose a lower gear so that you can make the manoeuvre really quickly", correctAnswer: false))
+        
+//        //Q108
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+//        //Q109
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q110
+        answerList.append(Answer(text: "If there is a continuous white line in the middle of the road", correctAnswer: false))
+        answerList.append(Answer(text: "If you park facing oncoming traffic", correctAnswer: false))
+        answerList.append(Answer(text: "If you park near to a bus stop", correctAnswer: false))
+        answerList.append(Answer(text: "If you park on a road that has a speed limit of more than 30mph", correctAnswer: true))
+        
     }
 }

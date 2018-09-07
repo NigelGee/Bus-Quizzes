@@ -27,8 +27,6 @@ class ChooseViewController: UIViewController {
         button50.layer.cornerRadius = 10
         button100.layer.cornerRadius = 10
         
-
-        button100.isEnabled = false
     
         
         
