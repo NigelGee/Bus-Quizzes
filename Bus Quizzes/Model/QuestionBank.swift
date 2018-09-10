@@ -148,5 +148,140 @@ class QuestionBank {
         questionList.append(Question(text: "If you park on the road at night when should you use parking lights:", image: ""))
         
         
+        //111-120
+        questionList.append(Question(text: "What are traffic calming measures used for:", image: ""))
+        questionList.append(Question(text: "A Vehicle Registration Certificate (V5C) must be kept updated. Whose legal responsibility is this:", image: ""))
+        questionList.append(Question(text: "It is raining heavily and you are following a large vehicle that is creating a lot of spray. You should:", image: ""))
+        questionList.append(Question(text: "You are driving on a motorway and are getting tired so you decide that you need to stop. Where should you do this:", image: ""))
+        questionList.append(Question(text: "You are behind a long vehicle and are approaching a mini roundabout. Although the long vehicle indicates left it moves to the right of the road. What should you do:", image: ""))
+        questionList.append(Question(text: "If there has been an incident, casualties are a priority. When the area is safe you should:", image: ""))
+        questionList.append(Question(text: "When you are driving there is a police car behind you. The police officer flashes you and then points to the left. What should you do:", image: ""))
+        questionList.append(Question(text: "Some road signs give orders that must be obeyed. Usually these orders are:", image: ""))
+        questionList.append(Question(text: "You are waiting at the junction of a minor road onto a busier road and want to turn left. A large vehicle is approaching from the right. You know that you will be able to make your turning in time but you should still wait. What is the reason for this:", image: ""))
+        questionList.append(Question(text: "You are driving along the middle lane of a three lane motorway. What is the national speed limit for motor cars when in this lane:", image: ""))
+        
+        //121-130
+        questionList.append(Question(text: "You will know if a road has a dedicated cycle lane because of the solid white line. When are you permitted to cross that line:", image: ""))
+        questionList.append(Question(text: "If you are driving through a tunnel, you must:", image: ""))
+        questionList.append(Question(text: "If you tow a trailer you must ensure that it is hitched securely to the towing vehicle. You could use what as an extra precaution:", image: ""))
+        questionList.append(Question(text: "Following too closely behind a large vehicle is not a good idea because:", image: ""))
+        questionList.append(Question(text: "You are driving along when you suddenly see a motorcyclist lying, unconscious in the road. There is no other vehicle involved with what has happened. What is the first thing you should do:", image: ""))
+        questionList.append(Question(text: "The fluid in your car's battery needs topping up. What should you use:", image: ""))
+        questionList.append(Question(text: "An ambulance is following you and is using flashing lights and a siren. What should you do:", image: ""))
+        questionList.append(Question(text: "It is compulsory for a motorcar to have an MOT certificate when", image: ""))
+        questionList.append(Question(text: "If you use a hands free phone while you are driving you are likely to:", image: ""))
+        questionList.append(Question(text: "Before you stop your car you must:", image: ""))
+        
+        //131-140
+        questionList.append(Question(text: "If someone says that they have been tailgated, what do they mean:", image: ""))
+        questionList.append(Question(text: "You are driving when your mobile phone starts to ring. What should you do:", image: ""))
+        questionList.append(Question(text: "Ordinarily you would use dipped headlights at night. When MUST you use dipped headlights in the daytime:", image: ""))
+        questionList.append(Question(text: "You are driving along a main road and approaching a side road when another driver pulls out in front of you forcing you to brake hard. What should you do:", image: ""))
+        questionList.append(Question(text: "It is raining so you are keeping a safe distance from the vehicle in front. Another vehicle overtakes you and pulls into the gap. What should you do:", image: ""))
+        questionList.append(Question(text: "If you are towing a caravan are you allowed to carry passengers in it:", image: ""))
+        questionList.append(Question(text: "Not all 30mph roads have the designated maximum speed displayed. How do you know if you are driving along a road that has a speed limit of 30mph:", image: ""))
+        questionList.append(Question(text: "If you are carrying a heavy load on a roof rack you will have:", image: ""))
+        questionList.append(Question(text: "You want to turn left into a side street but there are pedestrians crossing the road. What should you do:", image: ""))
+        questionList.append(Question(text: "You are driving along a busy road and you realize that you are lost. What is the best thing to do:", image: ""))
+        
+        //141-150
+        questionList.append(Question(text: "Which of these times should you NOT overtake:", image: ""))
+        questionList.append(Question(text: "You need to take extra care if the weather is very windy when:", image: ""))
+        questionList.append(Question(text: "You can use the right hand lane of a three lane dual carriageway for:", image: ""))
+        questionList.append(Question(text: "If you have put too much oil in your engine what could happen:", image: ""))
+        questionList.append(Question(text: "What makes a toucan crossing different from other crossings:", image: ""))
+        questionList.append(Question(text: "You have two 12 year old children and one of their parents in your car. Whose responsibility is it to make sure that the children are wearing seatbelts:", image: ""))
+        questionList.append(Question(text: "Braking distances change in different weather conditions. In icy conditions, braking distances are:", image: ""))
+        questionList.append(Question(text: "A SORN (Statutory Off Road Notice) is valid (provided the vehicle is kept off-road):", image: ""))
+        questionList.append(Question(text: "How will you know if a school crossing patrol wants you to stop:", image: ""))
+        questionList.append(Question(text: "You are driving along a three lane motorway and are towing a trailer. You must NOT:", image: ""))
+        
+        //151-160
+        questionList.append(Question(text: "You are driving when you come across a pelican crossing that is flashing an amber light. This means that you must:", image: ""))
+        questionList.append(Question(text: "What kind of road would you be most affected by a side wind:", image: ""))
+        questionList.append(Question(text: "The national speed limit is different for motor cars on different roads. What is it on a motorway:", image: ""))
+        questionList.append(Question(text: "You have had to use the hard shoulder on a motorway but now need to rejoin the carriageway. You should:", image: ""))
+        questionList.append(Question(text: "On a motorway where can amber reflective studs be found:", image: ""))
+        questionList.append(Question(text: "When are you allowed to stop on a clearway:", image: ""))
+        questionList.append(Question(text: "You are driving behind a large vehicle. You should keep well back because:", image: ""))
+        questionList.append(Question(text: "A long, heavy vehicle is trying to overtake you but it is taking a long time; what should you do:", image: ""))
+        questionList.append(Question(text: "You are approaching a right hand bend. You should keep to the left of the road because:", image: ""))
+        questionList.append(Question(text: "It is illegal to overload a vehicle. Who is legally responsible for this:", image: ""))
+        
+        //161-170
+        questionList.append(Question(text: "You are driving along a single track road when it becomes obvious that the car behind you wants to overtake. You should:", image: ""))
+        questionList.append(Question(text: "What can you expect to see on a triangular road sign:", image: ""))
+        questionList.append(Question(text: "It is compulsory to wear glasses or contact lenses when you are driving if:", image: ""))
+        questionList.append(Question(text: "All your passengers must wear a seatbelt unless:", image: ""))
+        questionList.append(Question(text: "What is the purpose of a catalytic converter:", image: ""))
+        questionList.append(Question(text: "You are driving at night along a motorway that is well lit. You must:", image: ""))
+        questionList.append(Question(text: "You are driving at the speed limit when it becomes clear that the driver behind wants to overtake. What should you do:", image: ""))
+        questionList.append(Question(text: "You are driving down a hill when you notice that there is a car parked on the other side of the road, which is causing an obstruction. There are heavy lorries coming up the hill towards you. What should you do:", image: ""))
+        questionList.append(Question(text: "You are driving down a steep hill and want to go slower. You should:", image: ""))
+        questionList.append(Question(text: "You are waiting to come out of a side street into heavy traffic. Which vehicle is the most difficult to see:", image: ""))
+        
+        //171-180
+        questionList.append(Question(text: "Your car is fitted with anti-lock brakes. These will reduce the chances of skidding particularly when:", image: ""))
+        questionList.append(Question(text: "If you are reversing who has the most chance of not being seen by you:", image: ""))
+        questionList.append(Question(text: "What does the 'two second rule' allow you to do:", image: ""))
+        questionList.append(Question(text: "You are the first car in a queue waiting to turn right into a side street. You need to check your right mirror before you start to move. Why is this:", image: ""))
+        questionList.append(Question(text: "The warning light for your anti-lock brakes comes on and stays on. You should:", image: ""))
+        questionList.append(Question(text: "You notice that there are pedestrians waiting on the pavement at a zebra crossing. It is obvious that they are waiting to cross. What should you do:", image: ""))
+        questionList.append(Question(text: "You should not reverse:", image: ""))
+        questionList.append(Question(text: "You are driving at night when an oncoming car dazzles you with its headlights. What should you do:", image: ""))
+        questionList.append(Question(text: "Once you're ON a Zebra crossing, you should:", image: ""))
+        questionList.append(Question(text: "You are attempting to join a dual carriageway. You should:", image: ""))
+        
+        //181-190
+        questionList.append(Question(text: "You really need to park but the only place that you can see is the zigzag lines near to a pedestrian crossing. You are allowed to park here", image: ""))
+        questionList.append(Question(text: "You need to reverse into a side street. At what point is your car the biggest hazard to passing traffic:", image: ""))
+        questionList.append(Question(text: "You are driving in icy conditions when you suddenly go into a rear wheel skid. What should you do:", image: ""))
+        questionList.append(Question(text: "You are driving and want to use your mobile phone but do NOT have a hands-free set. This is allowed when:", image: ""))
+        questionList.append(Question(text: "You discover that your fuel consumption is higher than it should be. What is the most likely cause of this:", image: ""))
+        questionList.append(Question(text: "You are driving in the left hand lane of a motorway. Traffic is approaching from the slip lane you should:", image: ""))
+        questionList.append(Question(text: "You are driving in very heavy rain when suddenly your car starts to slide. This is called:", image: ""))
+        questionList.append(Question(text: "Under what circumstances are you allowed to drive over a footpath:", image: ""))
+        questionList.append(Question(text: "When you drive at night, which glasses should you NOT wear:", image: ""))
+        questionList.append(Question(text: "You are driving on a three lane motorway. Which lane should you normally drive in:", image: ""))
+        
+        //191-200
+        questionList.append(Question(text: "You are allowed to use fog lights when:", image: ""))
+        questionList.append(Question(text: "On what occasion should you use your horn:", image: ""))
+        questionList.append(Question(text: "You are driving at 60kmh when a pedestrian steps out in front of you and you hit him/her with the car. The result is:", image: ""))
+        questionList.append(Question(text: "You are involved with a collision where someone suffers a burn. What is the shortest time that a burn should be cooled for:", image: ""))
+        questionList.append(Question(text: "There is an obstruction on your side of the road. You should:", image: ""))
+        questionList.append(Question(text: "You want to reverse but you are not 100% certain that it is safe to do so. What should you do:", image: ""))
+        questionList.append(Question(text: "You are carrying a heavy load on your roof rack. You should make sure that:", image: ""))
+        questionList.append(Question(text: "One of your passengers is a baby. You are going to place the rear facing safety seat in the front seat. What must you do first:", image: ""))
+        questionList.append(Question(text: "You are driving in fog. Why should you keep your speed down:", image: ""))
+        questionList.append(Question(text: "What is the purpose of an Active Traffic Management scheme on a motorway:", image: ""))
+        
+        //201-210
+        questionList.append(Question(text: "You have been invited for lunch in a pub but you know that you will be driving in the evening. What should you do:", image: ""))
+        questionList.append(Question(text: "You are driving behind a learner driver when you come to traffic lights that are on red. When they change to green, the learner driver stalls. What should you do:", image: ""))
+        questionList.append(Question(text: "You are driving through slow moving traffic and you want to change lanes. What must you do before you do so:", image: ""))
+        questionList.append(Question(text: "The hard shoulder of a multi-laned carriageway is for:", image: ""))
+        questionList.append(Question(text: "You are driving along when you come across a cyclist. When you overtake you should give the cyclist as much room as you would a car. Why is this:", image: ""))
+        questionList.append(Question(text: "You come across an unmarked crossroads and there is also other traffic approaching it. Who has right of way:", image: ""))
+        questionList.append(Question(text: "You signal your intentions by your direction indicators and:", image: ""))
+        questionList.append(Question(text: "What action can you take to slow down more by using the engine?", image: ""))
+        questionList.append(Question(text: "On what occasion should you use your hazard lights:", image: ""))
+        questionList.append(Question(text: "Your front and rear foglights should be:", image: ""))
+        
+        //211-220
+        questionList.append(Question(text: "If you find somebody unconscious at the scene of an accident, what should you do?", image: ""))
+        questionList.append(Question(text: "There is a pedestrian nearby who has a red and white stick. What do you know about the pedestrian?", image: ""))
+        questionList.append(Question(text: "If you have a collision with another vehicle, what will reduce the chances of you injuring your neck?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "On a regular motorway road, with three lanes, what is the furthest-right lane used for?", image: ""))
+        questionList.append(Question(text: "If you are driving in very strong wind, and you want to overtake a motorcyclist, how should you go about it?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "If you are travelling under the speed limit and a driver behind you is flashing their lights, what should you do?", image: ""))
+        questionList.append(Question(text: "If your vehicle breaks down in a tunnel, what should you go about doing first?", image: ""))
+        
+        
+        
+        
     }
 }

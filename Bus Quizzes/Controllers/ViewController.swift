@@ -48,21 +48,14 @@ class ViewController: UIViewController {
         }
         
         answerText1.layer.cornerRadius = 10
-        answerText1.layer.masksToBounds = true
         answerText2.layer.cornerRadius = 10
-        answerText2.layer.masksToBounds = true
         answerText3.layer.cornerRadius = 10
-        answerText3.layer.masksToBounds = true
         answerText3.layer.cornerRadius = 10
-        answerText3.layer.masksToBounds = true
         answerText4.layer.cornerRadius = 10
-        answerText4.layer.masksToBounds = true
         imageQuestion.layer.cornerRadius = 10
-        imageQuestion.layer.masksToBounds = true
         progressLabel.layer.cornerRadius = 7
-        progressLabel.layer.masksToBounds = true
-        enlargeImage.layer.cornerRadius = 10
-        enlargeImage.layer.masksToBounds = true
+    
+
         
         
         totalQuestion = maxQuestion

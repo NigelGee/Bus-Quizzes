@@ -39,10 +39,6 @@ class ReviewViewController: UIViewController {
         reviewAnswer3.layer.masksToBounds = true
         reviewAnswer4.layer.cornerRadius = 10
         reviewAnswer4.layer.masksToBounds = true
-        reviewChoose.layer.cornerRadius = 10
-        reviewChoose.layer.masksToBounds = true
-        reviewNext.layer.cornerRadius = 10
-        reviewNext.layer.masksToBounds = true
         
         updateUI()
         
@@ -112,7 +108,7 @@ class ReviewViewController: UIViewController {
         } else if answerC.answer == true {
             reviewAnswer3.backgroundColor = .green
             reviewAnswer3.textColor = .black
-        } else {
+        } else if answerD.answer == true {
             reviewAnswer4.backgroundColor = .green
             reviewAnswer4.textColor = .black
         }
