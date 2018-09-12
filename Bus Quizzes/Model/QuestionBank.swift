@@ -118,7 +118,7 @@ class QuestionBank {
         questionList.append(Question(text: "It is important that you check tyre pressure regularly. This should be done:", image: ""))
         questionList.append(Question(text: "To be allowed to drive on the roads a learner driver MUST:", image: ""))
         questionList.append(Question(text: "It is possible that an elderly person's driving could be affected because:", image: ""))
-        questionList.append(Question(text: "When should you update your V5C:", image: ""))
+        questionList.append(Question(text: "When should you update your V5C (Vehicle Registration Certificate):", image: ""))
         questionList.append(Question(text: "When are you allowed to wait in a box junction:", image: ""))
         questionList.append(Question(text: "You break down on a motorway and need to call for assistance. Why might it be better to use the emergency roadside phone rather than your mobile phone:", image: ""))
         questionList.append(Question(text: "You intend to park within a 40 mph area, and there is traffic moving in both directions. During the night, you should park:", image: ""))
@@ -279,6 +279,108 @@ class QuestionBank {
         //questionList.append(Question(text: "<#T##String#>", image: ""))
         questionList.append(Question(text: "If you are travelling under the speed limit and a driver behind you is flashing their lights, what should you do?", image: ""))
         questionList.append(Question(text: "If your vehicle breaks down in a tunnel, what should you go about doing first?", image: ""))
+        
+        //221-230
+        questionList.append(Question(text: "If you are going to reverse onto a side road but you do not know if the road is clear, what should you do?", image: ""))
+        questionList.append(Question(text: "There is a horse and rider in front of you when you are driving on a country road. What do you do in this situation?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "As well as sentencing for driving offences, what procedure does a disqualified driver have to follow to obtain another driving licence?", image: ""))
+        questionList.append(Question(text: "Excessive wear of the tyre can be due to:", image: ""))
+        questionList.append(Question(text: "You are in an accident and another person involved now has a neck injury. Your vehicle has also been damaged. What information do you need from the driver?", image: ""))
+        questionList.append(Question(text: "If you are driving behind a large vehicle, and it moves left after signalling right, what should you do?", image: ""))
+        questionList.append(Question(text: "You are at a mini round about. What do you do?", image: ""))
+        questionList.append(Question(text: "Having a head rest that is adjusted properly will:", image: ""))
+        questionList.append(Question(text: "Imagine you're driving on a country road, and a horse and rider are just in front of you, travelling in the same direction. What do you do?", image: ""))
+        
+        //231-240
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Ways to minimise fuel consumption while driving include:", image: ""))
+        questionList.append(Question(text: "You are trying to emerge from a junction, but there are parked vehicles that are restricting your view. What can you do to improve your knowledge of what's behind you on the road?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "When you drive on a flooded road, what do you need to do?", image: ""))
+        questionList.append(Question(text: "Whilst you are driving, you are involved in a collision. What do you need to do?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        
+        //241-250
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the far-left lane (except for the Hard shoulder) used for on the motorway?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You have been driving with your rear fog lights on because you forgot to turn them off. This could do one of the following:", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        
+        //251-260
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You have just joined a dual carriageway. What is the first thing that you should normally do:", image: ""))
+        questionList.append(Question(text: "What is an indication that there is a fault with an anti-lock braking system?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "In what circumstances are you allowed to use your hazard lights?", image: ""))
+        
+        //261-270
+        questionList.append(Question(text: "The best way to plan a journey in advance is to:", image: ""))
+        questionList.append(Question(text: "What does this sign indicate on motorways?", image: "theory-27-2"))
+        questionList.append(Question(text: "You have just passed your driving test. What must you do before getting on the road?", image: ""))
+        questionList.append(Question(text: "While about to begin a journey, you feel fatigued and have an extremely painful headache. You need to:", image: ""))
+        questionList.append(Question(text: "While travelling, one of your tyres bursts unexpectedly. You should", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "While driving on the motorway, your car breaks down and you pull over in the hard shoulder. You need to use your mobile phone to request assistance. You need to:", image: ""))
+        questionList.append(Question(text: "While in peak-hour traffic, you are indicating your intention to turn right. What is the safest way to alert other road users?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You are present at the scene of an accident, and someone is in shock. What should you do to treat them?", image: ""))
+        
+        //271-280
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Which of these practices when driving a car causes most damage to the environment?", image: ""))
+        questionList.append(Question(text: "You are planning a U-turn. What should you do in advance?", image: ""))
+        questionList.append(Question(text: "What does this road sign indicate?", image: "theory-28-4"))
+        questionList.append(Question(text: "What is the main difference between a toucan crossing and other forms of crossings?", image: ""))
+        questionList.append(Question(text: "If overtaking other vehicles late at night, you need to:", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "While on the approach to traffic lights, only the red and amber light is showing. This indicates that:", image: ""))
+        questionList.append(Question(text: "There has been a serious accident, and you arrive on the scene first. What SHOULDN'T you do?", image: ""))
+        questionList.append(Question(text: "While driving a vehicle which has anti-lock brakes installed, you are required to perform an emergency stop: You should:", image: ""))
+        
+        //281-290
+        questionList.append(Question(text: "While driving, you are behind a long, articulated lorry. The vehicle's indicators suggest that the lorry is about to turn to the left, into a road that's narrow. You should:", image: ""))
+        questionList.append(Question(text: "The law states that all persons travelling in a car have to wear a seatbelt where provided, with the exception of:", image: ""))
+        questionList.append(Question(text: "What SHOULDN'T you do when overtaking sheep on a country lane?", image: ""))
+        questionList.append(Question(text: "What does this road sign indicate?", image: "theory-26-4"))
+        questionList.append(Question(text: "When road surfaces are icy, what should you do while driving at a slower speed?", image: ""))
+        questionList.append(Question(text: "While travelling on a motorway, red lights are flashing continually above the lane you are in. You should:", image: ""))
+        questionList.append(Question(text: "You see amber lights continuously flashing near a school. You should:", image: "theory-26-7"))
+        questionList.append(Question(text: "For what reasons should you perform checks on your car before beginning a long-distance journey on the motorway?", image: ""))
+        questionList.append(Question(text: "You are driving in conditions that are windier than usual. In this situation, use extra caution when:", image: ""))
+        questionList.append(Question(text: "Which of the following factors can lower the cost of car insurance?", image: ""))
+        
+        //291-300
+        questionList.append(Question(text: "A vehicle displaying this sign means that it is:", image: "theory-29-1"))
+        questionList.append(Question(text: "As you are about to make a right turn to join a dual carriageway, what should you do beforehand?", image: ""))
+        questionList.append(Question(text: "Out of these four options, which is the only place that is safe to park?", image: ""))
+        questionList.append(Question(text: "While in a residential area and approaching parked cars on the left side of the road, you see a bike wheel in between. You should:", image: ""))
+        questionList.append(Question(text: "Frontal fog lights are only to be used in which situation?", image: ""))
+        questionList.append(Question(text: "You're driving on a narrow road. There is not enough space for two vehicles at once, but a car is travelling in the opposite direction. You should:", image: ""))
+        questionList.append(Question(text: "You wish to park, but visibility is poor on the road due to foggy conditions. You need to:", image: ""))
+        questionList.append(Question(text: "You have been driving on the motorway for several hours, and feel fatigued. What should you do?", image: ""))
+        questionList.append(Question(text: "What does this road sign represent?", image: "theory-29-9"))
+        questionList.append(Question(text: "When travelling at 70mph on a motorway which has three lanes, with no traffic ahead of you, what lane should be used?", image: ""))
+        
+        
+        
+        
+        
+        
         
         
         
