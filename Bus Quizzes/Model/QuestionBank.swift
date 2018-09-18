@@ -376,11 +376,31 @@ class QuestionBank {
         questionList.append(Question(text: "What does this road sign represent?", image: "theory-29-9"))
         questionList.append(Question(text: "When travelling at 70mph on a motorway which has three lanes, with no traffic ahead of you, what lane should be used?", image: ""))
         
+        //301-310
+        questionList.append(Question(text: "Your horn should mainly be used for:", image: ""))
+        questionList.append(Question(text: "In which scenario do cars have the greatest chance of being susceptible to side winds?", image: ""))
+        questionList.append(Question(text: "In which scenario will anti-lock brakes on a vehicle be activated?", image: ""))
+        questionList.append(Question(text: "What is the purpose of signs shaped like a triangle?", image: "theory-31-1"))
+        questionList.append(Question(text: "If you are travelling through a tunnel, and a small fire starts in your vehicle, you need to:", image: ""))
+        questionList.append(Question(text: "You have bought a sat nav for your vehicle. What is the best way to configure the device so it doesn't distract you while you drive?", image: ""))
+        questionList.append(Question(text: "When you are approaching traffic lights and you see amber is appearing on its own, this indicates that:", image: ""))
+        questionList.append(Question(text: "You accidentally crash into a garden wall while in a residential area. Nobody is around. You should:", image: ""))
+        questionList.append(Question(text: "What is the best way to reduce the chance of your car being stolen or broken into?", image: ""))
+        questionList.append(Question(text: "While driving in the lane to the right of a dual carriageway, you see a sign indicating that the lane is closed 800 yards ahead. At this point, you need to:", image: ""))
         
+        //311-320
+        questionList.append(Question(text: "After driving through a flooded area, what should be your first course of action?", image: ""))
+        questionList.append(Question(text: "You are travelling on a road with a lot of traffic. A long vehicle, which is moving at a slow speed is holding you up, and you plan to overtake. You need to:", image: ""))
+        questionList.append(Question(text: "Is it legal for passengers to ride in a caravan that is being towed by another vehicle?", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "theory-30-4"))
+        questionList.append(Question(text: "Petrol-fuelled vehicles are required to have catalytic converters installed. This is because:", image: ""))
+        questionList.append(Question(text: "You are driving on a road and are complying with the speed limit. However, the driver of the car behind is attempting to overtake you. What should you do?", image: ""))
+        questionList.append(Question(text: "How should you minimise the risk of your in-car audio system being stolen?", image: ""))
+        questionList.append(Question(text: "When driving on wet surfaces, what warning sign can indicate that the car isn't gripping the road very well?", image: ""))
+        questionList.append(Question(text: "While driving a vehicle that has anti-lock brakes installed, you benefit from:", image: ""))
+        questionList.append(Question(text: "It is only acceptable to flash the headlights of your car to other drivers when:", image: ""))
         
-        
-        
-        
+        //321-330
         
         
         
