@@ -401,6 +401,101 @@ class QuestionBank {
         questionList.append(Question(text: "It is only acceptable to flash the headlights of your car to other drivers when:", image: ""))
         
         //321-330
+        questionList.append(Question(text: "What SHOULDN'T you do when about to join a contraflow?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Powered wheelchairs and scooters, designed for use by disabled people, have a maximum speed of:", image: ""))
+        questionList.append(Question(text: "MOT certificates for cars over 3 years old last for:", image: ""))
+        questionList.append(Question(text: "Two pensioners are getting ready to cross the road, but not at a pedestrian crossing. The driver of the approaching vehicle must:", image: ""))
+        questionList.append(Question(text: "Where can cat's eyes - also known as reflective studs - be found on the motorway?", image: ""))
+        questionList.append(Question(text: "In which scenario SHOULDN'T you stop on a motorway?", image: ""))
+        questionList.append(Question(text: "You are travelling on a busy road. You intend to pull over on the left-hand side, just after a junction turning that is also on the left. When should you indicate?", image: ""))
+        questionList.append(Question(text: "You are going straight on at the next roundabout. You need to:", image: ""))
+        questionList.append(Question(text: "You are planning to overtake a vehicle. Out of these four scenarios, which is the least safe?", image: ""))
+        
+        //331-340
+        questionList.append(Question(text: "Road narrowing, chicanes and humps are used for the purpose of:", image: ""))
+        questionList.append(Question(text: "While approaching a bend, you see this sign. You should:", image: "theory-33-2"))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "When driving on a motorway which has three lanes, which lane should you use?", image: ""))
+        questionList.append(Question(text: "A child passenger in your car is under 1.35m tall. It is your responsibility to ensure:", image: ""))
+        questionList.append(Question(text: "You should only stop on the hard shoulder of a motorway when:", image: ""))
+        questionList.append(Question(text: "You see markings warning you to keep clear, as there is a school. Why is it against the law to stop where these markings are?", image: ""))
+        questionList.append(Question(text: "While driving down a steep decline, you should keep your car's speed under control by:", image: ""))
+        questionList.append(Question(text: "Although the visibility is poor while you are driving during the day, it hasn't been seriously compromised. You should activate:", image: ""))
+        questionList.append(Question(text: "You are first to arrive at the scene of an accident involving a motorcycle. The rider has been hurt. The helmet needs to be removed:", image: ""))
+        
+        //341-350
+        questionList.append(Question(text: "Someone has a burn following on from an accident. What is the minimum length of time for which this burn should be cooled for?", image: ""))
+        questionList.append(Question(text: "You are planning to overtake, but a sign tells you that there is a hidden dip ahead. You need to:", image: ""))
+        questionList.append(Question(text: "You are driving down a road without a sign explaining the speed limit. However, there is street lighting. This is an indication that the speed limit is probably:", image: ""))
+        questionList.append(Question(text: "You are planning to tow a trailer. Where can information on the maximum noseweight for the tow ball of the vehicle be found?", image: ""))
+        questionList.append(Question(text: "You are indicating right, and planning to turn off a main road onto a smaller side road. Prior to turning, you need to:", image: ""))
+        questionList.append(Question(text: "While travelling down a one-way street, you are planning on turning right. Where should your car be positioned?", image: ""))
+        questionList.append(Question(text: "A Statutory Off Road Notification, also known as SORN, is valid:", image: ""))
+        questionList.append(Question(text: "You are giving your mate's kids a lift to school. They are both 10 years old. Whose responsibility is it to ensure that they use a seatbelt or an appropriate child restraint if needed?", image: ""))
+        questionList.append(Question(text: "At what time do you need to show your certificate of motor insurance?", image: ""))
+        questionList.append(Question(text: "At what time do you need to show your certificate of motor insurance?", image: ""))
+        
+        //351-360
+        questionList.append(Question(text: "During heavy snowfall, you need to:", image: ""))
+        questionList.append(Question(text: "While travelling down a steep hill, some drivers hold the clutch down, or set the gears to neutral. If done for prolonged periods of time, this can be dangerous. Why?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "While in a queue at traffic lights, you are planning to turn left. Prior to making the manoeuvre, you need to:", image: ""))
+        questionList.append(Question(text: "What is the greatest advantage of owning a car with four-wheel drive functionality?", image: ""))
+        questionList.append(Question(text: "Which of the following would NOT impair your ability to concentrate while driving?", image: ""))
+        questionList.append(Question(text: "If you press down on the accelerator rapidly, and brake heavily without planning, it results in:", image: ""))
+        questionList.append(Question(text: "What is the main measure used to prevent congestion on the motorway?", image: ""))
+        questionList.append(Question(text: "Stop signs are which shape?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        
+        //361-370
+        questionList.append(Question(text: "You don't have time to remove your sat nav, car radio and suitcase from your vehicle. What should you do?", image: ""))
+        questionList.append(Question(text: "You decide to activate your frontal fog lights, as visibility ahead is less than 100m. You need to remember to:", image: ""))
+        questionList.append(Question(text: "What does a red traffic light indicate?", image: ""))
+        questionList.append(Question(text: "Signs with brown backgrounds are used to show:", image: ""))
+        questionList.append(Question(text: "Some road signs give orders. All, with the exception of the STOP and GIVE WAY signs, are which shape and colour?", image: ""))
+        questionList.append(Question(text: "While driving on a motorway after heavy rain, you encounter surface spray. You should utilise:", image: ""))
+        questionList.append(Question(text: "You are driving on a narrow road in the countryside, and are about to overtake a cyclist. When passing them, what should you do?", image: ""))
+        questionList.append(Question(text: "Following on from a car collision, the driver is suffering from shock. You should:", image: ""))
+        questionList.append(Question(text: "Cars and other vehicles can harm the environment in the following ways. Which one of these statements is false?", image: ""))
+        questionList.append(Question(text: "The vehicle behind you has a flashing green light on the roof. This signals that the driver is:", image: ""))
+        
+        //371-380
+        questionList.append(Question(text: "What is the main purpose of an Emergency Refuge Area?", image: ""))
+        questionList.append(Question(text: "Which one of the following statistics about driving smoothly is true?", image: ""))
+        questionList.append(Question(text: "You are driving on a road with a wet surface. What is the main reason for a motorcyclist steering around a drain cover?", image: ""))
+        questionList.append(Question(text: "Which type of vehicle may have to use an unconventional course when driving on a roundabout?", image: ""))
+        questionList.append(Question(text: "The only reason your horn should be used while you are stationary is if:", image: ""))
+        questionList.append(Question(text: "What is the main consequence of using your fog lights when visibility is good during the day?", image: ""))
+        questionList.append(Question(text: "What is the one thing that alcohol WON'T do if consumed before you travel?", image: ""))
+        questionList.append(Question(text: "You are about to start a journey, but there is snow or ice on your vehicle. Which area of the car DOESN'T need to be cleared of ice or snow?", image: ""))
+        questionList.append(Question(text: "Which of the following is the ONLY one allowed to use the motorway?", image: ""))
+        questionList.append(Question(text: "While travelling on a wet road surface, you need to make an emergency stop. What should you do?", image: ""))
+        
+        //381-390
+        questionList.append(Question(text: "You are at the scene of a collision where somebody is unconscious in their car. The emergency services need to be contacted:", image: ""))
+        questionList.append(Question(text: "You are driving down a narrow country road. There is a left-hand bend ahead. The main hazards to remain aware of are:", image: ""))
+        questionList.append(Question(text: "What is the main warning sign that your car is aquaplaning?", image: ""))
+        questionList.append(Question(text: "The actions of another driver has upset you. It can help if you:", image: ""))
+        questionList.append(Question(text: "After travelling through deep water that has gathered on a road surface, you should:", image: ""))
+        questionList.append(Question(text: "While driving in the town centre, you notice that there is a stationary bus located at the bus stop on the other side of the road. You should exercise greater caution because:", image: ""))
+        questionList.append(Question(text: "Although you are travelling on a well-lit road in a busy area, you should use dipped headlights. Why?", image: ""))
+        questionList.append(Question(text: "Which of the following vehicles has the lowest chance of being moved by crosswinds?", image: ""))
+        questionList.append(Question(text: "What should you do when overtaking horse riders?", image: ""))
+        questionList.append(Question(text: "What is the purpose of a right-hand lane when you are on a three-lane motorway?", image: ""))
+        
+        //391-400
+        questionList.append(Question(text: "While driving in the left lane down a motorway with three lanes, more cars are joining from a slip road. You need to:", image: ""))
+        questionList.append(Question(text: "You pull up at a puffin crossing with a red light. Pedestrians are currently using the crossing. The light remains red until:", image: ""))
+        questionList.append(Question(text: "A disadvantage of installing a roof rack on top of your car is:", image: ""))
+        questionList.append(Question(text: "While planning to overtake a cyclist, there needs to be as much distance as possible between them and your vehicle. This is mainly because:", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Out of the four measures here, which has the greatest chance of stopping a thief from taking your vehicle?", image: ""))
+        questionList.append(Question(text: "When travelling through a busy tunnel, you need to:", image: ""))
+        questionList.append(Question(text: "If preparing to join a motorway, why do you need to use all available space on the slip road?", image: ""))
+        questionList.append(Question(text: "When should hazard lights be activated while you are driving?", image: ""))
+        questionList.append(Question(text: "Which of the following factors is most likely to lead to a crash?", image: ""))
+        
         
         
         

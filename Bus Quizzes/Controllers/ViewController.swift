@@ -53,6 +53,7 @@ class ViewController: UIViewController {
         answerText3.layer.cornerRadius = 10
         answerText4.layer.cornerRadius = 10
         imageQuestion.layer.cornerRadius = 10
+        imageQuestion.layer.masksToBounds = true
         progressLabel.layer.cornerRadius = 7
     
 
@@ -175,8 +176,10 @@ class ViewController: UIViewController {
     func showResults() {
         
         enlargeImage.isHidden = true
-        answerText1.isHidden = true
-        answerText2.isHidden = true
+        answerText1.backgroundColor = UIColor(named: "76D6FF")
+        answerText1.setTitle("", for: .normal)
+        answerText2.backgroundColor = UIColor(named: "76D6FF")
+        answerText2.setTitle("", for: .normal)
         answerText4.backgroundColor = .red
         answerText4.setTitle("Try again!", for: .normal)
         progressLabel.isHidden = true
@@ -185,7 +188,9 @@ class ViewController: UIViewController {
         
         if scorePrecentage == 100 {
             questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
-            answerText3.isHidden = true
+            //answerText3.isHidden = true
+            answerText3.backgroundColor = UIColor(named: "76D6FF")
+            answerText3.setTitle("", for: .normal)
             imageQuestion.image = UIImage(named: "PerfectEmoji")
         }
         else if scorePrecentage >= 86 {
@@ -215,9 +220,9 @@ class ViewController: UIViewController {
     
     // MARK:- RESTART
     func startAgain (){
-        answerText1.isHidden = false
-        answerText2.isHidden = false
-        answerText3.isHidden = false
+        answerText1.backgroundColor = .blue
+        answerText2.backgroundColor = .blue
+        answerText3.backgroundColor = .blue
         answerText4.backgroundColor = .blue
         progressLabel.isHidden = false
         score = 0
