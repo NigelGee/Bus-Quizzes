@@ -2416,6 +2416,669 @@ class AnswerBank {
         answerList.append(Answer(text: "Low levels of radiator coolant", correctAnswer: false))
         answerList.append(Answer(text: "Low levels of anti-freeze", correctAnswer: false))
         
+        //Q401
+        answerList.append(Answer(text: "Sitting on a responsible adult's lap", correctAnswer: false))
+        answerList.append(Answer(text: "A child seat", correctAnswer: true))
+        answerList.append(Answer(text: "No seatbelt at all", correctAnswer: false))
+        answerList.append(Answer(text: "A seatbelt at all times", correctAnswer: false))
+        
+        //Q402
+        answerList.append(Answer(text: "Beep the horn", correctAnswer: false))
+        answerList.append(Answer(text: "Wait until they have crossed the road safely", correctAnswer: true))
+        answerList.append(Answer(text: "Drive once they have passed your car", correctAnswer: false))
+        answerList.append(Answer(text: "Edge forward onto the crossing gradually", correctAnswer: false))
+        
+        //Q403
+        answerList.append(Answer(text: "Because they cannot brake if a car is in their way", correctAnswer: false))
+        answerList.append(Answer(text: "Because trams do not have exterior lights", correctAnswer: false))
+        answerList.append(Answer(text: "Because they cannot swerve and change direction", correctAnswer: true))
+        answerList.append(Answer(text: "Because they cannot sound a horn", correctAnswer: false))
+        
+        //Q404
+        answerList.append(Answer(text: "That this is the edge of the carriageway", correctAnswer: true))
+        answerList.append(Answer(text: "That there are traffic lights ahead", correctAnswer: false))
+        answerList.append(Answer(text: "That there is a footpath ahead", correctAnswer: false))
+        answerList.append(Answer(text: "That there is a cycle path ahead", correctAnswer: false))
+        
+        //Q405
+        answerList.append(Answer(text: "It can make insurance free", correctAnswer: false))
+        answerList.append(Answer(text: "It means you can begin to supervise other learner drivers", correctAnswer: false))
+        answerList.append(Answer(text: "It can give a newly-qualified driver more experience", correctAnswer: true))
+        answerList.append(Answer(text: "It can prevent the chances of a car breaking down", correctAnswer: false))
+        
+        //Q406
+        answerList.append(Answer(text: "Pull over onto the hard shoulder, and change the tire yourself", correctAnswer: false))
+        answerList.append(Answer(text: "Continue to drive slowly until the next service station", correctAnswer: false))
+        answerList.append(Answer(text: "Come to a complete stop in the lane you are travelling in", correctAnswer: false))
+        answerList.append(Answer(text: "Pull over onto the hard shoulder, and call for help", correctAnswer: true))
+        
+        //Q407
+        answerList.append(Answer(text: "By entering a gear that's higher", correctAnswer: false))
+        answerList.append(Answer(text: "By entering into reverse", correctAnswer: false))
+        answerList.append(Answer(text: "By entering into neutral", correctAnswer: false))
+        answerList.append(Answer(text: "By entering a gear that's lower", correctAnswer: true))
+        
+        //Q408
+        answerList.append(Answer(text: "21", correctAnswer: true))
+        answerList.append(Answer(text: "19", correctAnswer: false))
+        answerList.append(Answer(text: "25", correctAnswer: false))
+        answerList.append(Answer(text: "23", correctAnswer: false))
+        
+        //Q409
+        answerList.append(Answer(text: "Both red and amber", correctAnswer: false))
+        answerList.append(Answer(text: "Only the red light", correctAnswer: true))
+        answerList.append(Answer(text: "Only the green light", correctAnswer: false))
+        answerList.append(Answer(text: "Both amber and green", correctAnswer: false))
+        
+        //Q410
+        answerList.append(Answer(text: "The vehicle consumes more fuel than usual", correctAnswer: false))
+        answerList.append(Answer(text: "The driver of the vehicle has more control", correctAnswer: false))
+        answerList.append(Answer(text: "The driver of the vehicle has less control", correctAnswer: true))
+        answerList.append(Answer(text: "The vehicle's steering wheel is easier to use", correctAnswer: false))
+        
+//        //Q411
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q412
+        answerList.append(Answer(text: "It lessens the amount of time you spend coasting", correctAnswer: false))
+        answerList.append(Answer(text: "It reduces the period of time spent accelerating", correctAnswer: true))
+        answerList.append(Answer(text: "It helps you to control the amount of time you spend steering", correctAnswer: false))
+        answerList.append(Answer(text: "It eliminates the need to use the brakes as frequently", correctAnswer: false))
+        
+        //Q413
+        answerList.append(Answer(text: "So you don't cause confusion to other road users", correctAnswer: true))
+        answerList.append(Answer(text: "So you don't damage the inner workings of the car", correctAnswer: false))
+        answerList.append(Answer(text: "So power in your car's battery isn't wasted", correctAnswer: false))
+        answerList.append(Answer(text: "So other drivers aren't dazzled by the light from the indicator", correctAnswer: false))
+        
+//        //Q414
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q415
+        answerList.append(Answer(text: "To allow other drivers behind you to know what your intentions are", correctAnswer: true))
+        answerList.append(Answer(text: "So other vehicles can overtake you to the right", correctAnswer: false))
+        answerList.append(Answer(text: "So you can clearly see any obstructions or hazards ahead on the road you're turning onto", correctAnswer: false))
+        answerList.append(Answer(text: "To give way to fellow motorists who might be pulling out", correctAnswer: false))
+        
+        //Q416
+        answerList.append(Answer(text: "This is a one-way street", correctAnswer: true))
+        answerList.append(Answer(text: "Both directions of traffic are sharing a lane", correctAnswer: false))
+        answerList.append(Answer(text: "There is nowhere to pull over", correctAnswer: false))
+        answerList.append(Answer(text: "The speed limit is 50mph", correctAnswer: false))
+        
+        //Q417
+        answerList.append(Answer(text: "96m (315ft)", correctAnswer: false))
+        answerList.append(Answer(text: "36m (118ft)", correctAnswer: true))
+        answerList.append(Answer(text: "23m (75ft)", correctAnswer: false))
+        answerList.append(Answer(text: "53m (175ft)", correctAnswer: false))
+        
+//        //Q418
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q419
+        answerList.append(Answer(text: "The battery of their motorcycle won't overcharge", correctAnswer: false))
+        answerList.append(Answer(text: "You have right of way to overtake them", correctAnswer: false))
+        answerList.append(Answer(text: "The motorcyclist can see any hazards ahead more clearly", correctAnswer: false))
+        answerList.append(Answer(text: "So the motorcyclist is more visible to other road users", correctAnswer: true))
+        
+        //Q420
+        answerList.append(Answer(text: "be ok to drive as long as it's a legal medicine", correctAnswer: false))
+        answerList.append(Answer(text: "not take the full dose on days you need to drive", correctAnswer: false))
+        answerList.append(Answer(text: "ask a friend for their advice", correctAnswer: false))
+        answerList.append(Answer(text: "read the medicine's label, and speak to your doctor", correctAnswer: true))
+        
+        
+        //Q421
+        answerList.append(Answer(text: "Only move when the vehicle has started to make its left-hand turn", correctAnswer: true))
+        answerList.append(Answer(text: "Push down on the accelerator and get out of their way", correctAnswer: false))
+        answerList.append(Answer(text: "Gradually emerge onto the new road", correctAnswer: false))
+        answerList.append(Answer(text: "Reverse", correctAnswer: false))
+        
+        //Q422
+        answerList.append(Answer(text: "Taking a car maintenance course", correctAnswer: false))
+        answerList.append(Answer(text: "A breakdown company", correctAnswer: false))
+        answerList.append(Answer(text: "A verified vehicle watch scheme", correctAnswer: true))
+        answerList.append(Answer(text: "Taking an advanced drivers awareness course", correctAnswer: false))
+        
+        //Q423
+        answerList.append(Answer(text: "Apply the handbrake as soon as possible", correctAnswer: false))
+        answerList.append(Answer(text: "Steer gently into the skid", correctAnswer: true))
+        answerList.append(Answer(text: "Do not use the steering wheel at all", correctAnswer: false))
+        answerList.append(Answer(text: "Steer in the direction opposite to where you are skidding", correctAnswer: false))
+        
+        //Q424
+        answerList.append(Answer(text: "Flash your lights at oncoming traffic", correctAnswer: false))
+        answerList.append(Answer(text: "Position the car over the centre line", correctAnswer: false))
+        answerList.append(Answer(text: "Beep the horn", correctAnswer: false))
+        answerList.append(Answer(text: "Give a clear signal with your arm", correctAnswer: true))
+        
+        //Q425
+        answerList.append(Answer(text: "Giving them some cold water", correctAnswer: false))
+        answerList.append(Answer(text: "Avoid calling the emergency services", correctAnswer: false))
+        answerList.append(Answer(text: "Raising their legs upward to help blood flow", correctAnswer: false))
+        answerList.append(Answer(text: "Not move them and wait for medical advice", correctAnswer: true))
+        
+        //Q426
+        answerList.append(Answer(text: "The DVLA", correctAnswer: true))
+        answerList.append(Answer(text: "The nearest police station", correctAnswer: false))
+        answerList.append(Answer(text: "A different optician so you can get a second opinion", correctAnswer: false))
+        answerList.append(Answer(text: "Your GP", correctAnswer: false))
+        
+        //Q427
+        answerList.append(Answer(text: "Continue driving as right-hand turns are not allowed", correctAnswer: false))
+        answerList.append(Answer(text: "Wait until you are given right of way by other road users in the opposite direction", correctAnswer: false))
+        answerList.append(Answer(text: "Only move when all traffic is gone", correctAnswer: false))
+        answerList.append(Answer(text: "Enter the box if you can see that your exit road is clear of hazards", correctAnswer: true))
+        
+        //Q428
+        answerList.append(Answer(text: "Lines on the road", correctAnswer: false))
+        answerList.append(Answer(text: "If there are double yellow lines", correctAnswer: false))
+        answerList.append(Answer(text: "Street lights", correctAnswer: true))
+        answerList.append(Answer(text: "Islands for pedestrians", correctAnswer: false))
+        
+        //Q429
+        answerList.append(Answer(text: "Yes, and you need to stop once every 30 minutes", correctAnswer: false))
+        answerList.append(Answer(text: "No, you only need to stop to top up on petrol", correctAnswer: false))
+        answerList.append(Answer(text: "No, as you won't feel tired for long and you'll reach your destination quicker", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, regular stops can keep you alert and boost your concentration", correctAnswer: true))
+        
+        //Q430
+        answerList.append(Answer(text: "Only proceed when there is a green light signalling you to do so", correctAnswer: false))
+        answerList.append(Answer(text: "Flash your headlights, indicating that the pedestrian can cross", correctAnswer: false))
+        answerList.append(Answer(text: "Begin to proceed once there is a red and amber solid light", correctAnswer: false))
+        answerList.append(Answer(text: "Give any pedestrians right of way", correctAnswer: true))
+        
+//        //Q431
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q432
+        answerList.append(Answer(text: "Green", correctAnswer: false))
+        answerList.append(Answer(text: "White", correctAnswer: true))
+        answerList.append(Answer(text: "Red", correctAnswer: false))
+        answerList.append(Answer(text: "Purple", correctAnswer: false))
+        
+        //Q433
+        answerList.append(Answer(text: "Beep your horn to alert other road users", correctAnswer: false))
+        answerList.append(Answer(text: "Check your mirrors to avoid collisions", correctAnswer: true))
+        answerList.append(Answer(text: "Place the car into fourth or fifth gear", correctAnswer: false))
+        answerList.append(Answer(text: "Flash your lights at road users travelling in the opposite direction", correctAnswer: false))
+        
+        //Q434
+        answerList.append(Answer(text: "The brakes", correctAnswer: false))
+        answerList.append(Answer(text: "The tyres", correctAnswer: true))
+        answerList.append(Answer(text: "The gears", correctAnswer: false))
+        answerList.append(Answer(text: "The engine", correctAnswer: false))
+        
+        //Q435
+        answerList.append(Answer(text: "Come to a stop until the lights stop flashing", correctAnswer: false))
+        answerList.append(Answer(text: "Pull your car onto the hard shoulder, out of the way", correctAnswer: false))
+        answerList.append(Answer(text: "Plan a move into another lane", correctAnswer: true))
+        answerList.append(Answer(text: "Carry on driving in this lane, and wait for further signs", correctAnswer: false))
+        
+//        //Q436
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q437
+        answerList.append(Answer(text: "20m (66ft)", correctAnswer: false))
+        answerList.append(Answer(text: "10m (32ft)", correctAnswer: true))
+        answerList.append(Answer(text: "12m (39ft)", correctAnswer: false))
+        answerList.append(Answer(text: "15m (49ft)", correctAnswer: false))
+        
+        //Q438
+        answerList.append(Answer(text: "Tilt the head forward", correctAnswer: false))
+        answerList.append(Answer(text: "Tilt their head back slightly, as this will clear their airways", correctAnswer: true))
+        answerList.append(Answer(text: "Raise their legs to make blood flow more efficiently", correctAnswer: false))
+        answerList.append(Answer(text: "Give the injured person some water", correctAnswer: false))
+        
+        //Q439
+        answerList.append(Answer(text: "Have patience, and allow a greater stopping distance in case they react slowly", correctAnswer: true))
+        answerList.append(Answer(text: "Flash your lights so they can continue driving", correctAnswer: false))
+        answerList.append(Answer(text: "Beep the horn to alert them of your position", correctAnswer: false))
+        answerList.append(Answer(text: "Overtake them as quickly as you can", correctAnswer: false))
+        
+        //Q440
+        answerList.append(Answer(text: "To divide the right-hand lane from the central reserve", correctAnswer: false))
+        answerList.append(Answer(text: "To divide lanes on the motorway", correctAnswer: false))
+        answerList.append(Answer(text: "Where slip roads begin and end", correctAnswer: true))
+        answerList.append(Answer(text: "To separate lanes from the hard shoulder", correctAnswer: false))
+        
+        //Q441
+        answerList.append(Answer(text: "Your road safety improving", correctAnswer: false))
+        answerList.append(Answer(text: "Enhanced levels of concentration", correctAnswer: false))
+        answerList.append(Answer(text: "Your view of hazards and the road ahead being obstructed", correctAnswer: false))
+        answerList.append(Answer(text: "Your attention being distracted from the road", correctAnswer: true))
+        
+        //Q442
+        answerList.append(Answer(text: "First aid supplies", correctAnswer: false))
+        answerList.append(Answer(text: "The certificate of insurance", correctAnswer: false))
+        answerList.append(Answer(text: "A map", correctAnswer: false))
+        answerList.append(Answer(text: "Documents about the vehicle's ownership", correctAnswer: true))
+        
+        //Q443
+        answerList.append(Answer(text: "100m (328ft)", correctAnswer: true))
+        answerList.append(Answer(text: "200m (656ft)", correctAnswer: false))
+        answerList.append(Answer(text: "300m (984ft)", correctAnswer: false))
+        answerList.append(Answer(text: "400m (1312ft)", correctAnswer: false))
+        
+        //Q444
+        answerList.append(Answer(text: "A fully-comprehensive policy", correctAnswer: false))
+        answerList.append(Answer(text: "Third-party, along with fire and theft cover", correctAnswer: false))
+        answerList.append(Answer(text: "Just third-party cover", correctAnswer: true))
+        answerList.append(Answer(text: "Protection against personal injury", correctAnswer: false))
+        
+        //Q445
+        answerList.append(Answer(text: "Steer with short, sharp movements", correctAnswer: false))
+        answerList.append(Answer(text: "Ease off your accelerator", correctAnswer: true))
+        answerList.append(Answer(text: "Accelerate in the hope this will bring the caravan under control", correctAnswer: false))
+        answerList.append(Answer(text: "Stop immediately", correctAnswer: false))
+        
+        //Q446
+        answerList.append(Answer(text: "Based on the instruction provided by marker posts", correctAnswer: true))
+        answerList.append(Answer(text: "Towards the closest exit", correctAnswer: false))
+        answerList.append(Answer(text: "In the same direction as the traffic", correctAnswer: false))
+        answerList.append(Answer(text: "In the opposite direction as the traffic", correctAnswer: false))
+        
+        //Q447
+        answerList.append(Answer(text: "Apply gentle pressure when using your accelerator and brakes", correctAnswer: true))
+        answerList.append(Answer(text: "Make sharp turns on the steering wheel if necessary", correctAnswer: false))
+        answerList.append(Answer(text: "Apply maximum pressure to the brakes immediately if necessary", correctAnswer: false))
+        answerList.append(Answer(text: "Ensure that your sidelights are activated", correctAnswer: false))
+        
+        //Q448
+        answerList.append(Answer(text: "Check pavements on either side of the road to see if there are any pedestrians", correctAnswer: false))
+        answerList.append(Answer(text: "Come to a complete stop while pedestrians walk to the other side of the road", correctAnswer: false))
+        answerList.append(Answer(text: "Steer so you are in the left lane", correctAnswer: false))
+        answerList.append(Answer(text: "Reduce your speed", correctAnswer: true))
+        
+        //Q449
+        answerList.append(Answer(text: "Wave oncoming traffic past", correctAnswer: false))
+        answerList.append(Answer(text: "Increase your speed so you pass the obstruction before oncoming traffic does", correctAnswer: false))
+        answerList.append(Answer(text: "Swerve round and carry on driving as you have right of way", correctAnswer: false))
+        answerList.append(Answer(text: "Give traffic in the opposite direction right of way", correctAnswer: true))
+        
+        //Q450
+        answerList.append(Answer(text: "If you have changed the vehicle that you drive", correctAnswer: false))
+        answerList.append(Answer(text: "Your eyesight falls below the minimum requirements", correctAnswer: false))
+        answerList.append(Answer(text: "If your car is due for an MOT", correctAnswer: true))
+        answerList.append(Answer(text: "If a health condition is distracting you from driving", correctAnswer: false))
+        
+//        //Q451
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q452
+        answerList.append(Answer(text: "Change gears regularly to keep your mind active", correctAnswer: false))
+        answerList.append(Answer(text: "Drum your fingers on the steering wheel", correctAnswer: false))
+        answerList.append(Answer(text: "Drive as quickly as you can to the next service station", correctAnswer: false))
+        answerList.append(Answer(text: "Wind down your windows, allowing cool and fresh air to circulate around the car", correctAnswer: true))
+        
+        //Q453
+        answerList.append(Answer(text: "When road surfaces are wet", correctAnswer: false))
+        answerList.append(Answer(text: "When conditions are good", correctAnswer: true))
+        answerList.append(Answer(text: "When conditions on the road are damp", correctAnswer: false))
+        answerList.append(Answer(text: "When visibility is poor", correctAnswer: false))
+        
+        //Q454
+        answerList.append(Answer(text: "Decelerate before emerging round the bend", correctAnswer: true))
+        answerList.append(Answer(text: "Apply maximum pressure to your brakes if necessary", correctAnswer: false))
+        answerList.append(Answer(text: "Be prepared to start steering sharply", correctAnswer: false))
+        answerList.append(Answer(text: "Set your gears into neutral or put your foot on the clutch to begin coasting", correctAnswer: false))
+        
+        //Q455
+        answerList.append(Answer(text: "The ability to divert your attention from the road if needed", correctAnswer: false))
+        answerList.append(Answer(text: "The ability to accelerate and maintain high speeds safely", correctAnswer: false))
+        answerList.append(Answer(text: "The ability to brake hard without the vehicle ever skidding", correctAnswer: false))
+        answerList.append(Answer(text: "The ability to use your steering wheel and brakes simultaneously in the event of an emergency", correctAnswer: true))
+        
+        //Q456
+        answerList.append(Answer(text: "Lift the bonnet to deactivate the battery", correctAnswer: false))
+        answerList.append(Answer(text: "Lift the bonnet up and activate your hazard lights", correctAnswer: false))
+        answerList.append(Answer(text: "Call 999 for the fire brigade", correctAnswer: true))
+        answerList.append(Answer(text: "Contact the AA", correctAnswer: false))
+        
+        //Q457
+        answerList.append(Answer(text: "Enter into neutral", correctAnswer: false))
+        answerList.append(Answer(text: "Enter into reverse", correctAnswer: false))
+        answerList.append(Answer(text: "Enter the highest gear possible", correctAnswer: false))
+        answerList.append(Answer(text: "Enter the lowest gear possible", correctAnswer: true))
+        
+//        //Q458
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q459
+        answerList.append(Answer(text: "Rub lotion into the burn", correctAnswer: false))
+        answerList.append(Answer(text: "Clear anything that might be stuck to the burn", correctAnswer: false))
+        answerList.append(Answer(text: "Pour cool, non-toxic liquid over the burns", correctAnswer: true))
+        answerList.append(Answer(text: "Burst blisters before the emergency services arrive", correctAnswer: false))
+        
+        //Q460
+        answerList.append(Answer(text: "Slow down slightly if it is safe to do so, allowing a safe distance between you and the van", correctAnswer: true))
+        answerList.append(Answer(text: "Give the driver of the van several flashes of your lights in warning", correctAnswer: false))
+        answerList.append(Answer(text: "Increase your speed so you are closer to the vehicle in question", correctAnswer: false))
+        answerList.append(Answer(text: "Sound your horn for several seconds in warning", correctAnswer: false))
+        
+        //Q461
+        answerList.append(Answer(text: "Driving while it's raining", correctAnswer: true))
+        answerList.append(Answer(text: "Driving in gale-force winds", correctAnswer: false))
+        answerList.append(Answer(text: "Driving when visibility is poor because of fog", correctAnswer: false))
+        answerList.append(Answer(text: "Driving when it's dark", correctAnswer: false))
+        
+        //Q462
+        answerList.append(Answer(text: "Emptied into a hole that's in the ground", correctAnswer: false))
+        answerList.append(Answer(text: "By being delivered to a local authority's designated site", correctAnswer: true))
+        answerList.append(Answer(text: "In the bin", correctAnswer: false))
+        answerList.append(Answer(text: "Down the drain", correctAnswer: false))
+        
+        //Q463
+        answerList.append(Answer(text: "Wide", correctAnswer: false))
+        answerList.append(Answer(text: "High", correctAnswer: true))
+        answerList.append(Answer(text: "Long", correctAnswer: false))
+        answerList.append(Answer(text: "Heavy", correctAnswer: false))
+        
+        //Q464
+        answerList.append(Answer(text: "To provide guidance on joining the motorway", correctAnswer: false))
+        answerList.append(Answer(text: "To provide a warning", correctAnswer: false))
+        answerList.append(Answer(text: "To help you find a car park", correctAnswer: false))
+        answerList.append(Answer(text: "To provide a positive instruction", correctAnswer: true))
+        
+        //Q465
+        answerList.append(Answer(text: "Braking with minimal pressure several times", correctAnswer: false))
+        answerList.append(Answer(text: "Applying the handbrake if you are losing control", correctAnswer: false))
+        answerList.append(Answer(text: "Travelling in the lowest gear possible throughout your journey", correctAnswer: false))
+        answerList.append(Answer(text: "Travelling slowly and with care, in the highest gear you can", correctAnswer: true))
+        
+        //Q466
+        answerList.append(Answer(text: "After you have been travelling at a fast speed", correctAnswer: false))
+        answerList.append(Answer(text: "Once tyres are warm", correctAnswer: false))
+        answerList.append(Answer(text: "Once tyres are cold", correctAnswer: true))
+        answerList.append(Answer(text: "Following on from a long drive", correctAnswer: false))
+        
+        //Q467
+        answerList.append(Answer(text: "Overtake the rider before he reaches the junction", correctAnswer: false))
+        answerList.append(Answer(text: "Slow down, allowing the cyclist to complete their turn", correctAnswer: true))
+        answerList.append(Answer(text: "Overtake the rider on the left, as he is turning right anyway", correctAnswer: false))
+        answerList.append(Answer(text: "Flash lights and beep the horn at the cyclist", correctAnswer: false))
+        
+        //Q468
+        answerList.append(Answer(text: "Orange", correctAnswer: false))
+        answerList.append(Answer(text: "Red", correctAnswer: true))
+        answerList.append(Answer(text: "Amber", correctAnswer: false))
+        answerList.append(Answer(text: "White", correctAnswer: false))
+        
+        //Q469
+        answerList.append(Answer(text: "If the main road has no oncoming traffic", correctAnswer: false))
+        answerList.append(Answer(text: "Under no circumstances", correctAnswer: true))
+        answerList.append(Answer(text: "Whenever you need to", correctAnswer: false))
+        answerList.append(Answer(text: "If both roads are quiet and completely free of oncoming traffic", correctAnswer: false))
+        
+//        //Q470
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q471
+        answerList.append(Answer(text: "A declaration that your car is off the road", correctAnswer: true))
+        answerList.append(Answer(text: "Data kept by the police on certain motorists", correctAnswer: false))
+        answerList.append(Answer(text: "A declaration that you don't have an MOT", correctAnswer: false))
+        answerList.append(Answer(text: "Data held by all insurance companies", correctAnswer: false))
+        
+        //Q472
+        answerList.append(Answer(text: "Check the mirror on your right-hand side more frequently", correctAnswer: false))
+        answerList.append(Answer(text: "Accelerate so you pass the roadworks faster", correctAnswer: false))
+        answerList.append(Answer(text: "Stay as close to the pavement's edge as you can", correctAnswer: false))
+        answerList.append(Answer(text: "Be alert, as there may be pedestrians walking on the road", correctAnswer: true))
+        
+        //Q473
+        answerList.append(Answer(text: "It ensures that the lorry driver can see you at all times in his mirrors", correctAnswer: true))
+        answerList.append(Answer(text: "It makes it easier for the lorry driver to come to a stop", correctAnswer: false))
+        answerList.append(Answer(text: "It will reduce the effect that windy weather has on your vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "It will be easier and quicker to turn corners", correctAnswer: false))
+        
+        //Q474
+        answerList.append(Answer(text: "Damage and injury for all parties", correctAnswer: false))
+        answerList.append(Answer(text: "Your medical costs", correctAnswer: false))
+        answerList.append(Answer(text: "If you damage your car", correctAnswer: false))
+        answerList.append(Answer(text: "Any damage you cause to other vehicles", correctAnswer: true))
+        
+        //Q475
+        answerList.append(Answer(text: "Triple what they normally are", correctAnswer: false))
+        answerList.append(Answer(text: "Five times what they normally are", correctAnswer: false))
+        answerList.append(Answer(text: "Ten times what they normally are", correctAnswer: true))
+        answerList.append(Answer(text: "Twice what they normally are", correctAnswer: false))
+        
+        //Q476
+        answerList.append(Answer(text: "Bicycles are parked on the pavement nearby", correctAnswer: false))
+        answerList.append(Answer(text: "The driver may open their door", correctAnswer: false))
+        answerList.append(Answer(text: "Pedestrians may attempt to cross in front of the bus", correctAnswer: true))
+        answerList.append(Answer(text: "There is oncoming traffic further down the road", correctAnswer: false))
+        
+//        //Q477
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        //Q478
+        answerList.append(Answer(text: "They may pull over onto the side of the road at short notice", correctAnswer: false))
+        answerList.append(Answer(text: "They cannot drive as quickly up hills", correctAnswer: false))
+        answerList.append(Answer(text: "It takes longer to pass them", correctAnswer: true))
+        answerList.append(Answer(text: "The brakes are not as effective as on a car", correctAnswer: false))
+        
+        //Q479
+        answerList.append(Answer(text: "Press down harder on the brakes", correctAnswer: false))
+        answerList.append(Answer(text: "Swap your tyres", correctAnswer: false))
+        answerList.append(Answer(text: "Apply the handbrake simultaneously", correctAnswer: false))
+        answerList.append(Answer(text: "Visit your local mechanic as quickly as you can", correctAnswer: true))
+        
+        //Q480
+        answerList.append(Answer(text: "Stop, but edge forward carefully so you can have a wider view of any hazards ahead", correctAnswer: true))
+        answerList.append(Answer(text: "Stop the car, get out and see if there are any oncoming hazards", correctAnswer: false))
+        answerList.append(Answer(text: "Pull out quickly, but be ready to apply the brakes", correctAnswer: false))
+        answerList.append(Answer(text: "Beep the horn, and proceed if you don't get a response", correctAnswer: false))
+        
+        //Q481
+        answerList.append(Answer(text: "If you have checked with your GP first", correctAnswer: true))
+        answerList.append(Answer(text: "Your journey is essential", correctAnswer: false))
+        answerList.append(Answer(text: "You are travelling at night and there is no traffic on the road", correctAnswer: false))
+        answerList.append(Answer(text: "If there is a passenger accompanying you", correctAnswer: false))
+        
+        //Q482
+        answerList.append(Answer(text: "Your MOT", correctAnswer: false))
+        answerList.append(Answer(text: "Your road tax", correctAnswer: false))
+        answerList.append(Answer(text: "The cost of your insurance", correctAnswer: true))
+        answerList.append(Answer(text: "Your driving licence", correctAnswer: false))
+        
+        //Q483
+        answerList.append(Answer(text: "Traffic straight on", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic to the right", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic to the left", correctAnswer: false))
+        answerList.append(Answer(text: "Nobody", correctAnswer: true))
+        
+        //Q484
+        answerList.append(Answer(text: "With full strength", correctAnswer: false))
+        answerList.append(Answer(text: "Quickly", correctAnswer: false))
+        answerList.append(Answer(text: "Gently", correctAnswer: true))
+        answerList.append(Answer(text: "Heavily", correctAnswer: false))
+        
+        //Q485
+        answerList.append(Answer(text: "Consult a map while you are driving, as you are stopping and starting with the traffic anyway", correctAnswer: false))
+        answerList.append(Answer(text: "Pull over in a safe place on a side road so you can consult a map", correctAnswer: true))
+        answerList.append(Answer(text: "Request directions from pedestrians when you come to a stop at traffic lights", correctAnswer: false))
+        answerList.append(Answer(text: "Wind down your window and shout at drivers nearby to request directions", correctAnswer: false))
+        
+        //Q486
+        answerList.append(Answer(text: "Stop only if the sign is accompanied by a red traffic light", correctAnswer: false))
+        answerList.append(Answer(text: "Only stop if there is traffic approaching", correctAnswer: false))
+        answerList.append(Answer(text: "Only stop if children are preparing to cross the road", correctAnswer: false))
+        answerList.append(Answer(text: "Stop in all circumstances, even when there is no traffic in sight", correctAnswer: true))
+        
+        //Q487
+        answerList.append(Answer(text: "Use the steering wheel delicately, turning to the left", correctAnswer: true))
+        answerList.append(Answer(text: "Apply maximum pressure to the brakes, and turn to the left", correctAnswer: false))
+        answerList.append(Answer(text: "Apply maximum pressure to the brakes, and don't use the steering wheel", correctAnswer: false))
+        answerList.append(Answer(text: "Use the steering wheel delicately, turning to the right", correctAnswer: false))
+        
+        //Q488
+        answerList.append(Answer(text: "10mph", correctAnswer: false))
+        answerList.append(Answer(text: "25mph", correctAnswer: false))
+        answerList.append(Answer(text: "20mph", correctAnswer: true))
+        answerList.append(Answer(text: "35mph", correctAnswer: false))
+        
+        //Q489
+        answerList.append(Answer(text: "Dazzle the vehicle behind you in retaliation", correctAnswer: false))
+        answerList.append(Answer(text: "Brake firmly", correctAnswer: false))
+        answerList.append(Answer(text: "Set your mirror to its anti-dazzle position", correctAnswer: true))
+        answerList.append(Answer(text: "Flicker your rear lights in warning", correctAnswer: false))
+        
+        //Q490
+        answerList.append(Answer(text: "Turn off the radio", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure your headlights are on so your friend can see you", correctAnswer: false))
+        answerList.append(Answer(text: "Activate your steering wheel lock", correctAnswer: false))
+        answerList.append(Answer(text: "Turn off your engine", correctAnswer: true))
+        
+//        //Q491
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q492
+        answerList.append(Answer(text: "On any road in between the hours of 23:30 and 06:00", correctAnswer: true))
+        answerList.append(Answer(text: "In built-up areas in between the hours of 23:30 and 07:00", correctAnswer: false))
+        answerList.append(Answer(text: "In built-up areas at all times", correctAnswer: false))
+        answerList.append(Answer(text: "In built-up areas in between the hours of 22:00 and 06:00", correctAnswer: false))
+
+//        //Q493
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q494
+        answerList.append(Answer(text: "Put the sunroof back on", correctAnswer: false))
+        answerList.append(Answer(text: "Activate the wipers on your windscreen", correctAnswer: false))
+        answerList.append(Answer(text: "Take off your sunglasses", correctAnswer: true))
+        answerList.append(Answer(text: "Turn off the radio", correctAnswer: false))
+
+        //Q495
+        answerList.append(Answer(text: "Anticipate that it will take longer for you to reach your destination", correctAnswer: true))
+        answerList.append(Answer(text: "Reduce the distance between your vehicle and the one ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Maintain your usual time gap between vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Refrain from activating dipped headlights", correctAnswer: false))
+
+        //Q496
+        answerList.append(Answer(text: "Keep them where they are", correctAnswer: true))
+        answerList.append(Answer(text: "Move them out of the vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Give the injured something to eat", correctAnswer: false))
+        answerList.append(Answer(text: "Give the injured something to drink", correctAnswer: false))
+
+        //Q497
+        answerList.append(Answer(text: "The bus lane is only used during peak hours for traffic", correctAnswer: false))
+        answerList.append(Answer(text: "The bus lane is in use 24/7", correctAnswer: true))
+        answerList.append(Answer(text: "The bus lane has been discontinued and is open to all traffic", correctAnswer: false))
+        answerList.append(Answer(text: "The bus lane is only used when it is light", correctAnswer: false))
+
+        //Q498
+        answerList.append(Answer(text: "Traffic is slowing down or coming to a stop", correctAnswer: true))
+        answerList.append(Answer(text: "You should overtake the driver", correctAnswer: false))
+        answerList.append(Answer(text: "Police ahead are performing routine checks", correctAnswer: false))
+        answerList.append(Answer(text: "They are planning to change lanes", correctAnswer: false))
+
+        //Q499
+        answerList.append(Answer(text: "Be prepared to slow down and give them right of way", correctAnswer: true))
+        answerList.append(Answer(text: "Carry on driving", correctAnswer: false))
+        answerList.append(Answer(text: "Ask the person to wait", correctAnswer: false))
+        answerList.append(Answer(text: "Slow down and encourage them to cross", correctAnswer: false))
+
+        //Q500
+        answerList.append(Answer(text: "Stay in the left-hand lane until you are travelling faster", correctAnswer: true))
+        answerList.append(Answer(text: "Move to the middle lane", correctAnswer: false))
+        answerList.append(Answer(text: "Overtake other motorway users as soon as possible", correctAnswer: false))
+        answerList.append(Answer(text: "Adjust your mirrors", correctAnswer: false))
+        
+//        //Q491
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q492
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q493
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q494
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q495
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q496
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q497
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q498
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q499
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q500
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        
+        
+        
         
         
         

@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         let maxQuestion : Int = allQuestion.questionList.count
         let maxAnswer : Int = allAnswer.answerList.count
-        
+        print(maxQuestion)
         if maxAnswer != maxQuestion * 4 {
             fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
         }
@@ -113,6 +113,7 @@ class ViewController: UIViewController {
     func updateUI (pickedRandomNumber number : Int) {
         
         // Question UI Label update
+        
         
         progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         
