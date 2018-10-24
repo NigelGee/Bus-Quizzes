@@ -604,9 +604,9 @@ class QuestionBank {
         questionList.append(Question(text: "You are waiting for a passenger to join you in the car, but you are five minutes early. In the meantime, you should:", image: ""))
         
         //491-500
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
         questionList.append(Question(text: "When is it illegal for a horn to be sounded?", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
         questionList.append(Question(text: "Prior to travelling through a tunnel, you need to:", image: ""))
         questionList.append(Question(text: "A journey is essential, but the weather is foggy and visibility is exceptionally poor. You need to:", image: ""))
         questionList.append(Question(text: "If you arrive at the scene of an accident, any injured parties need to be looked after. If it is safe to do so, you should:", image: ""))
@@ -615,24 +615,140 @@ class QuestionBank {
         questionList.append(Question(text: "You are on the approach to a zebra crossing. A wheelchair user is waiting to cross the road. You need to:", image: ""))
         questionList.append(Question(text: "What should you do as soon as you have joined a three-lane motorway?", image: ""))
         
-//        //491-500
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
+        //501-510
+        questionList.append(Question(text: "While nearing a mini-roundabout, you are keeping your eye on the lorry ahead. Although they are indicating to the left, they are positioned on the right-hand side of the lane. You need to", image: ""))
+        questionList.append(Question(text: "You're driving on a motorway, and the traffic is particularly busy. The driver directly behind your car is closer than the recommended time gap. What is the best way to reduce the chance of an accident?", image: ""))
+        questionList.append(Question(text: "Which of the following road users can use a toucan crossing along with pedestrians?", image: ""))
+        questionList.append(Question(text: "If another road user flashes their lights at you, this means that:", image: ""))
+        questionList.append(Question(text: "Which road crossing has been designed for both cyclists and walkers?", image: ""))
+        questionList.append(Question(text: "When are passing motorists and pedestrians most at risk when you are reversing into a side road?", image: ""))
+        questionList.append(Question(text: "When red and amber are showing on traffic lights, this indicates:", image: ""))
+        questionList.append(Question(text: "A cover note is provided by insurers in some situations and is:", image: ""))
+        questionList.append(Question(text: "What is the minimum distance it would take a car travelling at 60mph to come to a stop?", image: ""))
+        questionList.append(Question(text: "Which of the following factors will NOT affect the distance it takes for you to stop?", image: ""))
         
+        //511-520
+        questionList.append(Question(text: "When must you dip your high-beam headlights?", image: ""))
+        questionList.append(Question(text: "Which way should you steer if you skid?", image: ""))
+        questionList.append(Question(text: "Whilst you are driving through the rain, your steering becomes unresponsive. What should you do?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Two vehicles meet head to head on a steep single-track road. Which vehicle has priority?", image: ""))
+        questionList.append(Question(text: "Can you drive through a pelican crossing with a green light?", image: ""))
+        questionList.append(Question(text: "You arrive at a pelican crossing with a central island. Should you treat this as one crossing or two?", image: ""))
+        questionList.append(Question(text: "You arrive at a level crossing with a flashing red signal. What must you do?", image: ""))
+        questionList.append(Question(text: "How close to a junction are you allowed to park?", image: ""))
+        questionList.append(Question(text: "Which of the following is the most important consideration when fitting a rear-facing baby seat?", image: ""))
         
+        //521-530
+        questionList.append(Question(text: "What should you do at an amber traffic light?", image: ""))
+        questionList.append(Question(text: "You are travelling on the motorway. You have passed a fog warning sign with flashing amber lights. You will know that the fog alert has been lifted when", image: ""))
+        questionList.append(Question(text: "When must you use your headlights during the day?", image: ""))
+        questionList.append(Question(text: "You see a large white triangle painted on the road before a junction. What does this mean?", image: ""))
+        questionList.append(Question(text: "When can you use a hand-held mobile phone while driving?", image: ""))
+        questionList.append(Question(text: "Which of the following statements about large vehicles (such as buses and articulated lorries) is FALSE?", image: ""))
+        questionList.append(Question(text: "Can you wait, load, unload, or park by a kerb with a double red line?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You see a pedestrian walking with a dog with a red-and-white harness. Which of the following is most likely?", image: ""))
+        questionList.append(Question(text: "You see a zebra crossing with a central island. Should you treat this as one crossing or two?", image: ""))
         
+        //531-540
+        questionList.append(Question(text: "You arrive at a mini-roundabout with a painted central island. Can you drive over the island?", image: ""))
+        questionList.append(Question(text: "Can you wait, load, unload, or park by a kerb with a single red line?", image: ""))
+        questionList.append(Question(text: "You are approaching a pair of alternately flashing red lights. What should you do?", image: ""))
+        questionList.append(Question(text: "Your vehicle has broken down on a motorway. How should you place your warning triangle?", image: ""))
+        questionList.append(Question(text: "You are driving on the motorway. When can you overtake on the left?", image: ""))
+        questionList.append(Question(text: "In an emergency, how should you brake if your vehicle is NOT equipped with an anti-lock braking system (ABS)?", image: ""))
+        questionList.append(Question(text: "You see a flashing amber light at a pelican crossing. Do you need to stop here?", image: ""))
+        questionList.append(Question(text: "You need to give first aid. What does the 'C' in the acronym DRABC stand for?", image: ""))
+        questionList.append(Question(text: "You are approaching a bend, but you are travelling too fast. When should you brake?", image: ""))
+        questionList.append(Question(text: "You wish to park a manual car facing downhill next to a kerb. How should you park?", image: ""))
         
+        //541-550
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You need to give first aid. What does the 'R' in the acronym DRABC stand for?", image: ""))
+        questionList.append(Question(text: "At which of the following places should you drive with extra caution?", image: ""))
+        questionList.append(Question(text: "You see a traffic signal with red, amber, green, and white lights. What does the white light mean?", image: ""))
+        questionList.append(Question(text: "What should you do if your car becomes trapped on a level crossing?", image: ""))
+        questionList.append(Question(text: "You have to stop for children playing on the road in a Home Zone. Which of the following is true?", image: ""))
+        questionList.append(Question(text: "You have been drinking heavily. Which of the following will help you sober up so you can drive?", image: ""))
         
+        //551-560
+        questionList.append(Question(text: "How can you reduce driver fatigue during long trips?", image: ""))
+        questionList.append(Question(text: "How close can you follow another vehicle on the motorway in good driving conditions?", image: ""))
+        questionList.append(Question(text: "How should you overtake a horse rider or horse-drawn carriage?", image: ""))
+        questionList.append(Question(text: "Traffic has stopped in a tunnel. How close to the car in front should you stop?", image: ""))
+        questionList.append(Question(text: "When must you use your headlights?", image: ""))
+        questionList.append(Question(text: "How close to a pedestrian crossing are you allowed to park?", image: ""))
+        questionList.append(Question(text: "Which of the following is NOT an important consideration when overtaking?", image: ""))
+        questionList.append(Question(text: "While driving on a motorway, you see a signal with flashing amber lights on the central reservation. This warning applies to", image: ""))
+        questionList.append(Question(text: "Which of the following statements about motorcycles are true?", image: ""))
+        questionList.append(Question(text: "How much space must you give a cyclist you are overtaking?", image: ""))
+
+        //561-570
+        questionList.append(Question(text: "You have parked at the roadside. What must you do before you vacate your vehicle?", image: ""))
+        questionList.append(Question(text: "You are being overtaken. The overtaking car is having trouble getting back into your lane ahead of you. What should you do?", image: ""))
+        questionList.append(Question(text: "You approach a red traffic light at a junction. Where must you stop?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Which lane should you use on a two-lane dual carriageway?", image: ""))
+        questionList.append(Question(text: "You notice an area where the kerb is lowered for easier pedestrian access. Can you park here?", image: ""))
+        questionList.append(Question(text: "What special speed limits apply to a car that is towing a caravan or trailer?", image: ""))
+        questionList.append(Question(text: "Can you wait or park by a kerb bordered by a single yellow line?", image: ""))
+        questionList.append(Question(text: "When you drive in snowy weather, you must", image: ""))
+        questionList.append(Question(text: "In slow-moving traffic, how closely should you follow the car ahead?", image: ""))
         
+        //571-580
+        questionList.append(Question(text: "Should you use cruise control on a wet or icy road?", image: ""))
+        questionList.append(Question(text: "When must you avoid non-emergency horn usage in a built-up area?", image: ""))
+        questionList.append(Question(text: "Can a vehicle with a top speed of 25 mph (40 km/h) be driven on a dual carriageway?", image: ""))
+        questionList.append(Question(text: "You approach a roadworks area. Are roadwork speed limits enforceable?", image: ""))
+        questionList.append(Question(text: "Can you overtake another vehicle by driving on the left?", image: ""))
+        questionList.append(Question(text: "You see the words \"School Keep Clear\" near the kerb. Can you stop here?", image: ""))
+        questionList.append(Question(text: "You are moving off from the kerb. You should NOT", image: ""))
+        questionList.append(Question(text: "What should you do to your brakes after you have driven through deep water?", image: ""))
+        questionList.append(Question(text: "Which one of the following is true about driving near a bus stop?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+
+        //581-590
+        questionList.append(Question(text: "You are driving on a road with a speed limit of 70 mph (112 km/h). How fast should you drive?", image: ""))
+        questionList.append(Question(text: "What should you do after a breakdown on a single carriageway?", image: ""))
+        questionList.append(Question(text: "Which of the following is true about zebra crossings?", image: ""))
+        questionList.append(Question(text: "Which of the following hazards may occur in hot weather?", image: ""))
+        questionList.append(Question(text: "You are driving on icy roads. What can you do to lower your chances of losing control?", image: ""))
+        questionList.append(Question(text: "Your vehicle has broken down on the hard shoulder of the motorway. Where should you wait for help to arrive?", image: ""))
+        questionList.append(Question(text: "When can you cross double white lines to pass another vehicle?", image: ""))
+        questionList.append(Question(text: "Which of the following are true about towing a heavy trailer?", image: ""))
+        questionList.append(Question(text: "Can you overtake another vehicle by using a bus lane?", image: ""))
+        questionList.append(Question(text: "Can you wait, load, unload, or park by a kerb with a double yellow line?", image: "theory-58-10"))
         
+        //591-600
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You are driving a little below the speed limit and there are several cars behind you. What should you do?", image: ""))
+        questionList.append(Question(text: "What should you do when an ambulance with its lights and sirens approaches you from behind?", image: ""))
+        questionList.append(Question(text: "You are entering a roundabout. Who has priority unless signs state otherwise?", image: ""))
+        questionList.append(Question(text: "You have missed your exit on the motorway. What should you do?", image: ""))
+        questionList.append(Question(text: "When can you use your hazard warning lights?", image: ""))
+        questionList.append(Question(text: "You have been drinking, but you are under the legal limit. When will alcohol start to affect your ability to drive?", image: ""))
+        questionList.append(Question(text: "On a three-lane dual carriageway, which lane should you use?", image: ""))
+        questionList.append(Question(text: "A pedestrian has just started to cross the road into which you are turning. What should you do?", image: ""))
+        questionList.append(Question(text: "Who must wear a seat belt?", image: ""))
+        
+//        //601-610
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+
+
+
         
     }
 }
