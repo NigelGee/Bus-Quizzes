@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose how many questions you would like to answer!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ccR-cZ-GE8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many questions you would like to answer?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ccR-cZ-GE8">
                                 <rect key="frame" x="16" y="88" width="343" height="326"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -176,18 +176,18 @@
                                 <rect key="frame" x="0.0" y="762" width="375" height="16"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5NV-E1-tbq" userLabel="Progress Bar">
-                                        <rect key="frame" x="0.0" y="0.0" width="19" height="16"/>
+                                        <rect key="frame" x="0.0" y="7" width="19" height="9"/>
                                         <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="19" id="LYG-Bl-fvw"/>
+                                            <constraint firstAttribute="width" constant="19" id="4U0-aO-LPX"/>
+                                            <constraint firstAttribute="height" constant="9" id="Xxd-li-Jnf"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="5NV-E1-tbq" secondAttribute="bottom" id="Af4-ty-tb1"/>
+                                    <constraint firstItem="5NV-E1-tbq" firstAttribute="leading" secondItem="QuE-vR-h69" secondAttribute="leading" id="4T4-Mx-lpd"/>
                                     <constraint firstAttribute="height" constant="16" id="WRw-PQ-sl4"/>
-                                    <constraint firstItem="5NV-E1-tbq" firstAttribute="top" secondItem="QuE-vR-h69" secondAttribute="top" id="hPn-V9-6Oj"/>
-                                    <constraint firstItem="5NV-E1-tbq" firstAttribute="leading" secondItem="QuE-vR-h69" secondAttribute="leading" id="nbM-l9-ltG"/>
+                                    <constraint firstAttribute="bottom" secondItem="5NV-E1-tbq" secondAttribute="bottom" id="oFs-lP-59a"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ba2-7D-YyZ" userLabel="Bottom View">

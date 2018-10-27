@@ -11,7 +11,7 @@ import UIKit
 class PhotoViewController: UIViewController {
     
     var enlargeViewImage: String = ""
-
+    
     @IBOutlet weak var roadSignImage: UIImageView!
     
     override func viewDidLoad() {
@@ -20,5 +20,5 @@ class PhotoViewController: UIViewController {
         roadSignImage.image = UIImage(named: enlargeViewImage)
         
     }
-
+    
 }

@@ -14,7 +14,7 @@ class ReviewViewController: UIViewController {
     let allAnswer = AnswerBank()
     var reviewQuestionArray = [Int]()
     var arrayNumber = 0
-
+    
     @IBOutlet weak var reviewQuestions: UILabel!
     @IBOutlet weak var reviewImage: UIImageView!
     @IBOutlet weak var reviewAnswer1: UILabel!
@@ -43,11 +43,7 @@ class ReviewViewController: UIViewController {
         updateUI()
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
     
     func updateUI () {
         

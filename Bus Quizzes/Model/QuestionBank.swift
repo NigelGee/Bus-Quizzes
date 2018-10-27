@@ -735,7 +735,56 @@ class QuestionBank {
         questionList.append(Question(text: "A pedestrian has just started to cross the road into which you are turning. What should you do?", image: ""))
         questionList.append(Question(text: "Who must wear a seat belt?", image: ""))
         
-//        //601-610
+        //601-610
+        questionList.append(Question(text: "Can you overtake an operating snowplough?", image: ""))
+        questionList.append(Question(text: "What should you do if you are dazzled by the sun whilst you are driving?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "When may you leave a stationary vehicle's engine running?", image: ""))
+        questionList.append(Question(text: "Which of the following are true about a level crossing with user-operated gates?", image: ""))
+        questionList.append(Question(text: "You are parking a manual car facing uphill next to a kerb. How should you park?", image: ""))
+        questionList.append(Question(text: "There has been an accident, and you are first on the scene. What is the first thing you should do?", image: ""))
+        questionList.append(Question(text: "When driving on icy roads, you should check your grip on the road surface occasionally. How might you do this?", image: ""))
+        questionList.append(Question(text: "What should you do before you change lanes?", image: ""))
+        
+        //611-620
+        questionList.append(Question(text: "What is the maximum penalty for driving without your MOT certificate?", image: ""))
+        questionList.append(Question(text: "Can you apply for a reduced disqualification period?", image: ""))
+        questionList.append(Question(text: "What is the maximum penalty for driving while intoxicated?", image: ""))
+        questionList.append(Question(text: "What is the national speed limit on a dual carriageway?", image: ""))
+        questionList.append(Question(text: "Must you resit your driving test after your disqualification ends?", image: ""))
+        questionList.append(Question(text: "What is the legal breath alcohol limit?", image: ""))
+        questionList.append(Question(text: "Which of the following are possible additional consequences of committing a driving offence punishable by imprisonment?", image: ""))
+        questionList.append(Question(text: "Which one of the following statements about third-party insurance is correct?", image: ""))
+        questionList.append(Question(text: "Which of the following are you allowed to do on a clearway?", image: ""))
+        questionList.append(Question(text: "What is the penalty for careless and inconsiderate driving?", image: ""))
+        
+        
+        //621-630
+        questionList.append(Question(text: "At what age must you surrender your licence?", image: ""))
+        questionList.append(Question(text: "What is the minimum fine for speeding?", image: ""))
+        questionList.append(Question(text: "What is the maximum fine for dangerous driving?", image: ""))
+        questionList.append(Question(text: "Which of the following are you allowed to do on an urban clearway?", image: ""))
+        questionList.append(Question(text: "How can you check when your disqualification period will end?", image: ""))
+        questionList.append(Question(text: "How many penalty points will you receive for speeding?", image: ""))
+        questionList.append(Question(text: "Which of the following is a restriction placed on provisional drivers?", image: ""))
+        questionList.append(Question(text: "How many penalty points will you receive for running a stop sign?", image: ""))
+        questionList.append(Question(text: "Who can supervise a learner driver?", image: ""))
+        questionList.append(Question(text: "What is a licence endorsement?", image: ""))
+        
+        //631-640
+        questionList.append(Question(text: "What is the legal blood alcohol limit in England and Wales?", image: ""))
+        questionList.append(Question(text: "What should you do if you are diagnosed with a condition that may affect your ability to drive?", image: ""))
+        questionList.append(Question(text: "What will happen if you refuse an alcohol test?", image: ""))
+        questionList.append(Question(text: "You have been disqualified from driving in Northern Ireland. Can you still drive in Great Britain?", image: ""))
+        questionList.append(Question(text: "What is the maximum fine for speeding on a motorway?", image: ""))
+        questionList.append(Question(text: "In good daylight, you must be able to read a vehicle number plate from a distance of", image: ""))
+        questionList.append(Question(text: "A full licence holder will be disqualified if he or she accumulates how many points?", image: ""))
+        questionList.append(Question(text: "Can a driver be imprisoned for driving while disqualified?", image: ""))
+        questionList.append(Question(text: "What is the national speed limit for a car towing a trailer on a single carriageway?", image: ""))
+        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        
+//        //641-650
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
@@ -746,7 +795,6 @@ class QuestionBank {
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
-
 
 
         

@@ -55,9 +55,6 @@ class ViewController: UIViewController {
         imageQuestion.layer.cornerRadius = 10
         imageQuestion.layer.masksToBounds = true
         progressLabel.layer.cornerRadius = 7
-    
-
-        
         
         totalQuestion = maxQuestion
         
@@ -114,10 +111,9 @@ class ViewController: UIViewController {
         
         // Question UI Label update
         
-        
         progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         
-         let question = allQuestion.questionList[number]
+        let question = allQuestion.questionList[number]
         
         questionLabel.text = question.questionText
         
@@ -145,7 +141,6 @@ class ViewController: UIViewController {
         
     }
     
-
     
     //MARK:- CHECK ANSWER AFTER BUTTON PRESSED
     func checkAnswer(pickedAnswer: Int) {
@@ -171,7 +166,7 @@ class ViewController: UIViewController {
         
     }
     
-
+    
     
     //MARK:- SHOW RESULTS
     func showResults() {
@@ -203,7 +198,7 @@ class ViewController: UIViewController {
             questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed, however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
             imageQuestion.image = UIImage(named: "smiley-face")
             answerText3.setTitle("Review incorrect answers", for: .normal)
-        
+            
         }
         else if scorePrecentage >= 50 {
             questionLabel.text = "Your score is \(Int(scorePrecentage))%. Great work and so close to a pass. Keep on practising and try again!"

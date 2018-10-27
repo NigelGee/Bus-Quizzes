@@ -11,7 +11,7 @@ import UIKit
 class ChooseViewController: UIViewController {
     
     var chosenNumber: Int = 0
-
+    
     @IBOutlet weak var button25: UIButton!
     @IBOutlet weak var button50: UIButton!
     @IBOutlet weak var button100: UIButton!
@@ -28,7 +28,7 @@ class ChooseViewController: UIViewController {
         button100.layer.cornerRadius = 10
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

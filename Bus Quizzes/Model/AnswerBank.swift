@@ -3620,68 +3620,305 @@ class AnswerBank {
         answerList.append(Answer(text: "The driver and all passengers in the front seat", correctAnswer: false))
         answerList.append(Answer(text: "The driver and all passengers under 14", correctAnswer: false))
         
-//        //Q601
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q602
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
+        //Q601
+        answerList.append(Answer(text: "Yes", correctAnswer: false))
+        answerList.append(Answer(text: "No", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but only if it is not currently snowing", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but only if the lane you intend to use for overtaking has already been cleared", correctAnswer: true))
+
+        //Q602
+        answerList.append(Answer(text: "A) Slow down or pull over if necessary", correctAnswer: true))
+        answerList.append(Answer(text: "B) Continue at the same speed", correctAnswer: false))
+        answerList.append(Answer(text: "C) Continue with your hazard lights on to warn others of your presence", correctAnswer: false))
+        answerList.append(Answer(text: "Both A) and C) are correct", correctAnswer: false))
+
 //        //Q603
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
+
 //        //Q604
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q605
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q606
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q607
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q608
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q609
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q610
+
+        //Q605
+        answerList.append(Answer(text: "Only in traffic or when the vehicle is being diagnosed for faults", correctAnswer: true))
+        answerList.append(Answer(text: "At any time", correctAnswer: false))
+        answerList.append(Answer(text: "At any time unless the vehicle is unattended", correctAnswer: false))
+        answerList.append(Answer(text: "Never", correctAnswer: false))
+
+        //Q606
+        answerList.append(Answer(text: "A) You do not need to close the gates after you cross", correctAnswer: false))
+        answerList.append(Answer(text: "B) You can use the railway telephone to check whether it is safe to cross", correctAnswer: false))
+        answerList.append(Answer(text: "C) You can cross if you have a green light", correctAnswer: false))
+        answerList.append(Answer(text: "B) and C) are correct", correctAnswer: true))
+
+        //Q607
+        answerList.append(Answer(text: "Leave your car in reverse and steer towards the kerb", correctAnswer: false))
+        answerList.append(Answer(text: "Leave your car in first gear and steer away from the kerb", correctAnswer: true))
+        answerList.append(Answer(text: "Leave your car in first gear and steer towards the kerb", correctAnswer: false))
+        answerList.append(Answer(text: "Leave your car in reverse and steer away from the kerb", correctAnswer: false))
+
+        //Q608
+        answerList.append(Answer(text: "Assess and address any hazards present", correctAnswer: true))
+        answerList.append(Answer(text: "Perform first aid on those involved", correctAnswer: false))
+        answerList.append(Answer(text: "Remove those involved from their vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Call 999 or 112", correctAnswer: false))
+
+        //Q609
+        answerList.append(Answer(text: "Find somewhere quiet and apply your brakes hard", correctAnswer: false))
+        answerList.append(Answer(text: "Find somewhere safe and accelerate hard", correctAnswer: false))
+        answerList.append(Answer(text: "Find somewhere safe and brake gently", correctAnswer: true))
+        answerList.append(Answer(text: "Steer suddenly on a gentle corner", correctAnswer: false))
+
+        //Q610
+        answerList.append(Answer(text: "Check your mirrors", correctAnswer: false))
+        answerList.append(Answer(text: "Use your indicators", correctAnswer: false))
+        answerList.append(Answer(text: "Look over your shoulder to check if the next lane is clear", correctAnswer: false))
+        answerList.append(Answer(text: "Do all of the above", correctAnswer: true))
+        
+        //Q611
+        answerList.append(Answer(text: "Disqualification", correctAnswer: false))
+        answerList.append(Answer(text: "A £1,000 fine", correctAnswer: true))
+        answerList.append(Answer(text: "A £500 fine", correctAnswer: false))
+        answerList.append(Answer(text: "Both A) and B)", correctAnswer: false))
+
+        //Q612
+        answerList.append(Answer(text: "No", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, if you think the court made a legal mistake", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, if there were other factors involved in your disqualification that the court did not consider", correctAnswer: false))
+        answerList.append(Answer(text: "Both B) and C) are correct", correctAnswer: true))
+
+        //Q613
+        answerList.append(Answer(text: "Disqualification", correctAnswer: false))
+        answerList.append(Answer(text: "Disqualification and an unlimited fine", correctAnswer: false))
+        answerList.append(Answer(text: "Disqualification, an unlimited fine, and up to six months' imprisonment", correctAnswer: true))
+        answerList.append(Answer(text: "11 penalty points and a £5,000 fine", correctAnswer: false))
+
+        //Q614
+        answerList.append(Answer(text: "30 mph (48 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "60 mph (96 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "70 mph (112 km/h)", correctAnswer: true))
+        answerList.append(Answer(text: "50 mph (80 km/h)", correctAnswer: false))
+
+        //Q615
+        answerList.append(Answer(text: "No, the court may decide to accept a fine instead", correctAnswer: false))
+        answerList.append(Answer(text: "No, not unless you are willing to", correctAnswer: false))
+        answerList.append(Answer(text: "No", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, the court may require a retest or an extended retest", correctAnswer: true))
+
+        //Q616
+        answerList.append(Answer(text: "35 milligrammes of alcohol/100 millilitres of breath", correctAnswer: false))
+        answerList.append(Answer(text: "100 microgrammes of alcohol/35 millilitres of breath", correctAnswer: false))
+        answerList.append(Answer(text: "35 microgrammes of alcohol/100 millilitres of breath", correctAnswer: true))
+        answerList.append(Answer(text: "50 microgrammes of alcohol/100 millilitres of breath", correctAnswer: false))
+
+        //Q617
+        answerList.append(Answer(text: "A) Your vehicle may be confiscated", correctAnswer: false))
+        answerList.append(Answer(text: "B) Your insurance premiums may rise", correctAnswer: false))
+        answerList.append(Answer(text: "C) You may be banned from the motorways", correctAnswer: false))
+        answerList.append(Answer(text: "Both A) and B) are correct", correctAnswer: true))
+
+        //Q618
+        answerList.append(Answer(text: "Third-party insurance is mandatory, but this is not enforced", correctAnswer: false))
+        answerList.append(Answer(text: "Third-party insurance is included with your vehicle registration", correctAnswer: false))
+        answerList.append(Answer(text: "Third-party insurance is mandatory, and this is enforced", correctAnswer: true))
+        answerList.append(Answer(text: "Third-party insurance is optional", correctAnswer: false))
+
+        //Q619
+        answerList.append(Answer(text: "Wait, and pick up or drop off passengers", correctAnswer: false))
+        answerList.append(Answer(text: "Pick up or drop off passengers", correctAnswer: false))
+        answerList.append(Answer(text: "Park, wait, and pick up or drop off passengers", correctAnswer: false))
+        answerList.append(Answer(text: "None of the above are allowed", correctAnswer: true))
+
+        //Q620
+        answerList.append(Answer(text: "3 to 9 penalty points", correctAnswer: false))
+        answerList.append(Answer(text: "Discretionary disqualification", correctAnswer: false))
+        answerList.append(Answer(text: "Unlimited fine", correctAnswer: false))
+        answerList.append(Answer(text: "All of the above", correctAnswer: true))
+
+        //Q621
+        answerList.append(Answer(text: "85", correctAnswer: false))
+        answerList.append(Answer(text: "75", correctAnswer: false))
+        answerList.append(Answer(text: "65", correctAnswer: false))
+        answerList.append(Answer(text: "None", correctAnswer: true))
+
+        //Q622
+        answerList.append(Answer(text: "£150", correctAnswer: false))
+        answerList.append(Answer(text: "£200", correctAnswer: false))
+        answerList.append(Answer(text: "£100", correctAnswer: true))
+        answerList.append(Answer(text: "£50", correctAnswer: false))
+
+        //Q623
+        answerList.append(Answer(text: "£5,000", correctAnswer: false))
+        answerList.append(Answer(text: "£8,000", correctAnswer: false))
+        answerList.append(Answer(text: "£1,000", correctAnswer: false))
+        answerList.append(Answer(text: "Unlimited", correctAnswer: true))
+
+        //Q624
+        answerList.append(Answer(text: "Wait, and pick up or drop off passengers", correctAnswer: false))
+        answerList.append(Answer(text: "Park, wait, and pick up or drop off passengers", correctAnswer: false))
+        answerList.append(Answer(text: "Pick up or drop off passengers", correctAnswer: true))
+        answerList.append(Answer(text: "None of the above", correctAnswer: false))
+
+        //Q625
+        answerList.append(Answer(text: "Phone the DVLA", correctAnswer: false))
+        answerList.append(Answer(text: "Check the reminder form that the DVLA will send you before your disqualification ends", correctAnswer: false))
+        answerList.append(Answer(text: "View your licence details online", correctAnswer: false))
+        answerList.append(Answer(text: "You can do all of the above", correctAnswer: true))
+
+        //Q626
+        answerList.append(Answer(text: "Up to 8", correctAnswer: false))
+        answerList.append(Answer(text: "2 to 4", correctAnswer: false))
+        answerList.append(Answer(text: "3 to 6", correctAnswer: true))
+        answerList.append(Answer(text: "1", correctAnswer: false))
+
+        //Q627
+        answerList.append(Answer(text: "Provisional drivers must not drive on motorways", correctAnswer: true))
+        answerList.append(Answer(text: "Provisional drivers can only drive on single carriageways", correctAnswer: false))
+        answerList.append(Answer(text: "Provisional drivers are limited to a speed of 60 mph (96 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "Provisional drivers are limited to a speed of 50 mph (80 km/h)", correctAnswer: false))
+
+        //Q628
+        answerList.append(Answer(text: "6", correctAnswer: false))
+        answerList.append(Answer(text: "3", correctAnswer: true))
+        answerList.append(Answer(text: "2", correctAnswer: false))
+        answerList.append(Answer(text: "5", correctAnswer: false))
+
+        //Q629
+        answerList.append(Answer(text: "Any EC/EEA licence holder at least 18 years of age", correctAnswer: false))
+        answerList.append(Answer(text: "Any EC/EEA licence holder at least 21 years of age", correctAnswer: false))
+        answerList.append(Answer(text: "Someone at least 21 years of age who has held an EC/EEA licence for over three years", correctAnswer: true))
+        answerList.append(Answer(text: "Someone at least 18 years of age who has held an EC/EEA licence for over three years", correctAnswer: false))
+
+        //Q630
+        answerList.append(Answer(text: "A licence upgrade gained through testing (e.g., permission to tow a heavy trailer)", correctAnswer: false))
+        answerList.append(Answer(text: "A restriction on your licence (e.g., corrective lenses required)", correctAnswer: false))
+        answerList.append(Answer(text: "A long-lasting penalty applied for 4 to 11 years after certain types of offences", correctAnswer: true))
+        answerList.append(Answer(text: "A certificate stating that you are competent and ready to be licenced", correctAnswer: false))
+
+        //Q631
+        answerList.append(Answer(text: "35 microgrammes of alcohol/100 millilitres of blood", correctAnswer: false))
+        answerList.append(Answer(text: "80 milligrammes of alcohol/100 millilitres of blood", correctAnswer: true))
+        answerList.append(Answer(text: "80 microgrammes of alcohol/100 millilitres of blood", correctAnswer: false))
+        answerList.append(Answer(text: "100 milligrammes of alcohol/80 millilitres of blood", correctAnswer: false))
+
+        //Q632
+        answerList.append(Answer(text: "Avoid driving through traffic and busy areas", correctAnswer: false))
+        answerList.append(Answer(text: "Report your situation to the DVLA", correctAnswer: true))
+        answerList.append(Answer(text: "Continue driving", correctAnswer: false))
+        answerList.append(Answer(text: "Only drive when you feel it is safe", correctAnswer: false))
+
+        //Q633
+        answerList.append(Answer(text: "You will receive the same penalties as for drunk driving", correctAnswer: true))
+        answerList.append(Answer(text: "You will be set free", correctAnswer: false))
+        answerList.append(Answer(text: "You will receive a £1,000 fine", correctAnswer: false))
+        answerList.append(Answer(text: "You will be taken to a medical facility to be retested", correctAnswer: false))
+
+        //Q634
+        answerList.append(Answer(text: "Yes", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but only if your disqualification is less than three months", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but only if your disqualification is less than 56 days", correctAnswer: false))
+        answerList.append(Answer(text: "No", correctAnswer: true))
+
+        //Q635
+        answerList.append(Answer(text: "£1,000", correctAnswer: false))
+        answerList.append(Answer(text: "£2,500", correctAnswer: true))
+        answerList.append(Answer(text: "£500", correctAnswer: false))
+        answerList.append(Answer(text: "£2,000", correctAnswer: false))
+
+        //Q636
+        answerList.append(Answer(text: "25 metres", correctAnswer: false))
+        answerList.append(Answer(text: "20 metres", correctAnswer: true))
+        answerList.append(Answer(text: "50 metres", correctAnswer: false))
+        answerList.append(Answer(text: "30 metres", correctAnswer: false))
+
+        //Q637
+        answerList.append(Answer(text: "18 points over a five-year period", correctAnswer: false))
+        answerList.append(Answer(text: "18 points over a three-year period", correctAnswer: false))
+        answerList.append(Answer(text: "12 points over a three-year period", correctAnswer: true))
+        answerList.append(Answer(text: "12 points over a one-year period", correctAnswer: false))
+
+        //Q638
+        answerList.append(Answer(text: "Yes", correctAnswer: true))
+        answerList.append(Answer(text: "Yes, but not in Wales", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but not in Scotland", correctAnswer: false))
+        answerList.append(Answer(text: "No", correctAnswer: false))
+
+        //Q639
+        answerList.append(Answer(text: "40 mph (64 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "60 mph (96 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "50 mph (80 km/h)", correctAnswer: true))
+        answerList.append(Answer(text: "70 mph (112 km/h)", correctAnswer: false))
+
+//        //Q640
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 
-
-
+//        //Q641
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q642
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q643
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q644
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q645
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q646
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q647
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q648
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q649
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q650
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 
 
 
