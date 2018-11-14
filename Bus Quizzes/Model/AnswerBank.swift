@@ -3853,12 +3853,372 @@ class AnswerBank {
         answerList.append(Answer(text: "60 mph (96 km/h)", correctAnswer: false))
         answerList.append(Answer(text: "50 mph (80 km/h)", correctAnswer: true))
         answerList.append(Answer(text: "70 mph (112 km/h)", correctAnswer: false))
+        
+        //        //Q640
+        //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 
-//        //Q640
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q641
+        answerList.append(Answer(text: "Six within a one-year period", correctAnswer: false))
+        answerList.append(Answer(text: "Six within a two-year period", correctAnswer: true))
+        answerList.append(Answer(text: "12 within a three-year period", correctAnswer: false))
+        answerList.append(Answer(text: "Eight within a two-year period", correctAnswer: false))
+
+        //Q642
+        answerList.append(Answer(text: "A) You may tow a trailer that weighs less than 750 kg", correctAnswer: false))
+        answerList.append(Answer(text: "B) You may tow any trailer if the total mass of the trailer and the tow vehicle is less than 3,500 kg", correctAnswer: false))
+        answerList.append(Answer(text: "C) It depends on when your licence was issued", correctAnswer: true))
+        answerList.append(Answer(text: "Both A) and B) are correct", correctAnswer: false))
+
+        //Q643
+        answerList.append(Answer(text: "£150", correctAnswer: false))
+        answerList.append(Answer(text: "£1,000", correctAnswer: false))
+        answerList.append(Answer(text: "£50", correctAnswer: false))
+        answerList.append(Answer(text: "£500", correctAnswer: true))
+
+        //Q644
+        answerList.append(Answer(text: "30 mph (48 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "60 mph (96 km/h)", correctAnswer: true))
+        answerList.append(Answer(text: "50 mph (80 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "70 mph (112 km/h)", correctAnswer: false))
+
+        //Q645
+        answerList.append(Answer(text: "50 mph (80 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "30 mph (48 km/h)", correctAnswer: true))
+        answerList.append(Answer(text: "60 mph (96 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "70 mph (112 km/h)", correctAnswer: false))
+
+        //Q646
+        answerList.append(Answer(text: "£1,000", correctAnswer: false))
+        answerList.append(Answer(text: "£750", correctAnswer: false))
+        answerList.append(Answer(text: "Unlimited", correctAnswer: true))
+        answerList.append(Answer(text: "£1,500", correctAnswer: false))
+
+        //Q647
+        answerList.append(Answer(text: "Apply for a new licence", correctAnswer: true))
+        answerList.append(Answer(text: "Start using your old licence again if it hasn't expired", correctAnswer: false))
+        answerList.append(Answer(text: "Pay a fee to have your old licence returned to you", correctAnswer: false))
+        answerList.append(Answer(text: "Have the court decide whether you are ready", correctAnswer: false))
+
+        //Q648
+        answerList.append(Answer(text: "At least three months", correctAnswer: false))
+        answerList.append(Answer(text: "At least one year", correctAnswer: false))
+        answerList.append(Answer(text: "At least nine months", correctAnswer: false))
+        answerList.append(Answer(text: "At least six months", correctAnswer: true))
+
+        //Q649
+        answerList.append(Answer(text: "A) A £1,000 fine", correctAnswer: false))
+        answerList.append(Answer(text: "B) Possible disqualification", correctAnswer: false))
+        answerList.append(Answer(text: "C) Three months' imprisonment", correctAnswer: false))
+        answerList.append(Answer(text: "A) and B)", correctAnswer: true))
+
+        //Q650
+        answerList.append(Answer(text: "10 hours", correctAnswer: false))
+        answerList.append(Answer(text: "Three months", correctAnswer: false))
+        answerList.append(Answer(text: "20 hours", correctAnswer: false))
+        answerList.append(Answer(text: "None of the above", correctAnswer: true))
+
+        //Q651
+        answerList.append(Answer(text: "6 months' imprisonment", correctAnswer: false))
+        answerList.append(Answer(text: "14 years' imprisonment", correctAnswer: true))
+        answerList.append(Answer(text: "2 years' imprisonment", correctAnswer: false))
+        answerList.append(Answer(text: "12 years' imprisonment", correctAnswer: false))
+        
+        //Q652
+        answerList.append(Answer(text: "5 metres", correctAnswer: false))
+        answerList.append(Answer(text: "10 metres", correctAnswer: true))
+        answerList.append(Answer(text: "15 metres", correctAnswer: false))
+        answerList.append(Answer(text: "As close as you need to", correctAnswer: false))
+        
+        //Q653
+        answerList.append(Answer(text: "£500 and a mandatory disqualification", correctAnswer: false))
+        answerList.append(Answer(text: "£1,000 and a possible disqualification", correctAnswer: true))
+        answerList.append(Answer(text: "£500", correctAnswer: false))
+        answerList.append(Answer(text: "None", correctAnswer: false))
+        
+        //Q654
+        answerList.append(Answer(text: "Up to 3 months' imprisonment", correctAnswer: false))
+        answerList.append(Answer(text: "£1,000 and 3 penalty points", correctAnswer: true))
+        answerList.append(Answer(text: "Mandatory disqualification", correctAnswer: false))
+        answerList.append(Answer(text: "All of the above", correctAnswer: false))
+        
+        //Q655
+        answerList.append(Answer(text: "Up to 12 hours", correctAnswer: false))
+        answerList.append(Answer(text: "Up to 8 hours", correctAnswer: false))
+        answerList.append(Answer(text: "Up to 24 hours", correctAnswer: false))
+        answerList.append(Answer(text: "Up to 48 hours", correctAnswer: true))
+        
+        //Q656
+        answerList.append(Answer(text: "A test with assistance for those with reading difficulties", correctAnswer: false))
+        answerList.append(Answer(text: "A lengthened theoretical assessment which may be required after a disqualification", correctAnswer: false))
+        answerList.append(Answer(text: "A lengthened practical test which may be required after a disqualification", correctAnswer: true))
+        answerList.append(Answer(text: "A thorough drug or alcohol test for those suspected of being intoxicated", correctAnswer: false))
+        
+        //Q657
+        answerList.append(Answer(text: "£1,000", correctAnswer: true))
+        answerList.append(Answer(text: "£2,500", correctAnswer: false))
+        answerList.append(Answer(text: "£500", correctAnswer: false))
+        answerList.append(Answer(text: "£2,000", correctAnswer: false))
+        
+        //Q658
+        answerList.append(Answer(text: "Yes, but only if you take half the usual dose", correctAnswer: false))
+        answerList.append(Answer(text: "Yes", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but only if you are certain that your driving will be unaffected", correctAnswer: true))
+        answerList.append(Answer(text: "No", correctAnswer: false))
+        
+        //Q659
+        answerList.append(Answer(text: "Yes, but only if you have been disqualified for less than two years", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but only if you have been disqualified for less than one year", correctAnswer: false))
+        answerList.append(Answer(text: "No", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but only if you have been disqualified for two or more years", correctAnswer: true))
+        
+        //Q660
+        answerList.append(Answer(text: "6 months", correctAnswer: false))
+        answerList.append(Answer(text: "12 months", correctAnswer: true))
+        answerList.append(Answer(text: "3 months", correctAnswer: false))
+        answerList.append(Answer(text: "3 years", correctAnswer: false))
+
+        //Q661
+        answerList.append(Answer(text: "Both A and B", correctAnswer: false))
+        answerList.append(Answer(text: "B", correctAnswer: true))
+        answerList.append(Answer(text: "Neither A nor B", correctAnswer: false))
+        answerList.append(Answer(text: "A", correctAnswer: false))
+
+        //Q662
+        answerList.append(Answer(text: "Wait for the pedestrian to reach the central island", correctAnswer: false))
+        answerList.append(Answer(text: "Sound your horn to hurry the pedestrian along", correctAnswer: false))
+        answerList.append(Answer(text: "Proceed around the pedestrian", correctAnswer: false))
+        answerList.append(Answer(text: "Wait for the pedestrian to finish crossing", correctAnswer: true))
+
+        //Q663
+        answerList.append(Answer(text: "A level crossing without a barrier", correctAnswer: true))
+        answerList.append(Answer(text: "A no through road", correctAnswer: false))
+        answerList.append(Answer(text: "A tunnel", correctAnswer: false))
+        answerList.append(Answer(text: "A four-way junction", correctAnswer: false))
+
+        //Q664
+        answerList.append(Answer(text: "The motorway is closed ahead; exit immediately", correctAnswer: false))
+        answerList.append(Answer(text: "The bridge ahead is out; prepare to stop", correctAnswer: false))
+        answerList.append(Answer(text: "The motorway ends here", correctAnswer: true))
+        answerList.append(Answer(text: "There is a low bridge ahead", correctAnswer: false))
+
+        //Q665
+        answerList.append(Answer(text: "Treat each roundabout separately", correctAnswer: true))
+        answerList.append(Answer(text: "Keep moving until you reach your exit", correctAnswer: false))
+        answerList.append(Answer(text: "You must not change roundabouts", correctAnswer: false))
+        answerList.append(Answer(text: "Treat all the roundabouts like one big junction", correctAnswer: false))
+
+        //Q666
+        answerList.append(Answer(text: "There is a two-way road ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Do not overtake", correctAnswer: false))
+        answerList.append(Answer(text: "Oncoming vehicles have priority", correctAnswer: false))
+        answerList.append(Answer(text: "Your lane has priority", correctAnswer: true))
+
+        //Q667
+        answerList.append(Answer(text: "Prepare to go, but wait for the light to turn green", correctAnswer: true))
+        answerList.append(Answer(text: "The traffic light is broken. Follow the normal right-of-way rules", correctAnswer: false))
+        answerList.append(Answer(text: "Drive through if you are turning left", correctAnswer: false))
+        answerList.append(Answer(text: "Drive through", correctAnswer: false))
+
+        //Q668
+        answerList.append(Answer(text: "B only", correctAnswer: false))
+        answerList.append(Answer(text: "A only", correctAnswer: false))
+        answerList.append(Answer(text: "Both A and B", correctAnswer: true))
+        answerList.append(Answer(text: "Neither A nor B", correctAnswer: false))
+
+        //Q669
+        answerList.append(Answer(text: "National speed limits now apply", correctAnswer: false))
+        answerList.append(Answer(text: "There is a tunnel ahead", correctAnswer: false))
+        answerList.append(Answer(text: "The road is closed ahead", correctAnswer: false))
+        answerList.append(Answer(text: "No vehicles are allowed past this point", correctAnswer: true))
+
+        //Q670
+        answerList.append(Answer(text: "The motorway is heavily congested ahead; exit here to save time", correctAnswer: false))
+        answerList.append(Answer(text: "The right lane is ending, but the left lane is still open", correctAnswer: true))
+        answerList.append(Answer(text: "The right lane is heavily congested ahead", correctAnswer: false))
+        answerList.append(Answer(text: "The motorway ends ahead; take the next exit", correctAnswer: false))
+
+        //Q671
+        answerList.append(Answer(text: "In an area where you cannot load or unload", correctAnswer: false))
+        answerList.append(Answer(text: "In an area where you cannot stop, park, load, or unload", correctAnswer: true))
+        answerList.append(Answer(text: "In an area where you cannot stop or park", correctAnswer: false))
+        answerList.append(Answer(text: "In an area where you cannot park", correctAnswer: false))
+        
+        //Q672
+        answerList.append(Answer(text: "In the centre of your lane", correctAnswer: false))
+        answerList.append(Answer(text: "Anywhere in your lane", correctAnswer: false))
+        answerList.append(Answer(text: "To the right edge of your lane", correctAnswer: true))
+        answerList.append(Answer(text: "To the left edge of your lane", correctAnswer: false))
+        
+        //Q673
+        answerList.append(Answer(text: "Speed up to pass through", correctAnswer: false))
+        answerList.append(Answer(text: "Continue through, but only if you cannot safely stop in time", correctAnswer: true))
+        answerList.append(Answer(text: "Continue if you can cross the junction before the light turns red", correctAnswer: false))
+        answerList.append(Answer(text: "Always stop", correctAnswer: false))
+        
+        //Q674
+        answerList.append(Answer(text: "No buses are allowed on this road", correctAnswer: true))
+        answerList.append(Answer(text: "Only buses are allowed on this road", correctAnswer: false))
+        answerList.append(Answer(text: "There is a bus stop ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a bus lane ahead", correctAnswer: false))
+        
+        //Q675
+        answerList.append(Answer(text: "National speed limits now apply", correctAnswer: true))
+        answerList.append(Answer(text: "The road is closed ahead", correctAnswer: false))
+        answerList.append(Answer(text: "This area is for trams only", correctAnswer: false))
+        answerList.append(Answer(text: "Pass an obstacle to the left", correctAnswer: false))
+        
+        //Q676
+        answerList.append(Answer(text: "When the cycle lane is bordered by a broken white line and crossing the border is unavoidable", correctAnswer: true))
+        answerList.append(Answer(text: "Never", correctAnswer: false))
+        answerList.append(Answer(text: "When the cycle lane is bordered by a solid white line", correctAnswer: false))
+        answerList.append(Answer(text: "When the cycle lane is bordered by a broken white line", correctAnswer: false))
+        
+        //Q677
+        answerList.append(Answer(text: "Your lane has priority", correctAnswer: false))
+        answerList.append(Answer(text: "Do not overtake", correctAnswer: true))
+        answerList.append(Answer(text: "There is a two-way road ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Oncoming vehicles have priority", correctAnswer: false))
+        
+        //Q678
+        answerList.append(Answer(text: "There are steep, undulating hills ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There are speed bumps ahead", correctAnswer: false))
+        answerList.append(Answer(text: "The road ahead is subject to flooding", correctAnswer: false))
+        answerList.append(Answer(text: "The road is uneven ahead", correctAnswer: true))
+        
+        //Q679
+        answerList.append(Answer(text: "No parking or waiting is allowed", correctAnswer: false))
+        answerList.append(Answer(text: "No parking is allowed", correctAnswer: false))
+        answerList.append(Answer(text: "No parking, waiting, or loading is allowed during certain hours", correctAnswer: false))
+        answerList.append(Answer(text: "No parking, waiting, or loading is allowed at any time", correctAnswer: true))
+        
+        //Q680
+        answerList.append(Answer(text: "You can park on either side of the road here", correctAnswer: false))
+        answerList.append(Answer(text: "Motorists can pass an island or obstacle on either side", correctAnswer: true))
+        answerList.append(Answer(text: "There is a Y-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a pedestrian crossing ahead", correctAnswer: false))
+
+        //Q681
+        answerList.append(Answer(text: "Only when the pedestrian has completely crossed the road", correctAnswer: true))
+        answerList.append(Answer(text: "Only when the pedestrian has vacated your side of the road", correctAnswer: false))
+        answerList.append(Answer(text: "Only when the pedestrian has vacated your lane", correctAnswer: false))
+        answerList.append(Answer(text: "Immediately, so long as you avoid the pedestrian", correctAnswer: false))
+        
+        //Q682
+        answerList.append(Answer(text: "The speed limit is 30 mph", correctAnswer: false))
+        answerList.append(Answer(text: "The recommended speed limit is 30 mph", correctAnswer: false))
+        answerList.append(Answer(text: "The minimum speed limit is 30 mph", correctAnswer: true))
+        answerList.append(Answer(text: "The speed limit for large vehicles is 30 mph", correctAnswer: false))
+        
+        //Q683
+        answerList.append(Answer(text: "Every lane is closed; take the first exit", correctAnswer: false))
+        answerList.append(Answer(text: "There is a low bridge ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Every lane is closed; do not proceed any further", correctAnswer: true))
+        answerList.append(Answer(text: "There is a toll booth ahead", correctAnswer: false))
+        
+        //Q684
+        answerList.append(Answer(text: "Mini-roundabout ahead", correctAnswer: true))
+        answerList.append(Answer(text: "U-turns permitted ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Right turn only ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Roundabout ahead", correctAnswer: false))
+        
+        //Q685
+        answerList.append(Answer(text: "At any time", correctAnswer: false))
+        answerList.append(Answer(text: "Briefly before you turn", correctAnswer: false))
+        answerList.append(Answer(text: "Not during the lane's hours of operation", correctAnswer: true))
+        answerList.append(Answer(text: "Only when there are no buses present", correctAnswer: false))
+        
+        //Q686
+        answerList.append(Answer(text: "The recommended speed limit is 30 mph", correctAnswer: false))
+        answerList.append(Answer(text: "The minimum speed limit is no longer 30 mph", correctAnswer: true))
+        answerList.append(Answer(text: "The maximum speed limit is no longer 30 mph", correctAnswer: false))
+        answerList.append(Answer(text: "The minimum speed limit is 30 mph", correctAnswer: false))
+        
+        //Q687
+        answerList.append(Answer(text: "Point B (in the middle of the junction where you don't intend to turn)", correctAnswer: true))
+        answerList.append(Answer(text: "Point A (a good distance from where you intend to turn)", correctAnswer: false))
+        answerList.append(Answer(text: "Point C (just after the junction where you don't intend to turn)", correctAnswer: false))
+        answerList.append(Answer(text: "None of the above", correctAnswer: false))
+        
+        //Q688
+        answerList.append(Answer(text: "In an area where you cannot stop at any time", correctAnswer: false))
+        answerList.append(Answer(text: "In a controlled parking zone", correctAnswer: true))
+        answerList.append(Answer(text: "In an area where you cannot load or unload", correctAnswer: false))
+        answerList.append(Answer(text: "In an area where you cannot stop, park, load, or unload", correctAnswer: false))
+        
+        //Q689
+        answerList.append(Answer(text: "at the first stop line you reach", correctAnswer: true))
+        answerList.append(Answer(text: "at the stop line closest to the junction", correctAnswer: false))
+        answerList.append(Answer(text: "at the first stop line, then move forward to the next one when it is safe", correctAnswer: false))
+        answerList.append(Answer(text: "at the stop line closest to the junction if there are no cyclists present", correctAnswer: false))
+        
+        //Q690
+        answerList.append(Answer(text: "Use your gears to help you slow down", correctAnswer: false))
+        answerList.append(Answer(text: "Avoid stopping suddenly if possible", correctAnswer: false))
+        answerList.append(Answer(text: "Be ready to reduce your speed for slowly descending vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Do all of the above", correctAnswer: true))
+
+        //Q691
+        answerList.append(Answer(text: "A and C", correctAnswer: true))
+        answerList.append(Answer(text: "C", correctAnswer: false))
+        answerList.append(Answer(text: "A", correctAnswer: false))
+        answerList.append(Answer(text: "B", correctAnswer: false))
+
+        //Q692
+        answerList.append(Answer(text: "Yes, at any time", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but you must be carrying at least two passengers", correctAnswer: true))
+        answerList.append(Answer(text: "Yes, but you must be carrying at least one passenger", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but you must remain in the lane for at least two miles", correctAnswer: false))
+
+        //Q693
+        answerList.append(Answer(text: "Oncoming traffic", correctAnswer: false))
+        answerList.append(Answer(text: "Only vehicles that are turning right", correctAnswer: false))
+        answerList.append(Answer(text: "Any vehicle that is turning right or overtaking", correctAnswer: true))
+        answerList.append(Answer(text: "Traffic in your lane", correctAnswer: false))
+
+        //Q694
+        answerList.append(Answer(text: "The exit ahead is closed", correctAnswer: false))
+        answerList.append(Answer(text: "Slow down for a left bend ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Take the next exit.", correctAnswer: true))
+        answerList.append(Answer(text: "Change lanes", correctAnswer: false))
+
+        //Q695
+        answerList.append(Answer(text: "Sound your horn; they have no right to be there", correctAnswer: false))
+        answerList.append(Answer(text: "Wait for the children to move", correctAnswer: true))
+        answerList.append(Answer(text: "Drive around the children", correctAnswer: false))
+        answerList.append(Answer(text: "You should not be driving in a home zone", correctAnswer: false))
+
+        //Q696
+        answerList.append(Answer(text: "Slow down; there is a school ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a residential area ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a paddock with a gate ahead; prepare to stop", correctAnswer: false))
+        answerList.append(Answer(text: "There is a level crossing with a barrier or gate ahead", correctAnswer: true))
+
+        //Q697
+        answerList.append(Answer(text: "A road with a steep camber", correctAnswer: false))
+        answerList.append(Answer(text: "A town with an unusually high tax rate", correctAnswer: false))
+        answerList.append(Answer(text: "A steep descent", correctAnswer: false))
+        answerList.append(Answer(text: "A steep ascent", correctAnswer: true))
+
+        //Q698
+        answerList.append(Answer(text: "You cannot cross here", correctAnswer: false))
+        answerList.append(Answer(text: "Wait for the road to clear and then cross it in one go", correctAnswer: false))
+        answerList.append(Answer(text: "Cross each side as if it were a separate road", correctAnswer: true))
+        answerList.append(Answer(text: "Drive across; you have priority", correctAnswer: false))
+
+        //Q699
+        answerList.append(Answer(text: "Steep descent ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Lane closed ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Right bend ahead", correctAnswer: false))
+        answerList.append(Answer(text: "300 yards to the next exit", correctAnswer: true))
+
+        //Q700
+        answerList.append(Answer(text: "You must give way at the T-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "You have priority at the T-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a T-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is no through road", correctAnswer: true))
 
 //        //Q641
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
@@ -3920,8 +4280,5 @@ class AnswerBank {
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 
-
-
-        
     }
 }

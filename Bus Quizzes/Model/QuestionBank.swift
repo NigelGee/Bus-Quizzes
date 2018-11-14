@@ -784,6 +784,78 @@ class QuestionBank {
         questionList.append(Question(text: "What is the national speed limit for a car towing a trailer on a single carriageway?", image: ""))
         //questionList.append(Question(text: "<#T##String#>", image: ""))
         
+        //641-650
+        questionList.append(Question(text: "A recently licenced driver will be disqualified if he or she accumulates how many penalty points?", image: ""))
+        questionList.append(Question(text: "You hold a category B (car and small vehicle) licence. What size trailer are you permitted to tow?", image: ""))
+        questionList.append(Question(text: "What is the fine for failing to wear a seat belt?", image: ""))
+        questionList.append(Question(text: "What is the national speed limit on a single carriageway?", image: ""))
+        questionList.append(Question(text: "What is the national speed limit for a built-up area?", image: ""))
+        questionList.append(Question(text: "What is the fine for driving a car without insurance if the case goes to court?", image: ""))
+        questionList.append(Question(text: "You have received a three-month disqualification. How do you get your licence back?", image: ""))
+        questionList.append(Question(text: "You have earned too many penalty points and have been disqualified. How long will the disqualification last?", image: ""))
+        questionList.append(Question(text: "What is the maximum penalty for a traffic light offence?", image: ""))
+        questionList.append(Question(text: "How much driving experience must you have before you can apply for your full licence?", image: ""))
+        
+        //651-660
+        questionList.append(Question(text: "What is the maximum penalty for causing death by dangerous or intoxicated driving?", image: ""))
+        questionList.append(Question(text: "How close to a junction may you park?", image: ""))
+        questionList.append(Question(text: "What is the penalty for failing to reveal your identity after being pulled over?", image: ""))
+        questionList.append(Question(text: "What is the penalty for using a hand-held phone when driving a car?", image: ""))
+        questionList.append(Question(text: "How long does alcohol take to leave your system?", image: ""))
+        questionList.append(Question(text: "What is an extended retest?", image: ""))
+        questionList.append(Question(text: "What is the maximum fine for speeding (not on the motorway)?", image: ""))
+        questionList.append(Question(text: "Can you drive after taking over-the-counter medication?", image: ""))
+        questionList.append(Question(text: "Can you apply for a reduced disqualification period?", image: ""))
+        questionList.append(Question(text: "What is the minimum disqualification period for drink driving?", image: ""))
+
+        //661-670
+        questionList.append(Question(text: "Which vehicles are turning correctly at this roundabout?", image: "roadsigns-2-1"))
+        questionList.append(Question(text: "You stop at a pelican crossing with a central island. The light turns green, but someone is still crossing. What should you do?", image: "roadsigns-2-2"))
+        questionList.append(Question(text: "You see this sign by the roadside. What is ahead?", image: "roadsigns-2-3"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-4"))
+        questionList.append(Question(text: "What is the correct way to navigate multiple mini-roundabouts?", image: "roadsigns-2-5"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-6"))
+        questionList.append(Question(text: "You have stopped at a red light. The traffic light changes to red and amber. What should you do?", image: "roadsigns-2-7"))
+        questionList.append(Question(text: "Two cars are turning right at a junction. In which scenarios are both cars turning legally?", image: "roadsigns-2-8"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-9"))
+        questionList.append(Question(text: "You are on the motorway and you see this sign. What does it mean?", image: "roadsigns-2-10"))
+        
+        //671-680
+        questionList.append(Question(text: "Where will you find this sign?", image: "roadsigns-3-1"))
+        questionList.append(Question(text: "You are waiting for a gap in traffic so you can turn right onto a minor road. Where should you wait?", image: "roadsigns-3-2"))
+        questionList.append(Question(text: "You arrive at an amber traffic light. What should you do?", image: "roadsigns-3-3"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-3-4"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-3-5"))
+        questionList.append(Question(text: "When can you drive in an operational cycle lane?", image: "roadsigns-3-6"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-3-7"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-3-8"))
+        questionList.append(Question(text: "You arrive at a section of road bordered by a pair of red lines. What do these lines mean?", image: "roadsigns-3-9"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-3-10"))
+
+        //681-690
+        questionList.append(Question(text: "You stop at a zebra crossing to let a pedestrian cross. When can you proceed?", image: "roadsigns-4-1"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-4-2"))
+        questionList.append(Question(text: "You see this sign on the motorway. What does it mean?", image: "roadsigns-4-3"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-4-4"))
+        questionList.append(Question(text: "When can you drive in a bus lane?", image: "roadsigns-4-5"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-4-6"))
+        questionList.append(Question(text: "Where should you start indicating for the left turn pictured?", image: "roadsigns-4-7"))
+        questionList.append(Question(text: "Where will you find this sign?", image: "roadsigns-4-8"))
+        questionList.append(Question(text: "You arrive at a red traffic light with a bike lane and two stop lines. You should stop", image: "roadsigns-4-9"))
+        questionList.append(Question(text: "What precautions should you take when you drive down a steep hill?", image: "roadsigns-4-10"))
+
+        //691-700
+        questionList.append(Question(text: "Three cars arrive at a junction. Which cars have priority?", image: "roadsigns-5-1"))
+        questionList.append(Question(text: "You are driving an ordinary car along the motorway. Can you enter this HOV lane?", image: "roadsigns-5-2"))
+        questionList.append(Question(text: "You are on a single carriageway with three lanes. Who may drive in the centre lane?", image: "roadsigns-5-3"))
+        questionList.append(Question(text: "You see this flashing amber sign on the motorway. What does it mean?", image: "roadsigns-5-4"))
+        questionList.append(Question(text: "You see children playing on the road in a Home Zone. What should you do?", image: "roadsigns-5-5"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-5-6"))
+        questionList.append(Question(text: "After seeing this sign, what should you beware of?", image: "roadsigns-5-7"))
+        questionList.append(Question(text: "You wish to cross this dual carriageway. How should you cross?", image: "roadsigns-5-8"))
+        questionList.append(Question(text: "You see this sign on the motorway. What does it mean?", image: "roadsigns-5-9"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-5-10"))
+
 //        //641-650
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
@@ -796,7 +868,5 @@ class QuestionBank {
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 
-
-        
     }
 }
