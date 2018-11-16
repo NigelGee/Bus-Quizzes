@@ -84,7 +84,7 @@ class QuestionBank {
         questionList.append(Question(text: "After heavy rain, the motorway is wet and road spray is affecting visibility and overall driving conditions. What do you do?", image: ""))
         questionList.append(Question(text: "You're going down a steep hill, to help control the vehicle you should:", image: ""))
         questionList.append(Question(text: "In which scenario should you never consider overtaking cyclists?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What does this road sign indicate?", image: "roadsigns-8-9"))
         
         //61-70
         questionList.append(Question(text: "You need to make a journey but it is very foggy. What should you do:", image: ""))

@@ -369,10 +369,10 @@ class AnswerBank {
         answerList.append(Answer(text: "When the road is narrower than usual", correctAnswer: false))
         
         //Q60
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Mini-roundabout ahead", correctAnswer: false))
+        answerList.append(Answer(text: "No vehicles past this point", correctAnswer: false))
+        answerList.append(Answer(text: "Roundabout ahead", correctAnswer: true))
+        answerList.append(Answer(text: "Ring road ahead", correctAnswer: false))
         
         //Q61
         answerList.append(Answer(text: "Keep two seconds behind the vehicle in front", correctAnswer: false))
