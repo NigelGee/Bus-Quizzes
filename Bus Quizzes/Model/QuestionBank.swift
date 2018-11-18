@@ -533,12 +533,12 @@ class QuestionBank {
         questionList.append(Question(text: "You are approaching a pelican crossing, where there is a flashing amber light. You need to:", image: ""))
         
         //431-440
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the minimum disqualification period for drink driving?", image: ""))
         questionList.append(Question(text: "What colour are the reflective cat's eyes that can be found in between lanes on a three-lane motorway?", image: ""))
         questionList.append(Question(text: "When preparing to come to a stop, you should:", image: ""))
         questionList.append(Question(text: "If you turn the steering wheel when your car isn't in motion, which component of your vehicle can be damaged?", image: ""))
         questionList.append(Question(text: "While driving down a motorway, you notice that red lights are flashing in your lane, but not others. You need to:", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Can you apply for a reduced disqualification period?", image: ""))
         questionList.append(Question(text: "What is the minimum distance away from a junction that you can park?", image: ""))
         questionList.append(Question(text: "When someone who has been in a collision stops breathing, you need to:", image: ""))
         questionList.append(Question(text: "You are driving behind an inexperienced motorist. How should you respond?", image: ""))
@@ -557,14 +557,14 @@ class QuestionBank {
         questionList.append(Question(text: "You DON'T need to notify the DVLA if:", image: ""))
         
         //451-460
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Can you drive after taking over-the-counter medication?", image: ""))
         questionList.append(Question(text: "When feeling fatigued, you should stop your car in a safe place and take a break as soon as possible. In the meantime, you need to:", image: ""))
         questionList.append(Question(text: "In which conditions is it acceptable to have a time gap of two seconds in between your car and the vehicle in front?", image: ""))
         questionList.append(Question(text: "There is ice on the road, with sub-zero temperatures outside. How should you handle your vehicle on the approach to a sharp bend?", image: ""))
         questionList.append(Question(text: "The main benefit of a car with an anti-lock brake mechanism installed is:", image: ""))
         questionList.append(Question(text: "If your engine has caught fire, you need to:", image: ""))
         questionList.append(Question(text: "What should you do if you want the engine to control the speed of your car?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the maximum fine for speeding (not on the motorway)?", image: ""))
         questionList.append(Question(text: "At the scene of the crash, somebody is suffering from serious burns. You need to:", image: ""))
         questionList.append(Question(text: "You are on a dual carriageway, when unexpectedly, a blue van cuts into your lane without notice. At this point, you need to:", image: ""))
         
@@ -578,7 +578,7 @@ class QuestionBank {
         questionList.append(Question(text: "You are behind a cyclist who is indicating that he is turning right at the end of the road in a few metres. You need to", image: ""))
         questionList.append(Question(text: "You are driving down a motorway. Towards the left-hand side of the carriageway, what colour are the reflective cat's eyes?", image: ""))
         questionList.append(Question(text: "When are you allowed to reverse from a quiet side road into the main road?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is an extended retest?", image: ""))
         
         //471-480
         questionList.append(Question(text: "What is the purpose of a SORN certificate?", image: ""))
@@ -587,7 +587,7 @@ class QuestionBank {
         questionList.append(Question(text: "What does third-party insurance cover?", image: ""))
         questionList.append(Question(text: "Icy roads, or surfaces with fresh snow, mean that it could take your car far longer to come to a halt than it normally does. In these conditions, stopping distances could be:", image: ""))
         questionList.append(Question(text: "You are overtaking a stationary bus. Why should you proceed with caution?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "How long does alcohol take to leave your system?", image: ""))
         questionList.append(Question(text: "The main reason why it is more difficult to overtake lorries and other large vehicles compared to cars is because:", image: ""))
         questionList.append(Question(text: "As you brake, your car is pulling to one side. At this point, you need to:", image: ""))
         questionList.append(Question(text: "You are planning to turn to the right at a junction, but your view is compromised because of parked cars. You need to:", image: ""))
@@ -605,9 +605,9 @@ class QuestionBank {
         questionList.append(Question(text: "You are waiting for a passenger to join you in the car, but you are five minutes early. In the meantime, you should:", image: ""))
         
         //491-500
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the penalty for using a hand-held phone when driving a car?", image: ""))
         questionList.append(Question(text: "When is it illegal for a horn to be sounded?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the penalty for failing to reveal your identity after being pulled over?", image: ""))
         questionList.append(Question(text: "Prior to travelling through a tunnel, you need to:", image: ""))
         questionList.append(Question(text: "A journey is essential, but the weather is foggy and visibility is exceptionally poor. You need to:", image: ""))
         questionList.append(Question(text: "If you arrive at the scene of an accident, any injured parties need to be looked after. If it is safe to do so, you should:", image: ""))
@@ -632,7 +632,7 @@ class QuestionBank {
         questionList.append(Question(text: "When must you dip your high-beam headlights?", image: ""))
         questionList.append(Question(text: "Which way should you steer if you skid?", image: ""))
         questionList.append(Question(text: "Whilst you are driving through the rain, your steering becomes unresponsive. What should you do?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "How close to a junction may you park?", image: ""))
         questionList.append(Question(text: "Two vehicles meet head to head on a steep single-track road. Which vehicle has priority?", image: ""))
         questionList.append(Question(text: "Can you drive through a pelican crossing with a green light?", image: ""))
         questionList.append(Question(text: "You arrive at a pelican crossing with a central island. Should you treat this as one crossing or two?", image: ""))
@@ -648,7 +648,7 @@ class QuestionBank {
         questionList.append(Question(text: "When can you use a hand-held mobile phone while driving?", image: ""))
         questionList.append(Question(text: "Which of the following statements about large vehicles (such as buses and articulated lorries) is FALSE?", image: ""))
         questionList.append(Question(text: "Can you wait, load, unload, or park by a kerb with a double red line?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the maximum penalty for causing death by dangerous or intoxicated driving?", image: ""))
         questionList.append(Question(text: "You see a pedestrian walking with a dog with a red-and-white harness. Which of the following is most likely?", image: ""))
         questionList.append(Question(text: "You see a zebra crossing with a central island. Should you treat this as one crossing or two?", image: ""))
         
@@ -665,10 +665,10 @@ class QuestionBank {
         questionList.append(Question(text: "You wish to park a manual car facing downhill next to a kerb. How should you park?", image: ""))
         
         //541-550
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You have received a three-month disqualification. How do you get your licence back?", image: ""))
+        questionList.append(Question(text: "You have earned too many penalty points and have been disqualified. How long will the disqualification last?", image: ""))
+        questionList.append(Question(text: "What is the maximum penalty for a traffic light offence?", image: ""))
+        questionList.append(Question(text: "How much driving experience must you have before you can apply for your full licence?", image: ""))
         questionList.append(Question(text: "You need to give first aid. What does the 'R' in the acronym DRABC stand for?", image: ""))
         questionList.append(Question(text: "At which of the following places should you drive with extra caution?", image: ""))
         questionList.append(Question(text: "You see a traffic signal with red, amber, green, and white lights. What does the white light mean?", image: ""))
@@ -692,7 +692,7 @@ class QuestionBank {
         questionList.append(Question(text: "You have parked at the roadside. What must you do before you vacate your vehicle?", image: ""))
         questionList.append(Question(text: "You are being overtaken. The overtaking car is having trouble getting back into your lane ahead of you. What should you do?", image: ""))
         questionList.append(Question(text: "You approach a red traffic light at a junction. Where must you stop?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the fine for driving a car without insurance if the case goes to court?", image: ""))
         questionList.append(Question(text: "Which lane should you use on a two-lane dual carriageway?", image: ""))
         questionList.append(Question(text: "You notice an area where the kerb is lowered for easier pedestrian access. Can you park here?", image: ""))
         questionList.append(Question(text: "What special speed limits apply to a car that is towing a caravan or trailer?", image: ""))
@@ -710,7 +710,7 @@ class QuestionBank {
         questionList.append(Question(text: "You are moving off from the kerb. You should NOT", image: ""))
         questionList.append(Question(text: "What should you do to your brakes after you have driven through deep water?", image: ""))
         questionList.append(Question(text: "Which one of the following is true about driving near a bus stop?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the national speed limit for a built-up area?", image: ""))
 
         //581-590
         questionList.append(Question(text: "You are driving on a road with a speed limit of 70 mph (112 km/h). How fast should you drive?", image: ""))
@@ -725,7 +725,7 @@ class QuestionBank {
         questionList.append(Question(text: "Can you wait, load, unload, or park by a kerb with a double yellow line?", image: "theory-58-10"))
         
         //591-600
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the national speed limit on a single carriageway?", image: ""))
         questionList.append(Question(text: "You are driving a little below the speed limit and there are several cars behind you. What should you do?", image: ""))
         questionList.append(Question(text: "What should you do when an ambulance with its lights and sirens approaches you from behind?", image: ""))
         questionList.append(Question(text: "You are entering a roundabout. Who has priority unless signs state otherwise?", image: ""))
@@ -739,8 +739,8 @@ class QuestionBank {
         //601-610
         questionList.append(Question(text: "Can you overtake an operating snowplough?", image: ""))
         questionList.append(Question(text: "What should you do if you are dazzled by the sun whilst you are driving?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You hold a category B (car and small vehicle) licence. What size trailer are you permitted to tow?", image: ""))
+        questionList.append(Question(text: "What is the fine for failing to wear a seat belt?", image: ""))
         questionList.append(Question(text: "When may you leave a stationary vehicle's engine running?", image: ""))
         questionList.append(Question(text: "Which of the following are true about a level crossing with user-operated gates?", image: ""))
         questionList.append(Question(text: "You are parking a manual car facing uphill next to a kerb. How should you park?", image: ""))
@@ -783,65 +783,8 @@ class QuestionBank {
         questionList.append(Question(text: "A full licence holder will be disqualified if he or she accumulates how many points?", image: ""))
         questionList.append(Question(text: "Can a driver be imprisoned for driving while disqualified?", image: ""))
         questionList.append(Question(text: "What is the national speed limit for a car towing a trailer on a single carriageway?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        
-        //641-650
         questionList.append(Question(text: "A recently licenced driver will be disqualified if he or she accumulates how many penalty points?", image: ""))
-        questionList.append(Question(text: "You hold a category B (car and small vehicle) licence. What size trailer are you permitted to tow?", image: ""))
-        questionList.append(Question(text: "What is the fine for failing to wear a seat belt?", image: ""))
-        questionList.append(Question(text: "What is the national speed limit on a single carriageway?", image: ""))
-        questionList.append(Question(text: "What is the national speed limit for a built-up area?", image: ""))
-        questionList.append(Question(text: "What is the fine for driving a car without insurance if the case goes to court?", image: ""))
-        questionList.append(Question(text: "You have received a three-month disqualification. How do you get your licence back?", image: ""))
-        questionList.append(Question(text: "You have earned too many penalty points and have been disqualified. How long will the disqualification last?", image: ""))
-        questionList.append(Question(text: "What is the maximum penalty for a traffic light offence?", image: ""))
-        questionList.append(Question(text: "How much driving experience must you have before you can apply for your full licence?", image: ""))
         
-        //651-660
-        questionList.append(Question(text: "What is the maximum penalty for causing death by dangerous or intoxicated driving?", image: ""))
-        questionList.append(Question(text: "How close to a junction may you park?", image: ""))
-        questionList.append(Question(text: "What is the penalty for failing to reveal your identity after being pulled over?", image: ""))
-        questionList.append(Question(text: "What is the penalty for using a hand-held phone when driving a car?", image: ""))
-        questionList.append(Question(text: "How long does alcohol take to leave your system?", image: ""))
-        questionList.append(Question(text: "What is an extended retest?", image: ""))
-        questionList.append(Question(text: "What is the maximum fine for speeding (not on the motorway)?", image: ""))
-        questionList.append(Question(text: "Can you drive after taking over-the-counter medication?", image: ""))
-        questionList.append(Question(text: "Can you apply for a reduced disqualification period?", image: ""))
-        questionList.append(Question(text: "What is the minimum disqualification period for drink driving?", image: ""))
-
-        //661-670
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        //671-680
-        
-        
-        
-        
-        
-
-        //681-690
-        
-        
-        
-        
-        
-
-        //691-700
-        
-        
-        
-        
-        
-
 //        //641-650
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
