@@ -1414,11 +1414,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Any vehicle that is turning right or overtaking", correctAnswer: true))
         answerList.append(Answer(text: "Traffic in your lane", correctAnswer: false))
         
-//        //Q234
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q234
+        answerList.append(Answer(text: "Use your gears to help you slow down", correctAnswer: false))
+        answerList.append(Answer(text: "Avoid stopping suddenly if possible", correctAnswer: false))
+        answerList.append(Answer(text: "Be ready to reduce your speed for slowly descending vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Do all of the above", correctAnswer: true))
         
         //Q235
         answerList.append(Answer(text: "Use air conditioning only when you really need it", correctAnswer: false))
@@ -1432,11 +1432,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Check your mirrors and look over your shoulder", correctAnswer: true))
         answerList.append(Answer(text: "Have a look in your interior mirror", correctAnswer: false))
         
-//        //Q237
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q237
+        answerList.append(Answer(text: "at the first stop line you reach", correctAnswer: true))
+        answerList.append(Answer(text: "at the stop line closest to the junction", correctAnswer: false))
+        answerList.append(Answer(text: "at the first stop line, then move forward to the next one when it is safe", correctAnswer: false))
+        answerList.append(Answer(text: "at the stop line closest to the junction if there are no cyclists present", correctAnswer: false))
         
         //Q238
         answerList.append(Answer(text: "Make sure that your brakes are working properly", correctAnswer: true))
@@ -1450,35 +1450,35 @@ class AnswerBank {
         answerList.append(Answer(text: "Continue to drive", correctAnswer: false))
         answerList.append(Answer(text: "Stop at the scene of the accident", correctAnswer: true))
         
-//        //Q240
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q240
+        answerList.append(Answer(text: "In an area where you cannot stop at any time", correctAnswer: false))
+        answerList.append(Answer(text: "In a controlled parking zone", correctAnswer: true))
+        answerList.append(Answer(text: "In an area where you cannot load or unload", correctAnswer: false))
+        answerList.append(Answer(text: "In an area where you cannot stop, park, load, or unload", correctAnswer: false))
         
-//        //Q241
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q241
+        answerList.append(Answer(text: "Mini-roundabout ahead", correctAnswer: true))
+        answerList.append(Answer(text: "U-turns permitted ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Right turn only ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Roundabout ahead", correctAnswer: false))
         
-//        //Q242
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q242
+        answerList.append(Answer(text: "At any time", correctAnswer: false))
+        answerList.append(Answer(text: "Briefly before you turn", correctAnswer: false))
+        answerList.append(Answer(text: "Not during the lane's hours of operation", correctAnswer: true))
+        answerList.append(Answer(text: "Only when there are no buses present", correctAnswer: false))
         
-//        //Q243
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q243
+        answerList.append(Answer(text: "The recommended speed limit is 30 mph", correctAnswer: false))
+        answerList.append(Answer(text: "The minimum speed limit is no longer 30 mph", correctAnswer: true))
+        answerList.append(Answer(text: "The maximum speed limit is no longer 30 mph", correctAnswer: false))
+        answerList.append(Answer(text: "The minimum speed limit is 30 mph", correctAnswer: false))
         
-//        //Q244
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q244
+        answerList.append(Answer(text: "Point B (in the middle of the junction where you don't intend to turn)", correctAnswer: true))
+        answerList.append(Answer(text: "Point A (a good distance from where you intend to turn)", correctAnswer: false))
+        answerList.append(Answer(text: "Point C (just after the junction where you don't intend to turn)", correctAnswer: false))
+        answerList.append(Answer(text: "None of the above", correctAnswer: false))
         
         //Q245
         answerList.append(Answer(text: "Undertaking other drivers", correctAnswer: false))
@@ -1498,23 +1498,24 @@ class AnswerBank {
         answerList.append(Answer(text: "Reduce the charge of the car's battery", correctAnswer: false))
         answerList.append(Answer(text: "Break the law and dazzle other road users", correctAnswer: true))
         
-//        //Q248
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q248
+        answerList.append(Answer(text: "Only when the pedestrian has completely crossed the road", correctAnswer: true))
+        answerList.append(Answer(text: "Only when the pedestrian has vacated your side of the road", correctAnswer: false))
+        answerList.append(Answer(text: "Only when the pedestrian has vacated your lane", correctAnswer: false))
+        answerList.append(Answer(text: "Immediately, so long as you avoid the pedestrian", correctAnswer: false))
         
-//        //Q249
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q249
+        answerList.append(Answer(text: "The speed limit is 30 mph", correctAnswer: false))
+        answerList.append(Answer(text: "The recommended speed limit is 30 mph", correctAnswer: false))
+        answerList.append(Answer(text: "The minimum speed limit is 30 mph", correctAnswer: true))
+        answerList.append(Answer(text: "The speed limit for large vehicles is 30 mph", correctAnswer: false))
         
-//        //Q250
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q250
+        answerList.append(Answer(text: "Every lane is closed; take the first exit", correctAnswer: false))
+        answerList.append(Answer(text: "There is a low bridge ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Every lane is closed; do not proceed any further", correctAnswer: true))
+        answerList.append(Answer(text: "There is a toll booth ahead", correctAnswer: false))
+        
         
 //        //Q251
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
@@ -4101,64 +4102,18 @@ class AnswerBank {
         answerList.append(Answer(text: "There is a pedestrian crossing ahead", correctAnswer: false))
 
         //Q681
-        answerList.append(Answer(text: "Only when the pedestrian has completely crossed the road", correctAnswer: true))
-        answerList.append(Answer(text: "Only when the pedestrian has vacated your side of the road", correctAnswer: false))
-        answerList.append(Answer(text: "Only when the pedestrian has vacated your lane", correctAnswer: false))
-        answerList.append(Answer(text: "Immediately, so long as you avoid the pedestrian", correctAnswer: false))
-        
-        //Q682
-        answerList.append(Answer(text: "The speed limit is 30 mph", correctAnswer: false))
-        answerList.append(Answer(text: "The recommended speed limit is 30 mph", correctAnswer: false))
-        answerList.append(Answer(text: "The minimum speed limit is 30 mph", correctAnswer: true))
-        answerList.append(Answer(text: "The speed limit for large vehicles is 30 mph", correctAnswer: false))
-        
-        //Q683
-        answerList.append(Answer(text: "Every lane is closed; take the first exit", correctAnswer: false))
-        answerList.append(Answer(text: "There is a low bridge ahead", correctAnswer: false))
-        answerList.append(Answer(text: "Every lane is closed; do not proceed any further", correctAnswer: true))
-        answerList.append(Answer(text: "There is a toll booth ahead", correctAnswer: false))
         
         //Q684
-        answerList.append(Answer(text: "Mini-roundabout ahead", correctAnswer: true))
-        answerList.append(Answer(text: "U-turns permitted ahead", correctAnswer: false))
-        answerList.append(Answer(text: "Right turn only ahead", correctAnswer: false))
-        answerList.append(Answer(text: "Roundabout ahead", correctAnswer: false))
-        
-        //Q685
-        answerList.append(Answer(text: "At any time", correctAnswer: false))
-        answerList.append(Answer(text: "Briefly before you turn", correctAnswer: false))
-        answerList.append(Answer(text: "Not during the lane's hours of operation", correctAnswer: true))
-        answerList.append(Answer(text: "Only when there are no buses present", correctAnswer: false))
-        
-        //Q686
-        answerList.append(Answer(text: "The recommended speed limit is 30 mph", correctAnswer: false))
-        answerList.append(Answer(text: "The minimum speed limit is no longer 30 mph", correctAnswer: true))
-        answerList.append(Answer(text: "The maximum speed limit is no longer 30 mph", correctAnswer: false))
-        answerList.append(Answer(text: "The minimum speed limit is 30 mph", correctAnswer: false))
-        
-        //Q687
-        answerList.append(Answer(text: "Point B (in the middle of the junction where you don't intend to turn)", correctAnswer: true))
-        answerList.append(Answer(text: "Point A (a good distance from where you intend to turn)", correctAnswer: false))
-        answerList.append(Answer(text: "Point C (just after the junction where you don't intend to turn)", correctAnswer: false))
-        answerList.append(Answer(text: "None of the above", correctAnswer: false))
+
         
         //Q688
-        answerList.append(Answer(text: "In an area where you cannot stop at any time", correctAnswer: false))
-        answerList.append(Answer(text: "In a controlled parking zone", correctAnswer: true))
-        answerList.append(Answer(text: "In an area where you cannot load or unload", correctAnswer: false))
-        answerList.append(Answer(text: "In an area where you cannot stop, park, load, or unload", correctAnswer: false))
+
         
         //Q689
-        answerList.append(Answer(text: "at the first stop line you reach", correctAnswer: true))
-        answerList.append(Answer(text: "at the stop line closest to the junction", correctAnswer: false))
-        answerList.append(Answer(text: "at the first stop line, then move forward to the next one when it is safe", correctAnswer: false))
-        answerList.append(Answer(text: "at the stop line closest to the junction if there are no cyclists present", correctAnswer: false))
+
         
         //Q690
-        answerList.append(Answer(text: "Use your gears to help you slow down", correctAnswer: false))
-        answerList.append(Answer(text: "Avoid stopping suddenly if possible", correctAnswer: false))
-        answerList.append(Answer(text: "Be ready to reduce your speed for slowly descending vehicles", correctAnswer: false))
-        answerList.append(Answer(text: "Do all of the above", correctAnswer: true))
+        
 
         //Q691
 
