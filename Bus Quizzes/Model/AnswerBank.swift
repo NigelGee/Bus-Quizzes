@@ -1486,11 +1486,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Emergency vehicles", correctAnswer: false))
         answerList.append(Answer(text: "Driving faster than everybody else", correctAnswer: false))
         
-//        //Q246
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q246
+        answerList.append(Answer(text: "You can park on either side of the road here", correctAnswer: false))
+        answerList.append(Answer(text: "Motorists can pass an island or obstacle on either side", correctAnswer: true))
+        answerList.append(Answer(text: "There is a Y-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a pedestrian crossing ahead", correctAnswer: false))
         
         //Q247
         answerList.append(Answer(text: "Ruin the lights for future use", correctAnswer: false))
@@ -1517,29 +1517,29 @@ class AnswerBank {
         answerList.append(Answer(text: "There is a toll booth ahead", correctAnswer: false))
         
         
-//        //Q251
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q251
+        answerList.append(Answer(text: "When the cycle lane is bordered by a broken white line and crossing the border is unavoidable", correctAnswer: true))
+        answerList.append(Answer(text: "Never", correctAnswer: false))
+        answerList.append(Answer(text: "When the cycle lane is bordered by a solid white line", correctAnswer: false))
+        answerList.append(Answer(text: "When the cycle lane is bordered by a broken white line", correctAnswer: false))
         
-//        //Q252
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q252
+        answerList.append(Answer(text: "Your lane has priority", correctAnswer: false))
+        answerList.append(Answer(text: "Do not overtake", correctAnswer: true))
+        answerList.append(Answer(text: "There is a two-way road ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Oncoming vehicles have priority", correctAnswer: false))
         
-//        //Q253
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q253
+        answerList.append(Answer(text: "There are steep, undulating hills ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There are speed bumps ahead", correctAnswer: false))
+        answerList.append(Answer(text: "The road ahead is subject to flooding", correctAnswer: false))
+        answerList.append(Answer(text: "The road is uneven ahead", correctAnswer: true))
         
-//        //Q254
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q254
+        answerList.append(Answer(text: "No parking or waiting is allowed", correctAnswer: false))
+        answerList.append(Answer(text: "No parking is allowed", correctAnswer: false))
+        answerList.append(Answer(text: "No parking, waiting, or loading is allowed during certain hours", correctAnswer: false))
+        answerList.append(Answer(text: "No parking, waiting, or loading is allowed at any time", correctAnswer: true))
         
         //Q255
         answerList.append(Answer(text: "Adjust your internal rear view mirror", correctAnswer: false))
@@ -1553,23 +1553,23 @@ class AnswerBank {
         answerList.append(Answer(text: "There will be a warning light on the dashboard", correctAnswer: true))
         answerList.append(Answer(text: "You won't be able to brake at all", correctAnswer: false))
         
-//        //Q257
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q257
+        answerList.append(Answer(text: "Speed up to pass through", correctAnswer: false))
+        answerList.append(Answer(text: "Continue through, but only if you cannot safely stop in time", correctAnswer: true))
+        answerList.append(Answer(text: "Continue if you can cross the junction before the light turns red", correctAnswer: false))
+        answerList.append(Answer(text: "Always stop", correctAnswer: false))
         
-//        //Q258
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q258
+        answerList.append(Answer(text: "No buses are allowed on this road", correctAnswer: true))
+        answerList.append(Answer(text: "Only buses are allowed on this road", correctAnswer: false))
+        answerList.append(Answer(text: "There is a bus stop ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a bus lane ahead", correctAnswer: false))
         
-//        //Q259
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q259
+        answerList.append(Answer(text: "National speed limits now apply", correctAnswer: true))
+        answerList.append(Answer(text: "The road is closed ahead", correctAnswer: false))
+        answerList.append(Answer(text: "This area is for trams only", correctAnswer: false))
+        answerList.append(Answer(text: "Pass an obstacle to the left", correctAnswer: false))
         
         //Q260
         answerList.append(Answer(text: "If you have to double park", correctAnswer: false))
@@ -1607,11 +1607,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Activate the handbrake", correctAnswer: false))
         answerList.append(Answer(text: "Slam down hard on your brakes", correctAnswer: false))
         
-//        //Q266
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q266
+        answerList.append(Answer(text: "In the centre of your lane", correctAnswer: false))
+        answerList.append(Answer(text: "Anywhere in your lane", correctAnswer: false))
+        answerList.append(Answer(text: "To the right edge of your lane", correctAnswer: true))
+        answerList.append(Answer(text: "To the left edge of your lane", correctAnswer: false))
         
         //Q267
         answerList.append(Answer(text: "Exit the car from the right-hand side", correctAnswer: false))
@@ -1625,11 +1625,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Position your car so it is over the centre line", correctAnswer: false))
         answerList.append(Answer(text: "Flash headlights at other road users", correctAnswer: false))
         
-//        //Q269
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q269
+        answerList.append(Answer(text: "In an area where you cannot load or unload", correctAnswer: false))
+        answerList.append(Answer(text: "In an area where you cannot stop, park, load, or unload", correctAnswer: true))
+        answerList.append(Answer(text: "In an area where you cannot stop or park", correctAnswer: false))
+        answerList.append(Answer(text: "In an area where you cannot park", correctAnswer: false))
         
         //Q270
         answerList.append(Answer(text: "Walk around with them to clear their head", correctAnswer: false))
@@ -4042,64 +4042,19 @@ class AnswerBank {
         answerList.append(Answer(text: "The motorway ends ahead; take the next exit", correctAnswer: false))
 
         //Q671
-        answerList.append(Answer(text: "In an area where you cannot load or unload", correctAnswer: false))
-        answerList.append(Answer(text: "In an area where you cannot stop, park, load, or unload", correctAnswer: true))
-        answerList.append(Answer(text: "In an area where you cannot stop or park", correctAnswer: false))
-        answerList.append(Answer(text: "In an area where you cannot park", correctAnswer: false))
+        
         
         //Q672
-        answerList.append(Answer(text: "In the centre of your lane", correctAnswer: false))
-        answerList.append(Answer(text: "Anywhere in your lane", correctAnswer: false))
-        answerList.append(Answer(text: "To the right edge of your lane", correctAnswer: true))
-        answerList.append(Answer(text: "To the left edge of your lane", correctAnswer: false))
+        
         
         //Q673
-        answerList.append(Answer(text: "Speed up to pass through", correctAnswer: false))
-        answerList.append(Answer(text: "Continue through, but only if you cannot safely stop in time", correctAnswer: true))
-        answerList.append(Answer(text: "Continue if you can cross the junction before the light turns red", correctAnswer: false))
-        answerList.append(Answer(text: "Always stop", correctAnswer: false))
         
-        //Q674
-        answerList.append(Answer(text: "No buses are allowed on this road", correctAnswer: true))
-        answerList.append(Answer(text: "Only buses are allowed on this road", correctAnswer: false))
-        answerList.append(Answer(text: "There is a bus stop ahead", correctAnswer: false))
-        answerList.append(Answer(text: "There is a bus lane ahead", correctAnswer: false))
-        
-        //Q675
-        answerList.append(Answer(text: "National speed limits now apply", correctAnswer: true))
-        answerList.append(Answer(text: "The road is closed ahead", correctAnswer: false))
-        answerList.append(Answer(text: "This area is for trams only", correctAnswer: false))
-        answerList.append(Answer(text: "Pass an obstacle to the left", correctAnswer: false))
         
         //Q676
-        answerList.append(Answer(text: "When the cycle lane is bordered by a broken white line and crossing the border is unavoidable", correctAnswer: true))
-        answerList.append(Answer(text: "Never", correctAnswer: false))
-        answerList.append(Answer(text: "When the cycle lane is bordered by a solid white line", correctAnswer: false))
-        answerList.append(Answer(text: "When the cycle lane is bordered by a broken white line", correctAnswer: false))
         
-        //Q677
-        answerList.append(Answer(text: "Your lane has priority", correctAnswer: false))
-        answerList.append(Answer(text: "Do not overtake", correctAnswer: true))
-        answerList.append(Answer(text: "There is a two-way road ahead", correctAnswer: false))
-        answerList.append(Answer(text: "Oncoming vehicles have priority", correctAnswer: false))
-        
-        //Q678
-        answerList.append(Answer(text: "There are steep, undulating hills ahead", correctAnswer: false))
-        answerList.append(Answer(text: "There are speed bumps ahead", correctAnswer: false))
-        answerList.append(Answer(text: "The road ahead is subject to flooding", correctAnswer: false))
-        answerList.append(Answer(text: "The road is uneven ahead", correctAnswer: true))
-        
-        //Q679
-        answerList.append(Answer(text: "No parking or waiting is allowed", correctAnswer: false))
-        answerList.append(Answer(text: "No parking is allowed", correctAnswer: false))
-        answerList.append(Answer(text: "No parking, waiting, or loading is allowed during certain hours", correctAnswer: false))
-        answerList.append(Answer(text: "No parking, waiting, or loading is allowed at any time", correctAnswer: true))
         
         //Q680
-        answerList.append(Answer(text: "You can park on either side of the road here", correctAnswer: false))
-        answerList.append(Answer(text: "Motorists can pass an island or obstacle on either side", correctAnswer: true))
-        answerList.append(Answer(text: "There is a Y-junction ahead", correctAnswer: false))
-        answerList.append(Answer(text: "There is a pedestrian crossing ahead", correctAnswer: false))
+
 
         //Q681
         
