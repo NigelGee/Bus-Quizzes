@@ -38,7 +38,6 @@ class ViewController: UIViewController {
         
         let maxQuestion : Int = allQuestion.questionList.count
         let maxAnswer : Int = allAnswer.answerList.count
-        print(maxQuestion)
         if maxAnswer != maxQuestion * 4 {
             fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
         }
@@ -223,8 +222,12 @@ class ViewController: UIViewController {
         progressLabel.isHidden = false
         score = 0
         count = 1
-        usedQuestion = []
         incorrectAnswer = []
+        print("\(usedQuestion.count) + \(countLimit) >= \(totalQuestion)")
+        if usedQuestion.count + countLimit >= totalQuestion {
+            usedQuestion = []
+        }
+        
         randomQuestion()
     }
     

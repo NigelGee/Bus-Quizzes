@@ -92,7 +92,7 @@ class QuestionBank {
         questionList.append(Question(text: "Why is there more risk involved in overtaking a lorry than a car:", image: ""))
         questionList.append(Question(text: "You are at the scene of an accident. What should you NOT do:", image: ""))
         questionList.append(Question(text: "When must you NOT sound your horn?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-5-10"))
         questionList.append(Question(text: "You are driving on a motorway and it is foggy. You know where the edge of the left hand lane is because there are reflective studs. What colour are they:", image: ""))
         questionList.append(Question(text: "You are allowed to park on the right hand side of the road at night:", image: ""))
         questionList.append(Question(text: "When you are preparing to turn left off the road, onto a side road, what should you be most wary of?", image: ""))
@@ -142,8 +142,8 @@ class QuestionBank {
         questionList.append(Question(text: "You are driving in very heavy rain. Your stopping distances are likely to be:", image: ""))
         questionList.append(Question(text: "You are driving behind a tractor and would like to get past but you are not sure if it is safe to do so. What should you do:", image: ""))
         questionList.append(Question(text: "You want to make a U turn in the road. Before you do so you should:", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You wish to cross this dual carriageway. How should you cross?", image: "roadsigns-5-8"))
+        questionList.append(Question(text: "You see this sign on the motorway. What does it mean?", image: "roadsigns-5-9"))
         questionList.append(Question(text: "If you park on the road at night when should you use parking lights:", image: ""))
         
         
@@ -271,18 +271,19 @@ class QuestionBank {
         questionList.append(Question(text: "If you find somebody unconscious at the scene of an accident, what should you do?", image: ""))
         questionList.append(Question(text: "There is a pedestrian nearby who has a red and white stick. What do you know about the pedestrian?", image: ""))
         questionList.append(Question(text: "If you have a collision with another vehicle, what will reduce the chances of you injuring your neck?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-5-6"))
+        questionList.append(Question(text: "After seeing this sign, what should you beware of?", image: "roadsigns-5-7"))
+
         questionList.append(Question(text: "On a regular motorway road, with three lanes, what is the furthest-right lane used for?", image: ""))
         questionList.append(Question(text: "If you are driving in very strong wind, and you want to overtake a motorcyclist, how should you go about it?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You see children playing on the road in a Home Zone. What should you do?", image: "roadsigns-5-5"))
         questionList.append(Question(text: "If you are travelling under the speed limit and a driver behind you is flashing their lights, what should you do?", image: ""))
         questionList.append(Question(text: "If your vehicle breaks down in a tunnel, what should you go about doing first?", image: ""))
         
         //221-230
         questionList.append(Question(text: "If you are going to reverse onto a side road but you do not know if the road is clear, what should you do?", image: ""))
         questionList.append(Question(text: "There is a horse and rider in front of you when you are driving on a country road. What do you do in this situation?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You see this flashing amber sign on the motorway. What does it mean?", image: "roadsigns-5-4"))
         questionList.append(Question(text: "As well as sentencing for driving offences, what procedure does a disqualified driver have to follow to obtain another driving licence?", image: ""))
         questionList.append(Question(text: "Excessive wear of the tyre can be due to:", image: ""))
         questionList.append(Question(text: "You are in an accident and another person involved now has a neck injury. Your vehicle has also been damaged. What information do you need from the driver?", image: ""))
@@ -292,9 +293,9 @@ class QuestionBank {
         questionList.append(Question(text: "Imagine you're driving on a country road, and a horse and rider are just in front of you, travelling in the same direction. What do you do?", image: ""))
         
         //231-240
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Three cars arrive at a junction. Which cars have priority?", image: "roadsigns-5-1"))
+        questionList.append(Question(text: "You are driving an ordinary car along the motorway. Can you enter this HOV lane?", image: "roadsigns-5-2"))
+        questionList.append(Question(text: "You are on a single carriageway with three lanes. Who may drive in the centre lane?", image: "roadsigns-5-3"))
         //questionList.append(Question(text: "<#T##String#>", image: ""))
         questionList.append(Question(text: "Ways to minimise fuel consumption while driving include:", image: ""))
         questionList.append(Question(text: "You are trying to emerge from a junction, but there are parked vehicles that are restricting your view. What can you do to improve your knowledge of what's behind you on the road?", image: ""))
@@ -845,16 +846,11 @@ class QuestionBank {
         questionList.append(Question(text: "What precautions should you take when you drive down a steep hill?", image: "roadsigns-4-10"))
 
         //691-700
-        questionList.append(Question(text: "Three cars arrive at a junction. Which cars have priority?", image: "roadsigns-5-1"))
-        questionList.append(Question(text: "You are driving an ordinary car along the motorway. Can you enter this HOV lane?", image: "roadsigns-5-2"))
-        questionList.append(Question(text: "You are on a single carriageway with three lanes. Who may drive in the centre lane?", image: "roadsigns-5-3"))
-        questionList.append(Question(text: "You see this flashing amber sign on the motorway. What does it mean?", image: "roadsigns-5-4"))
-        questionList.append(Question(text: "You see children playing on the road in a Home Zone. What should you do?", image: "roadsigns-5-5"))
-        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-5-6"))
-        questionList.append(Question(text: "After seeing this sign, what should you beware of?", image: "roadsigns-5-7"))
-        questionList.append(Question(text: "You wish to cross this dual carriageway. How should you cross?", image: "roadsigns-5-8"))
-        questionList.append(Question(text: "You see this sign on the motorway. What does it mean?", image: "roadsigns-5-9"))
-        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-5-10"))
+        
+        
+        
+        
+        
 
 //        //641-650
 //        questionList.append(Question(text: "<#T##String#>", image: ""))

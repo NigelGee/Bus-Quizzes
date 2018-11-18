@@ -404,11 +404,11 @@ class AnswerBank {
         answerList.append(Answer(text: "When you are in a built up area between 11.30pm and 7.00am", correctAnswer: true))
         answerList.append(Answer(text: "When you are in a built up area between 8pm and 11:30pm", correctAnswer: false))
         
-//        //Q66
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q66
+        answerList.append(Answer(text: "You must give way at the T-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "You have priority at the T-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a T-junction ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is no through road", correctAnswer: true))
         
         //Q67
         answerList.append(Answer(text: "White", correctAnswer: false))
@@ -658,17 +658,17 @@ class AnswerBank {
         answerList.append(Answer(text: "Look over your shoulder to make sure that all is clear", correctAnswer: true))
         answerList.append(Answer(text: "Choose a lower gear so that you can make the manoeuvre really quickly", correctAnswer: false))
         
-//        //Q108
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q108
+        answerList.append(Answer(text: "You cannot cross here", correctAnswer: false))
+        answerList.append(Answer(text: "Wait for the road to clear and then cross it in one go", correctAnswer: false))
+        answerList.append(Answer(text: "Cross each side as if it were a separate road", correctAnswer: true))
+        answerList.append(Answer(text: "Drive across; you have priority", correctAnswer: false))
         
-//        //Q109
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q109
+        answerList.append(Answer(text: "Steep descent ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Lane closed ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Right bend ahead", correctAnswer: false))
+        answerList.append(Answer(text: "300 yards to the next exit", correctAnswer: true))
         
         //Q110
         answerList.append(Answer(text: "If there is a continuous white line in the middle of the road", correctAnswer: false))
@@ -1294,17 +1294,17 @@ class AnswerBank {
         answerList.append(Answer(text: "A properly adjusted head rest on your seat", correctAnswer: true))
         answerList.append(Answer(text: "An appropriately-sized steering wheel", correctAnswer: false))
         
-//        //Q214
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q214
+        answerList.append(Answer(text: "Slow down; there is a school ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a residential area ahead", correctAnswer: false))
+        answerList.append(Answer(text: "There is a paddock with a gate ahead; prepare to stop", correctAnswer: false))
+        answerList.append(Answer(text: "There is a level crossing with a barrier or gate ahead", correctAnswer: true))
         
-//        //Q215
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q215
+        answerList.append(Answer(text: "A road with a steep camber", correctAnswer: false))
+        answerList.append(Answer(text: "A town with an unusually high tax rate", correctAnswer: false))
+        answerList.append(Answer(text: "A steep descent", correctAnswer: false))
+        answerList.append(Answer(text: "A steep ascent", correctAnswer: true))
         
         //Q216
         answerList.append(Answer(text: "For lorries and large vehicles", correctAnswer: false))
@@ -1318,11 +1318,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Overtake the motorcyclist, giving them as much room as possible", correctAnswer: true))
         answerList.append(Answer(text: "Pass at a low speed", correctAnswer: false))
         
-//        //Q218
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q218
+        answerList.append(Answer(text: "Sound your horn; they have no right to be there", correctAnswer: false))
+        answerList.append(Answer(text: "Wait for the children to move", correctAnswer: true))
+        answerList.append(Answer(text: "Drive around the children", correctAnswer: false))
+        answerList.append(Answer(text: "You should not be driving in a home zone", correctAnswer: false))
         
         //Q219
         answerList.append(Answer(text: "Brake quickly so that the drivers behind you will see your brake lights", correctAnswer: false))
@@ -1348,11 +1348,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Drive past slowly and provide plenty of room", correctAnswer: true))
         answerList.append(Answer(text: "Flash your lights", correctAnswer: false))
         
-//        //Q223
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q223
+        answerList.append(Answer(text: "The exit ahead is closed", correctAnswer: false))
+        answerList.append(Answer(text: "Slow down for a left bend ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Take the next exit.", correctAnswer: true))
+        answerList.append(Answer(text: "Change lanes", correctAnswer: false))
         
         //Q224
         answerList.append(Answer(text: "Apply for a duplicate driving licence", correctAnswer: false))
@@ -1396,23 +1396,23 @@ class AnswerBank {
         answerList.append(Answer(text: "Sound your horn so the rider knows you are behind them", correctAnswer: false))
         answerList.append(Answer(text: "Provide plenty of room and drive past the horse slowly", correctAnswer: true))
         
-//        //Q231
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q231
+        answerList.append(Answer(text: "A and C", correctAnswer: true))
+        answerList.append(Answer(text: "C", correctAnswer: false))
+        answerList.append(Answer(text: "A", correctAnswer: false))
+        answerList.append(Answer(text: "B", correctAnswer: false))
         
-//        //Q232
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q232
+        answerList.append(Answer(text: "Yes, at any time", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but you must be carrying at least two passengers", correctAnswer: true))
+        answerList.append(Answer(text: "Yes, but you must be carrying at least one passenger", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but you must remain in the lane for at least two miles", correctAnswer: false))
         
-//        //Q233
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q233
+        answerList.append(Answer(text: "Oncoming traffic", correctAnswer: false))
+        answerList.append(Answer(text: "Only vehicles that are turning right", correctAnswer: false))
+        answerList.append(Answer(text: "Any vehicle that is turning right or overtaking", correctAnswer: true))
+        answerList.append(Answer(text: "Traffic in your lane", correctAnswer: false))
         
 //        //Q234
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
@@ -4161,64 +4161,22 @@ class AnswerBank {
         answerList.append(Answer(text: "Do all of the above", correctAnswer: true))
 
         //Q691
-        answerList.append(Answer(text: "A and C", correctAnswer: true))
-        answerList.append(Answer(text: "C", correctAnswer: false))
-        answerList.append(Answer(text: "A", correctAnswer: false))
-        answerList.append(Answer(text: "B", correctAnswer: false))
 
-        //Q692
-        answerList.append(Answer(text: "Yes, at any time", correctAnswer: false))
-        answerList.append(Answer(text: "Yes, but you must be carrying at least two passengers", correctAnswer: true))
-        answerList.append(Answer(text: "Yes, but you must be carrying at least one passenger", correctAnswer: false))
-        answerList.append(Answer(text: "Yes, but you must remain in the lane for at least two miles", correctAnswer: false))
-
-        //Q693
-        answerList.append(Answer(text: "Oncoming traffic", correctAnswer: false))
-        answerList.append(Answer(text: "Only vehicles that are turning right", correctAnswer: false))
-        answerList.append(Answer(text: "Any vehicle that is turning right or overtaking", correctAnswer: true))
-        answerList.append(Answer(text: "Traffic in your lane", correctAnswer: false))
 
         //Q694
-        answerList.append(Answer(text: "The exit ahead is closed", correctAnswer: false))
-        answerList.append(Answer(text: "Slow down for a left bend ahead", correctAnswer: false))
-        answerList.append(Answer(text: "Take the next exit.", correctAnswer: true))
-        answerList.append(Answer(text: "Change lanes", correctAnswer: false))
+
 
         //Q695
-        answerList.append(Answer(text: "Sound your horn; they have no right to be there", correctAnswer: false))
-        answerList.append(Answer(text: "Wait for the children to move", correctAnswer: true))
-        answerList.append(Answer(text: "Drive around the children", correctAnswer: false))
-        answerList.append(Answer(text: "You should not be driving in a home zone", correctAnswer: false))
+
 
         //Q696
-        answerList.append(Answer(text: "Slow down; there is a school ahead", correctAnswer: false))
-        answerList.append(Answer(text: "There is a residential area ahead", correctAnswer: false))
-        answerList.append(Answer(text: "There is a paddock with a gate ahead; prepare to stop", correctAnswer: false))
-        answerList.append(Answer(text: "There is a level crossing with a barrier or gate ahead", correctAnswer: true))
 
-        //Q697
-        answerList.append(Answer(text: "A road with a steep camber", correctAnswer: false))
-        answerList.append(Answer(text: "A town with an unusually high tax rate", correctAnswer: false))
-        answerList.append(Answer(text: "A steep descent", correctAnswer: false))
-        answerList.append(Answer(text: "A steep ascent", correctAnswer: true))
 
         //Q698
-        answerList.append(Answer(text: "You cannot cross here", correctAnswer: false))
-        answerList.append(Answer(text: "Wait for the road to clear and then cross it in one go", correctAnswer: false))
-        answerList.append(Answer(text: "Cross each side as if it were a separate road", correctAnswer: true))
-        answerList.append(Answer(text: "Drive across; you have priority", correctAnswer: false))
 
-        //Q699
-        answerList.append(Answer(text: "Steep descent ahead", correctAnswer: false))
-        answerList.append(Answer(text: "Lane closed ahead", correctAnswer: false))
-        answerList.append(Answer(text: "Right bend ahead", correctAnswer: false))
-        answerList.append(Answer(text: "300 yards to the next exit", correctAnswer: true))
 
         //Q700
-        answerList.append(Answer(text: "You must give way at the T-junction ahead", correctAnswer: false))
-        answerList.append(Answer(text: "You have priority at the T-junction ahead", correctAnswer: false))
-        answerList.append(Answer(text: "There is a T-junction ahead", correctAnswer: false))
-        answerList.append(Answer(text: "There is no through road", correctAnswer: true))
+
 
 //        //Q641
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
