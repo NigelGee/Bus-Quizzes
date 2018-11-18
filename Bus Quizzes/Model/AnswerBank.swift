@@ -1637,11 +1637,12 @@ class AnswerBank {
         answerList.append(Answer(text: "Keep them as cool as you can", correctAnswer: false))
         answerList.append(Answer(text: "Provide them with a drink of water", correctAnswer: false))
         
-//        //Q271
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q271
+        answerList.append(Answer(text: "The motorway is heavily congested ahead; exit here to save time", correctAnswer: false))
+        answerList.append(Answer(text: "The right lane is ending, but the left lane is still open", correctAnswer: true))
+        answerList.append(Answer(text: "The right lane is heavily congested ahead", correctAnswer: false))
+        answerList.append(Answer(text: "The motorway ends ahead; take the next exit", correctAnswer: false))
+
         
         //Q272
         answerList.append(Answer(text: "Anticipating potential hazards in good time", correctAnswer: false))
@@ -1673,11 +1674,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Beep the horn twice before beginning to overtake", correctAnswer: false))
         answerList.append(Answer(text: "Activate your full-beam headlights", correctAnswer: false))
         
-//        //Q277
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q277
+        answerList.append(Answer(text: "National speed limits now apply", correctAnswer: false))
+        answerList.append(Answer(text: "There is a tunnel ahead", correctAnswer: false))
+        answerList.append(Answer(text: "The road is closed ahead", correctAnswer: false))
+        answerList.append(Answer(text: "No vehicles are allowed past this point", correctAnswer: true))
         
         //Q278
         answerList.append(Answer(text: "Do not proceed until the lights are green", correctAnswer: true))
@@ -1943,11 +1944,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Plan your journey and slow down in plenty of time", correctAnswer: false))
         answerList.append(Answer(text: "Select which lane you want to use in advance", correctAnswer: false))
         
-//        //Q322
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q322
+        answerList.append(Answer(text: "B only", correctAnswer: false))
+        answerList.append(Answer(text: "A only", correctAnswer: false))
+        answerList.append(Answer(text: "Both A and B", correctAnswer: true))
+        answerList.append(Answer(text: "Neither A nor B", correctAnswer: false))
         
         //Q323
         answerList.append(Answer(text: "8mph", correctAnswer: true))
@@ -2009,11 +2010,11 @@ class AnswerBank {
         answerList.append(Answer(text: "Come to a complete stop at the sign", correctAnswer: false))
         answerList.append(Answer(text: "Slow down, and continue driving around the bend while remaining alert", correctAnswer: true))
         
-//        //Q333
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q333
+        answerList.append(Answer(text: "Prepare to go, but wait for the light to turn green", correctAnswer: true))
+        answerList.append(Answer(text: "The traffic light is broken. Follow the normal right-of-way rules", correctAnswer: false))
+        answerList.append(Answer(text: "Drive through if you are turning left", correctAnswer: false))
+        answerList.append(Answer(text: "Drive through", correctAnswer: false))
         
         //Q334
         answerList.append(Answer(text: "The lane on the left-hand side", correctAnswer: true))
@@ -2129,11 +2130,11 @@ class AnswerBank {
         answerList.append(Answer(text: "It can erode your tyres, meaning they need to be replaced", correctAnswer: false))
         answerList.append(Answer(text: "The car can gain speed quickly", correctAnswer: true))
         
-//        //Q353
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q353
+        answerList.append(Answer(text: "There is a two-way road ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Do not overtake", correctAnswer: false))
+        answerList.append(Answer(text: "Oncoming vehicles have priority", correctAnswer: false))
+        answerList.append(Answer(text: "Your lane has priority", correctAnswer: true))
         
         //Q354
         answerList.append(Answer(text: "Check the rearview mirror", correctAnswer: false))
@@ -2171,11 +2172,11 @@ class AnswerBank {
         answerList.append(Answer(text: "A circle", correctAnswer: false))
         answerList.append(Answer(text: "A rounded rectangle", correctAnswer: false))
         
-//        //Q360
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q360
+        answerList.append(Answer(text: "Treat each roundabout separately", correctAnswer: true))
+        answerList.append(Answer(text: "Keep moving until you reach your exit", correctAnswer: false))
+        answerList.append(Answer(text: "You must not change roundabouts", correctAnswer: false))
+        answerList.append(Answer(text: "Treat all the roundabouts like one big junction", correctAnswer: false))
         
         //Q361
         answerList.append(Answer(text: "Lock them away out of view", correctAnswer: true))
@@ -2381,11 +2382,11 @@ class AnswerBank {
         answerList.append(Answer(text: "They might be planning to turn to the left", correctAnswer: false))
         answerList.append(Answer(text: "The cyclist may need to swerve at short notice", correctAnswer: true))
         
-//        //Q395
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q395
+        answerList.append(Answer(text: "The motorway is closed ahead; exit immediately", correctAnswer: false))
+        answerList.append(Answer(text: "The bridge ahead is out; prepare to stop", correctAnswer: false))
+        answerList.append(Answer(text: "The motorway ends here", correctAnswer: true))
+        answerList.append(Answer(text: "There is a low bridge ahead", correctAnswer: false))
         
         //Q396
         answerList.append(Answer(text: "Steering wheel locks", correctAnswer: false))
@@ -2477,11 +2478,11 @@ class AnswerBank {
         answerList.append(Answer(text: "The driver of the vehicle has less control", correctAnswer: true))
         answerList.append(Answer(text: "The vehicle's steering wheel is easier to use", correctAnswer: false))
         
-//        //Q411
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q411
+        answerList.append(Answer(text: "A level crossing without a barrier", correctAnswer: true))
+        answerList.append(Answer(text: "A no through road", correctAnswer: false))
+        answerList.append(Answer(text: "A tunnel", correctAnswer: false))
+        answerList.append(Answer(text: "A four-way junction", correctAnswer: false))
         
         //Q412
         answerList.append(Answer(text: "It lessens the amount of time you spend coasting", correctAnswer: false))
@@ -2495,11 +2496,11 @@ class AnswerBank {
         answerList.append(Answer(text: "So power in your car's battery isn't wasted", correctAnswer: false))
         answerList.append(Answer(text: "So other drivers aren't dazzled by the light from the indicator", correctAnswer: false))
         
-//        //Q414
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q414
+        answerList.append(Answer(text: "Wait for the pedestrian to reach the central island", correctAnswer: false))
+        answerList.append(Answer(text: "Sound your horn to hurry the pedestrian along", correctAnswer: false))
+        answerList.append(Answer(text: "Proceed around the pedestrian", correctAnswer: false))
+        answerList.append(Answer(text: "Wait for the pedestrian to finish crossing", correctAnswer: true))
         
         //Q415
         answerList.append(Answer(text: "To allow other drivers behind you to know what your intentions are", correctAnswer: true))
@@ -2519,11 +2520,11 @@ class AnswerBank {
         answerList.append(Answer(text: "23m (75ft)", correctAnswer: false))
         answerList.append(Answer(text: "53m (175ft)", correctAnswer: false))
         
-//        //Q418
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q418
+        answerList.append(Answer(text: "Both A and B", correctAnswer: false))
+        answerList.append(Answer(text: "B", correctAnswer: true))
+        answerList.append(Answer(text: "Neither A nor B", correctAnswer: false))
+        answerList.append(Answer(text: "A", correctAnswer: false))
         
         //Q419
         answerList.append(Answer(text: "The battery of their motorcycle won't overcharge", correctAnswer: false))
@@ -3982,65 +3983,34 @@ class AnswerBank {
         answerList.append(Answer(text: "3 years", correctAnswer: false))
 
         //Q661
-        answerList.append(Answer(text: "Both A and B", correctAnswer: false))
-        answerList.append(Answer(text: "B", correctAnswer: true))
-        answerList.append(Answer(text: "Neither A nor B", correctAnswer: false))
-        answerList.append(Answer(text: "A", correctAnswer: false))
+
 
         //Q662
-        answerList.append(Answer(text: "Wait for the pedestrian to reach the central island", correctAnswer: false))
-        answerList.append(Answer(text: "Sound your horn to hurry the pedestrian along", correctAnswer: false))
-        answerList.append(Answer(text: "Proceed around the pedestrian", correctAnswer: false))
-        answerList.append(Answer(text: "Wait for the pedestrian to finish crossing", correctAnswer: true))
+        
 
         //Q663
-        answerList.append(Answer(text: "A level crossing without a barrier", correctAnswer: true))
-        answerList.append(Answer(text: "A no through road", correctAnswer: false))
-        answerList.append(Answer(text: "A tunnel", correctAnswer: false))
-        answerList.append(Answer(text: "A four-way junction", correctAnswer: false))
+        
 
         //Q664
-        answerList.append(Answer(text: "The motorway is closed ahead; exit immediately", correctAnswer: false))
-        answerList.append(Answer(text: "The bridge ahead is out; prepare to stop", correctAnswer: false))
-        answerList.append(Answer(text: "The motorway ends here", correctAnswer: true))
-        answerList.append(Answer(text: "There is a low bridge ahead", correctAnswer: false))
+        
 
         //Q665
-        answerList.append(Answer(text: "Treat each roundabout separately", correctAnswer: true))
-        answerList.append(Answer(text: "Keep moving until you reach your exit", correctAnswer: false))
-        answerList.append(Answer(text: "You must not change roundabouts", correctAnswer: false))
-        answerList.append(Answer(text: "Treat all the roundabouts like one big junction", correctAnswer: false))
+        
 
         //Q666
-        answerList.append(Answer(text: "There is a two-way road ahead", correctAnswer: false))
-        answerList.append(Answer(text: "Do not overtake", correctAnswer: false))
-        answerList.append(Answer(text: "Oncoming vehicles have priority", correctAnswer: false))
-        answerList.append(Answer(text: "Your lane has priority", correctAnswer: true))
+        
 
         //Q667
-        answerList.append(Answer(text: "Prepare to go, but wait for the light to turn green", correctAnswer: true))
-        answerList.append(Answer(text: "The traffic light is broken. Follow the normal right-of-way rules", correctAnswer: false))
-        answerList.append(Answer(text: "Drive through if you are turning left", correctAnswer: false))
-        answerList.append(Answer(text: "Drive through", correctAnswer: false))
+       
 
         //Q668
-        answerList.append(Answer(text: "B only", correctAnswer: false))
-        answerList.append(Answer(text: "A only", correctAnswer: false))
-        answerList.append(Answer(text: "Both A and B", correctAnswer: true))
-        answerList.append(Answer(text: "Neither A nor B", correctAnswer: false))
+        
 
         //Q669
-        answerList.append(Answer(text: "National speed limits now apply", correctAnswer: false))
-        answerList.append(Answer(text: "There is a tunnel ahead", correctAnswer: false))
-        answerList.append(Answer(text: "The road is closed ahead", correctAnswer: false))
-        answerList.append(Answer(text: "No vehicles are allowed past this point", correctAnswer: true))
+        
 
         //Q670
-        answerList.append(Answer(text: "The motorway is heavily congested ahead; exit here to save time", correctAnswer: false))
-        answerList.append(Answer(text: "The right lane is ending, but the left lane is still open", correctAnswer: true))
-        answerList.append(Answer(text: "The right lane is heavily congested ahead", correctAnswer: false))
-        answerList.append(Answer(text: "The motorway ends ahead; take the next exit", correctAnswer: false))
-
+        
         //Q671
         
         

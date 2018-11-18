@@ -341,13 +341,13 @@ class QuestionBank {
         questionList.append(Question(text: "You are present at the scene of an accident, and someone is in shock. What should you do to treat them?", image: ""))
         
         //271-280
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You are on the motorway and you see this sign. What does it mean?", image: "roadsigns-2-10"))
         questionList.append(Question(text: "Which of these practices when driving a car causes most damage to the environment?", image: ""))
         questionList.append(Question(text: "You are planning a U-turn. What should you do in advance?", image: ""))
         questionList.append(Question(text: "What does this road sign indicate?", image: "theory-28-4"))
         questionList.append(Question(text: "What is the main difference between a toucan crossing and other forms of crossings?", image: ""))
         questionList.append(Question(text: "If overtaking other vehicles late at night, you need to:", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-9"))
         questionList.append(Question(text: "While on the approach to traffic lights, only the red and amber light is showing. This indicates that:", image: ""))
         questionList.append(Question(text: "There has been a serious accident, and you arrive on the scene first. What SHOULDN'T you do?", image: ""))
         questionList.append(Question(text: "While driving a vehicle which has anti-lock brakes installed, you are required to perform an emergency stop: You should:", image: ""))
@@ -402,7 +402,7 @@ class QuestionBank {
         
         //321-330
         questionList.append(Question(text: "What SHOULDN'T you do when about to join a contraflow?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Two cars are turning right at a junction. In which scenarios are both cars turning legally?", image: "roadsigns-2-8"))
         questionList.append(Question(text: "Powered wheelchairs and scooters, designed for use by disabled people, have a maximum speed of:", image: ""))
         questionList.append(Question(text: "MOT certificates for cars over 3 years old last for:", image: ""))
         questionList.append(Question(text: "Two pensioners are getting ready to cross the road, but not at a pedestrian crossing. The driver of the approaching vehicle must:", image: ""))
@@ -415,7 +415,7 @@ class QuestionBank {
         //331-340
         questionList.append(Question(text: "Road narrowing, chicanes and humps are used for the purpose of:", image: ""))
         questionList.append(Question(text: "While approaching a bend, you see this sign. You should:", image: "theory-33-2"))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You have stopped at a red light. The traffic light changes to red and amber. What should you do?", image: "roadsigns-2-7"))
         questionList.append(Question(text: "When driving on a motorway which has three lanes, which lane should you use?", image: ""))
         questionList.append(Question(text: "A child passenger in your car is under 1.35m tall. It is your responsibility to ensure:", image: ""))
         questionList.append(Question(text: "You should only stop on the hard shoulder of a motorway when:", image: ""))
@@ -439,14 +439,14 @@ class QuestionBank {
         //351-360
         questionList.append(Question(text: "During heavy snowfall, you need to:", image: ""))
         questionList.append(Question(text: "While travelling down a steep hill, some drivers hold the clutch down, or set the gears to neutral. If done for prolonged periods of time, this can be dangerous. Why?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-6"))
         questionList.append(Question(text: "While in a queue at traffic lights, you are planning to turn left. Prior to making the manoeuvre, you need to:", image: ""))
         questionList.append(Question(text: "What is the greatest advantage of owning a car with four-wheel drive functionality?", image: ""))
         questionList.append(Question(text: "Which of the following would NOT impair your ability to concentrate while driving?", image: ""))
         questionList.append(Question(text: "If you press down on the accelerator rapidly, and brake heavily without planning, it results in:", image: ""))
         questionList.append(Question(text: "What is the main measure used to prevent congestion on the motorway?", image: ""))
         questionList.append(Question(text: "Stop signs are which shape?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What is the correct way to navigate multiple mini-roundabouts?", image: "roadsigns-2-5"))
         
         //361-370
         questionList.append(Question(text: "You don't have time to remove your sat nav, car radio and suitcase from your vehicle. What should you do?", image: ""))
@@ -489,7 +489,7 @@ class QuestionBank {
         questionList.append(Question(text: "You pull up at a puffin crossing with a red light. Pedestrians are currently using the crossing. The light remains red until:", image: ""))
         questionList.append(Question(text: "A disadvantage of installing a roof rack on top of your car is:", image: ""))
         questionList.append(Question(text: "While planning to overtake a cyclist, there needs to be as much distance as possible between them and your vehicle. This is mainly because:", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-4"))
         questionList.append(Question(text: "Out of the four measures here, which has the greatest chance of stopping a thief from taking your vehicle?", image: ""))
         questionList.append(Question(text: "When travelling through a busy tunnel, you need to:", image: ""))
         questionList.append(Question(text: "If preparing to join a motorway, why do you need to use all available space on the slip road?", image: ""))
@@ -509,14 +509,14 @@ class QuestionBank {
         questionList.append(Question(text: "Coasting - or driving for prolonged periods of time in neutral - means:", image: ""))
         
         //411-420
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You see this sign by the roadside. What is ahead?", image: "roadsigns-2-3"))
         questionList.append(Question(text: "How can leaving out some gear changes (such as going from second to fourth gear) reduce your fuel consumption?", image: ""))
         questionList.append(Question(text: "Why is it important to ensure that your indicating lights are deactivated once you have completed a turn?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "You stop at a pelican crossing with a central island. The light turns green, but someone is still crossing. What should you do?", image: "roadsigns-2-2"))
         questionList.append(Question(text: "You are planning to turn right onto another road. Why should you allow sufficient time to position yourself correctly?", image: ""))
         questionList.append(Question(text: "A sign with a large white arrow on a blue background indicates that:", image: ""))
         questionList.append(Question(text: "You are driving on a smooth road in dry conditions, in a car with fully-functioning tyres and brakes. Your speed is 40mph. On average, what will be the distance it takes to come to a complete stop?", image: ""))
-        //questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Which vehicles are turning correctly at this roundabout?", image: "roadsigns-2-1"))
         questionList.append(Question(text: "In good visibility during the day, a motorcycle user has activated their dipped headlights. This is so:", image: ""))
         questionList.append(Question(text: "You have been prescribed cough medication, but are unsure whether this could impair your driving capabilities. You should:", image: ""))
         
@@ -810,16 +810,16 @@ class QuestionBank {
         questionList.append(Question(text: "What is the minimum disqualification period for drink driving?", image: ""))
 
         //661-670
-        questionList.append(Question(text: "Which vehicles are turning correctly at this roundabout?", image: "roadsigns-2-1"))
-        questionList.append(Question(text: "You stop at a pelican crossing with a central island. The light turns green, but someone is still crossing. What should you do?", image: "roadsigns-2-2"))
-        questionList.append(Question(text: "You see this sign by the roadside. What is ahead?", image: "roadsigns-2-3"))
-        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-4"))
-        questionList.append(Question(text: "What is the correct way to navigate multiple mini-roundabouts?", image: "roadsigns-2-5"))
-        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-6"))
-        questionList.append(Question(text: "You have stopped at a red light. The traffic light changes to red and amber. What should you do?", image: "roadsigns-2-7"))
-        questionList.append(Question(text: "Two cars are turning right at a junction. In which scenarios are both cars turning legally?", image: "roadsigns-2-8"))
-        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-2-9"))
-        questionList.append(Question(text: "You are on the motorway and you see this sign. What does it mean?", image: "roadsigns-2-10"))
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         //671-680
         
