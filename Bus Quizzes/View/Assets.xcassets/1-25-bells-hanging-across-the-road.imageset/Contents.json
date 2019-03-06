@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "crying-face.png",
+      "filename" : "1-25-bells-hanging-across-the-road.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "crying-face@2x.png",
+      "filename" : "1-25-bells-hanging-across-the-road@2x.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "crying-face@3x.png",
+      "filename" : "1-25-bells-hanging-across-the-road@3x.jpg",
       "scale" : "3x"
     }
   ],

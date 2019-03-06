@@ -785,7 +785,19 @@ class QuestionBank {
         questionList.append(Question(text: "What is the national speed limit for a car towing a trailer on a single carriageway?", image: ""))
         questionList.append(Question(text: "A recently licenced driver will be disqualified if he or she accumulates how many penalty points?", image: ""))
         
-//        //641-650
+        //641-650
+        questionList.append(Question(text: "Your bus has a speed limiter fitted. What other related item must it have?", image: ""))
+        questionList.append(Question(text: "What category of licence is required to drive an articulated bus?", image: ""))
+        questionList.append(Question(text: "Your vehicle has collided with a railway bridge. What information must you give the railway authority when you telephone them?", image: ""))
+        questionList.append(Question(text: "You're driving a large vehicle on a narrow road with passing places. What will you need to be most aware of?", image: ""))
+        questionList.append(Question(text: "What do bells hanging across the road warn drivers of?", image: "1-25-bells-hanging-across-the-road"))
+        questionList.append(Question(text: "What does this motorway sign mean?", image: "1-27-right-hand-lane-closed-ahead"))
+        questionList.append(Question(text: "Your vehicle is more than 3 metres (9 feet 10 inches) high. Where is this information displayed?", image: ""))
+        questionList.append(Question(text: "What's a vehicle's turning circle?", image: ""))
+        questionList.append(Question(text: "How do speed limiters normally work?", image: ""))
+        questionList.append(Question(text: "Where can a driver find their vehicle's unladen weight recorded?", image: ""))
+        
+//        //651-660
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
