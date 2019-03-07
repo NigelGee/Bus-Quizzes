@@ -797,7 +797,31 @@ class QuestionBank {
         questionList.append(Question(text: "How do speed limiters normally work?", image: ""))
         questionList.append(Question(text: "Where can a driver find their vehicle's unladen weight recorded?", image: ""))
         
-//        //651-660
+        //651-660
+        questionList.append(Question(text: "What does this sign mean?", image: "1-16-two-tonnes-sign"))
+        questionList.append(Question(text: "What does this sign mean?", image: "1-26-no-vehicles-over-width-sign"))
+        questionList.append(Question(text: "When must you take extra care if you’re driving a vehicle more than 3.0 metres (10 feet) high?", image: ""))
+        questionList.append(Question(text: "By approximately how much would 15 passengers increase the weight of your vehicle?", image: ""))
+        questionList.append(Question(text: "You're driving a large vehicle in a straight line. When is it most stable?", image: ""))
+        questionList.append(Question(text: "As a guide, how many passengers equal about one tonne?", image: ""))
+        questionList.append(Question(text: "When should you consider the effect a speed limiter will have on your vehicle?", image: ""))
+        questionList.append(Question(text: "You're driving a long vehicle on a two-lane road. What should you do if you want to turn left into a narrow side road?", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "1-18-height-clearance"))
+        questionList.append(Question(text: "What does this sign mean?", image: "1-48-danger-of-grounding-sign"))
+        
+        //661-670
+        questionList.append(Question(text: "What does this sign mean?", image: "1-20-tunnel-length-sign"))
+        questionList.append(Question(text: "The front of your bus overhangs well past the front wheels. Why should you allow for this when cornering?", image: ""))
+        questionList.append(Question(text: "What does the term 'maximum authorised mass' (MAM) mean?", image: ""))
+        questionList.append(Question(text: "What does a D1 category licence allow you to drive?", image: ""))
+        questionList.append(Question(text: "You're driving a bus on a local service. When can you use this lane?", image: "1-4-motor-car-in-bus-lane"))
+        questionList.append(Question(text: "Where must the repair of a speed limiter be carried out?", image: ""))
+        questionList.append(Question(text: "Who must you tell when your vehicle collides with a bridge?", image: ""))
+        questionList.append(Question(text: "What's the national speed limit for buses and coaches on a dual carriageway?", image: ""))
+        questionList.append(Question(text: "What does this sign warn of?", image: "1-19-tunnel-ahead-sign"))
+        questionList.append(Question(text: "What should you check when you've just overtaken a motorcyclist on a motorway?", image: ""))
+
+//        //671-680
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))

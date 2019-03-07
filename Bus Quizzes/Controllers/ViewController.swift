@@ -89,7 +89,7 @@ class ViewController: UIViewController {
                     if randomNumber == usedQuestion[checkUsedQuestion] {    //Check to see if question number has been used
                         
                         randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
-                        checkUsedQuestion = -1                              //Reset to 0 to recheck new random number
+                        checkUsedQuestion = -1                              //Reset to last number to recheck new random number
                         
                     }
                     

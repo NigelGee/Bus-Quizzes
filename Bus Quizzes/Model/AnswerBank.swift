@@ -3920,66 +3920,185 @@ class AnswerBank {
         answerList.append(Answer(text: "On the side of the vehicle", correctAnswer: true))
         answerList.append(Answer(text: "On the depot noticeboard", correctAnswer: false))
         
-//        //Q651
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q652
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q653
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q654
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q655
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q656
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q657
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q658
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q659
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q660
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q651
+        answerList.append(Answer(text: "No entry for two-axled trailers", correctAnswer: false))
+        answerList.append(Answer(text: "No entry for vehicles with two-speed axles", correctAnswer: false))
+        answerList.append(Answer(text: "Maximum gross weight of 2 tonnes", correctAnswer: false))
+        answerList.append(Answer(text: "Axle weight limit of 2 tonnes", correctAnswer: true))
+        
+        //Q652
+        answerList.append(Answer(text: "The width of the road is 6 feet 6 inches (2 metres)", correctAnswer: false))
+        answerList.append(Answer(text: "No vehicles over 6 feet 6 inches (2 metres) wide", correctAnswer: true))
+        answerList.append(Answer(text: "No vehicles over 6 feet 6 inches (2 metres) high", correctAnswer: false))
+        answerList.append(Answer(text: "Trailer length must not exceed 6 feet 6 inches (2 metres)", correctAnswer: false))
+        
+        //Q653
+        answerList.append(Answer(text: "When driving over narrow bridges", correctAnswer: false))
+        answerList.append(Answer(text: "When driving up steep hills", correctAnswer: false))
+        answerList.append(Answer(text: "When driving near airports", correctAnswer: false))
+        answerList.append(Answer(text: "When driving under overhead cables", correctAnswer: true))
+        
+        //Q654
+        answerList.append(Answer(text: "0.5 tonnes", correctAnswer: false))
+        answerList.append(Answer(text: "1 tonne", correctAnswer: true))
+        answerList.append(Answer(text: "2.5 tonnes", correctAnswer: false))
+        answerList.append(Answer(text: "3 tonnes", correctAnswer: false))
+        
+        //Q655
+        answerList.append(Answer(text: "During harsh acceleration", correctAnswer: false))
+        answerList.append(Answer(text: "During gentle braking", correctAnswer: false))
+        answerList.append(Answer(text: "During gentle acceleration", correctAnswer: true))
+        answerList.append(Answer(text: "During harsh braking", correctAnswer: false))
+        
+        //Q656
+        answerList.append(Answer(text: "15", correctAnswer: true))
+        answerList.append(Answer(text: "20", correctAnswer: false))
+        answerList.append(Answer(text: "25", correctAnswer: false))
+        answerList.append(Answer(text: "30", correctAnswer: false))
+        
+        //Q657
+        answerList.append(Answer(text: "When braking", correctAnswer: false))
+        answerList.append(Answer(text: "When changing gear", correctAnswer: false))
+        answerList.append(Answer(text: "When overtaking", correctAnswer: true))
+        answerList.append(Answer(text: "When reversing", correctAnswer: false))
+        
+        //Q658
+        answerList.append(Answer(text: "Keep well to the left on the approach", correctAnswer: false))
+        answerList.append(Answer(text: "Move out to the right immediately before turning", correctAnswer: false))
+        answerList.append(Answer(text: "Keep to the left and turn later than normal", correctAnswer: false))
+        answerList.append(Answer(text: "Straddle the lanes to make more room for the turn", correctAnswer: true))
+        
+        //Q659
+        answerList.append(Answer(text: "No vehicles over 14 feet 6 inches (4.4 m) wide", correctAnswer: false))
+        answerList.append(Answer(text: "No vehicles over 14 feet 6 inches (4.4 m) high", correctAnswer: true))
+        answerList.append(Answer(text: "Road humps 14 feet 6 inches (4.4 m) apart", correctAnswer: false))
+        answerList.append(Answer(text: "No vehicles over 14 feet 6 inches (4.4 m) long", correctAnswer: false))
+        
+        //Q660
+        answerList.append(Answer(text: "Hump bridge", correctAnswer: false))
+        answerList.append(Answer(text: "Risk of grounding", correctAnswer: true))
+        answerList.append(Answer(text: "Uneven road", correctAnswer: false))
+        answerList.append(Answer(text: "Road liable to subsidence", correctAnswer: false))
 
+        //Q661
+        answerList.append(Answer(text: "The length of a tunnel", correctAnswer: false))
+        answerList.append(Answer(text: "The length of a low bridge", correctAnswer: false))
+        answerList.append(Answer(text: "The distance to a tunnel", correctAnswer: true))
+        answerList.append(Answer(text: "The distance to a low bridge", correctAnswer: false))
+
+        //Q662
+        answerList.append(Answer(text: "The steering will become much heavier", correctAnswer: false))
+        answerList.append(Answer(text: "Your speed will become more difficult to control", correctAnswer: false))
+        answerList.append(Answer(text: "You might hit something close to the road", correctAnswer: true))
+        answerList.append(Answer(text: "You'll need to brake earlier than normal", correctAnswer: false))
+
+        //Q663
+        answerList.append(Answer(text: "The weight of your vehicle, with passengers but no luggage", correctAnswer: false))
+        answerList.append(Answer(text: "The weight of your vehicle, without passengers or luggage", correctAnswer: false))
+        answerList.append(Answer(text: "The weight of your vehicle, with luggage but no passengers", correctAnswer: false))
+        answerList.append(Answer(text: "The weight of your vehicle, with both luggage and passengers", correctAnswer: true))
+
+        //Q664
+        answerList.append(Answer(text: "Buses with a maximum of 16 passenger seats", correctAnswer: true))
+        answerList.append(Answer(text: "Buses with a maximum of 24 passenger seats", correctAnswer: false))
+        answerList.append(Answer(text: "Buses with a maximum of 32 passenger seats", correctAnswer: false))
+        answerList.append(Answer(text: "Buses with a maximum of 48 passenger seats", correctAnswer: false))
+
+        //Q665
+        answerList.append(Answer(text: "between 4 pm and 6.30 pm only", correctAnswer: false))
+        answerList.append(Answer(text: "before 4 pm and after 6.30 pm only", correctAnswer: false))
+        answerList.append(Answer(text: "at any time of the day", correctAnswer: true))
+        answerList.append(Answer(text: "any time except Saturdays", correctAnswer: false))
+
+        //Q666
+        answerList.append(Answer(text: "At an authorised speed-limiter centre", correctAnswer: true))
+        answerList.append(Answer(text: "At any DVSA site", correctAnswer: false))
+        answerList.append(Answer(text: "At any dealer centre", correctAnswer: false))
+        answerList.append(Answer(text: "At the depot by a mechanic", correctAnswer: false))
+
+        //Q667
+        answerList.append(Answer(text: "The police", correctAnswer: true))
+        answerList.append(Answer(text: "The local authority", correctAnswer: false))
+        answerList.append(Answer(text: "Your local garage", correctAnswer: false))
+        answerList.append(Answer(text: "The fire brigade", correctAnswer: false))
+
+        //Q668
+        answerList.append(Answer(text: "55 mph", correctAnswer: false))
+        answerList.append(Answer(text: "60 mph", correctAnswer: true))
+        answerList.append(Answer(text: "65 mph", correctAnswer: false))
+        answerList.append(Answer(text: "70 mph", correctAnswer: false))
+
+        //Q669
+        answerList.append(Answer(text: "low bridge ahead", correctAnswer: false))
+        answerList.append(Answer(text: "accident ahead", correctAnswer: false))
+        answerList.append(Answer(text: "tunnel ahead", correctAnswer: true))
+        answerList.append(Answer(text: "accident blackspot ahead", correctAnswer: false))
+
+        //Q670
+        answerList.append(Answer(text: "Your speedometer", correctAnswer: false))
+        answerList.append(Answer(text: "Your left-hand mirror", correctAnswer: true))
+        answerList.append(Answer(text: "Your right-hand mirror", correctAnswer: false))
+        answerList.append(Answer(text: "The road ahead", correctAnswer: false))
+
+//        //Q671
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q672
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q673
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q674
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q675
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q676
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q677
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q678
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q679
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q680
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 
     }
 }
