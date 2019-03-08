@@ -821,7 +821,19 @@ class QuestionBank {
         questionList.append(Question(text: "What does this sign warn of?", image: "1-19-tunnel-ahead-sign"))
         questionList.append(Question(text: "What should you check when you've just overtaken a motorcyclist on a motorway?", image: ""))
 
-//        //671-680
+        //671-680
+        questionList.append(Question(text: "What does this sign mean?", image: "1-17-overhead-electric-cable-sign"))
+        questionList.append(Question(text: "You're driving on a motorway and you see this sign. What does it mean?", image: "1-28-end-of-restriction"))
+        questionList.append(Question(text: "Unless otherwise shown, what's the minimum headroom under bridges in the UK?", image: ""))
+        questionList.append(Question(text: "Where can you park large vehicles at night without needing to use parking lights?", image: ""))
+        questionList.append(Question(text: "You're driving a long vehicle. What should you do when you want to turn right at a painted mini-roundabout?", image: ""))
+        questionList.append(Question(text: "What's the minimum height of an unmarked bridge?", image: ""))
+        questionList.append(Question(text: "In which of these places might there be a restriction on vehicles over a certain length?", image: ""))
+        questionList.append(Question(text: "What should you consider when planning a route for your journey?", image: ""))
+        questionList.append(Question(text: "How would you know that a weight-limit sign doesn't apply to the bus you're driving?", image: ""))
+        questionList.append(Question(text: "What's the maximum speed allowed for a vehicle towing a trailer on a motorway?", image: ""))
+
+//        //681-690
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
