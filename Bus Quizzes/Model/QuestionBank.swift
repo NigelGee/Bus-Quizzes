@@ -833,9 +833,69 @@ class QuestionBank {
         questionList.append(Question(text: "How would you know that a weight-limit sign doesn't apply to the bus you're driving?", image: ""))
         questionList.append(Question(text: "What's the maximum speed allowed for a vehicle towing a trailer on a motorway?", image: ""))
 
-//        //681-690
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
+        //681-690
+        questionList.append(Question(text: "The time is 10.00 am. You've been driving non-stop since 6.00 am. Under EU rules, what's the longest you may now drive without a break?", image: ""))
+        questionList.append(Question(text: "What is the ‘mode’ switch on a tachograph used to record?", image: ""))
+        questionList.append(Question(text: "Under EU rules, your minimum daily rest is 11 hours. On three days of the week this may be reduced to what length of time?", image: ""))
+        questionList.append(Question(text: "Under EU rules, what's the maximum daily driving time allowed?", image: ""))
+        questionList.append(Question(text: "How long is a digital tachograph driver smart card valid?", image: ""))
+        questionList.append(Question(text: "What can happen to drivers who break EU tachograph regulations?", image: ""))
+        questionList.append(Question(text: "Under EU rules, you may drive for up to nine hours a day. What maximum may this be increased to on two days of the week?", image: ""))
+        questionList.append(Question(text: "Under EU rules, what's the normal weekly rest period that must be taken?", image: ""))
+        questionList.append(Question(text: "Your vehicle breaks down during a journey. You continue by driving in another vehicle with the same type of tachograph. What must you do with your tachograph chart?", image: ""))
+        questionList.append(Question(text: "Drivers must have a driver smart card for use in digital tachographs. Where can you obtain a replacement smart card in Great Britain?", image: ""))
+        
+        //691-700
+        questionList.append(Question(text: "You're making a journey with a co-driver. When the other person is driving, how should you show this time?", image: ""))
+        questionList.append(Question(text: "What does a tachograph mainly record?", image: ""))
+        questionList.append(Question(text: "Why should you carry spare tachograph charts?", image: ""))
+        questionList.append(Question(text: "An enforcement officer keeps one of your tachograph charts. Who should sign the back of the replacement chart?", image: ""))
+        questionList.append(Question(text: "What's most likely to cause tiredness?", image: ""))
+        questionList.append(Question(text: "You're driving under EU tachograph regulations and lose your smart card. When must you inform the relevant authority?", image: ""))
+        questionList.append(Question(text: "Which type of digital tachograph card is used by an approved calibration centre when they're recalibrating the tachograph?", image: ""))
+        questionList.append(Question(text: "When may a driver take their rest period in a parked vehicle?", image: ""))
+        questionList.append(Question(text: "A vehicle fitted with an analogue tachograph has two drivers. How should they use the tachograph?", image: ""))
+        questionList.append(Question(text: "At the end of your working week, you've driven a total of 56 hours. Under EU rules, what's the maximum number of hours you can drive in the following week?", image: ""))
+
+        //701-710
+        questionList.append(Question(text: "How many days does a drivers smart card normally cover?", image: ""))
+        questionList.append(Question(text: "How can you find out when an analogue tachograph was last recalibrated?", image: ""))
+        questionList.append(Question(text: "You're driving under EU drivers' hours. How is a week defined under these rules?", image: ""))
+        questionList.append(Question(text: "A driver is convicted of obstructing an enforcement officer in the course of their duties. Under EU drivers' hours regulations, what's the maximum fine they can receive?", image: ""))
+        questionList.append(Question(text: "You're driving a bus with 18 seats on an excursion from London to Scotland. Which drivers’ hours rules should you use?", image: ""))
+        questionList.append(Question(text: "Which digital tachograph card is only available to enforcement authorities?", image: ""))
+        questionList.append(Question(text: "When must an analogue tachograph be recalibrated?", image: ""))
+        questionList.append(Question(text: "Under EU drivers' hours regulations, a 45-minute break must be taken after 4.5 hours of driving. What shorter breaks can this be split into?", image: ""))
+        questionList.append(Question(text: "What should you do if you feel tired after driving for two-and-a-half hours?", image: ""))
+        questionList.append(Question(text: "When are you allowed to alter your tachograph record?", image: ""))
+
+        //711-720
+        questionList.append(Question(text: "The analogue tachograph on your vehicle becomes faulty. How long do you have before you must have it repaired?", image: ""))
+        questionList.append(Question(text: "How often must an analogue tachograph be checked at an approved calibration centre?", image: ""))
+        questionList.append(Question(text: "What should you do if you have to leave your vehicle unattended for a very short time?", image: ""))
+        questionList.append(Question(text: "Which authority must you contact if your tachograph card is lost or stolen?", image: ""))
+        questionList.append(Question(text: "Under EU rules, what's the maximum driving time allowed in any two consecutive weeks?", image: ""))
+        questionList.append(Question(text: "When are bus operators required to use tachographs for regular journeys?", image: ""))
+        questionList.append(Question(text: "What should you do if you suddenly become tired while you're driving on a motorway?", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with an analogue tachograph. What should you do if you need to exceed the normal drivers’ hours due to an emergency?", image: ""))
+        questionList.append(Question(text: "What must the driver do when they leave their bus unattended?", image: ""))
+        questionList.append(Question(text: "Where can you stop if you feel tired while you're driving on a motorway?", image: ""))
+
+        //721-730
+        questionList.append(Question(text: "You've been driving non-stop since 5.00 am. The time is now 9.30 am. Under EU rules, what length of break must you take?", image: ""))
+        questionList.append(Question(text: "Under EU rules, you can drive for a maximum of nine hours a day. On how many days each week can this be extended to 10 hours?", image: ""))
+        questionList.append(Question(text: "What must you do when using a vehicle fitted with an analogue tachograph?", image: ""))
+        questionList.append(Question(text: "Who's responsible for the issue of tachograph charts to a bus or lorry driver?", image: ""))
+        questionList.append(Question(text: "Under EU rules, how long should your normal daily rest period be?", image: ""))
+        questionList.append(Question(text: "An enforcement officer keeps your analogue tachograph records. How should they endorse the replacement charts?", image: ""))
+        questionList.append(Question(text: "Where can you get a replacement driver tachograph card?", image: ""))
+        questionList.append(Question(text: "Under EU rules, a driver must take regular breaks from driving. What maximum period of continuous driving is allowed?", image: ""))
+        questionList.append(Question(text: "After driving continuously for the maximum period under EU rules, a bus driver must take a break. What's the minimum duration of this break?", image: ""))
+        questionList.append(Question(text: "What does this tachograph chart symbol mean?", image: "2-25-tachograph-symbol"))
+
+        //731-740
+        questionList.append(Question(text: "What should you do if you're asked to leave your bus by an official who isn't in uniform?", image: ""))
+        questionList.append(Question(text: "Under EU rules, your daily rest can be reduced to 9 hours. For how many days per week is this allowed?", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
@@ -845,5 +905,16 @@ class QuestionBank {
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 
+//        //741-750
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
     }
 }
