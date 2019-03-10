@@ -847,7 +847,7 @@ class QuestionBank {
         
         //691-700
         questionList.append(Question(text: "You're making a journey with a co-driver. When the other person is driving, how should you show this time?", image: ""))
-        questionList.append(Question(text: "What does a tachograph mainly record?", image: ""))
+        questionList.append(Question(text: "What does a tachograph record?", image: ""))
         questionList.append(Question(text: "Why should you carry spare tachograph charts?", image: ""))
         questionList.append(Question(text: "An enforcement officer keeps one of your tachograph charts. Who should sign the back of the replacement chart?", image: ""))
         questionList.append(Question(text: "What's most likely to cause tiredness?", image: ""))
@@ -896,6 +896,30 @@ class QuestionBank {
         //731-740
         questionList.append(Question(text: "What should you do if you're asked to leave your bus by an official who isn't in uniform?", image: ""))
         questionList.append(Question(text: "Under EU rules, your daily rest can be reduced to 9 hours. For how many days per week is this allowed?", image: ""))
+        questionList.append(Question(text: "Which component will last longer when you use a retarder?", image: ""))
+        questionList.append(Question(text: "What will ‘pumping’ the brake pedal in a vehicle fitted with anti-lock brakes cause?", image: ""))
+        questionList.append(Question(text: "What is 'brake fade'?", image: ""))
+        questionList.append(Question(text: "You're about to move off in a vehicle that has automatic transmission. What must you do before you select 'D' (drive)?", image: ""))
+        questionList.append(Question(text: "What should you do if the brake air-pressure warning light comes on while you're driving?", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with hydraulic brakes. Why might the brake pedal go down too far when it's pressed?", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with air-assisted hydraulic brakes. What would warn you that there isn't enough air in the system?", image: ""))
+        questionList.append(Question(text: "You've just started the engine. What must you do if the brake air-pressure warning light is showing?", image: ""))
+
+        //741-750
+        questionList.append(Question(text: "Your vehicle is fully loaded. Where should you be braking when dealing with bends?", image: ""))
+        questionList.append(Question(text: "When should an endurance brake (retarder) be used?", image: ""))
+        questionList.append(Question(text: "A lorry is overtaking you on a two-lane motorway. What should you do if it doesn't have the speed to get past?", image: ""))
+        questionList.append(Question(text: "What should anti-lock brakes let you do when you have to stop in an emergency?", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with an anti-lock braking system. When should you check that it's working properly?", image: ""))
+        questionList.append(Question(text: "You're about to drive a vehicle fitted with air-assisted hydraulic brakes. Why might the brake pedal feel hard when you press it?", image: ""))
+        questionList.append(Question(text: "Your vehicle has anti-lock brakes. How does this affect you when you're braking normally?", image: ""))
+        questionList.append(Question(text: "When does ‘brake fade’ occur?", image: ""))
+        questionList.append(Question(text: "You're about to drive a vehicle fitted with hydraulic brakes. What should you check before driving the vehicle?", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with an anti-lock braking system. What's it designed to allow you to do?", image: ""))
+        
+//        //751-760
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
@@ -905,16 +929,5 @@ class QuestionBank {
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 
-//        //741-750
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
     }
 }

@@ -3681,15 +3681,15 @@ class AnswerBank {
         answerList.append(Answer(text: "Do all of the above", correctAnswer: true))
         
         //Q611
-        answerList.append(Answer(text: "Disqualification", correctAnswer: false))
-        answerList.append(Answer(text: "A £1,000 fine", correctAnswer: true))
-        answerList.append(Answer(text: "A £500 fine", correctAnswer: false))
+        answerList.append(Answer(text: "A) Disqualification", correctAnswer: false))
+        answerList.append(Answer(text: "B) A £1,000 fine", correctAnswer: true))
+        answerList.append(Answer(text: "C) A £500 fine", correctAnswer: false))
         answerList.append(Answer(text: "Both A) and B)", correctAnswer: false))
 
         //Q612
-        answerList.append(Answer(text: "No", correctAnswer: false))
-        answerList.append(Answer(text: "Yes, if you think the court made a legal mistake", correctAnswer: false))
-        answerList.append(Answer(text: "Yes, if there were other factors involved in your disqualification that the court did not consider", correctAnswer: false))
+        answerList.append(Answer(text: "A) No", correctAnswer: false))
+        answerList.append(Answer(text: "B) Yes, if you think the court made a legal mistake", correctAnswer: false))
+        answerList.append(Answer(text: "C) Yes, if there were other factors involved in your disqualification that the court did not consider", correctAnswer: false))
         answerList.append(Answer(text: "Both B) and C) are correct", correctAnswer: true))
 
         //Q613
@@ -3903,16 +3903,16 @@ class AnswerBank {
         answerList.append(Answer(text: "In the engine bay", correctAnswer: false))
 
         //Q648
-        answerList.append(Answer(text: "the number of turns of the steering wheel between locks", correctAnswer: false))
-        answerList.append(Answer(text: "the amount of space needed for the vehicle to turn", correctAnswer: true))
-        answerList.append(Answer(text: "the amount by which the vehicle overhangs kerbs", correctAnswer: false))
-        answerList.append(Answer(text: "the distance by which a vehicle cuts corners", correctAnswer: false))
+        answerList.append(Answer(text: "The number of turns of the steering wheel between locks", correctAnswer: false))
+        answerList.append(Answer(text: "The amount of space needed for the vehicle to turn", correctAnswer: true))
+        answerList.append(Answer(text: "The amount by which the vehicle overhangs kerbs", correctAnswer: false))
+        answerList.append(Answer(text: "The distance by which a vehicle cuts corners", correctAnswer: false))
 
         //Q649
-        answerList.append(Answer(text: "by applying the service brake", correctAnswer: false))
-        answerList.append(Answer(text: "by applying the secondary brake", correctAnswer: false))
-        answerList.append(Answer(text: "by reducing fuel supplied to the engine", correctAnswer: true))
-        answerList.append(Answer(text: "by changing to a lower or higher gear", correctAnswer: false))
+        answerList.append(Answer(text: "By applying the service brake", correctAnswer: false))
+        answerList.append(Answer(text: "By applying the secondary brake", correctAnswer: false))
+        answerList.append(Answer(text: "By reducing fuel supplied to the engine", correctAnswer: true))
+        answerList.append(Answer(text: "By changing to a lower or higher gear", correctAnswer: false))
 
         //Q650
         answerList.append(Answer(text: "On the dashboard of the vehicle", correctAnswer: false))
@@ -4005,10 +4005,10 @@ class AnswerBank {
         answerList.append(Answer(text: "Buses with a maximum of 48 passenger seats", correctAnswer: false))
 
         //Q665
-        answerList.append(Answer(text: "between 4 pm and 6.30 pm only", correctAnswer: false))
-        answerList.append(Answer(text: "before 4 pm and after 6.30 pm only", correctAnswer: false))
-        answerList.append(Answer(text: "at any time of the day", correctAnswer: true))
-        answerList.append(Answer(text: "any time except Saturdays", correctAnswer: false))
+        answerList.append(Answer(text: "Between 4 pm and 6.30 pm only", correctAnswer: false))
+        answerList.append(Answer(text: "Before 4 pm and after 6.30 pm only", correctAnswer: false))
+        answerList.append(Answer(text: "At any time of the day", correctAnswer: true))
+        answerList.append(Answer(text: "Any time except Saturdays", correctAnswer: false))
 
         //Q666
         answerList.append(Answer(text: "At an authorised speed-limiter centre", correctAnswer: true))
@@ -4029,10 +4029,10 @@ class AnswerBank {
         answerList.append(Answer(text: "70 mph", correctAnswer: false))
 
         //Q669
-        answerList.append(Answer(text: "low bridge ahead", correctAnswer: false))
-        answerList.append(Answer(text: "accident ahead", correctAnswer: false))
-        answerList.append(Answer(text: "tunnel ahead", correctAnswer: true))
-        answerList.append(Answer(text: "accident blackspot ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Low bridge ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Accident ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Tunnel ahead", correctAnswer: true))
+        answerList.append(Answer(text: "Accident blackspot ahead", correctAnswer: false))
 
         //Q670
         answerList.append(Answer(text: "Your speedometer", correctAnswer: false))
@@ -4167,10 +4167,10 @@ class AnswerBank {
         answerList.append(Answer(text: "As driving time", correctAnswer: false))
         
         //Q692
-        answerList.append(Answer(text: "load weight", correctAnswer: false))
-        answerList.append(Answer(text: "driving time", correctAnswer: true))
-        answerList.append(Answer(text: "fuel consumption", correctAnswer: false))
-        answerList.append(Answer(text: "rest periods", correctAnswer: false))
+        answerList.append(Answer(text: "Load weight", correctAnswer: false))
+        answerList.append(Answer(text: "Driving time", correctAnswer: true))
+        answerList.append(Answer(text: "Fuel consumption", correctAnswer: false))
+        answerList.append(Answer(text: "Engine temperature", correctAnswer: false))
         
         //Q693
         answerList.append(Answer(text: "As a defence against a speeding prosecution", correctAnswer: false))
@@ -4209,10 +4209,10 @@ class AnswerBank {
         answerList.append(Answer(text: "If there are no passengers on board", correctAnswer: false))
         
         //Q699
-        answerList.append(Answer(text: "share the same tachograph chart", correctAnswer: false))
-        answerList.append(Answer(text: "use a separate tachograph chart for every driving period", correctAnswer: false))
-        answerList.append(Answer(text: "use their own tachograph chart", correctAnswer: true))
-        answerList.append(Answer(text: "not use the tachograph for such duties", correctAnswer: false))
+        answerList.append(Answer(text: "Share the same tachograph chart", correctAnswer: false))
+        answerList.append(Answer(text: "Use a separate tachograph chart for every driving period", correctAnswer: false))
+        answerList.append(Answer(text: "Use their own tachograph chart", correctAnswer: true))
+        answerList.append(Answer(text: "Not use the tachograph for such duties", correctAnswer: false))
         
         //Q700
         answerList.append(Answer(text: "34", correctAnswer: true))
@@ -4281,10 +4281,10 @@ class AnswerBank {
         answerList.append(Answer(text: "When you have no spare charts", correctAnswer: false))
 
         //Q711
-        answerList.append(Answer(text: "one day", correctAnswer: false))
-        answerList.append(Answer(text: "three days", correctAnswer: false))
-        answerList.append(Answer(text: "one week", correctAnswer: true))
-        answerList.append(Answer(text: "two weeks", correctAnswer: false))
+        answerList.append(Answer(text: "One day", correctAnswer: false))
+        answerList.append(Answer(text: "Three days", correctAnswer: false))
+        answerList.append(Answer(text: "One week", correctAnswer: true))
+        answerList.append(Answer(text: "Two weeks", correctAnswer: false))
 
         //Q712
         answerList.append(Answer(text: "Every 1 year", correctAnswer: false))
@@ -4412,113 +4412,172 @@ class AnswerBank {
         answerList.append(Answer(text: "Three day", correctAnswer: true))
         answerList.append(Answer(text: "Four day", correctAnswer: false))
 
-//        //Q733
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q734
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q735
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q736
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q737
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q738
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q739
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q740
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        
-//        //Q741
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q742
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q743
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q744
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q745
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q746
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q747
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q748
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q749
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q750
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q733
+        answerList.append(Answer(text: "The brake linings", correctAnswer: true))
+        answerList.append(Answer(text: "The catalytic converter", correctAnswer: false))
+        answerList.append(Answer(text: "The exhaust system", correctAnswer: false))
+        answerList.append(Answer(text: "The transmission", correctAnswer: false))
 
+        //Q734
+        answerList.append(Answer(text: "Increased effectiveness", correctAnswer: false))
+        answerList.append(Answer(text: "Reduced effectiveness", correctAnswer: true))
+        answerList.append(Answer(text: "Reduced brake wear", correctAnswer: false))
+        answerList.append(Answer(text: "Increased brake wear", correctAnswer: false))
+
+        //Q735
+        answerList.append(Answer(text: "Reduction of air pressure", correctAnswer: false))
+        answerList.append(Answer(text: "Smooth progressive braking", correctAnswer: false))
+        answerList.append(Answer(text: "Reduction of braking effectiveness", correctAnswer: true))
+        answerList.append(Answer(text: "Low hydraulic brake fluid level", correctAnswer: false))
+
+        //Q736
+        answerList.append(Answer(text: "Put your foot on the footbrake", correctAnswer: true))
+        answerList.append(Answer(text: "Signal to move off", correctAnswer: false))
+        answerList.append(Answer(text: "Alter your seat position", correctAnswer: false))
+        answerList.append(Answer(text: "Adjust your mirrors", correctAnswer: false))
+
+        //Q737
+        answerList.append(Answer(text: "Stop and seek help without delay", correctAnswer: true))
+        answerList.append(Answer(text: "Report the fault on return to your depot", correctAnswer: false))
+        answerList.append(Answer(text: "Build up the pressure by accelerating", correctAnswer: false))
+        answerList.append(Answer(text: "Drain air tanks and continue normally", correctAnswer: false))
+
+        //Q738
+        answerList.append(Answer(text: "There is too much fluid in the braking system", correctAnswer: false))
+        answerList.append(Answer(text: "The pedal travel requires adjustment", correctAnswer: false))
+        answerList.append(Answer(text: "The vacuum exhauster is not working", correctAnswer: false))
+        answerList.append(Answer(text: "There is not enough fluid in the braking system", correctAnswer: true))
+
+        //Q739
+        answerList.append(Answer(text: "An increase of pressure in the air gauge", correctAnswer: false))
+        answerList.append(Answer(text: "A buzzer or light", correctAnswer: true))
+        answerList.append(Answer(text: "The exhaust brake will not work", correctAnswer: false))
+        answerList.append(Answer(text: "Brake fade", correctAnswer: false))
+
+        //Q740
+        answerList.append(Answer(text: "Report it as a fault", correctAnswer: false))
+        answerList.append(Answer(text: "Keep the parking brake on", correctAnswer: true))
+        answerList.append(Answer(text: "Switch your engine off", correctAnswer: false))
+        answerList.append(Answer(text: "Engage the clutch", correctAnswer: false))
+        
+        //Q741
+        answerList.append(Answer(text: "As close to the bend as possible", correctAnswer: false))
+        answerList.append(Answer(text: "As you start to turn the wheel", correctAnswer: false))
+        answerList.append(Answer(text: "When halfway around the bend", correctAnswer: false))
+        answerList.append(Answer(text: "When driving in a straight line", correctAnswer: true))
+
+        //Q742
+        answerList.append(Answer(text: "On motorways only", correctAnswer: false))
+        answerList.append(Answer(text: "When braking quickly", correctAnswer: false))
+        answerList.append(Answer(text: "When you stop or park", correctAnswer: false))
+        answerList.append(Answer(text: "On long downhill slopes", correctAnswer: true))
+
+        //Q743
+        answerList.append(Answer(text: "Continue at the same speed", correctAnswer: false))
+        answerList.append(Answer(text: "Be prepared to reduce your speed", correctAnswer: true))
+        answerList.append(Answer(text: "Increase your speed and force the lorry to drop back", correctAnswer: false))
+        answerList.append(Answer(text: "Brake hard to allow the other driver to cut in", correctAnswer: false))
+
+        //Q744
+        answerList.append(Answer(text: "Brake more gently", correctAnswer: false))
+        answerList.append(Answer(text: "Brake much later", correctAnswer: false))
+        answerList.append(Answer(text: "Maintain steering control", correctAnswer: true))
+        answerList.append(Answer(text: "Stop over a long distance", correctAnswer: false))
+
+        //Q745
+        answerList.append(Answer(text: "Before each service", correctAnswer: false))
+        answerList.append(Answer(text: "At the start of each working day", correctAnswer: false))
+        answerList.append(Answer(text: "At the start of each working week", correctAnswer: false))
+        answerList.append(Answer(text: "Before every journey", correctAnswer: true))
+
+        //Q746
+        answerList.append(Answer(text: "The vacuum pump isn't working", correctAnswer: true))
+        answerList.append(Answer(text: "The pedal movement needs adjusting", correctAnswer: false))
+        answerList.append(Answer(text: "The brakes are locked on fully", correctAnswer: false))
+        answerList.append(Answer(text: "The brake fluid reservoir is empty", correctAnswer: false))
+
+        //Q747
+        answerList.append(Answer(text: "There's no need to alter the way you brake", correctAnswer: true))
+        answerList.append(Answer(text: "You'll be able to brake much later", correctAnswer: false))
+        answerList.append(Answer(text: "You'll need to brake more firmly", correctAnswer: false))
+        answerList.append(Answer(text: "There's no need to brake so early", correctAnswer: false))
+
+        //Q748
+        answerList.append(Answer(text: "When the brakes get too hot", correctAnswer: true))
+        answerList.append(Answer(text: "When the brakes get too cold", correctAnswer: false))
+        answerList.append(Answer(text: "When the brakes get too dry", correctAnswer: false))
+        answerList.append(Answer(text: "When the brakes get too wet", correctAnswer: false))
+
+        //Q749
+        answerList.append(Answer(text: "The hydraulic brake fluid level", correctAnswer: true))
+        answerList.append(Answer(text: "The power steering fluid level", correctAnswer: false))
+        answerList.append(Answer(text: "The cooling system fluid level", correctAnswer: false))
+        answerList.append(Answer(text: "The windscreen washer fluid level", correctAnswer: false))
+
+        //Q750
+        answerList.append(Answer(text: "Drive at faster speeds", correctAnswer: false))
+        answerList.append(Answer(text: "Brake much later than normal", correctAnswer: false))
+        answerList.append(Answer(text: "Apply the brakes more quickly", correctAnswer: false))
+        answerList.append(Answer(text: "Stop safely in an emergency", correctAnswer: true))
+
+//        //Q751
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q752
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q753
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q754
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q755
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q756
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q757
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q758
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q759
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q760
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
     }
 }

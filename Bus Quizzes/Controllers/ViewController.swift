@@ -182,7 +182,7 @@ class ViewController: UIViewController {
         let scorePrecentage = CGFloat(score) / CGFloat(countLimit) * 100
         
         if scorePrecentage == 100 {
-            questionLabel.text = "Congratulation! You answered every question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
+            questionLabel.text = "Congratulation! You answered all \(score) question correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
             //answerText3.isHidden = true
             answerText3.backgroundColor = UIColor(named: "76D6FF")
             answerText3.setTitle("", for: .normal)
@@ -194,19 +194,19 @@ class ViewController: UIViewController {
             } else {
                 questionSingle = "questions"
             }
-            questionLabel.text = "Well done. You scored \(Int(scorePrecentage))%. You would have passed, however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
+            questionLabel.text = "Well done. Your score is \(score) of \(countLimit) (\(Int(scorePrecentage)))%. You would have passed, however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
             imageQuestion.image = UIImage(named: "smiley-face")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
         }
         else if scorePrecentage >= 50 {
-            questionLabel.text = "Your score is \(Int(scorePrecentage))%. Great work and so close to a pass. Keep on practising and try again!"
+            questionLabel.text = "Your score is \(score) of \(countLimit) (\(Int(scorePrecentage)))%. Great work and so close to a pass. Keep on practising and try again!"
             imageQuestion.image = UIImage(named: "crying-face")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
         }
         else {
-            questionLabel.text = "Your score is \(Int(scorePrecentage))%. Try to check answers using \"The Highway Code\". Try again and see if you can get better next time."
+            questionLabel.text = "Your score is \(score) of \(countLimit) (\(Int(scorePrecentage)))%. Try to check answers using \"The Highway Code\". Try again and see if you can get better next time."
             imageQuestion.image = UIImage(named: "loudly-crying-face")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
