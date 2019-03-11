@@ -955,17 +955,29 @@ class QuestionBank {
 
         //781-790
         questionList.append(Question(text: "You're stationary. The brake air-pressure warning light comes on. Why should you keep the parking brake on?", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "When is there a particular risk of sleep-related incidents?", image: ""))
+        questionList.append(Question(text: "What should you do when you've been driving for a long time and are fighting sleep?", image: ""))
+        questionList.append(Question(text: "How is drinking alcohol likely to affect your driving?", image: ""))
+        questionList.append(Question(text: "When are you most likely to lose concentration while you're driving?", image: ""))
+        questionList.append(Question(text: "Which vehicle will use a blue flashing beacon?", image: ""))
+        questionList.append(Question(text: "What should you try to do when your vehicle has a front-tyre blow-out?", image: ""))
+        questionList.append(Question(text: "What might misuse of drugs or alcohol lead to?", image: ""))
+        questionList.append(Question(text: "What should you do when you're being followed by an ambulance showing a flashing blue light?", image: ""))
+        questionList.append(Question(text: "When is your nearside mirror most likely to endanger pedestrians?", image: ""))
 
-//        //791-800
+        //791-800
+        questionList.append(Question(text: "A group of schoolchildren are standing close to the left-hand kerb. What should you do as you drive past?", image: ""))
+        questionList.append(Question(text: "You're turning right onto a dual carriageway from a side road. What should you do if your vehicle is too long for the gap in the central reservation?", image: ""))
+        questionList.append(Question(text: "What effect will using a mobile phone have on your driving?", image: ""))
+        questionList.append(Question(text: "Your vehicle breaks down on a motorway and you need to call for help. Why may it be better to use an emergency roadside telephone rather than a mobile phone?", image: ""))
+        questionList.append(Question(text: "What must be clearly displayed on your bus?", image: ""))
+        questionList.append(Question(text: "What should you do when you have to travel a long distance?", image: ""))
+        questionList.append(Question(text: "What should you do to help your concentration when you have to drive through the night?", image: ""))
+        questionList.append(Question(text: "What's most likely to cause danger to a group of horse riders?", image: ""))
+        questionList.append(Question(text: "What should you do if you're taking medication that could affect your driving?", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with a hand-held telephone. What should you do before taking or making a call?", image: ""))
+
+//        //801-810
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
