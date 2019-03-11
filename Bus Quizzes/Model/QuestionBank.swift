@@ -917,7 +917,55 @@ class QuestionBank {
         questionList.append(Question(text: "You're about to drive a vehicle fitted with hydraulic brakes. What should you check before driving the vehicle?", image: ""))
         questionList.append(Question(text: "Your vehicle is fitted with an anti-lock braking system. What's it designed to allow you to do?", image: ""))
         
-//        //751-760
+        //751-760
+        questionList.append(Question(text: "Which coloured band on the rev counter makes the best use of engine braking?", image: ""))
+        questionList.append(Question(text: "What should you avoid when using an independent endurance brake (retarder) on slippery roads?", image: ""))
+        questionList.append(Question(text: "When can an endurance brake (retarder) be especially useful?", image: ""))
+        questionList.append(Question(text: "What system is used to control a vehicle’s speed without using the footbrake?", image: ""))
+        questionList.append(Question(text: "What should you do when an air-pressure warning device activates?", image: ""))
+        questionList.append(Question(text: "You're about to start a journey in very frosty weather. What's the likely cause of low air-brake pressure?", image: ""))
+        questionList.append(Question(text: "What could prevent the build-up of brake air pressure on a bus in frosty weather?", image: ""))
+        questionList.append(Question(text: "What should you do when driving a large vehicle down a steep hill?", image: ""))
+        questionList.append(Question(text: "When would you use an escape lane?", image: "3-25-escape-lane-sign"))
+        questionList.append(Question(text: "Your vehicle is fitted with an air-assisted hydraulic braking system. What would warn you that the vacuum pump isn't working?", image: ""))
+
+        //761-770
+        questionList.append(Question(text: "Where would you see an escape lane?", image: "3-25-escape-lane-sign"))
+        questionList.append(Question(text: "What should you do when making a short stop, facing uphill?", image: ""))
+        questionList.append(Question(text: "How can you help to prevent ‘brake fade’?", image: ""))
+        questionList.append(Question(text: "You're driving down a snow-covered hill. Why should you take care when using an independent endurance brake (retarder)?", image: ""))
+        questionList.append(Question(text: "When should an anti-lock braking system (ABS) warning light turn off?", image: ""))
+        questionList.append(Question(text: "What can coasting downhill seriously affect?", image: ""))
+        questionList.append(Question(text: "What's an advantage of progressive braking?", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with air brakes. What does it mean if a brake warning light shows when you've just started the engine?", image: ""))
+        questionList.append(Question(text: "You're driving a vehicle fitted with anti-lock brakes. What should you do when braking in an emergency?", image: ""))
+        questionList.append(Question(text: "What causes 'brake fade'?", image: ""))
+        
+        //771-780
+        questionList.append(Question(text: "How will anti-lock brakes improve your vehicle's safety?", image: ""))
+        questionList.append(Question(text: "You're driving down a long hill. What should you use to prevent the brakes from overheating?", image: ""))
+        questionList.append(Question(text: "What could prevent air pressure from building up in an air-brake system in frosty weather?", image: ""))
+        questionList.append(Question(text: "‘Brake fade’ is a loss of effectiveness of the brakes when they overheat. When would 'brake fade' be most likely to happen?", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with air-assisted hydraulic brakes. What fault would you suspect if the brake pedal becomes hard to press?", image: ""))
+        questionList.append(Question(text: "What does this simplified diagram show?", image: "3-8-air-brake-system-diagram"))
+        questionList.append(Question(text: "What should you do after driving through a flood?", image: ""))
+        questionList.append(Question(text: "You're about to drive an unfamiliar vehicle. What should you do if you think there may be moisture in the air-brake reservoir?", image: ""))
+        questionList.append(Question(text: "What's the most powerful brake on a bus?", image: ""))
+        questionList.append(Question(text: "Where must extra care be taken when using an endurance brake (retarder)?", image: ""))
+
+        //781-790
+        questionList.append(Question(text: "You're stationary. The brake air-pressure warning light comes on. Why should you keep the parking brake on?", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+
+//        //791-800
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))

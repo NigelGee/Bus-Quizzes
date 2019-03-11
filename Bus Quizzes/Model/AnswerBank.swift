@@ -4520,64 +4520,305 @@ class AnswerBank {
         answerList.append(Answer(text: "Apply the brakes more quickly", correctAnswer: false))
         answerList.append(Answer(text: "Stop safely in an emergency", correctAnswer: true))
 
-//        //Q751
+        //Q751
+        answerList.append(Answer(text: "Blue", correctAnswer: true))
+        answerList.append(Answer(text: "Red", correctAnswer: false))
+        answerList.append(Answer(text: "Amber", correctAnswer: false))
+        answerList.append(Answer(text: "Green", correctAnswer: false))
+
+        //Q752
+        answerList.append(Answer(text: "The front wheels spinning", correctAnswer: false))
+        answerList.append(Answer(text: "The drive-wheels locking", correctAnswer: true))
+        answerList.append(Answer(text: "Brake pad wear", correctAnswer: false))
+        answerList.append(Answer(text: "Anti-skid road surfaces", correctAnswer: false))
+
+        //Q753
+        answerList.append(Answer(text: "When driving down long hills", correctAnswer: true))
+        answerList.append(Answer(text: "When driving on steep cambers", correctAnswer: false))
+        answerList.append(Answer(text: "As a way to reduce gear changes", correctAnswer: false))
+        answerList.append(Answer(text: "To improve fuel consumption", correctAnswer: false))
+
+        //Q754
+        answerList.append(Answer(text: "A secondary brake", correctAnswer: false))
+        answerList.append(Answer(text: "An endurance brake (retarder)", correctAnswer: true))
+        answerList.append(Answer(text: "A differential lock", correctAnswer: false))
+        answerList.append(Answer(text: "An emergency air system", correctAnswer: false))
+
+        //Q755
+        answerList.append(Answer(text: "Continue to drive the vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Drain the air tanks", correctAnswer: false))
+        answerList.append(Answer(text: "Stop and get the fault put right", correctAnswer: true))
+        answerList.append(Answer(text: "Pump the brake pedal repeatedly", correctAnswer: false))
+
+        //Q756
+        answerList.append(Answer(text: "Engine temperature too low", correctAnswer: false))
+        answerList.append(Answer(text: "Weak engine anti-freeze mixture", correctAnswer: false))
+        answerList.append(Answer(text: "Brake pedal needs adjustment", correctAnswer: false))
+        answerList.append(Answer(text: "Frozen moisture in the storage tanks", correctAnswer: true))
+
+        //Q757
+        answerList.append(Answer(text: "Lack of anti-freeze in storage tanks", correctAnswer: false))
+        answerList.append(Answer(text: "Insufficient lagging of tanks and pipes", correctAnswer: false))
+        answerList.append(Answer(text: "Low engine revolutions", correctAnswer: false))
+        answerList.append(Answer(text: "Moisture freezing in the system", correctAnswer: true))
+
+        //Q758
+        answerList.append(Answer(text: "Partly apply the parking brake", correctAnswer: false))
+        answerList.append(Answer(text: "Select the vehicle's highest gear", correctAnswer: false))
+        answerList.append(Answer(text: "Use the endurance brake", correctAnswer: true))
+        answerList.append(Answer(text: "Put the gear lever into neutral", correctAnswer: false))
+
+        //Q759
+        answerList.append(Answer(text: "When motorways merge", correctAnswer: false))
+        answerList.append(Answer(text: "When carrying a dangerous cargo", correctAnswer: false))
+        answerList.append(Answer(text: "When your brakes have failed", correctAnswer: true))
+        answerList.append(Answer(text: "When emergency repairs are needed", correctAnswer: false))
+
+        //Q760
+        answerList.append(Answer(text: "The brake pedal feels spongy when pressed", correctAnswer: false))
+        answerList.append(Answer(text: "The brake pedal has little resistance", correctAnswer: false))
+        answerList.append(Answer(text: "The brake pedal feels hard when pressed", correctAnswer: true))
+        answerList.append(Answer(text: "The brake pedal travels a long way", correctAnswer: false))
+        
+        //Q761
+        answerList.append(Answer(text: "Outside a fire station", correctAnswer: false))
+        answerList.append(Answer(text: "Alongside a bus lane", correctAnswer: false))
+        answerList.append(Answer(text: "Before a motorway exit", correctAnswer: false))
+        answerList.append(Answer(text: "Down a steep hill", correctAnswer: true))
+
+        //Q762
+        answerList.append(Answer(text: "Hold the vehicle on the clutch", correctAnswer: false))
+        answerList.append(Answer(text: "Hold the vehicle on the footbrake", correctAnswer: false))
+        answerList.append(Answer(text: "Select neutral and apply the parking brake", correctAnswer: false))
+        answerList.append(Answer(text: "Apply the parking brake after stopping", correctAnswer: true))
+
+        //Q763
+        answerList.append(Answer(text: "Use the endurance brake (retarder)", correctAnswer: true))
+        answerList.append(Answer(text: "Apply the parking brake", correctAnswer: false))
+        answerList.append(Answer(text: "Select neutral for a short distance", correctAnswer: false))
+        answerList.append(Answer(text: "Repeatedly pump the brake pedal", correctAnswer: false))
+
+        //Q764
+        answerList.append(Answer(text: "Your brakes could overheat", correctAnswer: false))
+        answerList.append(Answer(text: "Your speed could increase", correctAnswer: false))
+        answerList.append(Answer(text: "Compressed air could escape", correctAnswer: false))
+        answerList.append(Answer(text: "The drive-wheels could lock", correctAnswer: false))
+
+        //Q765
+        answerList.append(Answer(text: "When the brakes are used for the first time", correctAnswer: false))
+        answerList.append(Answer(text: "When the ABS comes into operation", correctAnswer: false))
+        answerList.append(Answer(text: "When road speed is 6 mph (10 km/h) or more", correctAnswer: true))
+        answerList.append(Answer(text: "When the secondary braking system is used", correctAnswer: false))
+
+        //Q766
+        answerList.append(Answer(text: "The air brakes", correctAnswer: false))
+        answerList.append(Answer(text: "The cooling system", correctAnswer: false))
+        answerList.append(Answer(text: "The tachograph", correctAnswer: false))
+        answerList.append(Answer(text: "The electrical systems", correctAnswer: false))
+
+        //Q767
+        answerList.append(Answer(text: "Improved passenger safety and comfort", correctAnswer: true))
+        answerList.append(Answer(text: "Increased air-brake pressure", correctAnswer: false))
+        answerList.append(Answer(text: "Avoidance of 'brake fade'", correctAnswer: false))
+        answerList.append(Answer(text: "Longer rest periods", correctAnswer: false))
+
+        //Q768
+        answerList.append(Answer(text: "Low air pressure", correctAnswer: false))
+        answerList.append(Answer(text: "Increased air pressure", correctAnswer: false))
+        answerList.append(Answer(text: "The parking brake is not working", correctAnswer: false))
+        answerList.append(Answer(text: "The air reservoirs are fully charged", correctAnswer: false))
+
+        //Q769
+        answerList.append(Answer(text: "‘Pump’ the brake pedal harshly", correctAnswer: false))
+        answerList.append(Answer(text: "Apply minimum force to the brake pedal", correctAnswer: false))
+        answerList.append(Answer(text: "Use the exhaust brake (retarder) then the footbrake", correctAnswer: false))
+        answerList.append(Answer(text: "Apply firm continuous pressure to the brake pedal", correctAnswer: false))
+
+        //Q770
+        answerList.append(Answer(text: "Continuous use of the brakes", correctAnswer: true))
+        answerList.append(Answer(text: "Repeated pumping of the brakes", correctAnswer: false))
+        answerList.append(Answer(text: "Loss of air pressure in the system", correctAnswer: false))
+        answerList.append(Answer(text: "Badly worn brake pads", correctAnswer: false))
+
+        //Q771
+        answerList.append(Answer(text: "They allow you to follow other vehicles more closely", correctAnswer: false))
+        answerList.append(Answer(text: "They help you keep steering control while braking heavily", correctAnswer: true))
+        answerList.append(Answer(text: "They let you drive faster on wet roads", correctAnswer: false))
+        answerList.append(Answer(text: "They enable you to brake later than normal", correctAnswer: false))
+
+        //Q772
+        answerList.append(Answer(text: "The anti-lock braking system", correctAnswer: false))
+        answerList.append(Answer(text: "The footbrake", correctAnswer: false))
+        answerList.append(Answer(text: "The secondary brake", correctAnswer: false))
+        answerList.append(Answer(text: "The endurance brake (retarder)", correctAnswer: true))
+
+        //Q773
+        answerList.append(Answer(text: "Moisture in the air may form bubbles in the brake fluid", correctAnswer: false))
+        answerList.append(Answer(text: "The air will contract, reducing the pressure", correctAnswer: false))
+        answerList.append(Answer(text: "The dampness may cause valves to rust", correctAnswer: false))
+        answerList.append(Answer(text: "Moisture drawn in with the air may freeze and cause a blockage", correctAnswer: true))
+
+        //Q774
+        answerList.append(Answer(text: "On a long journey", correctAnswer: false))
+        answerList.append(Answer(text: "On a long downhill gradient", correctAnswer: true))
+        answerList.append(Answer(text: "On the approach to hazards", correctAnswer: false))
+        answerList.append(Answer(text: "On a long uphill gradient", correctAnswer: false))
+
+        //Q775
+        answerList.append(Answer(text: "The brake system has a loss of vacuum", correctAnswer: true))
+        answerList.append(Answer(text: "The brake linings are worn", correctAnswer: false))
+        answerList.append(Answer(text: "The brake linings need adjusting", correctAnswer: false))
+        answerList.append(Answer(text: "The brake system requires more fluid", correctAnswer: false))
+
+        //Q776
+        answerList.append(Answer(text: "Range change gearbox", correctAnswer: false))
+        answerList.append(Answer(text: "Air brake system", correctAnswer: true))
+        answerList.append(Answer(text: "Engine management system", correctAnswer: false))
+        answerList.append(Answer(text: "Two-speed axle", correctAnswer: false))
+
+        //Q777
+        answerList.append(Answer(text: "Carry out an emergency stop", correctAnswer: false))
+        answerList.append(Answer(text: "Drive in low gear with the footbrake lightly applied", correctAnswer: true))
+        answerList.append(Answer(text: "Avoid braking until the brakes are dried out", correctAnswer: false))
+        answerList.append(Answer(text: "Pump the footbrake when approaching hazards", correctAnswer: false))
+
+        //Q778
+        answerList.append(Answer(text: "Assume the system has automatic drain valves", correctAnswer: false))
+        answerList.append(Answer(text: "Find out whether you need to drain the system manually", correctAnswer: true))
+        answerList.append(Answer(text: "Nothing, it is the vehicle owner's responsibility", correctAnswer: false))
+        answerList.append(Answer(text: "Leave the engine running for a while before driving", correctAnswer: false))
+
+        //Q779
+        answerList.append(Answer(text: "Secondary brake", correctAnswer: false))
+        answerList.append(Answer(text: "Anti-lock braking system", correctAnswer: false))
+        answerList.append(Answer(text: "Endurance brake (retarder)", correctAnswer: false))
+        answerList.append(Answer(text: "Service brake", correctAnswer: true))
+
+        //Q780
+        answerList.append(Answer(text: "On uneven roads", correctAnswer: false))
+        answerList.append(Answer(text: "On slippery roads", correctAnswer: true))
+        answerList.append(Answer(text: "On downhill gradients", correctAnswer: false))
+        answerList.append(Answer(text: "On uphill gradients", correctAnswer: false))
+
+        //Q781
+        answerList.append(Answer(text: "Because the vehicle will suddenly roll backwards", correctAnswer: false))
+        answerList.append(Answer(text: "Because it will cause the air pressure to rise", correctAnswer: false))
+        answerList.append(Answer(text: "Because the service brake may not stop you", correctAnswer: true))
+        answerList.append(Answer(text: "Because it will make the warning light go out", correctAnswer: false))
+
+//        //Q782
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q752
+//        //Q783
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q753
+//        //Q784
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q754
+//        //Q785
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q755
+//        //Q786
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q756
+//        //Q787
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q757
+//        //Q788
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q758
+//        //Q789
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q759
+//        //Q790
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q760
+//        //Q791
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q792
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q793
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q794
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q795
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q796
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q797
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q798
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q799
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q800
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
     }
 }
