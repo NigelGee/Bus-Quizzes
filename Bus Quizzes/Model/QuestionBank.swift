@@ -977,7 +977,67 @@ class QuestionBank {
         questionList.append(Question(text: "What should you do if you're taking medication that could affect your driving?", image: ""))
         questionList.append(Question(text: "Your vehicle is fitted with a hand-held telephone. What should you do before taking or making a call?", image: ""))
 
-//        //801-810
+        //801-810
+        questionList.append(Question(text: "Why could it be dangerous to wave people across at pedestrian crossings?", image: ""))
+        questionList.append(Question(text: "You want to turn left at a junction. What affects the position you take up as you approach the junction?", image: ""))
+        questionList.append(Question(text: "Should you give way to a car showing a flashing green beacon?", image: ""))
+        questionList.append(Question(text: "Your doctor has given you a course of medicine. Why should you ask whether it's safe to drive?", image: ""))
+        questionList.append(Question(text: "You're approaching a green traffic light and are going straight ahead. What should you do when the traffic ahead, beyond the junction, has stopped and is queuing?", image: ""))
+        questionList.append(Question(text: "You're driving on a single carriageway. When may you use your mobile phone?", image: ""))
+        questionList.append(Question(text: "What should you do if you've had a few alcoholic drinks at a party?", image: ""))
+        questionList.append(Question(text: "You've driven a long distance and feel tired. Your tachograph shows that you haven't exceeded your driving hours. What should you do in these circumstances?", image: ""))
+        questionList.append(Question(text: "It's been eight hours since you last had an alcoholic drink. What effect could the alcohol have on your driving?", image: ""))
+        questionList.append(Question(text: "You're driving on a dual carriageway. When would you use the nearside mirror?", image: ""))
+
+        //811-820
+        questionList.append(Question(text: "What can seriously affect your concentration while driving?", image: ""))
+        questionList.append(Question(text: "What should you do at a zebra crossing?", image: ""))
+        questionList.append(Question(text: "How will your body clock affect your driving between 2.00 am and 7.00 am?", image: ""))
+        questionList.append(Question(text: "What should you do if a front tyre bursts while you're driving on a motorway?", image: ""))
+        questionList.append(Question(text: "You've been taking medicine for a few days, and it has made you feel drowsy. Today you feel better, but you still need to take the medicine. When should you drive?", image: ""))
+        questionList.append(Question(text: "What should you do if you lose your way in heavy traffic?", image: ""))
+        questionList.append(Question(text: "When are you allowed to drive a bus without wearing the seat belt?", image: ""))
+        questionList.append(Question(text: "How should you answer a mobile phone call while you are driving?", image: ""))
+        questionList.append(Question(text: "A coach is overtaking you. What should you do when it's safe for the coach to move back to the left?", image: ""))
+        questionList.append(Question(text: "You're driving on a motorway. There's been a collision on the opposite carriageway. What should you do if drivers ahead are slowing to look?", image: ""))
+
+        //821-830
+        questionList.append(Question(text: "What must you check before setting out on a journey?", image: ""))
+        questionList.append(Question(text: "Approximately what percentage of sleep-related vehicle incidents (SRVIs) involve commercial vehicles", image: ""))
+        questionList.append(Question(text: "You're about to drive a vehicle you've never driven before. What should you consider when adjusting your seat?", image: ""))
+        questionList.append(Question(text: "You're being followed by a marked police car. As well as flashing the headlights, what will the police officer do to signal you to stop?", image: ""))
+        questionList.append(Question(text: "Your vehicle breaks down on the hard shoulder of a motorway. What should you do if you decide to use your mobile phone to call for help?", image: ""))
+        questionList.append(Question(text: "You're following a car being driven slowly by a learner driver. What should you do if it isn't safe to overtake it?", image: ""))
+        questionList.append(Question(text: "You're about to drive home. What should you do if you feel very tired and have a severe headache?", image: ""))
+        questionList.append(Question(text: "What should you do when a vehicle pulls out in front of you at a junction?", image: ""))
+        questionList.append(Question(text: "You're driving a slow-moving vehicle on a narrow, winding road. What should you do to let other vehicles overtake you?", image: ""))
+        questionList.append(Question(text: "When may you drive without wearing your seat belt?", image: ""))
+
+        //831-840
+        questionList.append(Question(text: "What should you do while you're driving a bus in a built-up area?", image: ""))
+        questionList.append(Question(text: "You're overtaking a lorry. What should you do if you see the driver flash their headlights?", image: ""))
+        questionList.append(Question(text: "You've been convicted of driving while unfit through drink or drugs. What will increase in cost when you start driving again?", image: ""))
+        questionList.append(Question(text: "When will your reactions be slower?", image: ""))
+        questionList.append(Question(text: "What should you do if a car driver makes a mistake that causes you to brake?", image: ""))
+        questionList.append(Question(text: "When should you use your vehicle's horn?", image: ""))
+        questionList.append(Question(text: "You're driving on the motorway and want to use your mobile phone. What should you do before using it?", image: ""))
+        questionList.append(Question(text: "What should you do if you're feeling tired but there's nowhere to stop safely?", image: ""))
+        questionList.append(Question(text: "Where are you most likely to find pedestrians stepping into the road?", image: ""))
+        questionList.append(Question(text: "You're driving along this road. What should you do if the red van cuts in close in front of you?", image: "4-15-red-van-in-front"))
+
+        //841-850
+        questionList.append(Question(text: "A bus has stopped at a bus stop ahead of you. What should you do if its right-hand indicator is flashing?", image: ""))
+        questionList.append(Question(text: "Poor eating habits can increase your risk of long-term health problems. What may result from a poor diet?", image: ""))
+        questionList.append(Question(text: "A mobile telephone is fitted to your vehicle. When should it be used?", image: ""))
+        questionList.append(Question(text: "You're driving in fast-moving traffic along a motorway. What should you do if there's a stationary queue of traffic ahead?", image: ""))
+        questionList.append(Question(text: "What can prevent you from holding a bus or lorry driving licence?", image: ""))
+        questionList.append(Question(text: "You're approaching a large puddle near the left-hand kerb. What should you do if pedestrians are close to the water?", image: ""))
+        questionList.append(Question(text: "What should you do if a long, heavily laden lorry is taking a long time to overtake you?", image: ""))
+        questionList.append(Question(text: "You've stopped for an elderly pedestrian who's slowly crossing the road. What should you do if traffic behind you is being held up?", image: ""))
+        questionList.append(Question(text: "At what age are men most at risk from sleep-related vehicle incidents (SRVIs)?", image: ""))
+        questionList.append(Question(text: "What do you need to be aware of when driving a vehicle fitted with power-assisted steering?", image: ""))
+
+//        //851-860
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
