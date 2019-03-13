@@ -5228,193 +5228,253 @@ class AnswerBank {
         answerList.append(Answer(text: "It improves your coordination", correctAnswer: false))
         answerList.append(Answer(text: "It reduces your concentration", correctAnswer: true))
         
-//        //Q869
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q870
+        //Q869
+        answerList.append(Answer(text: "Access for the disabled", correctAnswer: true))
+        answerList.append(Answer(text: "Stability when cornering", correctAnswer: false))
+        answerList.append(Answer(text: "Passenger comfort at higher speeds", correctAnswer: false))
+        answerList.append(Answer(text: "Access for the driver", correctAnswer: false))
+        
+        //Q870
+        answerList.append(Answer(text: "Move the passengers to the rear of the bus", correctAnswer: false))
+        answerList.append(Answer(text: "Move passengers to the front of the bus", correctAnswer: true))
+        answerList.append(Answer(text: "Move passengers to the middle of the bus", correctAnswer: false))
+        answerList.append(Answer(text: "Tell passengers to stay in the same seats", correctAnswer: false))
+
+        //Q871
+        answerList.append(Answer(text: "Pump the brakes when approaching a bus stop", correctAnswer: false))
+        answerList.append(Answer(text: "Use only the gears to slow down", correctAnswer: false))
+        answerList.append(Answer(text: "Use the parking brake just before stopping", correctAnswer: false))
+        answerList.append(Answer(text: "Plan ahead and take early action on all stops", correctAnswer: true))
+        
+        //Q872
+        answerList.append(Answer(text: "Insist that passengers stay seated until the bus stops", correctAnswer: false))
+        answerList.append(Answer(text: "Stop just before the bus stop and let passengers get off", correctAnswer: false))
+        answerList.append(Answer(text: "Let passengers on to the bus before letting passengers off", correctAnswer: false))
+        answerList.append(Answer(text: "Keep the passenger doors closed until the bus has stopped", correctAnswer: true))
+        
+        //Q873
+        answerList.append(Answer(text: "To reduce wear on the tyres", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce wear on the engine", correctAnswer: false))
+        answerList.append(Answer(text: "To improve fuel consumption", correctAnswer: false))
+        answerList.append(Answer(text: "To improve passenger comfort", correctAnswer: true))
+        
+        //Q874
+        answerList.append(Answer(text: "The rear of the bus", correctAnswer: false))
+        answerList.append(Answer(text: "The top deck", correctAnswer: false))
+        answerList.append(Answer(text: "The lower deck", correctAnswer: false))
+        answerList.append(Answer(text: "The front of the bus", correctAnswer: true))
+        
+        //Q875
+        answerList.append(Answer(text: "When the coach is moving slowly", correctAnswer: false))
+        answerList.append(Answer(text: "When it cannot be seen by the driver", correctAnswer: true))
+        answerList.append(Answer(text: "During long motorway journeys", correctAnswer: false))
+        answerList.append(Answer(text: "During a coach tour", correctAnswer: false))
+        
+        //Q876
+        answerList.append(Answer(text: "The safety and comfort of your passengers", correctAnswer: true))
+        answerList.append(Answer(text: "Keeping to the timetable", correctAnswer: false))
+        answerList.append(Answer(text: "Completing tachograph records correctly", correctAnswer: false))
+        answerList.append(Answer(text: "Making sure that your destination is clearly marked", correctAnswer: false))
+        
+        //Q877
+        answerList.append(Answer(text: "Gently apply the parking brake", correctAnswer: false))
+        answerList.append(Answer(text: "Plan ahead and take early action", correctAnswer: true))
+        answerList.append(Answer(text: "Slow down by using your gears only", correctAnswer: false))
+        answerList.append(Answer(text: "Pump the brake pedal several times", correctAnswer: false))
+        
+        //Q878
+        answerList.append(Answer(text: "Keep to the timetable regardless of comfort", correctAnswer: false))
+        answerList.append(Answer(text: "Drive on before people are seated", correctAnswer: false))
+        answerList.append(Answer(text: "Look ahead when issuing tickets", correctAnswer: false))
+        answerList.append(Answer(text: "Be courteous and polite", correctAnswer: true))
+        
+        //Q879
+        answerList.append(Answer(text: "When the vehicle is parking", correctAnswer: false))
+        answerList.append(Answer(text: "When the vehicle is cornering", correctAnswer: true))
+        answerList.append(Answer(text: "When the vehicle is reversing", correctAnswer: false))
+        answerList.append(Answer(text: "When the vehicle is overtaking", correctAnswer: false))
+        
+        //Q880
+        answerList.append(Answer(text: "When the lift has stopped working", correctAnswer: true))
+        answerList.append(Answer(text: "When the wheelchair will not fold up", correctAnswer: false))
+        answerList.append(Answer(text: "When the heater has stopped working", correctAnswer: false))
+        answerList.append(Answer(text: "When the wheelchair is too heavy to lift manually", correctAnswer: false))
+
+        //Q881
+        answerList.append(Answer(text: "School-bus signs", correctAnswer: true))
+        answerList.append(Answer(text: "Flashing amber beacons", correctAnswer: false))
+        answerList.append(Answer(text: "Triangular warning signs", correctAnswer: false))
+        answerList.append(Answer(text: "No overtaking' signs", correctAnswer: false))
+        
+        //Q882
+        answerList.append(Answer(text: "Passengers who avoid paying the correct fare", correctAnswer: false))
+        answerList.append(Answer(text: "Passengers smoking in the lower saloon", correctAnswer: false))
+        answerList.append(Answer(text: "Passengers leaving the bus", correctAnswer: true))
+        answerList.append(Answer(text: "Passengers using expired travel passes", correctAnswer: false))
+        
+        //Q883
+        answerList.append(Answer(text: "Passengers are standing in a wheelchair space and can't move elsewhere", correctAnswer: true))
+        answerList.append(Answer(text: "You'll take time to load the wheelchair and fall behind schedule", correctAnswer: false))
+        answerList.append(Answer(text: "The wheelchair passenger will have to stand up", correctAnswer: false))
+        answerList.append(Answer(text: "You cannot collapse the wheelchair", correctAnswer: false))
+        
+        //Q884
+        answerList.append(Answer(text: "Towards the outside of the bend", correctAnswer: true))
+        answerList.append(Answer(text: "Towards the inside of the bend", correctAnswer: false))
+        answerList.append(Answer(text: "Towards the front of the bus", correctAnswer: false))
+        answerList.append(Answer(text: "Towards the rear of the bus", correctAnswer: false))
+        
+        //Q885
+        answerList.append(Answer(text: "Report it as soon as you return to the depot", correctAnswer: false))
+        answerList.append(Answer(text: "Stop and have the fault put right", correctAnswer: true))
+        answerList.append(Answer(text: "Avoid heavy revving of the engine when stationary", correctAnswer: false))
+        answerList.append(Answer(text: "Have the emissions checked at the next vehicle inspection test", correctAnswer: false))
+        
+        //Q886
+        answerList.append(Answer(text: "8", correctAnswer: false))
+        answerList.append(Answer(text: "15", correctAnswer: true))
+        answerList.append(Answer(text: "25", correctAnswer: false))
+        answerList.append(Answer(text: "30", correctAnswer: false))
+        
+        //Q887
+        answerList.append(Answer(text: "Accelerate to make sure you can cross before they change", correctAnswer: false))
+        answerList.append(Answer(text: "Slow down to avoid the need to stop suddenly", correctAnswer: true))
+        answerList.append(Answer(text: "Accelerate, but warn your passengers you may have to stop", correctAnswer: false))
+        answerList.append(Answer(text: "Carry on at a constant speed, but be ready to sound your horn", correctAnswer: false))
+        
+        //Q888
+        answerList.append(Answer(text: "Shout as loudly as you can", correctAnswer: false))
+        answerList.append(Answer(text: "Ask another passenger to help them", correctAnswer: false))
+        answerList.append(Answer(text: "Hurry to get them to their seats", correctAnswer: false))
+        answerList.append(Answer(text: "Look at them when speaking to them", correctAnswer: true))
+        
+        //Q889
+        answerList.append(Answer(text: "When the wheelchair will not fit in the luggage rack", correctAnswer: false))
+        answerList.append(Answer(text: "When the boarding device has failed to work", correctAnswer: true))
+        answerList.append(Answer(text: "When the passenger must remain in a wheelchair", correctAnswer: false))
+        answerList.append(Answer(text: "When the heater on the vehicle is not working", correctAnswer: false))
+        
+        //Q890
+        answerList.append(Answer(text: "Move all the passengers to the lower deck", correctAnswer: false))
+        answerList.append(Answer(text: "Get all the passengers off the bus", correctAnswer: true))
+        answerList.append(Answer(text: "Make sure passengers have their belongings", correctAnswer: false))
+        answerList.append(Answer(text: "Open all the windows on the upper deck", correctAnswer: false))
+
+        //Q891
+        answerList.append(Answer(text: "By counting passengers up and down the staircase", correctAnswer: false))
+        answerList.append(Answer(text: "By frequent checks upstairs while stopped at bus stops", correctAnswer: false))
+        answerList.append(Answer(text: " By listening to passengers in the upstairs gangway when approaching bus stops", correctAnswer: false))
+        answerList.append(Answer(text: "By making full use of the internal mirror system", correctAnswer: true))
+        
+        //Q892
+        answerList.append(Answer(text: "Ask the passengers to take all of their belongings", correctAnswer: false))
+        answerList.append(Answer(text: "Park with the gear lever in neutral", correctAnswer: false))
+        answerList.append(Answer(text: "Ensure the storage lockers are left open", correctAnswer: false))
+        answerList.append(Answer(text: "Leave a responsible person on the coach", correctAnswer: true))
+        
+        //Q893
+        answerList.append(Answer(text: "Lamp posts", correctAnswer: true))
+        answerList.append(Answer(text: "Parking meters", correctAnswer: false))
+        answerList.append(Answer(text: "Parked cars", correctAnswer: false))
+        answerList.append(Answer(text: "Litter bins", correctAnswer: false))
+        
+        //Q894
+        answerList.append(Answer(text: "Signal right, so you're ready to move off", correctAnswer: false))
+        answerList.append(Answer(text: "Turn on your hazard warning lights", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure you've cancelled any signal", correctAnswer: true))
+        answerList.append(Answer(text: "Signal left, to let others know you're not ready to move off", correctAnswer: true))
+        
+        //Q895
+        answerList.append(Answer(text: "Be prepared to move off", correctAnswer: false))
+        answerList.append(Answer(text: "Smile and offer to help them", correctAnswer: true))
+        answerList.append(Answer(text: "Ask them politely to hurry up", correctAnswer: false))
+        answerList.append(Answer(text: "Do nothing, you can't leave your seat", correctAnswer: false))
+        
+        //Q896
+        answerList.append(Answer(text: "To keep the bus stable", correctAnswer: false))
+        answerList.append(Answer(text: "To help you see clearly out of the back window", correctAnswer: false))
+        answerList.append(Answer(text: "To limit injuries in case of a rear-end collision", correctAnswer: true))
+        answerList.append(Answer(text: "To keep them informed about the breakdown", correctAnswer: false))
+        
+        //Q897
+        answerList.append(Answer(text: "The location of the air vents", correctAnswer: false))
+        answerList.append(Answer(text: "The location of the first-aid equipment", correctAnswer: true))
+        answerList.append(Answer(text: "The location of the security cameras", correctAnswer: false))
+        answerList.append(Answer(text: "The location of the bus station", correctAnswer: false))
+        
+        //Q898
+        answerList.append(Answer(text: "Try to get the bus stop cleared", correctAnswer: false))
+        answerList.append(Answer(text: "Carry on to the next bus stop", correctAnswer: false))
+        answerList.append(Answer(text: "Check for traffic on the left", correctAnswer: true))
+        answerList.append(Answer(text: "Check for traffic on the right", correctAnswer: false))
+        
+        //Q899
+        answerList.append(Answer(text: "Yes, this is normal practice", correctAnswer: false))
+        answerList.append(Answer(text: "No, unless all passengers are seated", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, unless carrying school children", correctAnswer: false))
+        answerList.append(Answer(text: "No, this isn't allowed", correctAnswer: true))
+        
+        //Q900
+        answerList.append(Answer(text: "Close to the kerb", correctAnswer: true))
+        answerList.append(Answer(text: "Away from the kerb", correctAnswer: false))
+        answerList.append(Answer(text: "After the bus stop", correctAnswer: false))
+        answerList.append(Answer(text: "Before the bus stop", correctAnswer: false))
+
+//        //Q901
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q871
+//        //Q902
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q872
+//
+//        //Q903
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q873
+//
+//        //Q904
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q874
+//
+//        //Q905
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q875
+//
+//        //Q906
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q876
+//
+//        //Q907
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q877
+//
+//        //Q908
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q878
+//
+//        //Q909
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q879
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q880
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-
-//        //Q881
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q882
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q883
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q884
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q885
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q886
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q887
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q888
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q889
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q890
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-
-//        //Q891
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q892
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q893
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q894
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q895
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q896
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q897
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q898
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q899
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q900
+//
+//        //Q910
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
