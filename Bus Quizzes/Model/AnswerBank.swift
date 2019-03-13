@@ -5120,61 +5120,301 @@ class AnswerBank {
         answerList.append(Answer(text: "It makes it easier for you to steer", correctAnswer: true))
         answerList.append(Answer(text: "It only works at high speed", correctAnswer: false))
 
-//        //Q851
+        //Q851
+        answerList.append(Answer(text: "It will improve your safety", correctAnswer: false))
+        answerList.append(Answer(text: "It will increase your concentration", correctAnswer: false))
+        answerList.append(Answer(text: "It will reduce your view", correctAnswer: false))
+        answerList.append(Answer(text: "It will divert your attention", correctAnswer: true))
+
+        //Q852
+        answerList.append(Answer(text: "Maintain a steady speed", correctAnswer: false))
+        answerList.append(Answer(text: "Wave them past", correctAnswer: false))
+        answerList.append(Answer(text: "Give a left turn signal", correctAnswer: false))
+        answerList.append(Answer(text: "Pull in when you can", correctAnswer: true))
+
+        //Q853
+        answerList.append(Answer(text: "Stop and take a break", correctAnswer: true))
+        answerList.append(Answer(text: "Shout abusive language", correctAnswer: false))
+        answerList.append(Answer(text: "Gesture to them with your hand", correctAnswer: false))
+        answerList.append(Answer(text: "Follow them, flashing your headlights", correctAnswer: false))
+
+        //Q854
+        answerList.append(Answer(text: "Brake harshly to a stop", correctAnswer: false))
+        answerList.append(Answer(text: "Drive on until you reach a side road", correctAnswer: false))
+        answerList.append(Answer(text: "Stop on the left as soon as it's safe", correctAnswer: true))
+        answerList.append(Answer(text: "Stop immediately wherever you are", correctAnswer: false))
+
+        //Q855
+        answerList.append(Answer(text: "There are speed cameras ahead", correctAnswer: false))
+        answerList.append(Answer(text: "The lorry is about to overtake", correctAnswer: false))
+        answerList.append(Answer(text: "The lorry is leaving the motorway", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic further ahead may be stopping", correctAnswer: true))
+
+        //Q856
+        answerList.append(Answer(text: "At an overnight service area", correctAnswer: false))
+        answerList.append(Answer(text: "Near the brow of a hill", correctAnswer: true))
+        answerList.append(Answer(text: "In the yard at a factory", correctAnswer: false))
+        answerList.append(Answer(text: "In a lay-by in a built-up area", correctAnswer: false))
+
+        //Q857
+        answerList.append(Answer(text: "Eat sugary snacks when on duty", correctAnswer: false))
+        answerList.append(Answer(text: "Have regular meals and rest breaks", correctAnswer: true))
+        answerList.append(Answer(text: "Don't eat at all when on duty", correctAnswer: false))
+        answerList.append(Answer(text: "Avoid meals containing bread", correctAnswer: false))
+
+        //Q858
+        answerList.append(Answer(text: "As one crossing in daylight only", correctAnswer: false))
+        answerList.append(Answer(text: "As one complete crossing", correctAnswer: true))
+        answerList.append(Answer(text: "As two separate crossings", correctAnswer: false))
+        answerList.append(Answer(text: "As two crossings during darkness", correctAnswer: false))
+
+        //Q859
+        answerList.append(Answer(text: "Stop immediately", correctAnswer: false))
+        answerList.append(Answer(text: "Answer it immediately", correctAnswer: false))
+        answerList.append(Answer(text: "Pull up in a suitable place", correctAnswer: true))
+        answerList.append(Answer(text: "Pull up at the nearest kerb", correctAnswer: false))
+
+        //Q860
+        answerList.append(Answer(text: "Drink plenty of coffee after drinking alcohol", correctAnswer: false))
+        answerList.append(Answer(text: "Avoid busy roads after drinking alcohol", correctAnswer: false))
+        answerList.append(Answer(text: "Avoid drinking alcohol completely", correctAnswer: true))
+        answerList.append(Answer(text: "Avoid drinking alcohol on an empty stomach", correctAnswer: false))
+
+        //Q861
+        answerList.append(Answer(text: "Better forward planning", correctAnswer: false))
+        answerList.append(Answer(text: "A false sense of confidence", correctAnswer: true))
+        answerList.append(Answer(text: "Faster reactions", correctAnswer: false))
+        answerList.append(Answer(text: "Greater awareness of danger", correctAnswer: false))
+        
+        //Q862
+        answerList.append(Answer(text: "Make the call but take extra care", correctAnswer: false))
+        answerList.append(Answer(text: "Use the cruise control while you're making the call", correctAnswer: false))
+        answerList.append(Answer(text: "Stop in a safe place before making the call", correctAnswer: true))
+        answerList.append(Answer(text: "Reduce speed while you make the call", correctAnswer: false))
+        
+        //Q863
+        answerList.append(Answer(text: "Pass quickly and quietly", correctAnswer: false))
+        answerList.append(Answer(text: "Sound your horn gently", correctAnswer: false))
+        answerList.append(Answer(text: "Drive very slowly", correctAnswer: true))
+        answerList.append(Answer(text: "Keep your vehicle moving", correctAnswer: false))
+        
+        //Q864
+        answerList.append(Answer(text: "The nearside mirror striking the heads of pedestrians", correctAnswer: true))
+        answerList.append(Answer(text: "The amount of fuel being used when driving slowly", correctAnswer: false))
+        answerList.append(Answer(text: "Solid white line markings in the centre of the road", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic lights that may suddenly change to green", correctAnswer: false))
+        
+        //Q865
+        answerList.append(Answer(text: "Bottled water", correctAnswer: true))
+        answerList.append(Answer(text: "Sugary canned drinks", correctAnswer: false))
+        answerList.append(Answer(text: "High caffeine drinks", correctAnswer: false))
+        answerList.append(Answer(text: "Hot chocolate", correctAnswer: false))
+        
+        //Q866
+        answerList.append(Answer(text: "Drink some strong coffee", correctAnswer: false))
+        answerList.append(Answer(text: "Ask your friend if taking the medicine affected their driving", correctAnswer: false))
+        answerList.append(Answer(text: "Check the label to see if the medicine will affect your driving", correctAnswer: true))
+        answerList.append(Answer(text: "Make a short journey to see if the medicine is affecting your driving", correctAnswer: false))
+        
+        //Q867
+        answerList.append(Answer(text: "On motorways", correctAnswer: false))
+        answerList.append(Answer(text: "In one-way streets", correctAnswer: false))
+        answerList.append(Answer(text: "On rural roads", correctAnswer: false))
+        answerList.append(Answer(text: "On tourist routes", correctAnswer: false))
+        
+        //Q868
+        answerList.append(Answer(text: "It speeds up your reactions", correctAnswer: false))
+        answerList.append(Answer(text: "It increases your awareness", correctAnswer: false))
+        answerList.append(Answer(text: "It improves your coordination", correctAnswer: false))
+        answerList.append(Answer(text: "It reduces your concentration", correctAnswer: true))
+        
+//        //Q869
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q870
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q852
+//        //Q871
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q853
+//        
+//        //Q872
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q854
+//        
+//        //Q873
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q855
+//        
+//        //Q874
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q856
+//        
+//        //Q875
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q857
+//        
+//        //Q876
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q858
+//        
+//        //Q877
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q859
+//        
+//        //Q878
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q860
+//        
+//        //Q879
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q880
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+//        //Q881
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q882
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q883
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q884
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q885
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q886
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q887
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q888
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q889
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q890
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+//        //Q891
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q892
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q893
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q894
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q895
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q896
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q897
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q898
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q899
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q900
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))

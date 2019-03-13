@@ -1037,7 +1037,55 @@ class QuestionBank {
         questionList.append(Question(text: "At what age are men most at risk from sleep-related vehicle incidents (SRVIs)?", image: ""))
         questionList.append(Question(text: "What do you need to be aware of when driving a vehicle fitted with power-assisted steering?", image: ""))
 
-//        //851-860
+        //851-860
+        questionList.append(Question(text: "How is using a hands-free phone likely to affect your driving?", image: ""))
+        questionList.append(Question(text: "How should you let other vehicles overtake when you're driving a slow-moving vehicle along a narrow road?", image: ""))
+        questionList.append(Question(text: "What should you do if you're upset by another driver's behaviour?", image: ""))
+        questionList.append(Question(text: "What should you do if you're signalled to stop by a police officer in a patrol car?", image: ""))
+        questionList.append(Question(text: "You're driving on a motorway. What does it mean when a lorry ahead of you switches on its hazard warning lights?", image: ""))
+        questionList.append(Question(text: "Which of these is an unsafe place to park your vehicle or trailer?", image: ""))
+        questionList.append(Question(text: "What can you do to help maintain concentration while you're driving?", image: ""))
+        questionList.append(Question(text: "You approach a pelican crossing that goes straight across the road. How must you treat it if it has a central island?", image: ""))
+        questionList.append(Question(text: "Your mobile phone rings while you are driving. You should", image: ""))
+        questionList.append(Question(text: "As a driver, what should you do when you attend a social event?", image: ""))
+        
+        //861-870
+        questionList.append(Question(text: "What effect will drinking alcohol have on your driving?", image: ""))
+        questionList.append(Question(text: "What should you do if you want to make a business call on your mobile phone while you're driving?", image: ""))
+        questionList.append(Question(text: "What should you do when passing sheep on a road?", image: ""))
+        questionList.append(Question(text: "What danger should you be most aware of if you're driving close to the kerb in a busy shopping area?", image: ""))
+        questionList.append(Question(text: "What's the best type of fluid to drink during work time?", image: ""))
+        questionList.append(Question(text: "You take some cough medicine given to you by a friend. What must you do before driving?", image: ""))
+        questionList.append(Question(text: "Where do most sleep-related vehicle incidents occur?", image: ""))
+        questionList.append(Question(text: "How does alcohol affect your driving?", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+
+//        //871-880
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+
+//        //881-890
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//
+//        //891-900
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
