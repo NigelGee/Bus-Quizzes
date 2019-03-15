@@ -1097,7 +1097,67 @@ class QuestionBank {
         questionList.append(Question(text: "You're driving a bus in hot weather. Can the passenger door be left open to let in fresh air?", image: ""))
         questionList.append(Question(text: "Where should you stop when you're stopping to collect passengers at a bus stop?", image: ""))
 
-//        //901-910
+        //901-910
+        questionList.append(Question(text: "What should you do before allowing passengers off your bus?", image: ""))
+        questionList.append(Question(text: "Your bus is fitted with lifts or ramps for less mobile passengers. Who should operate this equipment?", image: ""))
+        questionList.append(Question(text: "You're driving a bus displaying this sign. When can you use its hazard warning lights?", image: "5-26-buses-and-children"))
+        questionList.append(Question(text: "Which passengers should you especially watch for as you move off?", image: ""))
+        questionList.append(Question(text: "You're driving a double-deck bus. Why do you need to know if anyone is using the stairs?", image: ""))
+        questionList.append(Question(text: "What could you do to help a passenger who has difficulty walking?", image: ""))
+        questionList.append(Question(text: "Who should benefit from priority seating?", image: ""))
+        questionList.append(Question(text: "You're at a bus stop. What should you do if passengers are standing on the open platform?", image: ""))
+        questionList.append(Question(text: "What would contribute to the safety and comfort of your passengers?", image: ""))
+        questionList.append(Question(text: "What must be fitted to new buses, to benefit people with disabilities?", image: ""))
+        
+        //911-920
+        questionList.append(Question(text: "You're the driver of a bus displaying reflective yellow school-bus signs. When are you allowed to use hazard warning lights?", image: "5-26-buses-and-children"))
+        questionList.append(Question(text: "Where should you stop to make it easy for passengers leaving or joining your bus?", image: ""))
+        questionList.append(Question(text: "Which of the following is a legal requirement for every bus?", image: ""))
+        questionList.append(Question(text: "When can you drive a bus at night without having the interior lights switched on?", image: ""))
+        questionList.append(Question(text: "How would your bus benefit from an air suspension system?", image: ""))
+        questionList.append(Question(text: "What’s the purpose of a kneeling bus?", image: ""))
+        questionList.append(Question(text: "How can a bus driver show care for their passengers?", image: ""))
+        questionList.append(Question(text: "What should you do when you're driving a coach at night and you have passengers on board?", image: ""))
+        questionList.append(Question(text: "Where are passengers likely to be thrown when a bus driver brakes harshly?", image: ""))
+        questionList.append(Question(text: "Why should you look at passengers when you're collecting fares from them?", image: ""))
+
+        //921-930
+        questionList.append(Question(text: "What does good passenger care include?", image: ""))
+        questionList.append(Question(text: "What must you do before moving off when you're driving a service bus?", image: ""))
+        questionList.append(Question(text: "Why would this sign be fitted to the front and rear of a bus?", image: "5-26-buses-and-children"))
+        questionList.append(Question(text: "A disabled person is getting on your bus. What should you do if they're having problems, but say they can manage?", image: ""))
+        questionList.append(Question(text: "What is the likely weight difference between an empty bus and a bus with 75 passengers on board?", image: ""))
+        questionList.append(Question(text: "You're driving a school bus carrying children. When can you make physical contact with a passenger?", image: ""))
+        questionList.append(Question(text: "Several parked cars are blocking your bus stop. What should you do before allowing passengers to leave the bus?", image: ""))
+        questionList.append(Question(text: "What do you have to be aware of when driving a double-deck bus on a road that has a steep camber?", image: ""))
+        questionList.append(Question(text: "You're driving a bus carrying passengers at night. Why should you always switch on the interior lights?", image: ""))
+        questionList.append(Question(text: "A passenger using a wheelchair wants to get on your bus. When may you need to deny them access?", image: ""))
+
+        //931-940
+        questionList.append(Question(text: "What should you wear when making a walk-round check of your coach?", image: ""))
+        questionList.append(Question(text: "When would passengers be most likely to notice weight transfer?", image: ""))
+        questionList.append(Question(text: "You're about to drive on a route where you'll be picking up wheelchair users. What must be checked before leaving the depot?", image: ""))
+        questionList.append(Question(text: "What should you do before allowing passengers off your bus?", image: ""))
+        questionList.append(Question(text: "What must buses and coaches display when they're used for school contract work?", image: ""))
+        questionList.append(Question(text: "What should you watch for when you drive away from a bus stop?", image: ""))
+        questionList.append(Question(text: "What's the main reason for using smooth acceleration when you're driving a bus?", image: ""))
+        questionList.append(Question(text: "Your bus is fitted with seat belts. When should passengers wear them?", image: ""))
+        questionList.append(Question(text: "Why should a bus driver avoid stopping harshly?", image: ""))
+        questionList.append(Question(text: "You're driving a large vehicle in gusty conditions. Which vehicle is most likely to be affected by buffeting when you overtake it?", image: ""))
+
+        //941-950
+        questionList.append(Question(text: "Where would you expect to find buffer lanes?", image: ""))
+        questionList.append(Question(text: "You're driving on a motorway. What should you do if your view ahead is restricted by heavy spray?", image: ""))
+        questionList.append(Question(text: "You're overtaking a motorcycle in windy conditions. Why should you check your nearside mirror?", image: ""))
+        questionList.append(Question(text: "What should you do after overtaking on a dual carriageway?", image: ""))
+        questionList.append(Question(text: "You're driving a long vehicle and want to turn right at a roundabout ahead. How should you signal if you need to occupy the left-hand lane?", image: ""))
+        questionList.append(Question(text: "You're waiting at a T-junction. What should you do if you see a vehicle is coming from the right, with its left indicator flashing?", image: ""))
+        questionList.append(Question(text: "You're driving on a dual carriageway and intend to overtake the vehicle ahead. What should you do if there's a car approaching quickly behind you in the right-hand lane?", image: ""))
+        questionList.append(Question(text: "What time gap should you leave when you're following a vehicle on a wet road?", image: ""))
+        questionList.append(Question(text: "Why is it dangerous to follow a large goods vehicle too closely?", image: ""))
+        questionList.append(Question(text: "When do drivers of long vehicles need to straddle lanes?", image: ""))
+
+//        //931-940
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
@@ -1108,5 +1168,6 @@ class QuestionBank {
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
+
     }
 }
