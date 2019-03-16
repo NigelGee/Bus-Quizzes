@@ -6020,64 +6020,365 @@ class AnswerBank {
         answerList.append(Answer(text: "The brake pedal will become stiff", correctAnswer: false))
         answerList.append(Answer(text: "The air pressure will increase", correctAnswer: false))
         
-//        //Q1001
+        //Q1001
+        answerList.append(Answer(text: "The centre lane is narrower than the left-hand lane", correctAnswer: false))
+        answerList.append(Answer(text: "The bridge height clearance will be less in the centre lane", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic in the centre lane may be travelling much faster than you", correctAnswer: true))
+        answerList.append(Answer(text: "The reflective studs may be missing in the centre lane", correctAnswer: false))
+
+        //Q1002
+        answerList.append(Answer(text: "When the roads are dry", correctAnswer: true))
+        answerList.append(Answer(text: "When it's raining and the roads are wet", correctAnswer: false))
+        answerList.append(Answer(text: "When the roads are icy", correctAnswer: false))
+        answerList.append(Answer(text: "When you're driving in fog", correctAnswer: false))
+
+        //Q1003
+        answerList.append(Answer(text: "The swaying of the bridge", correctAnswer: false))
+        answerList.append(Answer(text: "The width of the lanes", correctAnswer: false))
+        answerList.append(Answer(text: "The effect of strong crosswinds", correctAnswer: true))
+        answerList.append(Answer(text: "The overhanging bridge cables", correctAnswer: false))
+
+        //Q1004
+        answerList.append(Answer(text: "Wet roads may create more buffeting", correctAnswer: false))
+        answerList.append(Answer(text: "Other vehicles will have their lights on", correctAnswer: false))
+        answerList.append(Answer(text: "Vehicles may be parked on the hard shoulder", correctAnswer: false))
+        answerList.append(Answer(text: "The road may still be slippery", correctAnswer: true))
+
+        //Q1005
+        answerList.append(Answer(text: "That your tyres are losing pressure", correctAnswer: false))
+        answerList.append(Answer(text: "There is a leak in the power steering pump", correctAnswer: false))
+        answerList.append(Answer(text: "That there is ice or frost on the road", correctAnswer: true))
+        answerList.append(Answer(text: "There is not enough tread on your tyres", correctAnswer: false))
+        
+        //Q1006
+        answerList.append(Answer(text: "To force other drivers to act properly and slow down", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce the amount of spray thrown up", correctAnswer: true))
+        answerList.append(Answer(text: "To prevent water entering the braking system", correctAnswer: false))
+        answerList.append(Answer(text: "To stop the electrics getting wet", correctAnswer: false))
+
+        //Q1007
+        answerList.append(Answer(text: "Only when you will be using a motorway", correctAnswer: false))
+        answerList.append(Answer(text: "Before setting out on a journey", correctAnswer: true))
+        answerList.append(Answer(text: "Only at the start of winter as a prewinter check", correctAnswer: false))
+        answerList.append(Answer(text: "Once per year before the MOT test", correctAnswer: false))
+
+        //Q1008
+        answerList.append(Answer(text: "Their vision will be increased", correctAnswer: false))
+        answerList.append(Answer(text: "Their vision will be reduced", correctAnswer: true))
+        answerList.append(Answer(text: "They'll be able to overtake more easily", correctAnswer: false))
+        answerList.append(Answer(text: "They'll need to use intermittent wipers", correctAnswer: false))
+
+        //Q1009
+        answerList.append(Answer(text: "Towing another vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "An overtaking lorry has cleared the front of your vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Being towed by another vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic ahead on a motorway is slowing down quickly", correctAnswer: true))
+
+        //Q1010
+        answerList.append(Answer(text: "There's a steep downhill section ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Only lorries and buses are allowed to use that lane", correctAnswer: false))
+        answerList.append(Answer(text: "Vehicles fitted with speed limiters must use that lane", correctAnswer: false))
+        answerList.append(Answer(text: "There's a long uphill gradient ahead", correctAnswer: true))
+        
+        //Q1011
+        answerList.append(Answer(text: "A motorcycle", correctAnswer: true))
+        answerList.append(Answer(text: "A taxi", correctAnswer: false))
+        answerList.append(Answer(text: "A sports car", correctAnswer: false))
+        answerList.append(Answer(text: "A road tanker", correctAnswer: false))
+
+        //Q1012
+        answerList.append(Answer(text: "When passing signs", correctAnswer: false))
+        answerList.append(Answer(text: "On exposed sections", correctAnswer: true))
+        answerList.append(Answer(text: "In contraflow systems", correctAnswer: false))
+        answerList.append(Answer(text: "In service areas", correctAnswer: false))
+
+        //Q1013
+        answerList.append(Answer(text: "Steering will be easier", correctAnswer: false))
+        answerList.append(Answer(text: "Your stopping distances will be reduced", correctAnswer: false))
+        answerList.append(Answer(text: "Your stopping distances will be greater", correctAnswer: false))
+        answerList.append(Answer(text: "Steering will be more difficult", correctAnswer: true))
+
+        //Q1014
+        answerList.append(Answer(text: "To enable other traffic to overtake on the nearside", correctAnswer: false))
+        answerList.append(Answer(text: "To enable large vehicles to pull over and park out of the way", correctAnswer: false))
+        answerList.append(Answer(text: "To enable slow-moving traffic to move further over to the left on uphill gradients", correctAnswer: true))
+        answerList.append(Answer(text: "To enable emergency vehicles to get quickly to the scene of an incident", correctAnswer: false))
+
+        //Q1015
+        answerList.append(Answer(text: "Manhole covers will be slippery", correctAnswer: false))
+        answerList.append(Answer(text: "Visibility will be reduced by spray from traffic", correctAnswer: true))
+        answerList.append(Answer(text: "Your braking distances will be reduced", correctAnswer: false))
+        answerList.append(Answer(text: "There'll be distracting bright reflections", correctAnswer: false))
+
+        //Q1016
+        answerList.append(Answer(text: "A safety lane for vehicles blown off course", correctAnswer: true))
+        answerList.append(Answer(text: "A lane for overtaking safely", correctAnswer: false))
+        answerList.append(Answer(text: "A lane to park in until the wind drops", correctAnswer: false))
+        answerList.append(Answer(text: "The only lane to be used in high winds", correctAnswer: false))
+
+        //Q1017
+        answerList.append(Answer(text: "Spray could affect their control", correctAnswer: true))
+        answerList.append(Answer(text: "Exhaust fumes are more toxic when it's raining", correctAnswer: false))
+        answerList.append(Answer(text: "Noise from your engine will be louder", correctAnswer: false))
+        answerList.append(Answer(text: "Buffeting will be reduced", correctAnswer: false))
+
+        //Q1018
+        answerList.append(Answer(text: "It's moving away from you", correctAnswer: false))
+        answerList.append(Answer(text: "It's stationary and facing away from you", correctAnswer: false))
+        answerList.append(Answer(text: "It's ahead of you and braking", correctAnswer: false))
+        answerList.append(Answer(text: "It's facing towards you", correctAnswer: true))
+
+        //Q1019
+        answerList.append(Answer(text: "Stop before the zigzag lines", correctAnswer: false))
+        answerList.append(Answer(text: "Wave pedestrians across the road", correctAnswer: false))
+        answerList.append(Answer(text: "Sound the horn and flash headlights", correctAnswer: false))
+        answerList.append(Answer(text: "Be prepared to stop in good time", correctAnswer: true))
+
+        //Q1020
+        answerList.append(Answer(text: "When visibility falls below 100 metres (328 feet)", correctAnswer: true))
+        answerList.append(Answer(text: "When visibility falls below 200 metres (656 feet)", correctAnswer: false))
+        answerList.append(Answer(text: "When visibility falls below 300 metres (984 feet)", correctAnswer: false))
+        answerList.append(Answer(text: "When visibility falls below 400 metres (1312 feet)", correctAnswer: false))
+
+        //Q1021
+        answerList.append(Answer(text: "By waiting for the driver you have just overtaken to flash the headlights", correctAnswer: false))
+        answerList.append(Answer(text: "By checking your nearside mirror", correctAnswer: true))
+        answerList.append(Answer(text: "By using your hazard warning lights as a signal", correctAnswer: false))
+        answerList.append(Answer(text: "By moving over to the nearside in the hope that the other vehicle will slow down", correctAnswer: false))
+
+        //Q1022
+        answerList.append(Answer(text: "When letting faster traffic overtake you", correctAnswer: true))
+        answerList.append(Answer(text: "When turning right from a major road", correctAnswer: false))
+        answerList.append(Answer(text: "When parking to have a rest", correctAnswer: false))
+        answerList.append(Answer(text: "When slowing down for a motorway exit", correctAnswer: false))
+
+        //Q1023
+        answerList.append(Answer(text: "When visibility is more than 100 metres (328 feet)", correctAnswer: false))
+        answerList.append(Answer(text: "Only when the national speed limit applies", correctAnswer: false))
+        answerList.append(Answer(text: "Only when you are being followed closely by other traffic", correctAnswer: false))
+        answerList.append(Answer(text: "When visibility is reduced to 100 metres (328 feet) or less", correctAnswer: true))
+
+        //Q1024
+        answerList.append(Answer(text: "Your engine may get flooded", correctAnswer: false))
+        answerList.append(Answer(text: "Your braking distance may be reduced", correctAnswer: false))
+        answerList.append(Answer(text: "Your steering may become heavy", correctAnswer: false))
+        answerList.append(Answer(text: "Your tyres may lose grip", correctAnswer: true))
+
+        //Q1025
+        answerList.append(Answer(text: "Try to race and get ahead of it", correctAnswer: false))
+        answerList.append(Answer(text: "Leave the other vehicle to adjust its speed", correctAnswer: false))
+        answerList.append(Answer(text: "Stay at the maximum speed allowed for your vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Be ready to adjust your speed", correctAnswer: true))
+
+        //Q1026
+        answerList.append(Answer(text: "Traffic behind in the right-hand lane, returning to the middle lane", correctAnswer: true))
+        answerList.append(Answer(text: "Traffic that's intending to leave at the next exit", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic ahead moving into the right-hand lane", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic behind that's trying to pass on your left", correctAnswer: false))
+
+        //Q1027
+        answerList.append(Answer(text: "You can see well ahead", correctAnswer: true))
+        answerList.append(Answer(text: "The road's well lit", correctAnswer: false))
+        answerList.append(Answer(text: "There is an overtaking lane", correctAnswer: false))
+        answerList.append(Answer(text: "You are outside built-up areas", correctAnswer: false))
+
+        //Q1028
+        answerList.append(Answer(text: "To allow following drivers to use dipped headlights", correctAnswer: false))
+        answerList.append(Answer(text: "To prevent the battery from overcharging", correctAnswer: false))
+        answerList.append(Answer(text: "So that other road users can see the size of your vehicle", correctAnswer: true))
+        answerList.append(Answer(text: "So that the intensity of street lighting can be reduced", correctAnswer: false))
+
+        //Q1029
+        answerList.append(Answer(text: "To keep a safe distance from the vehicle in front when it's raining", correctAnswer: false))
+        answerList.append(Answer(text: "To keep a safe distance from the vehicle in front when conditions are good", correctAnswer: true))
+        answerList.append(Answer(text: "To keep a safe distance from the vehicle in front when it's icy", correctAnswer: false))
+        answerList.append(Answer(text: "To keep a safe distance from the vehicle in front in queuing traffic", correctAnswer: false))
+
+        //Q1030
+        answerList.append(Answer(text: "Slow down", correctAnswer: true))
+        answerList.append(Answer(text: "Stay close behind", correctAnswer: false))
+        answerList.append(Answer(text: "Overtake when you can", correctAnswer: false))
+        answerList.append(Answer(text: "Flash your headlights", correctAnswer: false))
+
+        //Q1031
+        answerList.append(Answer(text: "They may be blown into your path", correctAnswer: true))
+        answerList.append(Answer(text: "They may leave at the next exit", correctAnswer: false))
+        answerList.append(Answer(text: "They may suddenly stop on the hard shoulder", correctAnswer: false))
+        answerList.append(Answer(text: "They may position to turn right", correctAnswer: false))
+
+        //Q1032
+        answerList.append(Answer(text: "To prevent rain entering the vehicle's braking system", correctAnswer: false))
+        answerList.append(Answer(text: "To let other motorists move into the gap", correctAnswer: false))
+        answerList.append(Answer(text: "To allow for an increased stopping distance", correctAnswer: true))
+        answerList.append(Answer(text: "To reduce the risk of water spraying into the filters", correctAnswer: false))
+
+        //Q1033
+        answerList.append(Answer(text: "Any lane", correctAnswer: false))
+        answerList.append(Answer(text: "The middle lane", correctAnswer: false))
+        answerList.append(Answer(text: "The left-hand lane", correctAnswer: true))
+        answerList.append(Answer(text: "The right-hand lane", correctAnswer: false))
+
+        //Q1034
+        answerList.append(Answer(text: "The vehicle will use more fuel", correctAnswer: false))
+        answerList.append(Answer(text: "Stopping distances will be decreased", correctAnswer: false))
+        answerList.append(Answer(text: "More braking effort will be required", correctAnswer: true))
+        answerList.append(Answer(text: "The load will be more stable", correctAnswer: false))
+
+        //Q1035
+        answerList.append(Answer(text: "When the motorway has three lanes", correctAnswer: false))
+        answerList.append(Answer(text: "When vehicles are stopped on the hard shoulder", correctAnswer: false))
+        answerList.append(Answer(text: "When the motorway has two lanes", correctAnswer: true))
+        answerList.append(Answer(text: "When other vehicles are turning right", correctAnswer: false))
+
+        //Q1036
+        answerList.append(Answer(text: "Lorry drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Coach drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Tractor drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Cars towing caravans", correctAnswer: true))
+
+        //Q1037
+        answerList.append(Answer(text: "Look well ahead for uphill gradients", correctAnswer: true))
+        answerList.append(Answer(text: "Check your position in the left mirror", correctAnswer: false))
+        answerList.append(Answer(text: "Change quickly to a higher gear", correctAnswer: false))
+        answerList.append(Answer(text: "Close right up before pulling out", correctAnswer: false))
+
+        //Q1038
+        answerList.append(Answer(text: "Every driver will normally be tired", correctAnswer: false))
+        answerList.append(Answer(text: "Large vehicles are subject to a 10% speed reduction", correctAnswer: false))
+        answerList.append(Answer(text: "Speed and distance are harder to judge", correctAnswer: true))
+        answerList.append(Answer(text: "Most towns are not adequately lit", correctAnswer: false))
+
+        //Q1039
+        answerList.append(Answer(text: "When the speed limit has been reduced", correctAnswer: false))
+        answerList.append(Answer(text: "When you're approaching motorway slip roads", correctAnswer: false))
+        answerList.append(Answer(text: "When you would have to break the speed limit", correctAnswer: true))
+        answerList.append(Answer(text: "When your view of the road ahead is clear", correctAnswer: false))
+
+        //Q1040
+        answerList.append(Answer(text: "Water reducing the tyre grip on the road", correctAnswer: true))
+        answerList.append(Answer(text: "Tyres becoming hotter in the bad weather", correctAnswer: false))
+        answerList.append(Answer(text: "Braking gently and in good time", correctAnswer: false))
+        answerList.append(Answer(text: "Water entering the braking system", correctAnswer: false))
+
+        //Q1041
+        answerList.append(Answer(text: "Keep a two-second gap", correctAnswer: false))
+        answerList.append(Answer(text: "Reduce your separation distance", correctAnswer: false))
+        answerList.append(Answer(text: "Remove spray suppression equipment", correctAnswer: false))
+        answerList.append(Answer(text: "Use dipped headlights", correctAnswer: true))
+        
+        //Q1042
+        answerList.append(Answer(text: "When turning at tight junctions", correctAnswer: true))
+        answerList.append(Answer(text: "When travelling empty", correctAnswer: false))
+        answerList.append(Answer(text: "When driving on motorways", correctAnswer: false))
+        answerList.append(Answer(text: "When coming to contraflow systems", correctAnswer: false))
+        
+        //Q1043
+        answerList.append(Answer(text: "When it's windy", correctAnswer: true))
+        answerList.append(Answer(text: "When it's raining", correctAnswer: false))
+        answerList.append(Answer(text: "When it's foggy", correctAnswer: false))
+        answerList.append(Answer(text: "When it's icy", correctAnswer: false))
+        
+        //Q1044
+        answerList.append(Answer(text: "Increase your distance from the vehicle in front", correctAnswer: true))
+        answerList.append(Answer(text: "Touch the brake pedal sharply to show your brake lights", correctAnswer: false))
+        answerList.append(Answer(text: "Briskly accelerate away from the vehicle behind", correctAnswer: false))
+        answerList.append(Answer(text: "Switch your rear fog lamps on and off", correctAnswer: false))
+        
+        //Q1045
+        answerList.append(Answer(text: "Suddenly", correctAnswer: false))
+        answerList.append(Answer(text: "By 'pumping' the brakes", correctAnswer: false))
+        answerList.append(Answer(text: "Gently", correctAnswer: true))
+        answerList.append(Answer(text: "After using the gears first", correctAnswer: false))
+        
+        //Q1046
+        answerList.append(Answer(text: "To make them easier to overtake", correctAnswer: false))
+        answerList.append(Answer(text: "To help the driver when reversing", correctAnswer: false))
+        answerList.append(Answer(text: "To help any passengers getting on or off", correctAnswer: false))
+        answerList.append(Answer(text: "To make them easier to see at junctions", correctAnswer: true))
+        
+        //Q1047
+        answerList.append(Answer(text: "Brake very sharply", correctAnswer: false))
+        answerList.append(Answer(text: "Steer towards the centre line", correctAnswer: false))
+        answerList.append(Answer(text: "Ease off the accelerator", correctAnswer: true))
+        answerList.append(Answer(text: "Increase your speed", correctAnswer: false))
+        
+        //Q1048
+        answerList.append(Answer(text: "It's more difficult to keep to speed limits", correctAnswer: false))
+        answerList.append(Answer(text: "There'll be an increase in traffic", correctAnswer: false))
+        answerList.append(Answer(text: "You'll have reduced visibility", correctAnswer: true))
+        answerList.append(Answer(text: "It takes longer to stop", correctAnswer: false))
+        
+        //Q1049
+        answerList.append(Answer(text: "In cuttings", correctAnswer: false))
+        answerList.append(Answer(text: "Through tunnels", correctAnswer: false))
+        answerList.append(Answer(text: "Across viaducts", correctAnswer: true))
+        answerList.append(Answer(text: "Passing large signs", correctAnswer: false))
+        
+        //Q1050
+        answerList.append(Answer(text: "Maintain a constant speed in exposed areas", correctAnswer: false))
+        answerList.append(Answer(text: "Anticipate how the weather may affect other road users", correctAnswer: true))
+        answerList.append(Answer(text: "Always keep to your intended route", correctAnswer: false))
+        answerList.append(Answer(text: "Stay close to smaller or vulnerable vehicles as you overtake them", correctAnswer: false))
+
+//        //Q1051
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1002
+//        //Q1052
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1003
+//        //Q1053
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1004
+//        //Q1054
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1005
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1006
+//        //Q1055
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1007
+//        //Q1056
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1008
+//        //Q1057
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1009
+//        //Q1058
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1010
+//        //Q1059
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1060
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
     }
 }

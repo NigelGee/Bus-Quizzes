@@ -1217,7 +1217,67 @@ class QuestionBank {
         questionList.append(Question(text: "What's the best way to control your vehicle when driving on snow?", image: ""))
         questionList.append(Question(text: "What might happen if using the brakes continuously causes them to overheat?", image: ""))
 
-//        //1001-1010
+        //1001-1010
+        questionList.append(Question(text: "Why should you take care before moving into the centre lane of a three-lane motorway?", image: ""))
+        questionList.append(Question(text: "In fast traffic, when should you leave a two-second gap between your vehicle and the one in front?", image: ""))
+        questionList.append(Question(text: "What do you need to be aware of when you drive over an exposed suspension bridge?", image: ""))
+        questionList.append(Question(text: "You're on a motorway and the surface is still wet after rain. Why should you take care when you're overtaking?", image: ""))
+        questionList.append(Question(text: "You're driving through the night. What could it mean if your steering feels lighter than normal?", image: ""))
+        questionList.append(Question(text: "You're driving a large vehicle in heavy rain on a motorway. You slow down to reduce the risk of aquaplaning. For what other reason should you slow down?", image: ""))
+        questionList.append(Question(text: "When should you check your vehicle’s spray-suppression equipment?", image: ""))
+        questionList.append(Question(text: "You're driving in wet weather. What effect will faulty spray-suppression equipment have on other drivers?", image: ""))
+        questionList.append(Question(text: "You are allowed to use hazard warning lights while moving when", image: ""))
+        questionList.append(Question(text: "You're driving along a motorway and see this sign. What does it mean?", image: "6-90-a-crawler-lane"))
+
+        //1011-1020
+        questionList.append(Question(text: "You're on a motorway and there's a strong side wind. Which vehicle is particularly at risk?", image: ""))
+        questionList.append(Question(text: "You're driving a high-sided vehicle on a motorway. You should anticipate the effects of side wind. When is this most likely to happen?", image: ""))
+        questionList.append(Question(text: "How is a strong wind likely to affect your bus?", image: ""))
+        questionList.append(Question(text: "What is a crawler lane for?", image: ""))
+        questionList.append(Question(text: "What should you be aware of when you're overtaking on a motorway while it's raining heavily?", image: ""))
+        questionList.append(Question(text: "What's a buffer lane?", image: ""))
+        questionList.append(Question(text: "It's raining heavily. What effect could this have when you overtake a cyclist?", image: ""))
+        questionList.append(Question(text: "What does it indicate if you see white lights on a vehicle at night?", image: ""))
+        questionList.append(Question(text: "What should you do as you approach a zebra crossing?", image: ""))
+        questionList.append(Question(text: "You're driving in fog. When should high-intensity rear fog lights be used?", image: ""))
+
+        //1021-1030
+        questionList.append(Question(text: "You've just overtaken another large vehicle. How do you know when it's safe to move back to the nearside lane?", image: ""))
+        questionList.append(Question(text: "When should you use a crawler lane?", image: ""))
+        questionList.append(Question(text: "You're driving on a motorway in heavy rain. When are you allowed to use high-intensity rear fog lights?", image: ""))
+        questionList.append(Question(text: "What's the greatest risk to your safety when you're overtaking on a motorway in very wet weather?", image: ""))
+        questionList.append(Question(text: "You're driving in the left-hand lane of a motorway. What should you do when you see a large vehicle merging from a slip road ahead?", image: ""))
+        questionList.append(Question(text: "You're driving in the left-hand lane on a three-lane motorway. What should you check for before moving into the middle lane to overtake a slower vehicle?", image: ""))
+        questionList.append(Question(text: "What must you be certain of before you overtake at night?", image: ""))
+        questionList.append(Question(text: "You're driving at night. Why should you ensure that all your lights are clean and working correctly?", image: ""))
+        questionList.append(Question(text: "When should you use the two-second rule?", image: ""))
+        questionList.append(Question(text: "What should you do if an overtaking vehicle pulls in too close in front of you?", image: ""))
+
+        //1031-1040
+        questionList.append(Question(text: "Why should you be aware of motorcyclists on a motorway when there are gusty winds?", image: ""))
+        questionList.append(Question(text: "You're driving in heavy rain. Why do you need to increase your distance from the vehicle in front?", image: ""))
+        questionList.append(Question(text: "Which lane should you use when you're driving on a clear motorway, at the speed limit for your vehicle?", image: ""))
+        questionList.append(Question(text: "How will gravity affect a laden vehicle going downhill?", image: ""))
+        questionList.append(Question(text: "When may vehicles over 7.5 tonnes maximum authorised mass (MAM) use the right-hand lane of a motorway to overtake?", image: ""))
+        questionList.append(Question(text: "Which road users are most at risk from the turbulence caused by your vehicle?", image: ""))
+        questionList.append(Question(text: "What should you do before you start to overtake a lorry?", image: ""))
+        questionList.append(Question(text: "Why should you take extra care when overtaking at night?", image: ""))
+        questionList.append(Question(text: "When shouldn't you overtake?", image: ""))
+        questionList.append(Question(text: "You're driving on a motorway in heavy rain. What could cause your steering to become unresponsive", image: ""))
+
+        //1041-1050
+        questionList.append(Question(text: "You're driving on a motorway after it's been raining heavily. What should you do if spray is being thrown up, causing poor visibility?", image: ""))
+        questionList.append(Question(text: "When do long vehicles sometimes need to straddle lanes?", image: ""))
+        questionList.append(Question(text: "When is a buffer lane most likely to be in use?", image: ""))
+        questionList.append(Question(text: "What should you do if you see a lorry too close behind when you're driving in traffic on the motorway?", image: ""))
+        questionList.append(Question(text: "How should you use the brakes in icy weather?", image: ""))
+        questionList.append(Question(text: "Why do some buses have marker lights along their sides?", image: ""))
+        questionList.append(Question(text: "You're driving in heavy rain. What should you do if your steering suddenly feels very light?", image: ""))
+        questionList.append(Question(text: "What problem may you have when driving at night?", image: ""))
+        questionList.append(Question(text: "You're driving a high-sided vehicle on a motorway. Where should you be especially aware of the effects of side wind?", image: ""))
+        questionList.append(Question(text: "What should you do when you drive in windy weather?", image: ""))
+
+//        //1051-1060
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
