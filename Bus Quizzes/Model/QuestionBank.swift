@@ -1157,7 +1157,67 @@ class QuestionBank {
         questionList.append(Question(text: "Why is it dangerous to follow a large goods vehicle too closely?", image: ""))
         questionList.append(Question(text: "When do drivers of long vehicles need to straddle lanes?", image: ""))
 
-//        //931-940
+        //951-960
+        questionList.append(Question(text: "The entrances to roundabouts are often slippery when they're wet. How should you deal with this hazard?", image: ""))
+        questionList.append(Question(text: "Where are these lights found?", image: "6-75-school-warning-lights"))
+        questionList.append(Question(text: "Why is tailgating dangerous?", image: ""))
+        questionList.append(Question(text: "You're on a motorway, approaching a working snow plough. Why should you stay behind it?", image: ""))
+        questionList.append(Question(text: "What's the minimum distance you should allow for braking when it's raining heavily?", image: ""))
+        questionList.append(Question(text: "When may you use your vehicle's hazard warning lights while it's moving?", image: ""))
+        questionList.append(Question(text: "In which type of weather is spray-suppression equipment particularly useful?", image: ""))
+        questionList.append(Question(text: "You're driving downhill. How will this affect your vehicle?", image: ""))
+        questionList.append(Question(text: "You're driving a long bus. When would you need to straddle lanes", image: ""))
+        questionList.append(Question(text: "You're driving at 50 mph (80 km/h) on a dry, level road. What gap should you leave between your vehicle and the one in front?", image: ""))
+
+        //961-970
+        questionList.append(Question(text: "You're driving a bus on a windy day. What should you do when you're overtaking a motorcyclist?", image: ""))
+        questionList.append(Question(text: "What does this motorway sign mean?", image: "6-90-a-crawler-lane"))
+        questionList.append(Question(text: "Why should you be especially aware of parked cars when you're driving at night?", image: ""))
+        questionList.append(Question(text: "Which vehicle is least likely to be affected by high wind?", image: ""))
+        questionList.append(Question(text: "You're driving a high-sided vehicle in very windy conditions. Where should you avoid travelling?", image: ""))
+        questionList.append(Question(text: "It's raining. Why would a motorcyclist steer around drain covers on a bend?", image: ""))
+        questionList.append(Question(text: "What should you do when you park your vehicle on a two-way road at night?", image: ""))
+        questionList.append(Question(text: "What should you do before overtaking on a single carriageway road?", image: ""))
+        questionList.append(Question(text: "What will affect a double-deck bus more than a single-deck bus?", image: ""))
+        questionList.append(Question(text: "What component fitted to your vehicle will help following drivers in wet weather?", image: ""))
+
+        //971-980
+        questionList.append(Question(text: "You're in the left-hand lane on a three-lane motorway. Why should you check for any vehicles in the right-hand lane before you overtake?", image: ""))
+        questionList.append(Question(text: "How should you drive through flood water?", image: ""))
+        questionList.append(Question(text: "High-sided vehicles can be affected by side wind. On which type of road is this most likely?", image: ""))
+        questionList.append(Question(text: "Why can visibility be worse when driving at high speed in wet weather?", image: ""))
+        questionList.append(Question(text: "You'll be driving a high-floor coach. You'll be going over several high bridges. Why should you check the weather forecast before starting your journey?", image: ""))
+        questionList.append(Question(text: "What should you do if you intend to overtake a lorry that's throwing up spray?", image: ""))
+        questionList.append(Question(text: "You are driving in town and see these lights flashing. What would you expect to see ahead", image: "6-75-school-warning-lights"))
+        questionList.append(Question(text: "How should you slow down or stop when you're driving on an icy road?", image: ""))
+        questionList.append(Question(text: "Why are brushes fitted to this vehicle's wheel arch?", image: "6-60-brushes-fitted-to-vehicle"))
+        questionList.append(Question(text: "You're in the centre lane of a motorway, overtaking another vehicle. What should you do before returning to the left-hand lane?", image: ""))
+
+        //981-990
+        questionList.append(Question(text: "What should you do when you're overtaking a motorcyclist in very windy conditions?", image: ""))
+        questionList.append(Question(text: "You're driving in wet conditions. What should you try to do before braking?", image: ""))
+        questionList.append(Question(text: "You're driving a fully laden vehicle approaching an uphill gradient. What will happen if you start to overtake?", image: ""))
+        questionList.append(Question(text: "It's very windy and you're overtaking a motorcyclist on a motorway. What should you be aware of that may cause them problems?", image: ""))
+        questionList.append(Question(text: "You're driving in fog that's starting to clear. When should you switch off your high-intensity rear fog lights?", image: ""))
+        questionList.append(Question(text: "You're driving behind two cyclists. They're approaching a roundabout in the left-hand lane. What should you expect them to do?", image: ""))
+        questionList.append(Question(text: "You're driving at the speed limit in the left-hand lane of a motorway. What should you do if you see lorries merging from a slip road ahead?", image: ""))
+        questionList.append(Question(text: "What must bus and coach drivers do when they park their vehicle on the road at night?", image: ""))
+        questionList.append(Question(text: "You're driving at a speed of 50 mph (80 km/h) in good, dry conditions. What distance should you stay behind the vehicle in front?", image: ""))
+        questionList.append(Question(text: "Where would you anticipate problems when you're driving a high-sided vehicle on a windy day", image: ""))
+
+        //991-1000
+        questionList.append(Question(text: "You're driving a bus at night on a road without street lighting. Why could it be dangerous to overtake?", image: ""))
+        questionList.append(Question(text: "Which vehicles are most likely to be affected by high winds?", image: ""))
+        questionList.append(Question(text: "What should you do before changing lanes to overtake on a motorway?", image: ""))
+        questionList.append(Question(text: "You've just overtaken another vehicle on a motorway. What should you avoid when moving back to the left?", image: ""))
+        questionList.append(Question(text: "You're following a large vehicle. How can you improve your view ahead?", image: ""))
+        questionList.append(Question(text: "What do you need to be careful of when you're driving in high winds?", image: ""))
+        questionList.append(Question(text: "You're driving along a motorway in thick fog at night. The reflective studs are red on your left and white on your right. Which lane are you in?", image: ""))
+        questionList.append(Question(text: "You're driving a bus. Where should you be aware of the risk of grounding?", image: ""))
+        questionList.append(Question(text: "What's the best way to control your vehicle when driving on snow?", image: ""))
+        questionList.append(Question(text: "What might happen if using the brakes continuously causes them to overheat?", image: ""))
+
+//        //1001-1010
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))

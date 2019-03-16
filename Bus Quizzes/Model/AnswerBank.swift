@@ -5720,65 +5720,364 @@ class AnswerBank {
         answerList.append(Answer(text: "When they need to avoid mounting the kerb", correctAnswer: true))
         answerList.append(Answer(text: "When coming to contraflow systems", correctAnswer: false))
 
-//        //Q931
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q932
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q933
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q934
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q935
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q936
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q937
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q938
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q939
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q940
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q951
+        answerList.append(Answer(text: "Stay in the left-hand lane", correctAnswer: false))
+        answerList.append(Answer(text: "Brake in good time", correctAnswer: true))
+        answerList.append(Answer(text: "Use the handbrake", correctAnswer: false))
+        answerList.append(Answer(text: "Stop before emerging", correctAnswer: false))
 
+        //Q952
+        answerList.append(Answer(text: "On approach to a level crossing", correctAnswer: false))
+        answerList.append(Answer(text: "Near a fire station", correctAnswer: false))
+        answerList.append(Answer(text: "On approach to a motorway", correctAnswer: false))
+        answerList.append(Answer(text: "Near a school", correctAnswer: true))
+
+        //Q953
+        answerList.append(Answer(text: "You're likely to be distracted", correctAnswer: false))
+        answerList.append(Answer(text: "Your engine will overheat", correctAnswer: false))
+        answerList.append(Answer(text: "Your view to the rear is reduced", correctAnswer: false))
+        answerList.append(Answer(text: "Your view ahead is reduced", correctAnswer: true))
+
+        //Q954
+        answerList.append(Answer(text: "It is illegal to overtake snow ploughs", correctAnswer: false))
+        answerList.append(Answer(text: "Snow ploughs are left-hand drive only", correctAnswer: false))
+        answerList.append(Answer(text: "Your speed could cause snow to drift behind", correctAnswer: false))
+        answerList.append(Answer(text: "There may be deep snow ahead", correctAnswer: true))
+
+        //Q955
+        answerList.append(Answer(text: "The normal distance", correctAnswer: false))
+        answerList.append(Answer(text: "Twice the normal distance", correctAnswer: true))
+        answerList.append(Answer(text: "Three times the normal distance", correctAnswer: false))
+        answerList.append(Answer(text: "Five times the normal distance", correctAnswer: false))
+
+        //Q956
+        answerList.append(Answer(text: "When you have just overtaken another vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "When you need to reverse for some distance", correctAnswer: false))
+        answerList.append(Answer(text: "When you're on a motorway and traffic ahead slows suddenly", correctAnswer: true))
+        answerList.append(Answer(text: "When one of your lights has failed", correctAnswer: false))
+
+        //Q957
+        answerList.append(Answer(text: "Rain", correctAnswer: true))
+        answerList.append(Answer(text: "Ice", correctAnswer: false))
+        answerList.append(Answer(text: "Fog", correctAnswer: false))
+        answerList.append(Answer(text: "Wind", correctAnswer: false))
+
+        //Q958
+        answerList.append(Answer(text: "It will need more engine power", correctAnswer: false))
+        answerList.append(Answer(text: "It will take longer to stop", correctAnswer: true))
+        answerList.append(Answer(text: "It will increase fuel consumption", correctAnswer: false))
+        answerList.append(Answer(text: "It will be easier to change direction", correctAnswer: false))
+
+        //Q959
+        answerList.append(Answer(text: "Only when joining a bus lane", correctAnswer: false))
+        answerList.append(Answer(text: "On all bends and corners", correctAnswer: false))
+        answerList.append(Answer(text: "On the approach to all roundabouts", correctAnswer: false))
+        answerList.append(Answer(text: "To avoid mounting the kerb", correctAnswer: true))
+
+        //Q960
+        answerList.append(Answer(text: "One vehicle length", correctAnswer: false))
+        answerList.append(Answer(text: "Two vehicle lengths", correctAnswer: false))
+        answerList.append(Answer(text: "At least a one-second gap", correctAnswer: false))
+        answerList.append(Answer(text: "At least a two-second gap", correctAnswer: true))
+
+        //Q961
+        answerList.append(Answer(text: "Pass close to shield them from the wind", correctAnswer: false))
+        answerList.append(Answer(text: "Move back early to protect them from buffeting", correctAnswer: false))
+        answerList.append(Answer(text: "Pass wide in case they're blown off course", correctAnswer: true))
+        answerList.append(Answer(text: "Signal left so they know you're pulling in", correctAnswer: false))
+        
+        //Q962
+        answerList.append(Answer(text: "You're approaching a long downhill slope", correctAnswer: false))
+        answerList.append(Answer(text: "You're approaching a long uphill slope", correctAnswer: true))
+        answerList.append(Answer(text: "You're approaching a ‘lorries only’ lane", correctAnswer: false))
+        answerList.append(Answer(text: "You're approaching a service area", correctAnswer: false))
+        
+        //Q963
+        answerList.append(Answer(text: "There are more of them", correctAnswer: false))
+        answerList.append(Answer(text: "They are more likely to move off", correctAnswer: false))
+        answerList.append(Answer(text: "The drivers may be drunk", correctAnswer: false))
+        answerList.append(Answer(text: "They can park without lights", correctAnswer: true))
+        
+        //Q964
+        answerList.append(Answer(text: "Motorcycle", correctAnswer: false))
+        answerList.append(Answer(text: "Car", correctAnswer: true))
+        answerList.append(Answer(text: "Car towing a caravan", correctAnswer: false))
+        answerList.append(Answer(text: "Box truck", correctAnswer: false))
+        
+        //Q965
+        answerList.append(Answer(text: "Across suspension bridges", correctAnswer: true))
+        answerList.append(Answer(text: "Up steep hills", correctAnswer: false))
+        answerList.append(Answer(text: "Along country lanes", correctAnswer: false))
+        answerList.append(Answer(text: "Through road tunnels", correctAnswer: false))
+        
+        //Q966
+        answerList.append(Answer(text: "To reduce the risk of skidding", correctAnswer: true))
+        answerList.append(Answer(text: "To avoid puncturing the tyres", correctAnswer: false))
+        answerList.append(Answer(text: "To improve their view around the bend", correctAnswer: false))
+        answerList.append(Answer(text: "To avoid splashing pedestrians", correctAnswer: false))
+        
+        //Q967
+        answerList.append(Answer(text: "Use the parking lights", correctAnswer: true))
+        answerList.append(Answer(text: "Switch off all lights", correctAnswer: false))
+        answerList.append(Answer(text: "Put a traffic cone behind your vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Park underneath a street lamp", correctAnswer: false))
+        
+        //Q968
+        answerList.append(Answer(text: "Flash your headlights at oncoming traffic", correctAnswer: false))
+        answerList.append(Answer(text: "Look ahead for road junctions", correctAnswer: true))
+        answerList.append(Answer(text: "Drive very close to the vehicle in fron", correctAnswer: false))
+        answerList.append(Answer(text: "Make a final check in your left-hand mirror", correctAnswer: false))
+        
+        //Q969
+        answerList.append(Answer(text: "Strong winds", correctAnswer: true))
+        answerList.append(Answer(text: "Heavy rain", correctAnswer: false))
+        answerList.append(Answer(text: "Thick fog", correctAnswer: false))
+        answerList.append(Answer(text: "Dense spray", correctAnswer: false))
+        
+        //Q970
+        answerList.append(Answer(text: "Spray reducers", correctAnswer: true))
+        answerList.append(Answer(text: "Side-panel skirts", correctAnswer: false))
+        answerList.append(Answer(text: "Wind deflectors", correctAnswer: false))
+        answerList.append(Answer(text: "Catalytic converter", correctAnswer: false))
+        
+        //Q971
+        answerList.append(Answer(text: "They may be moving faster than you", correctAnswer: false))
+        answerList.append(Answer(text: "They may move back to the middle lane as you move out", correctAnswer: true))
+        answerList.append(Answer(text: "They may cut in sharply behind you", correctAnswer: false))
+        answerList.append(Answer(text: "They may accelerate briskly in front of you", correctAnswer: false))
+        
+        //Q972
+        answerList.append(Answer(text: "Slowly, in a low gear, with engine speed high", correctAnswer: true))
+        answerList.append(Answer(text: "Slowly, in a high gear, with engine speed low", correctAnswer: false))
+        answerList.append(Answer(text: "As quickly as possible to cause the least delay", correctAnswer: false))
+        answerList.append(Answer(text: "At normal speed when you have spray reducers fitted", correctAnswer: false))
+        
+        //Q973
+        answerList.append(Answer(text: "Narrow country lanes", correctAnswer: false))
+        answerList.append(Answer(text: "Open roads", correctAnswer: true))
+        answerList.append(Answer(text: "Slip roads", correctAnswer: false))
+        answerList.append(Answer(text: "Motorway underpasses", correctAnswer: false))
+        
+        //Q974
+        answerList.append(Answer(text: "Drivers bunch together when it's raining", correctAnswer: false))
+        answerList.append(Answer(text: "Headlights will dazzle you more easily", correctAnswer: false))
+        answerList.append(Answer(text: "Windscreen wipers obstruct your view", correctAnswer: false))
+        answerList.append(Answer(text: "More spray is thrown up", correctAnswer: true))
+        
+        //Q975
+        answerList.append(Answer(text: "Rain can make crossing bridges very difficult for buses and coaches", correctAnswer: false))
+        answerList.append(Answer(text: "In hot weather the bridges might be closed to heavy traffic", correctAnswer: false))
+        answerList.append(Answer(text: "You won't be able to climb the bridges if it's frosty", correctAnswer: false))
+        answerList.append(Answer(text: "Some roads may be closed to certain vehicles in high winds", correctAnswer: true))
+        
+        //Q976
+        answerList.append(Answer(text: "Get much closer before moving out", correctAnswer: false))
+        answerList.append(Answer(text: "Wait until the other driver gives a left signal", correctAnswer: false))
+        answerList.append(Answer(text: "Move out earlier than normal", correctAnswer: true))
+        answerList.append(Answer(text: "Wait for the other vehicle to slow down on a hill", correctAnswer: false))
+        
+        //Q977
+        answerList.append(Answer(text: "Contraflow system", correctAnswer: false))
+        answerList.append(Answer(text: "Uneven road surface", correctAnswer: false))
+        answerList.append(Answer(text: "Children crossing the road", correctAnswer: true))
+        answerList.append(Answer(text: "Roadworks ahead", correctAnswer: false))
+        
+        //Q978
+        answerList.append(Answer(text: "Brake gently and in good time", correctAnswer: true))
+        answerList.append(Answer(text: "Always use the retarder", correctAnswer: false))
+        answerList.append(Answer(text: "Change down through the gears", correctAnswer: false))
+        answerList.append(Answer(text: "Use the parking brake in a rapid on-and-off movement", correctAnswer: false))
+        
+        //Q979
+        answerList.append(Answer(text: "To clear mud from the tyres on building sites", correctAnswer: false))
+        answerList.append(Answer(text: "To remove objects from the tyre tread", correctAnswer: false))
+        answerList.append(Answer(text: "To stop snow building up behind the wheel", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce spray on wet roads", correctAnswer: true))
+        
+        //Q980
+        answerList.append(Answer(text: "Signal left then check your mirror", correctAnswer: false))
+        answerList.append(Answer(text: "Wait for the other driver to flash their headlights", correctAnswer: false))
+        answerList.append(Answer(text: "Check ahead and then your nearside mirror", correctAnswer: true))
+        answerList.append(Answer(text: "Check behind for fast traffic in the right-hand lane", correctAnswer: false))
+        
+        //Q981
+        answerList.append(Answer(text: "Allow extra room", correctAnswer: true))
+        answerList.append(Answer(text: "Overtake slowly", correctAnswer: false))
+        answerList.append(Answer(text: "Sound your horn as you pass", correctAnswer: false))
+        answerList.append(Answer(text: "Keep close as you pass", correctAnswer: false))
+        
+        //Q982
+        answerList.append(Answer(text: "Make sure that the gear lever is in neutral", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure that all spray-suppression equipment is working", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure that there's no mist on your rear-view mirrors", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure that your vehicle is travelling in a straight line", correctAnswer: true))
+        
+        //Q983
+        answerList.append(Answer(text: "You will be able to get past more quickly", correctAnswer: false))
+        answerList.append(Answer(text: "The weight of the load will help you go faster", correctAnswer: false))
+        answerList.append(Answer(text: "It will take you longer to get past", correctAnswer: true))
+        answerList.append(Answer(text: "You'll need to use a high gear", correctAnswer: false))
+        
+        //Q984
+        answerList.append(Answer(text: "Your exhaust smoke", correctAnswer: false))
+        answerList.append(Answer(text: "Your engine noise", correctAnswer: false))
+        answerList.append(Answer(text: "The buffeting effect", correctAnswer: true))
+        answerList.append(Answer(text: "The tyre noise", correctAnswer: false))
+        
+        //Q985
+        answerList.append(Answer(text: "When visibility is more than 10 metres (32 feet)", correctAnswer: false))
+        answerList.append(Answer(text: "When visibility is more than 50 metres (164 feet)", correctAnswer: false))
+        answerList.append(Answer(text: "When visibility is more than 75 metres (246 feet)", correctAnswer: false))
+        answerList.append(Answer(text: "When visibility is more than 100 metres (328 feet)", correctAnswer: true))
+        
+        //Q986
+        answerList.append(Answer(text: "Go in any direction", correctAnswer: true))
+        answerList.append(Answer(text: "Turn left", correctAnswer: false))
+        answerList.append(Answer(text: "Turn right", correctAnswer: false))
+        answerList.append(Answer(text: "Go straight ahead", correctAnswer: false))
+        
+        //Q987
+        answerList.append(Answer(text: "Try and accelerate past them", correctAnswer: false))
+        answerList.append(Answer(text: "Move to the next lane if safe", correctAnswer: true))
+        answerList.append(Answer(text: "Brake heavily and let them merge", correctAnswer: false))
+        answerList.append(Answer(text: "Expect them to stop and let you pass", correctAnswer: false))
+        
+        //Q988
+        answerList.append(Answer(text: "They must park under street lights", correctAnswer: false))
+        answerList.append(Answer(text: "They must park within 25 metres (82 feet) of a street light", correctAnswer: false))
+        answerList.append(Answer(text: "They must leave all the interior lights switched on", correctAnswer: false))
+        answerList.append(Answer(text: "They must leave their parking lights switched on", correctAnswer: true))
+        
+        //Q989
+        answerList.append(Answer(text: "At least 23 metres (75 feet)", correctAnswer: false))
+        answerList.append(Answer(text: "At least 36 metres (118 feet)", correctAnswer: false))
+        answerList.append(Answer(text: "At least 53 metres (175 feet)", correctAnswer: true))
+        answerList.append(Answer(text: "At least 73 metres (240 feet)", correctAnswer: false))
+        
+        //Q990
+        answerList.append(Answer(text: "In road tunnels", correctAnswer: false))
+        answerList.append(Answer(text: "On high-level roads", correctAnswer: true))
+        answerList.append(Answer(text: "In dead ground", correctAnswer: false))
+        answerList.append(Answer(text: "On ring roads", correctAnswer: false))
+        
+        //Q991
+        answerList.append(Answer(text: "There may be unseen dips or bends in the road", correctAnswer: true))
+        answerList.append(Answer(text: "You may dazzle other drivers", correctAnswer: false))
+        answerList.append(Answer(text: "It is harder to concentrate", correctAnswer: false))
+        answerList.append(Answer(text: "It is harder to keep control in the dark", correctAnswer: false))
+        
+        //Q992
+        answerList.append(Answer(text: "Slow-moving vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Track-laying vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Front-wheel-drive vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Curtain-sided vehicles", correctAnswer: true))
+        
+        //Q993
+        answerList.append(Answer(text: "Check your mirrors carefully", correctAnswer: true))
+        answerList.append(Answer(text: "Change to a lower gear", correctAnswer: false))
+        answerList.append(Answer(text: "Look over your left shoulder", correctAnswer: false))
+        answerList.append(Answer(text: "Increase your speed gently", correctAnswer: false))
+        
+        //Q994
+        answerList.append(Answer(text: "Cutting in", correctAnswer: false))
+        answerList.append(Answer(text: "Increasing your speed", correctAnswer: false))
+        answerList.append(Answer(text: "Changing gear", correctAnswer: false))
+        answerList.append(Answer(text: "Signalling", correctAnswer: false))
+        
+        //Q995
+        answerList.append(Answer(text: "Drop further back", correctAnswer: true))
+        answerList.append(Answer(text: "Move over to the right", correctAnswer: false))
+        answerList.append(Answer(text: "Move over to the left", correctAnswer: false))
+        answerList.append(Answer(text: "Overtake as soon as you can", correctAnswer: false))
+        
+        //Q996
+        answerList.append(Answer(text: "Fallen trees", correctAnswer: true))
+        answerList.append(Answer(text: "Poor visibility", correctAnswer: false))
+        answerList.append(Answer(text: "A risk of grounding", correctAnswer: false))
+        answerList.append(Answer(text: "Steep gradients", correctAnswer: false))
+        
+        //Q997
+        answerList.append(Answer(text: "The right-hand lane", correctAnswer: false))
+        answerList.append(Answer(text: "The hard shoulder", correctAnswer: false))
+        answerList.append(Answer(text: "The left-hand lane", correctAnswer: true))
+        answerList.append(Answer(text: "The middle lane", correctAnswer: false))
+        
+        //Q998
+        answerList.append(Answer(text: "On a hump bridge", correctAnswer: true))
+        answerList.append(Answer(text: "On a crawler lane", correctAnswer: false))
+        answerList.append(Answer(text: "On a left-hand bend", correctAnswer: false))
+        answerList.append(Answer(text: "In a narrow street", correctAnswer: false))
+        
+        //Q999
+        answerList.append(Answer(text: "Keep the engine revs high and spin the wheels", correctAnswer: false))
+        answerList.append(Answer(text: "Drive in your vehicle's lowest gear", correctAnswer: false))
+        answerList.append(Answer(text: "Keep the engine revs high and slip the clutch", correctAnswer: false))
+        answerList.append(Answer(text: "Drive slowly, in a higher gear than normal", correctAnswer: true))
+        
+        //Q1000
+        answerList.append(Answer(text: "The brakes will work better", correctAnswer: false))
+        answerList.append(Answer(text: "The brakes will be less effective", correctAnswer: true))
+        answerList.append(Answer(text: "The brake pedal will become stiff", correctAnswer: false))
+        answerList.append(Answer(text: "The air pressure will increase", correctAnswer: false))
+        
+//        //Q1001
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1002
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1003
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1004
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1005
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q1006
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1007
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1008
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1009
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1010
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
     }
 }
