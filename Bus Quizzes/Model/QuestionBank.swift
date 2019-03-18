@@ -1277,7 +1277,67 @@ class QuestionBank {
         questionList.append(Question(text: "You're driving a high-sided vehicle on a motorway. Where should you be especially aware of the effects of side wind?", image: ""))
         questionList.append(Question(text: "What should you do when you drive in windy weather?", image: ""))
 
-//        //1051-1060
+        //1051-1060
+        questionList.append(Question(text: "At an incident, a casualty is unconscious but still breathing. Why would you move them?", image: ""))
+        questionList.append(Question(text: "Your bus hits a low railway bridge. Nobody is injured. When and to whom should you report the incident?", image: ""))
+        questionList.append(Question(text: "You arrive at the scene of an incident. The emergency services have already been called. A pedestrian is bleeding heavily from a leg wound, but their leg isn't broken. What could you do to help them?", image: ""))
+        questionList.append(Question(text: "You arrive at the scene of an incident. A casualty has an injured arm that's bleeding heavily. What should you do while waiting for the emergency services to arrive?", image: ""))
+        questionList.append(Question(text: "A passenger on your bus has stopped breathing. You help them by giving CPR. When should you stop doing this?", image: ""))
+        questionList.append(Question(text: "You've been involved in an incident and damaged some property. What should you do if nobody else is present and your vehicle is still roadworthy?", image: ""))
+        questionList.append(Question(text: "You're approaching a bridge that has no height restriction on it. What's the minimum height under the bridge?", image: ""))
+        questionList.append(Question(text: "What should you do when you drive into a tunnel?", image: ""))
+        questionList.append(Question(text: "Your vehicle breaks down on a motorway. What should you do if you can't get it fully onto the hard shoulder?", image: ""))
+        questionList.append(Question(text: "You're waiting for the emergency services to arrive at the scene of an incident. A pedestrian's leg is bleeding heavily, but there's nothing embedded in the wound. What could you do to help?", image: ""))
+
+        //1061-1070
+        questionList.append(Question(text: "What must you do if your bus has hit a parked vehicle and the owner can't be found?", image: ""))
+        questionList.append(Question(text: "At an incident, a casualty has stopped breathing. How could you help them?", image: ""))
+        questionList.append(Question(text: "What's the first thing you should try to do if your vehicle catches fire while you're driving through a tunnel?", image: ""))
+        questionList.append(Question(text: "You arrive at an incident where a motorcyclist is lying in the road, unconscious and bleeding. The area is safe and the emergency services have been called. What’s the first priority when checking the rider?", image: ""))
+        questionList.append(Question(text: "What should you do if your bus has been involved in an incident with other vehicles?", image: ""))
+        questionList.append(Question(text: "You're driving through a tunnel. What should you do if your vehicle breaks down?", image: ""))
+        questionList.append(Question(text: "You arrive at the scene of an incident. How should you deal with someone who is hysterical?", image: ""))
+        questionList.append(Question(text: "You arrive at the scene of an incident and someone is unconscious. What's the first thing you should do to help them?", image: ""))
+        questionList.append(Question(text: "You arrive at an incident where someone is suffering from severe burns. What should you do to help?", image: ""))
+        questionList.append(Question(text: "What should you do before entering a tunnel?", image: ""))
+
+        //1071-1080
+        questionList.append(Question(text: "When should you stop trying to resuscitate a casualty?", image: ""))
+        questionList.append(Question(text: "While driving through a tunnel, your vehicle catches fire. What's the first thing you should do if the vehicle can't be driven out of the tunnel?", image: ""))
+        questionList.append(Question(text: "Your vehicle is involved in an incident where someone is injured. You don't produce your insurance certificate at the time. How soon must you report the incident to the police?", image: ""))
+        questionList.append(Question(text: "At the scene of an incident, an injured person is lying in a busy road. What's the first thing you should do to help?", image: ""))
+        questionList.append(Question(text: "You're driving through a congested tunnel. What should you do if you have to stop?", image: ""))
+        questionList.append(Question(text: "You're at the scene of an incident. How can you help someone suffering from shock?", image: ""))
+        questionList.append(Question(text: "At the scene of a crash, a casualty is in contact with live electrical cables. What should you use to break the electrical connection?", image: ""))
+        questionList.append(Question(text: "You're carrying a bus full of passengers. What must you do if you see smoke coming from the engine compartment?", image: ""))
+        questionList.append(Question(text: "What should you do when you're driving through a tunnel in heavy traffic?", image: ""))
+        questionList.append(Question(text: "You're stopped by a police officer for a suspected motoring offence. Which document will you be asked to produce?", image: ""))
+        
+        //1081-1090
+        questionList.append(Question(text: "While driving through a tunnel, your coach catches fire. What should you do if the vehicle can't be driven any further?", image: ""))
+        questionList.append(Question(text: "You're at the scene of an incident. What does it mean if there's a plain orange rectangle displayed on one of the vehicles?", image: ""))
+        questionList.append(Question(text: "Your bus has stopped at the scene of an incident. Why should you consider moving your passengers to the front of the bus?", image: ""))
+        questionList.append(Question(text: "Your bus is involved in an incident. What should you do if you have a passenger who's unconscious but still breathing?", image: ""))
+        questionList.append(Question(text: "Which type of fire extinguisher shouldn't be used on flammable liquids?", image: ""))
+        questionList.append(Question(text: "You're at an incident. Why may it be harmful to move a casualty?", image: ""))
+        questionList.append(Question(text: "Where should you stand when using a motorway emergency telephone?", image: ""))
+        questionList.append(Question(text: "What should you do first to help someone who's unconscious at the scene of an incident?", image: ""))
+        questionList.append(Question(text: "Your engine catches fire. What should you do before attempting to put the fire out?", image: ""))
+        questionList.append(Question(text: "What should you do if you're the first person to arrive at the scene of an incident?", image: ""))
+
+        //1091-1100
+        questionList.append(Question(text: "You're driving a coach carrying elderly people. You arrive at the scene of an incident. What should you do if the emergency services have already arrived?", image: ""))
+        questionList.append(Question(text: "You've had an incident while driving through a tunnel. You aren't injured but your vehicle can't be driven. What's the first thing you should do in this situation?", image: ""))
+        questionList.append(Question(text: "You arrive at the scene of an incident where a motorcyclist is lying in the middle of the road and unconscious. What's the first thing you should do?", image: ""))
+        questionList.append(Question(text: "At the scene of an incident, a person has become hysterical. How should you calm them down?", image: ""))
+        questionList.append(Question(text: "Your vehicle catches fire while you're driving through a tunnel. What should you do if the vehicle can still be driven?", image: ""))
+        questionList.append(Question(text: "What must you do if you're involved in a traffic incident?", image: ""))
+        questionList.append(Question(text: "You arrive at the scene of an incident where someone is injured. What should be given urgent priority?", image: ""))
+        questionList.append(Question(text: "How should you care for a passenger who’s in shock?", image: ""))
+        questionList.append(Question(text: "You're at the scene of an incident. What would suggest someone is suffering from shock?", image: ""))
+        questionList.append(Question(text: "The area around an incident is safe. What's the best way to help an injured person?", image: ""))
+        
+//        //1101-1110
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
