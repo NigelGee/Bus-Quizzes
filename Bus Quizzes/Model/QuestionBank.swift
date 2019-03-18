@@ -1337,7 +1337,55 @@ class QuestionBank {
         questionList.append(Question(text: "You're at the scene of an incident. What would suggest someone is suffering from shock?", image: ""))
         questionList.append(Question(text: "The area around an incident is safe. What's the best way to help an injured person?", image: ""))
         
-//        //1101-1110
+        //1101-1110
+        questionList.append(Question(text: "Your bus catches fire in a tunnel and can't be driven any further. What should you do when you've stopped safely at the side of the road?", image: ""))
+        questionList.append(Question(text: "At an incident, a casualty is unconscious but still breathing. Why would you move them?", image: ""))
+        questionList.append(Question(text: "You arrive at the scene of an incident where a motorcyclist is lying in the middle of the road and unconscious. What's the first thing you should do?", image: ""))
+        questionList.append(Question(text: "You're at the scene of a traffic incident. What are the symptoms of someone suffering from shock?", image: ""))
+        questionList.append(Question(text: "You've stopped at the scene of an incident where there are casualties. What should you do to help while waiting for the emergency services to arrive?", image: ""))
+        questionList.append(Question(text: "At an incident, you suspect a casualty has back injuries. What's the best way to help them?", image: ""))
+        questionList.append(Question(text: "What should you do before driving into a tunnel?", image: ""))
+        questionList.append(Question(text: "You're the first person to arrive at an incident where people are badly injured. What's the first thing you should do?", image: ""))
+        questionList.append(Question(text: "You're at the scene of a collision. People are injured. What should be done when the risk of further collisions has been dealt with?", image: ""))
+        questionList.append(Question(text: "You're trying to resuscitate a casualty who isn't breathing. For how long should you continue compressions if they haven’t started breathing again?", image: ""))
+
+        //1111-1120
+        questionList.append(Question(text: "Which authority has the power to impose conditions on a passenger-carrying vehicle (PCV) operator’s licence?", image: ""))
+        questionList.append(Question(text: "Which licence category do you need to drive an articulated bus (‘bendy bus’)?", image: ""))
+        questionList.append(Question(text: "You're found to be two-and-a-half times over the legal drink-drive limit and are disqualified from driving. Before regaining your licence, who will you have to satisfy that you don't have an alcohol problem?", image: ""))
+        questionList.append(Question(text: "You intend to drive a midibus for hire or reward. It has more than 16 passenger seats. What's the minimum licence entitlement you need?", image: ""))
+        questionList.append(Question(text: "How can vehicle operators help to prevent the carriage of illegal immigrants?", image: ""))
+        questionList.append(Question(text: "What's the current fine for each person illegally carried into the UK?", image: ""))
+        questionList.append(Question(text: "What size of trailer can be towed by the holder of a full category D licence?", image: ""))
+        questionList.append(Question(text: "What's a Statutory Off-Road Notification (SORN)?", image: ""))
+        questionList.append(Question(text: "Which licence category do you need to drive a bus with 25 passenger seats?", image: ""))
+        questionList.append(Question(text: "The Driver Certificate of Professional Competence (Driver CPC) requires you to take training every five years. How many hours of training must you take?", image: ""))
+
+        //1121-1130
+        questionList.append(Question(text: "You're making a journey that crosses international borders. Which document should you produce at immigration control?", image: ""))
+        questionList.append(Question(text: "You'll be driving your vehicle in Europe. Which of these documents must you carry?", image: ""))
+        questionList.append(Question(text: "You're returning to the UK and are about to board a ferry. An immigration officer asks to see your documentation. What must you show them immediately?", image: ""))
+        questionList.append(Question(text: "Why may coaches be subject to a search by immigration authorities at international ports?", image: ""))
+        questionList.append(Question(text: "You're driving a coach, returning from a European trip. Why should you search the vehicle at the port?", image: ""))
+        questionList.append(Question(text: "Every five years, you must complete further training to keep your Driver Certificate of Professional Competence (Driver CPC). How many hours of training must you complete over those five years?", image: ""))
+        questionList.append(Question(text: "Which category of licence do you need to drive a tri-axle double-deck coach?", image: ""))
+        questionList.append(Question(text: "Drivers can be fined for bringing illegal immigrants into the UK. Who else can be fined?", image: ""))
+        questionList.append(Question(text: "You'll need to take 35 hours of training to maintain your Driver Certificate of Professional Competence (Driver CPC). Over what period must this be carried out?", image: ""))
+        questionList.append(Question(text: "You hold a full category D licence. What entitlement does this give you for towing?", image: ""))
+
+        //1131-1140
+        questionList.append(Question(text: "What condition could prevent you from holding a lorry or bus licence?", image: ""))
+        questionList.append(Question(text: "You're applying for an LGV or PCV licence for the first time. What will your medical examination include?", image: ""))
+        questionList.append(Question(text: "You've been convicted of a drink-drive offence and banned from driving. Which entitlement will this ban affect?", image: ""))
+        questionList.append(Question(text: "A driver is convicted of bringing illegal immigrants into the UK. How is the fine calculated?", image: ""))
+        questionList.append(Question(text: "What's the maximum fine for driving without insurance?", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+
+//        //1141-1150
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))

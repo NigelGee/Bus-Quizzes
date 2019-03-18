@@ -1404,8 +1404,8 @@ class AnswerBank {
         
         //Q232
         answerList.append(Answer(text: "Yes, at any time", correctAnswer: false))
-        answerList.append(Answer(text: "Yes, but you must be carrying at least two passengers", correctAnswer: true))
-        answerList.append(Answer(text: "Yes, but you must be carrying at least one passenger", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but you must be carrying at least two passengers", correctAnswer: false))
+        answerList.append(Answer(text: "Yes, but you must be carrying at least one passenger", correctAnswer: true))
         answerList.append(Answer(text: "Yes, but you must remain in the lane for at least two miles", correctAnswer: false))
         
         //Q233
@@ -6620,61 +6620,301 @@ class AnswerBank {
         answerList.append(Answer(text: "Give them something to eat", correctAnswer: false))
         answerList.append(Answer(text: "Keep them in the vehicle", correctAnswer: true))
         
-//        //Q1101
+        //Q1101
+        answerList.append(Answer(text: "Move the passengers to the nearest tunnel exit", correctAnswer: true))
+        answerList.append(Answer(text: "Use the extinguisher to put out the fire", correctAnswer: false))
+        answerList.append(Answer(text: "Keep the passengers together in front of the vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Stand behind your vehicle and warn other drivers", correctAnswer: false))
+
+        //Q1102
+        answerList.append(Answer(text: "Because an ambulance is on its way", correctAnswer: false))
+        answerList.append(Answer(text: "Because bystanders advise you to", correctAnswer: false))
+        answerList.append(Answer(text: "Because there is further danger", correctAnswer: true))
+        answerList.append(Answer(text: "Because they look uncomfortable", correctAnswer: false))
+
+        //Q1103
+        answerList.append(Answer(text: "Move the rider out of the road", correctAnswer: false))
+        answerList.append(Answer(text: "Warn other traffic", correctAnswer: true))
+        answerList.append(Answer(text: "Clear the road of debris", correctAnswer: false))
+        answerList.append(Answer(text: "Give the rider reassurance", correctAnswer: false))
+
+        //Q1104
+        answerList.append(Answer(text: "Rapid pulse and sweating", correctAnswer: false))
+        answerList.append(Answer(text: "Flushed complexion and deep breathing", correctAnswer: false))
+        answerList.append(Answer(text: "Slow pulse and dry skin", correctAnswer: false))
+        answerList.append(Answer(text: "Muscle spasms and an itchy rash", correctAnswer: false))
+
+        //Q1105
+        answerList.append(Answer(text: "Keep injured people warm and comfortable", correctAnswer: true))
+        answerList.append(Answer(text: "Clear debris from the road", correctAnswer: false))
+        answerList.append(Answer(text: "Keep injured people on the move by walking them around", correctAnswer: false))
+        answerList.append(Answer(text: "Give injured people a warm drink", correctAnswer: false))
+
+        //Q1106
+        answerList.append(Answer(text: "Offer them a drink", correctAnswer: false))
+        answerList.append(Answer(text: "Leave them where they are", correctAnswer: true))
+        answerList.append(Answer(text: "Raise their legs", correctAnswer: false))
+        answerList.append(Answer(text: "Offer them a cigarette", correctAnswer: false))
+
+        //Q1107
+        answerList.append(Answer(text: "Switch your radio off", correctAnswer: false))
+        answerList.append(Answer(text: "Remove your sunglasses", correctAnswer: true))
+        answerList.append(Answer(text: "Close your sunroof", correctAnswer: false))
+        answerList.append(Answer(text: "Switch on windscreen wipers", correctAnswer: false))
+
+        //Q1108
+        answerList.append(Answer(text: "Switch on your own hazard warning lights", correctAnswer: true))
+        answerList.append(Answer(text: "Contact the local radio station to tell them about the incident", correctAnswer: false))
+        answerList.append(Answer(text: "Try and get people who are injured to drink something", correctAnswer: false))
+        answerList.append(Answer(text: "Move the people who are injured clear of their vehicles", correctAnswer: false))
+
+        //Q1109
+        answerList.append(Answer(text: "Pull people who are hurt out of their vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Clear a parking area for the emergency services", correctAnswer: false))
+        answerList.append(Answer(text: "Make sure the emergency services have been called", correctAnswer: true))
+        answerList.append(Answer(text: "Get the casualties to drink something sweet", correctAnswer: false))
+
+        //Q1110
+        answerList.append(Answer(text: "Give up if you think they are dead", correctAnswer: false))
+        answerList.append(Answer(text: "Keep trying for up to two minutes", correctAnswer: false))
+        answerList.append(Answer(text: "Until medical help arrives and takes over", correctAnswer: true))
+        answerList.append(Answer(text: "Keep trying for up to four minutes", correctAnswer: false))
+
+        //Q1111
+        answerList.append(Answer(text: "The Traffic Commissioner", correctAnswer: true))
+        answerList.append(Answer(text: "DVLA", correctAnswer: false))
+        answerList.append(Answer(text: "DVSA", correctAnswer: false))
+        answerList.append(Answer(text: "Highways England", correctAnswer: false))
+
+        //Q1112
+        answerList.append(Answer(text: "D1+E", correctAnswer: false))
+        answerList.append(Answer(text: "D", correctAnswer: true))
+        answerList.append(Answer(text: "D+E", correctAnswer: false))
+        answerList.append(Answer(text: "D1", correctAnswer: false))
+
+        //Q1113
+        answerList.append(Answer(text: "The local hospital", correctAnswer: false))
+        answerList.append(Answer(text: "The Driver and Vehicle Licensing Agency", correctAnswer: true))
+        answerList.append(Answer(text: "Alcoholics Anonymous", correctAnswer: false))
+        answerList.append(Answer(text: "Driver and Vehicle Standards Agency", correctAnswer: false))
+
+        //Q1114
+        answerList.append(Answer(text: "C", correctAnswer: false))
+        answerList.append(Answer(text: "C1", correctAnswer: false))
+        answerList.append(Answer(text: "D", correctAnswer: true))
+        answerList.append(Answer(text: "D1", correctAnswer: false))
+
+        //Q1115
+        answerList.append(Answer(text: "By using an effective vehicle security system", correctAnswer: true))
+        answerList.append(Answer(text: "By using vehicle tracking devices", correctAnswer: false))
+        answerList.append(Answer(text: "By taking out liability insurance", correctAnswer: false))
+        answerList.append(Answer(text: "By having effective mobile communications", correctAnswer: false))
+
+        //Q1116
+        answerList.append(Answer(text: "£1000", correctAnswer: false))
+        answerList.append(Answer(text: "£2000", correctAnswer: true))
+        answerList.append(Answer(text: "£3000", correctAnswer: false))
+        answerList.append(Answer(text: "£4000", correctAnswer: false))
+
+        //Q1117
+        answerList.append(Answer(text: "750 kg", correctAnswer: true))
+        answerList.append(Answer(text: "1000 kg", correctAnswer: false))
+        answerList.append(Answer(text: "1250 kg", correctAnswer: false))
+        answerList.append(Answer(text: "1500 kg", correctAnswer: false))
+
+        //Q1118
+        answerList.append(Answer(text: "A notification to tell DVSA that a vehicle does not have a current MOT", correctAnswer: false))
+        answerList.append(Answer(text: "Information kept by the police about the owner of the vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "A notification to tell DVLA that a vehicle is not being used on the road", correctAnswer: true))
+        answerList.append(Answer(text: "Information held by insurance companies to check the vehicle is insured", correctAnswer: false))
+
+        //Q1119
+        answerList.append(Answer(text: "D", correctAnswer: true))
+        answerList.append(Answer(text: "D1", correctAnswer: false))
+        answerList.append(Answer(text: "D+E", correctAnswer: false))
+        answerList.append(Answer(text: "D!+E", correctAnswer: false))
+
+        //Q1120
+        answerList.append(Answer(text: "30 hours", correctAnswer: false))
+        answerList.append(Answer(text: "35 hours", correctAnswer: true))
+        answerList.append(Answer(text: "40 hours", correctAnswer: false))
+        answerList.append(Answer(text: "45 hours", correctAnswer: false))
+
+        //Q1121
+        answerList.append(Answer(text: "A list of passengers", correctAnswer: true))
+        answerList.append(Answer(text: "A breakdown insurance certificate", correctAnswer: false))
+        answerList.append(Answer(text: "A route plan", correctAnswer: false))
+        answerList.append(Answer(text: "A list of alcohol on board", correctAnswer: false))
+        
+        //Q1122
+        answerList.append(Answer(text: "The vehicle service record", correctAnswer: false))
+        answerList.append(Answer(text: "Your medical examination form", correctAnswer: false))
+        answerList.append(Answer(text: "Your national driving licence", correctAnswer: true))
+        answerList.append(Answer(text: "The vehicle workshop manual", correctAnswer: false))
+        
+        //Q1123
+        answerList.append(Answer(text: "Your vehicle registration book", correctAnswer: false))
+        answerList.append(Answer(text: "Your driver's hours record", correctAnswer: false))
+        answerList.append(Answer(text: "Your operator documentation", correctAnswer: true))
+        answerList.append(Answer(text: "Your driving licence", correctAnswer: false))
+        
+        //Q1124
+        answerList.append(Answer(text: "For national security", correctAnswer: true))
+        answerList.append(Answer(text: "To check for red diesel", correctAnswer: false))
+        answerList.append(Answer(text: "For tachograph regulations", correctAnswer: false))
+        answerList.append(Answer(text: "To check vehicle condition", correctAnswer: false))
+        
+        //Q1125
+        answerList.append(Answer(text: "To look for missing property", correctAnswer: false))
+        answerList.append(Answer(text: "To ensure duty-free limits are not exceeded", correctAnswer: false))
+        answerList.append(Answer(text: "To prevent the carriage of illegal immigrants", correctAnswer: true))
+        answerList.append(Answer(text: "To ensure the vehicle has the correct documentation", correctAnswer: false))
+        
+        //Q1126
+        answerList.append(Answer(text: "25 hours", correctAnswer: false))
+        answerList.append(Answer(text: "30 hours", correctAnswer: false))
+        answerList.append(Answer(text: "35 hours", correctAnswer: true))
+        answerList.append(Answer(text: "40 hours", correctAnswer: false))
+        
+        //Q1127
+        answerList.append(Answer(text: "D1", correctAnswer: false))
+        answerList.append(Answer(text: "D", correctAnswer: true))
+        answerList.append(Answer(text: "D!+E", correctAnswer: false))
+        answerList.append(Answer(text: "C", correctAnswer: false))
+        
+        //Q1128
+        answerList.append(Answer(text: "The vehicle repairer", correctAnswer: false))
+        answerList.append(Answer(text: "The vehicle insurer", correctAnswer: false))
+        answerList.append(Answer(text: "The vehicle manufacturer", correctAnswer: false))
+        answerList.append(Answer(text: "The vehicle hirer", correctAnswer: true))
+        
+        //Q1129
+        answerList.append(Answer(text: "One year", correctAnswer: false))
+        answerList.append(Answer(text: "Three year", correctAnswer: false))
+        answerList.append(Answer(text: "Five year", correctAnswer: true))
+        answerList.append(Answer(text: "Ten year", correctAnswer: false))
+        
+        //Q1130
+        answerList.append(Answer(text: "You cannot tow a trailer at all", correctAnswer: false))
+        answerList.append(Answer(text: "You can tow a trailer not exceeding 750 kg", correctAnswer: true))
+        answerList.append(Answer(text: "You can tow a trailer of any weight", correctAnswer: false))
+        answerList.append(Answer(text: "You cannot tow a trailer with more than one axle", correctAnswer: false))
+
+        //Q1131
+        answerList.append(Answer(text: "Dyslexia", correctAnswer: false))
+        answerList.append(Answer(text: "Partial blindness", correctAnswer: true))
+        answerList.append(Answer(text: "Dermatitis", correctAnswer: false))
+        answerList.append(Answer(text: "Stomach upset", correctAnswer: false))
+        
+        //Q1132
+        answerList.append(Answer(text: "An eyesight test", correctAnswer: true))
+        answerList.append(Answer(text: "A numeracy test", correctAnswer: false))
+        answerList.append(Answer(text: "A hygiene test", correctAnswer: false))
+        answerList.append(Answer(text: "A literacy test", correctAnswer: false))
+        
+        //Q1133
+        answerList.append(Answer(text: "Your entitlement to drive all motor vehicles", correctAnswer: true))
+        answerList.append(Answer(text: "Your car entitlement", correctAnswer: false))
+        answerList.append(Answer(text: "Your lorry entitlement", correctAnswer: false))
+        answerList.append(Answer(text: "Your bus entitlement", correctAnswer: false))
+        
+        //Q1134
+        answerList.append(Answer(text: "For each family group they bring in", correctAnswer: false))
+        answerList.append(Answer(text: "For each court attendance they make", correctAnswer: false))
+        answerList.append(Answer(text: "For each person they bring in", correctAnswer: true))
+        answerList.append(Answer(text: "For each journey they made in the last year", correctAnswer: false))
+        
+        //Q1135
+        answerList.append(Answer(text: "Unlimited", correctAnswer: true))
+        answerList.append(Answer(text: "£500", correctAnswer: false))
+        answerList.append(Answer(text: "£1000", correctAnswer: false))
+        answerList.append(Answer(text: "£5000", correctAnswer: false))
+        
+//        //Q1136
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q1137
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q1138
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q1139
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        
+//        //Q1140
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+//        //Q1141
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1102
+//        //Q1142
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1103
+//        //Q1143
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1104
+//        //Q1144
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1105
+//        //Q1145
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1106
+//        //Q1146
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1107
+//        //Q1147
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1108
+//        //Q1148
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1109
+//        //Q1149
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1110
+//        //Q1150
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
