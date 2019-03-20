@@ -1445,7 +1445,19 @@ class QuestionBank {
         questionList.append(Question(text: "How can you help to protect the environment?", image: ""))
         questionList.append(Question(text: "Usually, a rev counter is divided into coloured bands. Which band should you stay in for maximum fuel economy?", image: ""))
         
-//        //1191-1200
+        //1191-1200
+        questionList.append(Question(text: "The double white line along the centre of the road is unbroken on your side. When may you cross the line?", image: "15-1191-double-white-line"))
+        questionList.append(Question(text: "Why should you slow down when you see this sign?", image: "15-1192-avoid-throwing-up-loose-chippings"))
+        questionList.append(Question(text: "You're driving on a smart motorway. What's the speed limit when the hard shoulder is being used as a running lane?", image: ""))
+        questionList.append(Question(text: "What colour follows the green signal at a puffin crossing?", image: ""))
+        questionList.append(Question(text: "You're driving in fog on a three-lane motorway. Which lane are you in when you can see red reflective studs on your left and white reflective studs on your right?", image: ""))
+        questionList.append(Question(text: "What information would be shown in a triangular road sign?", image: "15-1196-triangular-road-sign"))
+        questionList.append(Question(text: "What does this sign mean?", image: "15-1197-water-across-the-road"))
+        questionList.append(Question(text: "You're driving on a motorway and there's no traffic ahead. You see this sign. Which lane should you use?", image: "15-1198-right-hand-lane-overhead-sign"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-4-2"))
+        questionList.append(Question(text: "What does this arm signal mean?", image: "15-1200-arm-signal"))
+
+//        //1201-1210
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
