@@ -6921,244 +6921,303 @@ class AnswerBank {
         answerList.append(Answer(text: "Before reversing on a road that has a 40 mph speed limit", correctAnswer: false))
 
         //Q1151
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Vehicle with a mixture of tyre makes", correctAnswer: false))
+        answerList.append(Answer(text: "Vehicle with a mixture of re-cut and new tyres", correctAnswer: false))
+        answerList.append(Answer(text: "Vehicle with faulty spray-suppression equipment", correctAnswer: false))
+        answerList.append(Answer(text: "Vehicle with faulty suspension", correctAnswer: true))
         
         //Q1152
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "To keep your passengers cool", correctAnswer: false))
+        answerList.append(Answer(text: "To save on vehicle air pressure", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce exhaust fumes", correctAnswer: true))
+        answerList.append(Answer(text: "o reduce radio interference", correctAnswer: false))
         
         //Q1153
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "They have a reduced rolling resistance", correctAnswer: true))
+        answerList.append(Answer(text: "They are much easier to manufacture", correctAnswer: false))
+        answerList.append(Answer(text: "They allow you to travel at higher speeds", correctAnswer: false))
+        answerList.append(Answer(text: "They allow heat to disperse more quickly", correctAnswer: false))
         
         //Q1154
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "High-sulphur diesel", correctAnswer: false))
+        answerList.append(Answer(text: "Red diesel", correctAnswer: false))
+        answerList.append(Answer(text: "Low-sulphur diesel", correctAnswer: true))
+        answerList.append(Answer(text: "Blue diesel", correctAnswer: false))
         
         //Q1155
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Damage to level crossings", correctAnswer: false))
+        answerList.append(Answer(text: "Damage to river banks", correctAnswer: false))
+        answerList.append(Answer(text: "Damage to the road surface", correctAnswer: true))
+        answerList.append(Answer(text: "Damage to overhead cables", correctAnswer: false))
         
         //Q1156
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "It uses solar power", correctAnswer: false))
+        answerList.append(Answer(text: "It uses diesel fuel", correctAnswer: false))
+        answerList.append(Answer(text: "It uses electricity", correctAnswer: true))
+        answerList.append(Answer(text: "It uses unleaded fuel", correctAnswer: false))
         
         //Q1157
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Your filler caps are securely shut", correctAnswer: true))
+        answerList.append(Answer(text: "Your tank is full to the top", correctAnswer: false))
+        answerList.append(Answer(text: "The position of the emergency fuel cutoff switch", correctAnswer: false))
+        answerList.append(Answer(text: "The low-fuel warning light is working", correctAnswer: false))
         
         //Q1158
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Keep your engine at tickover speed", correctAnswer: false))
+        answerList.append(Answer(text: "Rev your engine occasionally", correctAnswer: false))
+        answerList.append(Answer(text: "Switch off your engine", correctAnswer: true))
+        answerList.append(Answer(text: "Run the engine at a constant higher speed", correctAnswer: false))
         
         //Q1159
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Continuous use of the air suspension", correctAnswer: false))
+        answerList.append(Answer(text: "Continuous use of the mirrors", correctAnswer: false))
+        answerList.append(Answer(text: "Continuous use of the air conditioning", correctAnswer: true))
+        answerList.append(Answer(text: "Continuous use of the electrical retarder", correctAnswer: false))
         
         //Q1160
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Your vehicle will use more fuel", correctAnswer: false))
+        answerList.append(Answer(text: "There'll be fewer roadworks", correctAnswer: false))
+        answerList.append(Answer(text: "It will help to ease congestion", correctAnswer: true))
+        answerList.append(Answer(text: "You will travel a much shorter distance", correctAnswer: false))
 
         //Q1161
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "The road may be very slippery", correctAnswer: true))
+        answerList.append(Answer(text: "The fuel may splash your vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Your brake linings will become slippery", correctAnswer: false))
+        answerList.append(Answer(text: "Your spray reducers will not be effective", correctAnswer: false))
         
         //Q1162
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Using electric windows", correctAnswer: false))
+        answerList.append(Answer(text: "Using manual sun roof", correctAnswer: false))
+        answerList.append(Answer(text: "Using air conditioning", correctAnswer: true))
+        answerList.append(Answer(text: "Using the endurance brake", correctAnswer: false))
         
         //Q1163
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "High-level exhaust systems", correctAnswer: false))
+        answerList.append(Answer(text: "Regular servicing", correctAnswer: false))
+        answerList.append(Answer(text: "Weak radiator coolant", correctAnswer: false))
+        answerList.append(Answer(text: "Poorly maintained vehicles", correctAnswer: true))
         
         //Q1164
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce wear to roads", correctAnswer: true))
+        answerList.append(Answer(text: "To reduce tyre wear", correctAnswer: false))
+        answerList.append(Answer(text: "To improve fuel consumption", correctAnswer: false))
+        answerList.append(Answer(text: "To help the driver stay awake", correctAnswer: false))
         
         //Q1165
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Check your vehicle's workshop manual", correctAnswer: false))
+        answerList.append(Answer(text: "Ask your local garage", correctAnswer: false))
+        answerList.append(Answer(text: "Use a route planner on the internet", correctAnswer: true))
+        answerList.append(Answer(text: "Consult your travel agents", correctAnswer: false))
         
         //Q1166
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "You'll use less fuel", correctAnswer: true))
+        answerList.append(Answer(text: "You'll use more fuel", correctAnswer: false))
+        answerList.append(Answer(text: "You'll be able to stop more quickly", correctAnswer: false))
+        answerList.append(Answer(text: "You'll reduce journey times", correctAnswer: false))
         
         //Q1167
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Keep the engine running on tickover", correctAnswer: false))
+        answerList.append(Answer(text: "Rev the engine occasionally for air pressure", correctAnswer: false))
+        answerList.append(Answer(text: "Hold the engine at a fast tick-over to maintain air pressure", correctAnswer: false))
+        answerList.append(Answer(text: "Switch off the engine", correctAnswer: true))
         
         //Q1168
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Your original route may be blocked", correctAnswer: true))
+        answerList.append(Answer(text: "Your maps may have different scales", correctAnswer: false))
+        answerList.append(Answer(text: "You may find you have to pay a congestion charge", correctAnswer: false))
+        answerList.append(Answer(text: "Because you may get held up by a tractor", correctAnswer: false))
         
         //Q1169
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "The fuel system", correctAnswer: false))
+        answerList.append(Answer(text: "Tachograph accuracy", correctAnswer: false))
+        answerList.append(Answer(text: "Engine emissions", correctAnswer: false))
+        answerList.append(Answer(text: "Underground services", correctAnswer: true))
         
         //Q1170
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "An excessive amount of fuel will be used", correctAnswer: true))
+        answerList.append(Answer(text: "There'll be an excessive build-up of air pressure", correctAnswer: false))
+        answerList.append(Answer(text: "Exhaust emissions will be reduced", correctAnswer: false))
+        answerList.append(Answer(text: "Oil consumption will be reduced", correctAnswer: false))
 
         //Q1171
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Between midnight and 6.30 am", correctAnswer: false))
+        answerList.append(Answer(text: "Between 11.30 pm and 6.30 am", correctAnswer: false))
+        answerList.append(Answer(text: "Between 11.30 pm and 7.00 am", correctAnswer: true))
+        answerList.append(Answer(text: "Between 12.30 am and 7.00 am", correctAnswer: false))
         
         //Q1172
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Your local filling station", correctAnswer: false))
+        answerList.append(Answer(text: "A motoring organisation", correctAnswer: true))
+        answerList.append(Answer(text: "The Driver and Vehicle Licensing Agency", correctAnswer: false))
+        answerList.append(Answer(text: "Your vehicle manufacturer", correctAnswer: false))
         
         //Q1173
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce aerodynamic drag", correctAnswer: true))
+        answerList.append(Answer(text: "To increase rolling resistance", correctAnswer: false))
+        answerList.append(Answer(text: "To increase momentum", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce unloading time", correctAnswer: false))
         
         //Q1174
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Stop refuelling when half full", correctAnswer: false))
+        answerList.append(Answer(text: "Use a filtered fuel system", correctAnswer: false))
+        answerList.append(Answer(text: "Close and secure all filler cap", correctAnswer: true))
+        answerList.append(Answer(text: "Place the drip tray correctly", correctAnswer: false))
         
         //Q1175
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "By extending the vehicle's service times", correctAnswer: false))
+        answerList.append(Answer(text: "By braking as late as you can", correctAnswer: false))
+        answerList.append(Answer(text: "By planning routes to avoid congestion", correctAnswer: true))
+        answerList.append(Answer(text: "By selecting lower gears", correctAnswer: false))
         
         //Q1176
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "You are more likely to be held up", correctAnswer: false))
+        answerList.append(Answer(text: "Your journey time is likely to be longer", correctAnswer: false))
+        answerList.append(Answer(text: "You'll travel a much shorter distance", correctAnswer: false))
+        answerList.append(Answer(text: "You're less likely to be delayed", correctAnswer: true))
         
         //Q1177
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "A reduction in fuel consumption", correctAnswer: true))
+        answerList.append(Answer(text: "An exemption from tachograph regulations", correctAnswer: false))
+        answerList.append(Answer(text: "A reduction in vehicle excise duty", correctAnswer: false))
+        answerList.append(Answer(text: "An exemption from all congestion charges", correctAnswer: false))
         
         //Q1178
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "That the tank is completely full up to the filler neck", correctAnswer: false))
+        answerList.append(Answer(text: "That the filler cap is vented correctly by keeping it loose", correctAnswer: false))
+        answerList.append(Answer(text: "That the filler cap is properly closed and secure", correctAnswer: true))
+        answerList.append(Answer(text: "That the tank is nearly full and the filler cap is slightly loose", correctAnswer: false))
         
         //Q1179
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "To greet a friend", correctAnswer: false))
+        answerList.append(Answer(text: "To get another driver to move out of your way", correctAnswer: false))
+        answerList.append(Answer(text: "To let another road user know you're giving way", correctAnswer: false))
+        answerList.append(Answer(text: "To warn another road user who poses a danger", correctAnswer: true))
         
         //Q1180
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "Look in a motoring magazine", correctAnswer: false))
+        answerList.append(Answer(text: "Only visit places you know", correctAnswer: false))
+        answerList.append(Answer(text: "Try to travel at busy times", correctAnswer: false))
+        answerList.append(Answer(text: "Print or write down the route", correctAnswer: true))
         
-//        //Q1181
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1182
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1183
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1184
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1185
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1186
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1187
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1188
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1189
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        
-//        //Q1190
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q1181
+        answerList.append(Answer(text: "Air suspension", correctAnswer: false))
+        answerList.append(Answer(text: "Air brakes", correctAnswer: false))
+        answerList.append(Answer(text: "Air bags", correctAnswer: false))
+        answerList.append(Answer(text: "Air conditioning", correctAnswer: true))
+        
+        //Q1182
+        answerList.append(Answer(text: "Overhead gantries", correctAnswer: false))
+        answerList.append(Answer(text: "Road surfaces", correctAnswer: true))
+        answerList.append(Answer(text: "Tyre pressures", correctAnswer: false))
+        answerList.append(Answer(text: "Engine performance", correctAnswer: false))
+        
+        //Q1183
+        answerList.append(Answer(text: "Its fuel consumption will improve", correctAnswer: false))
+        answerList.append(Answer(text: "Your vision ahead will be reduced", correctAnswer: false))
+        answerList.append(Answer(text: "The brakes will fade more easily", correctAnswer: false))
+        answerList.append(Answer(text: "You'll be breaking the law", correctAnswer: true))
+        
+        //Q1184
+        answerList.append(Answer(text: "Planning journeys to avoid the busy times", correctAnswer: true))
+        answerList.append(Answer(text: "Planning journeys to avoid driving at quiet times", correctAnswer: false))
+        answerList.append(Answer(text: "Using motorways for all journeys", correctAnswer: false))
+        answerList.append(Answer(text: "Avoiding using motorways for all journeys", correctAnswer: false))
+        
+        //Q1185
+        answerList.append(Answer(text: "Licence entitlement", correctAnswer: false))
+        answerList.append(Answer(text: "Exhaust emissions", correctAnswer: true))
+        answerList.append(Answer(text: "Tachograph changes", correctAnswer: false))
+        answerList.append(Answer(text: "Illegal immigrants", correctAnswer: false))
+        
+        //Q1186
+        answerList.append(Answer(text: "Get a replacement before driving", correctAnswer: true))
+        answerList.append(Answer(text: "Push a rag into the filler pipe", correctAnswer: false))
+        answerList.append(Answer(text: "Drive slowly back to your depot", correctAnswer: false))
+        answerList.append(Answer(text: "Only fill the tank half-full", correctAnswer: false))
+        
+        //Q1187
+        answerList.append(Answer(text: "Increased vehicle breakdowns", correctAnswer: false))
+        answerList.append(Answer(text: "Increased fuel consumption", correctAnswer: false))
+        answerList.append(Answer(text: "Reduced traffic volume", correctAnswer: false))
+        answerList.append(Answer(text: "Reduced engine emissions", correctAnswer: true))
+        
+        //Q1188
+        answerList.append(Answer(text: "Check your fuel gauge", correctAnswer: false))
+        answerList.append(Answer(text: "Check your tachograph", correctAnswer: false))
+        answerList.append(Answer(text: "Securely close the filler caps", correctAnswer: true))
+        answerList.append(Answer(text: "Complete the fuel log sheets", correctAnswer: false))
+        
+        //Q1189
+        answerList.append(Answer(text: "By driving faster to reduce travelling time", correctAnswer: false))
+        answerList.append(Answer(text: "By avoiding town centres and using bypasses", correctAnswer: true))
+        answerList.append(Answer(text: "By filling your fuel tank with red diesel fuel", correctAnswer: false))
+        answerList.append(Answer(text: "By leaving your engine running in traffic jams", correctAnswer: false))
+        
+        //Q1190
+        answerList.append(Answer(text: "Blue", correctAnswer: false))
+        answerList.append(Answer(text: "Green", correctAnswer: true))
+        answerList.append(Answer(text: "Amber", correctAnswer: false))
+        answerList.append(Answer(text: "Red", correctAnswer: false))
 
+//        //Q1191
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1192
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1193
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1194
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1195
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1196
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1197
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1198
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1199
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1200
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
     }
 }
