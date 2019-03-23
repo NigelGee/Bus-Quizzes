@@ -23,6 +23,7 @@ class ReviewViewController: UIViewController {
     @IBOutlet weak var reviewAnswer4: UILabel!
     @IBOutlet weak var reviewChoose: UIButton!
     @IBOutlet weak var reviewNext: UIButton!
+    @IBOutlet weak var questionNumber: UILabel!
     
     
     
@@ -77,6 +78,7 @@ class ReviewViewController: UIViewController {
         let question = allQuestion.questionList[incorrectQuestionNumber]
         
         reviewQuestions.text = question.questionText
+        questionNumber.text = "\(incorrectQuestionNumber)"
         
         if question.questionImage != "" {
             reviewImage.image = UIImage(named: question.questionImage)

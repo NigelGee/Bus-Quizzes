@@ -4264,7 +4264,7 @@ class AnswerBank {
 
         //Q708
         answerList.append(Answer(text: "One of 10 minutes plus one of 35", correctAnswer: false))
-        answerList.append(Answer(text: "One of 15 minutes plus one of 30", correctAnswer: false))
+        answerList.append(Answer(text: "One of 15 minutes plus one of 30", correctAnswer: true))
         answerList.append(Answer(text: "One of 20 minutes plus one of 25", correctAnswer: false))
         answerList.append(Answer(text: "One of 40 minutes plus one of 5", correctAnswer: false))
 
@@ -7215,66 +7215,366 @@ class AnswerBank {
         answerList.append(Answer(text: "Lay-by 30 miles ahead", correctAnswer: false))
 
         //Q1200
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "The driver intends to turn left", correctAnswer: true))
+        answerList.append(Answer(text: "The driver intends to slow down", correctAnswer: false))
+        answerList.append(Answer(text: "The driver wants you to keep back", correctAnswer: false))
+        answerList.append(Answer(text: "The driver wants you to go past", correctAnswer: false))
         
-//        //Q1201
+        //Q1201
+        answerList.append(Answer(text: "Tramway speed limit", correctAnswer: true))
+        answerList.append(Answer(text: "Distance to level crossing", correctAnswer: false))
+        answerList.append(Answer(text: "Maximum passenger capacity", correctAnswer: false))
+        answerList.append(Answer(text: "Goods vehicle weight limit", correctAnswer: false))
+
+        //Q1202
+        answerList.append(Answer(text: "No U-turns", correctAnswer: true))
+        answerList.append(Answer(text: "Two-way traffic", correctAnswer: false))
+        answerList.append(Answer(text: "One-way system", correctAnswer: false))
+        answerList.append(Answer(text: "End of one-way system", correctAnswer: false))
+
+        //Q1203
+        answerList.append(Answer(text: "Use the hard shoulder", correctAnswer: false))
+        answerList.append(Answer(text: "Contraflow system ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Overhead bridge repairs", correctAnswer: false))
+        answerList.append(Answer(text: "All lanes ahead closed", correctAnswer: true))
+
+        //Q1204
+        answerList.append(Answer(text: "Buses only", correctAnswer: false))
+        answerList.append(Answer(text: "Bus lane", correctAnswer: false))
+        answerList.append(Answer(text: "No buses", correctAnswer: true))
+        answerList.append(Answer(text: "Bus stop", correctAnswer: false))
+
+        //Q1205
+        answerList.append(Answer(text: "At a pelican crossing", correctAnswer: false))
+        answerList.append(Answer(text: "At a level crossing", correctAnswer: true))
+        answerList.append(Answer(text: "At a zebra crossing", correctAnswer: false))
+        answerList.append(Answer(text: "At a school crossing", correctAnswer: false))
+
+        //Q1206
+        answerList.append(Answer(text: "England only", correctAnswer: false))
+        answerList.append(Answer(text: "England, Scotland and Wales", correctAnswer: false))
+        answerList.append(Answer(text: "England and Wales", correctAnswer: true))
+        answerList.append(Answer(text: "England, Wales and Northern Ireland", correctAnswer: false))
+
+        //Q1207
+        answerList.append(Answer(text: "Right-hand lane closed ahead", correctAnswer: true))
+        answerList.append(Answer(text: "One-tonne weight limit ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Left-hand lane closed ahead", correctAnswer: false))
+        answerList.append(Answer(text: "T-junction one mile ahead", correctAnswer: false))
+
+        //Q1208
+        answerList.append(Answer(text: "Red only", correctAnswer: true))
+        answerList.append(Answer(text: "Red and amber together", correctAnswer: false))
+        answerList.append(Answer(text: "Green and amber together", correctAnswer: false))
+        answerList.append(Answer(text: "Green only", correctAnswer: false))
+
+        //Q1209
+        answerList.append(Answer(text: "Give way to pedestrians who are crossing", correctAnswer: true))
+        answerList.append(Answer(text: "Give way to pedestrians who are crossing", correctAnswer: false))
+        answerList.append(Answer(text: "Wait until the green light appears", correctAnswer: false))
+        answerList.append(Answer(text: "Stop even if the crossing is clear", correctAnswer: false))
+
+        //Q1210
+        answerList.append(Answer(text: "Carry out enforcement duties", correctAnswer: false))
+        answerList.append(Answer(text: "Issue fixed penalty notices", correctAnswer: false))
+        answerList.append(Answer(text: "Test drivers suspected of drink driving", correctAnswer: false))
+        answerList.append(Answer(text: "Stop and direct anyone on a motorway", correctAnswer: true))
+
+        //Q1211
+        answerList.append(Answer(text: "It's for use in case of emergency or breakdown", correctAnswer: true))
+        answerList.append(Answer(text: "It's for use if you think you'll be involved in a road-rage incident", correctAnswer: false))
+        answerList.append(Answer(text: "It's for a police patrol to park and watch traffic", correctAnswer: false))
+        answerList.append(Answer(text: "It's for construction and road workers to store emergency equipment", correctAnswer: false))
+
+        //Q1212
+        answerList.append(Answer(text: "Crossroads", correctAnswer: false))
+        answerList.append(Answer(text: "Give way", correctAnswer: false))
+        answerList.append(Answer(text: "Stop", correctAnswer: true))
+        answerList.append(Answer(text: "Turn right", correctAnswer: false))
+
+        //Q1213
+        answerList.append(Answer(text: "Stop in this lane to answer your mobile phone", correctAnswer: false))
+        answerList.append(Answer(text: "You may use this lane as a running lane", correctAnswer: false))
+        answerList.append(Answer(text: "This lane can be used if you need a rest", correctAnswer: false))
+        answerList.append(Answer(text: "You should not use this lane as a running lane", correctAnswer: true))
+
+        //Q1214
+        answerList.append(Answer(text: "You shouldn't use the hard shoulder as a running lane", correctAnswer: false))
+        answerList.append(Answer(text: "The hard shoulder can be used as a running lane between junctions", correctAnswer: true))
+        answerList.append(Answer(text: "You can park on the hard shoulder if you feel tired", correctAnswer: false))
+        answerList.append(Answer(text: "Large vehicles must use the hard shoulder", correctAnswer: false))
+
+        //Q1215
+        answerList.append(Answer(text: "As a place to stop to answer a mobile phone", correctAnswer: false))
+        answerList.append(Answer(text: "As a place to stop when an emergency arises", correctAnswer: true))
+        answerList.append(Answer(text: "As a place to stop for a short rest when you're tired", correctAnswer: false))
+        answerList.append(Answer(text: "As a place to stop to check a road atlas", correctAnswer: false))
+
+        //Q1216
+        answerList.append(Answer(text: "Overtake the other driver as quickly as possible", correctAnswer: false))
+        answerList.append(Answer(text: "Move to the right to get a better view", correctAnswer: false))
+        answerList.append(Answer(text: "Switch your headlights on before overtaking", correctAnswer: false))
+        answerList.append(Answer(text: "Hold back until you can see clearly ahead", correctAnswer: true))
+
+        //Q1217
+        answerList.append(Answer(text: "You are allowed to carry on but only with a police escort", correctAnswer: false))
+        answerList.append(Answer(text: "You should continue very slowly if your weight is above the limit", correctAnswer: false))
+        answerList.append(Answer(text: "Do not cross unless the bridge is clear of other vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Do not cross the bridge if your weight exceeds the limit", correctAnswer: true))
+
+        //Q1218
+        answerList.append(Answer(text: "Until you start to edge forward onto the crossing", correctAnswer: false))
+        answerList.append(Answer(text: "Until the pedestrians have reached a safe position", correctAnswer: true))
+        answerList.append(Answer(text: "Until the pedestrians are clear of the front of your vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "Until a driver from the opposite direction reaches the crossing", correctAnswer: false))
+
+        //Q1219
+        answerList.append(Answer(text: "Flashing amber", correctAnswer: true))
+        answerList.append(Answer(text: "Red", correctAnswer: false))
+        answerList.append(Answer(text: "Steady amber", correctAnswer: false))
+        answerList.append(Answer(text: "Green", correctAnswer: false))
+
+        //Q1220
+        answerList.append(Answer(text: "A motorway slip road", correctAnswer: false))
+        answerList.append(Answer(text: "A primary road junction", correctAnswer: false))
+        answerList.append(Answer(text: "A concealed level crossing", correctAnswer: true))
+        answerList.append(Answer(text: "A roadside rest area", correctAnswer: false))
+
+        //Q1221
+        answerList.append(Answer(text: "Side wind", correctAnswer: true))
+        answerList.append(Answer(text: "Road noise", correctAnswer: false))
+        answerList.append(Answer(text: "Airport", correctAnswer: false))
+        answerList.append(Answer(text: "Adverse camber", correctAnswer: false))
+
+        //Q1222
+        answerList.append(Answer(text: "To prevent overtaking", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce rest stops", correctAnswer: false))
+        answerList.append(Answer(text: "To prevent tailgating", correctAnswer: false))
+        answerList.append(Answer(text: "To reduce congestion", correctAnswer: true))
+
+        //Q1223
+        answerList.append(Answer(text: "To allow room for pedestrians to cross the road", correctAnswer: false))
+        answerList.append(Answer(text: "To allow space for large vehicles to turn", correctAnswer: false))
+        answerList.append(Answer(text: "To allow cyclists to position in front of other traffic", correctAnswer: true))
+        answerList.append(Answer(text: "To allow you to select where to stop", correctAnswer: false))
+
+        //Q1224
+        answerList.append(Answer(text: "The hard shoulder can be used as a rest area if you feel tired", correctAnswer: false))
+        answerList.append(Answer(text: "The hard shoulder is for emergency or breakdown use only", correctAnswer: true))
+        answerList.append(Answer(text: "The hard shoulder can be used as a normal running lane", correctAnswer: false))
+        answerList.append(Answer(text: "The hard shoulder has a speed limit of 50 mph", correctAnswer: false))
+
+        //Q1225
+        answerList.append(Answer(text: "Accelerate because you have priority", correctAnswer: false))
+        answerList.append(Answer(text: "Slow down, the road may be narrow ahead", correctAnswer: true))
+        answerList.append(Answer(text: "Stop and give way to oncoming traffic", correctAnswer: false))
+        answerList.append(Answer(text: "Maintain your speed, it's just an information sign", correctAnswer: false))
+
+        //Q1226
+        answerList.append(Answer(text: "Bus station on the right", correctAnswer: false))
+        answerList.append(Answer(text: "Contraflow bus lane", correctAnswer: true))
+        answerList.append(Answer(text: "With-flow bus lane", correctAnswer: false))
+        answerList.append(Answer(text: "Give way to buses", correctAnswer: false))
+
+        //Q1227
+        answerList.append(Answer(text: "Because pedestrians have right of way", correctAnswer: false))
+        answerList.append(Answer(text: "There is a 'road race' in progress", correctAnswer: false))
+        answerList.append(Answer(text: "There are pedestrian crossings ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Because children may be crossing", correctAnswer: true))
+
+        //Q1228
+        answerList.append(Answer(text: "Carry out enforcement duties", correctAnswer: false))
+        answerList.append(Answer(text: "Issue fixed penalty notices", correctAnswer: false))
+        answerList.append(Answer(text: "Test drivers suspected of drink driving", correctAnswer: false))
+        answerList.append(Answer(text: "Stop and direct anyone on a motorway", correctAnswer: true))
+
+        //Q1229
+        answerList.append(Answer(text: "When taking the next exit", correctAnswer: false))
+        answerList.append(Answer(text: "When traffic is stopped", correctAnswer: false))
+        answerList.append(Answer(text: "When signs show that you can", correctAnswer: true))
+        answerList.append(Answer(text: "When traffic is slow moving", correctAnswer: false))
+
+        //Q1230
+        answerList.append(Answer(text: "Any lane except the hard shoulder", correctAnswer: false))
+        answerList.append(Answer(text: "The hard shoulder only", correctAnswer: false))
+        answerList.append(Answer(text: "The three right hand lanes only", correctAnswer: false))
+        answerList.append(Answer(text: "All lanes including the hard shoulder", correctAnswer: true))
+
+        //Q1231
+        answerList.append(Answer(text: "Learner driver", correctAnswer: false))
+        answerList.append(Answer(text: "Lorry driver", correctAnswer: false))
+        answerList.append(Answer(text: "Disabled driver", correctAnswer: false))
+        answerList.append(Answer(text: "Taxi driver", correctAnswer: true))
+
+        //Q1232
+        answerList.append(Answer(text: "Steady red", correctAnswer: false))
+        answerList.append(Answer(text: "Flashing amber", correctAnswer: false))
+        answerList.append(Answer(text: "Steady amber", correctAnswer: true))
+        answerList.append(Answer(text: "Flashing green", correctAnswer: false))
+
+        //Q1233
+        answerList.append(Answer(text: "End of restricted speed area", correctAnswer: false))
+        answerList.append(Answer(text: "End of restricted parking area", correctAnswer: true))
+        answerList.append(Answer(text: "End of clearway", correctAnswer: false))
+        answerList.append(Answer(text: "End of cycle route", correctAnswer: false))
+
+        //Q1234
+        answerList.append(Answer(text: "Slippery road ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Tyres liable to punctures ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Danger ahead", correctAnswer: true))
+        answerList.append(Answer(text: "Service area ahead", correctAnswer: false))
+
+        //Q1235
+        answerList.append(Answer(text: "An area where special waiting restrictions apply", correctAnswer: true))
+        answerList.append(Answer(text: "An area where part-time traffic lights operate", correctAnswer: false))
+        answerList.append(Answer(text: "An area where drivers have to pay a toll", correctAnswer: false))
+        answerList.append(Answer(text: "An area where night-time and weekend weight limits apply", correctAnswer: false))
+
+        //Q1236
+        answerList.append(Answer(text: "At the entrance to a car park", correctAnswer: false))
+        answerList.append(Answer(text: "On the approach to an arched bridge", correctAnswer: true))
+        answerList.append(Answer(text: "At the start of a cycle lane", correctAnswer: false))
+        answerList.append(Answer(text: "On the approach to a lifting barrier", correctAnswer: false))
+
+        //Q1237
+        answerList.append(Answer(text: "Soft verges", correctAnswer: true))
+        answerList.append(Answer(text: "Only cars may park here", correctAnswer: false))
+        answerList.append(Answer(text: "Parking restrictions apply", correctAnswer: false))
+        answerList.append(Answer(text: "Fuel and water tanks will leak", correctAnswer: false))
+
+        //Q1238
+        answerList.append(Answer(text: "Route for trams", correctAnswer: true))
+        answerList.append(Answer(text: "Give way to trams", correctAnswer: false))
+        answerList.append(Answer(text: "Route for buses", correctAnswer: false))
+        answerList.append(Answer(text: "Give way to buses", correctAnswer: false))
+
+        //Q1239
+        answerList.append(Answer(text: "Amber", correctAnswer: true))
+        answerList.append(Answer(text: "Green", correctAnswer: false))
+        answerList.append(Answer(text: "Red", correctAnswer: false))
+        answerList.append(Answer(text: "White", correctAnswer: false))
+
+        //Q1240
+        answerList.append(Answer(text: "They mark the lanes in a contraflow system", correctAnswer: true))
+        answerList.append(Answer(text: "They separate the slip road from the motorway", correctAnswer: false))
+        answerList.append(Answer(text: "They mark access points for emergency services", correctAnswer: false))
+        answerList.append(Answer(text: "They separate the edge of the hard shoulder from the grass verge", correctAnswer: false))
+        
+        //Q1241
+        answerList.append(Answer(text: "Car lane only", correctAnswer: false))
+        answerList.append(Answer(text: "Single file only", correctAnswer: false))
+        answerList.append(Answer(text: "Queues likely", correctAnswer: true))
+        answerList.append(Answer(text: "Keep your distance", correctAnswer: false))
+
+        //Q1242
+        answerList.append(Answer(text: "Do not proceed past the sign but find another route", correctAnswer: false))
+        answerList.append(Answer(text: "Set down all your passengers at a safe place before the sign", correctAnswer: false))
+        answerList.append(Answer(text: "Stop and check the legal lettering on the side panel", correctAnswer: false))
+        answerList.append(Answer(text: "Proceed as normal, the sign does not apply to you", correctAnswer: true))
+
+        //Q1243
+        answerList.append(Answer(text: "Large vehicles must go straight ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Traffic is joining from the left", correctAnswer: false))
+        answerList.append(Answer(text: "All traffic must leave at the next exit", correctAnswer: false))
+        answerList.append(Answer(text: "The distance to the next exit", correctAnswer: true))
+
+        //Q1244
+        answerList.append(Answer(text: "Slippery road", correctAnswer: false))
+        answerList.append(Answer(text: "Double bend", correctAnswer: false))
+        answerList.append(Answer(text: "Overhead electric cable", correctAnswer: true))
+        answerList.append(Answer(text: "Series of bends", correctAnswer: false))
+
+        //Q1245
+        answerList.append(Answer(text: "Red and amber, then green", correctAnswer: true))
+        answerList.append(Answer(text: "Green, then amber", correctAnswer: false))
+        answerList.append(Answer(text: "Amber, then green", correctAnswer: false))
+        answerList.append(Answer(text: "Green and amber, then green", correctAnswer: false))
+
+        //Q1246
+        answerList.append(Answer(text: "Vehicle carrying dangerous goods in packages", correctAnswer: false))
+        answerList.append(Answer(text: "Vehicle broken down ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Holiday route", correctAnswer: false))
+        answerList.append(Answer(text: "Emergency diversion route for motorway traffic", correctAnswer: true))
+
+        //Q1247
+        answerList.append(Answer(text: "When you're tired and need to walk in the fresh air", correctAnswer: false))
+        answerList.append(Answer(text: "When you're picking up hitchhikers", correctAnswer: false))
+        answerList.append(Answer(text: "When you're signalled to do so by flashing red lights", correctAnswer: true))
+        answerList.append(Answer(text: "When you need to answer your mobile phone", correctAnswer: false))
+
+        //Q1248
+        answerList.append(Answer(text: "Limited loading", correctAnswer: false))
+        answerList.append(Answer(text: "No stopping", correctAnswer: true))
+        answerList.append(Answer(text: "Bus route", correctAnswer: false))
+        answerList.append(Answer(text: "Short term parking", correctAnswer: false))
+
+//        //Q1249
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1202
+//        //Q1250
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+//        //Q1251
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1203
+//        //Q1252
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1204
+//        //Q1253
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1205
+//        //Q1254
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1206
+//        //Q1255
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1207
+//        //Q1256
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1208
+//        //Q1257
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1209
+//        //Q1258
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1210
+//        //Q1259
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//
+//        //Q1260
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))

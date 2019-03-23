@@ -1457,7 +1457,67 @@ class QuestionBank {
         questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-4-2"))
         questionList.append(Question(text: "What does this arm signal mean?", image: "15-1200-arm-signal"))
 
-//        //1201-1210
+        //1201-1210
+        questionList.append(Question(text: "What does this sign mean?", image: "15-1201-diamond-shape-signs"))
+        questionList.append(Question(text: "What does this sign mean?", image: "15-1202-no-u-turn"))
+        questionList.append(Question(text: "What does this motorway sign mean?", image: "15-1203-all-lanes-ahead-closed"))
+        questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-3-4"))
+        questionList.append(Question(text: "Where would you find these flashing red lights?", image: "15-1205-flashing-red-lights"))
+        questionList.append(Question(text: "In which part of the United Kingdom do traffic officers operate?", image: ""))
+        questionList.append(Question(text: "What does this motorway sign mean?", image: ""))
+        questionList.append(Question(text: "You see this traffic light ahead. Which light or lights will come on next?", image: "roadsigns-3-3"))
+        questionList.append(Question(text: "What must you do when you're approaching a pelican crossing in its flashing amber phase?", image: ""))
+        questionList.append(Question(text: "What are traffic officers authorised to do?", image: ""))
+
+        //1211-1220
+        questionList.append(Question(text: "What's the purpose of an emergency refuge area on a smart motorway?", image: ""))
+        questionList.append(Question(text: "At a junction, you see this sign partly covered by snow. What does it mean?", image: "15-1212-octagonal-stop-sign"))
+        questionList.append(Question(text: "You're on a motorway. What does it mean when a red cross is displayed above the hard shoulder?", image: "15-1213-red-cross-sign"))
+        questionList.append(Question(text: "You're on a smart motorway. What does it mean when a mandatory speed limit is displayed above the hard shoulder?", image: "15-1214-mandatory-speed-limit"))
+        questionList.append(Question(text: "What should the hard shoulder on a motorway be used for?", image: ""))
+        questionList.append(Question(text: "What should you do if you see this sign when you're about to overtake?", image: "11-1216-hidden-dip-sign"))
+        questionList.append(Question(text: "What does this sign mean?", image: "15-1217-weak-bridge"))
+        questionList.append(Question(text: "You're approaching a red light at a puffin crossing. Pedestrians are on the crossing. How long will the red light stay on?", image: ""))
+        questionList.append(Question(text: "Which light won't show to a driver at a puffin crossing?", image: ""))
+        questionList.append(Question(text: "What does this marker count down to?", image: "15-1220-concealed-level-crossing"))
+
+        //1221-1230
+        questionList.append(Question(text: "What does this sign mean?", image: "15-1221-crosswind-sign"))
+        questionList.append(Question(text: "What's the aim of a smart motorway?", image: ""))
+        questionList.append(Question(text: "What are these advanced stop lines for?", image: "15-1223-advanced-stop-lines"))
+        questionList.append(Question(text: "You're travelling on a motorway. A red cross is displayed on the gantry signals above the hard shoulder and mandatory speed limits are shown above all other lanes. What does the red cross mean?", image: "15-1224-red-cross-above-hard-shoulder"))
+        questionList.append(Question(text: "What should you do when you see this sign ahead?", image: "roadsigns-2-6"))
+        questionList.append(Question(text: "What does this sign mean?", image: "15-1226-bus-lane-sign"))
+        questionList.append(Question(text: "Why should you slow down when you see this sign?", image: "15-1227-children-may-be-crossing"))
+        questionList.append(Question(text: "What are traffic officers authorised to do?", image: ""))
+        questionList.append(Question(text: "When can you travel on the hard shoulder of a motorway?", image: ""))
+        questionList.append(Question(text: "You see this sign on a smart motorway. Which lane can you use?", image: "15-1230-mandatory-speed-limits-sign"))
+
+        //1231-1240
+        questionList.append(Question(text: "Which road user is sometimes allowed to share a bus lane?", image: ""))
+        questionList.append(Question(text: "What colour follows the green signal at a puffin crossing?", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: ""))
+        questionList.append(Question(text: "What does this traffic sign mean?", image: ""))
+        questionList.append(Question(text: "What's a 'Red Route'?", image: ""))
+        questionList.append(Question(text: "Where would you expect to see these road markings?", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: ""))
+        questionList.append(Question(text: "You're driving on a motorway. What colour are the reflective studs on the right-hand edge of the carriageway?", image: ""))
+        questionList.append(Question(text: "What's the purpose of green-and-yellow fluorescent studs on a motorway?", image: ""))
+        
+        //1241-1250
+        questionList.append(Question(text: "What does this sign mean?", image: ""))
+        questionList.append(Question(text: "You're driving a fully loaded coach that's 12 metres long. What should you do when you approach this sign?", image: ""))
+        questionList.append(Question(text: "You're driving through roadworks. What information does this sign give you?", image: ""))
+        questionList.append(Question(text: "What does this sign warn of?", image: ""))
+        questionList.append(Question(text: "You're approaching traffic lights. Only the red light is showing. Which series of lights will show next?", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: ""))
+        questionList.append(Question(text: "When must you stop on a motorway?", image: ""))
+        questionList.append(Question(text: "What does it mean when there are double red lines running along the edge of a road?", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+
+//        //1251-1260
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))

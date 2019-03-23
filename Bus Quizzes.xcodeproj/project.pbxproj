@@ -14,7 +14,6 @@
 		8B2BAD062129A7F70050AF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BAD052129A7F70050AF17 /* AppDelegate.swift */; };
 		8B2BAD082129A7F70050AF17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BAD072129A7F70050AF17 /* ViewController.swift */; };
 		8B2BAD0B2129A7F70050AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BAD092129A7F70050AF17 /* Main.storyboard */; };
-		8B2BAD0D2129A7F80050AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BAD0C2129A7F80050AF17 /* Assets.xcassets */; };
 		8B2BAD102129A7F80050AF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BAD0E2129A7F80050AF17 /* LaunchScreen.storyboard */; };
 		8B4B7141213D475B00EA79E3 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B7140213D475B00EA79E3 /* ReviewViewController.swift */; };
 		8BC382C7212E906D00E07B14 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC382C6212E906D00E07B14 /* Answer.swift */; };
@@ -22,6 +21,7 @@
 		8BD0FBB321328FEC00F50734 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FBB021328FEC00F50734 /* ProgressHUD.m */; };
 		8BD0FBB421328FEC00F50734 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BD0FBB121328FEC00F50734 /* ProgressHUD.bundle */; };
 		8BEC27B6213F1BC100A85833 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC27B5213F1BC100A85833 /* PhotoViewController.swift */; };
+		8BF6D7452242CC17003B8ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF6D7442242CC17003B8ABE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,6 @@
 		8B2BAD052129A7F70050AF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B2BAD072129A7F70050AF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B2BAD0A2129A7F70050AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B2BAD0C2129A7F80050AF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2BAD0F2129A7F80050AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B2BAD112129A7F80050AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B4B7140213D475B00EA79E3 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		8BD0FBB121328FEC00F50734 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		8BD0FBB221328FEC00F50734 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		8BEC27B5213F1BC100A85833 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		8BF6D7442242CC17003B8ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			children = (
 				8B2BAD0E2129A7F80050AF17 /* LaunchScreen.storyboard */,
 				8B2BAD092129A7F70050AF17 /* Main.storyboard */,
-				8B2BAD0C2129A7F80050AF17 /* Assets.xcassets */,
+				8BF6D7442242CC17003B8ABE /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 			files = (
 				8B2BAD102129A7F80050AF17 /* LaunchScreen.storyboard in Resources */,
 				8B0DBB51212DD79000D95D2B /* Default-568h@2x.png in Resources */,
-				8B2BAD0D2129A7F80050AF17 /* Assets.xcassets in Resources */,
 				8BD0FBB421328FEC00F50734 /* ProgressHUD.bundle in Resources */,
 				8B2BAD0B2129A7F70050AF17 /* Main.storyboard in Resources */,
+				8BF6D7452242CC17003B8ABE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
