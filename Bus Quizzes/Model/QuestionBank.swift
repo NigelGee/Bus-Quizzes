@@ -1514,10 +1514,70 @@ class QuestionBank {
         questionList.append(Question(text: "What does this sign mean?", image: ""))
         questionList.append(Question(text: "When must you stop on a motorway?", image: ""))
         questionList.append(Question(text: "What does it mean when there are double red lines running along the edge of a road?", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
+        questionList.append(Question(text: "Why should you allow extra room for motorcyclists when they're riding through roadworks?", image: ""))
+        questionList.append(Question(text: "You're about to overtake a motorcyclist when they look around over their right shoulder. What's the most likely reason for them doing this?", image: ""))
 
-//        //1251-1260
+        //1251-1260
+        questionList.append(Question(text: "You're about to overtake horse riders. What could scare the horses?", image: ""))
+        questionList.append(Question(text: "Where would you see this sign?", image: "5-26-buses-and-children"))
+        questionList.append(Question(text: "How should you overtake horse riders?", image: ""))
+        questionList.append(Question(text: "What action should you take if there are flashing amber lights under a school warning sign?", image: ""))
+        questionList.append(Question(text: "What should you do just before turning right from a main road into a side road?", image: ""))
+        questionList.append(Question(text: "Why do you have to be alert for motorcyclists in queues of traffic?", image: ""))
+        questionList.append(Question(text: "Why mustn't you stop on these road markings?", image: "15-1257-school-keep-clear"))
+        questionList.append(Question(text: "You're following two cyclists as they approach a roundabout in the left-hand lane. In which direction should you expect them to go?", image: ""))
+        questionList.append(Question(text: "Why are motorcyclists more at risk from other road users?", image: ""))
+        questionList.append(Question(text: "You're driving past parked cars. What should you do if you notice a bicycle wheel sticking out between them?", image: ""))
+
+        //1261-1270
+        questionList.append(Question(text: "What should you be on the lookout for before changing lanes in slow-moving queuing traffic?", image: ""))
+        questionList.append(Question(text: "You're driving on a single carriageway road. What should you do when you see horse riders ahead?", image: ""))
+        questionList.append(Question(text: "What should you do when passing sheep on a road?", image: ""))
+        questionList.append(Question(text: "You're at a road junction, turning into a minor road. What should you do if there are pedestrians crossing the minor road?", image: ""))
+        questionList.append(Question(text: "You wish to turn left into a side road. What should you do if there's a cyclist in front as you approach the junction?", image: ""))
+        questionList.append(Question(text: "How would you react to drivers who appear to be inexperienced?", image: ""))
+        questionList.append(Question(text: "You're driving on a road with an uneven surface. What should you do if you're following a motorcyclist along this road?", image: ""))
+        questionList.append(Question(text: "You're turning left from a main road into a side road. What should you do if people are already crossing the road into which you're turning?", image: ""))
+        questionList.append(Question(text: "You're entering a roundabout. What should you do if a cyclist in front of you is signalling to turn right?", image: ""))
+        questionList.append(Question(text: "Why do motorcyclists use dipped headlights in the daytime?", image: ""))
+
+        //1271-1280
+        questionList.append(Question(text: "You're driving past a line of parked cars. What should you do if you notice a ball bouncing out into the road ahead?", image: ""))
+        questionList.append(Question(text: "What should you do if the vehicle ahead is being driven by a learner?", image: ""))
+        questionList.append(Question(text: "A group of horse riders comes towards you. What should you do if the leading rider’s horse becomes nervous of your presence?", image: ""))
+        questionList.append(Question(text: "A horse rider is in the left-hand lane approaching a roundabout. What should you expect the rider to do?", image: ""))
+        questionList.append(Question(text: "Where should you take particular care to look for motorcyclists and cyclists?", image: ""))
+        questionList.append(Question(text: "While driving at night, you see a pedestrian ahead. What does it mean if they're wearing reflective clothing and carrying a red light?", image: ""))
+        questionList.append(Question(text: "Which road users are more vulnerable at night in built-up areas?", image: ""))
+        questionList.append(Question(text: "You're travelling behind a moped. What should you do if you want to turn left a short distance ahead?", image: ""))
+        questionList.append(Question(text: "You're approaching a roundabout. You see a cyclist signal right. Why do they keep to the left?", image: ""))
+        questionList.append(Question(text: "You've stopped at a pelican crossing. What should you do if the lights have changed to green but a disabled person is still crossing?", image: ""))
+
+        //1281-1290
+        questionList.append(Question(text: "You're approaching a roundabout. What should you do if you see a cyclist signalling to turn right?", image: ""))
+        questionList.append(Question(text: "What should you do if you're following a learner driver who stalls at a junction?", image: ""))
+        questionList.append(Question(text: "Your vehicle leaks diesel fuel on a roundabout. Who will this affect most?", image: ""))
+        questionList.append(Question(text: "Where in particular should you look out for motorcyclists?", image: ""))
+        questionList.append(Question(text: "You're driving on a dual carriageway. What type of vehicle must use a flashing amber beacon on this road?", image: ""))
+        questionList.append(Question(text: "Which of these is the main cause of collisions involving motorcycles?", image: ""))
+        questionList.append(Question(text: "Which vehicles are most likely to be affected by side wind?", image: ""))
+        questionList.append(Question(text: "You're driving on a main road. What should you do just before turning right into a side road?", image: ""))
+        questionList.append(Question(text: "There's a slow-moving motorcyclist ahead of you. What should you do if you're unsure what the rider is going to do?", image: ""))
+        questionList.append(Question(text: "Why should you check for motorcyclists just before turning right into a side road?", image: ""))
+
+        //1291-1300
+        questionList.append(Question(text: "Which road users are more vulnerable at road junctions?", image: ""))
+        questionList.append(Question(text: "You're waiting to come out of a side road. Why should you look carefully for motorcycles?", image: ""))
+        questionList.append(Question(text: "What should you do if you see two elderly pedestrians about to cross the road ahead?", image: ""))
+        questionList.append(Question(text: "What does this sign mean?", image: "15-1294-pedestrian-cyclists-route"))
+        questionList.append(Question(text: "You're on a country road. What should you expect to see coming towards you on your side of the road?", image: ""))
+        questionList.append(Question(text: "What happens at toucan crossings?", image: ""))
+        questionList.append(Question(text: "You're approaching a roundabout. What should you do if there are horses being ridden ahead of you?", image: ""))
+        questionList.append(Question(text: "You're waiting to turn left at a junction. In your mirror you can see a cyclist moving up between the kerb and the nearside of your vehicle. How should you deal with the cyclist?", image: ""))
+        questionList.append(Question(text: "Why do motorcyclists often look over their right shoulder just before turning right?", image: ""))
+        questionList.append(Question(text: "You're driving past a bus that's waiting at a bus stop on the other side of the road. Why should you be careful?", image: ""))
+
+//        //1301-1310
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
