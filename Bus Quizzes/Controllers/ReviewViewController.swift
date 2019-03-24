@@ -78,7 +78,7 @@ class ReviewViewController: UIViewController {
         let question = allQuestion.questionList[incorrectQuestionNumber]
         
         reviewQuestions.text = question.questionText
-        questionNumber.text = "\(incorrectQuestionNumber)"
+        questionNumber.text = "\(incorrectQuestionNumber + 1)"
         
         if question.questionImage != "" {
             reviewImage.image = UIImage(named: question.questionImage)

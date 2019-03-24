@@ -7820,64 +7820,185 @@ class AnswerBank {
         answerList.append(Answer(text: "The bus may move off suddenly", correctAnswer: false))
         answerList.append(Answer(text: "The bus may remain stationary", correctAnswer: false))
         
-//        //Q1301
+        //Q1301
+        answerList.append(Answer(text: "Change your destination boards", correctAnswer: false))
+        answerList.append(Answer(text: "Drive through quickly if you're not stopping", correctAnswer: false))
+        answerList.append(Answer(text: "Look for people leaving buses", correctAnswer: true))
+        answerList.append(Answer(text: "Sound your horn as you enter", correctAnswer: false))
+
+        //Q1302
+        answerList.append(Answer(text: "Motorcycles", correctAnswer: true))
+        answerList.append(Answer(text: "Empty tankers", correctAnswer: false))
+        answerList.append(Answer(text: "Towed vehicles", correctAnswer: false))
+        answerList.append(Answer(text: "Fire engines", correctAnswer: false))
+
+        //Q1303
+        answerList.append(Answer(text: "Motorcyclists", correctAnswer: true))
+        answerList.append(Answer(text: "Lorry drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Car drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Bus drivers", correctAnswer: false))
+
+        //Q1304
+        answerList.append(Answer(text: "Expect the driver to drive badly", correctAnswer: false))
+        answerList.append(Answer(text: "Flash your lights and overtake", correctAnswer: false))
+        answerList.append(Answer(text: "Be aware that the driver's reactions may not be as fast as yours", correctAnswer: true))
+        answerList.append(Answer(text: "Stay very close behind but be careful", correctAnswer: false))
+
+        //Q1305
+        answerList.append(Answer(text: "Proceed as normal", correctAnswer: false))
+        answerList.append(Answer(text: "Keep close to them", correctAnswer: false))
+        answerList.append(Answer(text: "Cut in front of them", correctAnswer: false))
+        answerList.append(Answer(text: "Stay well back", correctAnswer: true))
+
+        //Q1306
+        answerList.append(Answer(text: "Near zebra crossings", correctAnswer: false))
+        answerList.append(Answer(text: "In gusting winds", correctAnswer: true))
+        answerList.append(Answer(text: "When leaving motorways", correctAnswer: false))
+        answerList.append(Answer(text: "At traffic lights", correctAnswer: false))
+
+        //Q1307
+        answerList.append(Answer(text: "Accelerate quickly", correctAnswer: false))
+        answerList.append(Answer(text: "Wait until it moves off", correctAnswer: false))
+        answerList.append(Answer(text: "Drive past slowly", correctAnswer: true))
+        answerList.append(Answer(text: "Expect the driver will be looking after the children", correctAnswer: false))
+
+        //Q1308
+        answerList.append(Answer(text: "Move to the other side of the road", correctAnswer: false))
+        answerList.append(Answer(text: "Wave at them to move back from the kerb", correctAnswer: false))
+        answerList.append(Answer(text: "Stop for a moment to see what they do", correctAnswer: false))
+        answerList.append(Answer(text: "Drive slowly until you are clear of the area", correctAnswer: true))
+
+        //Q1309
+        answerList.append(Answer(text: "By pointing to children on the opposite pavement", correctAnswer: false))
+        answerList.append(Answer(text: "By displaying a red light", correctAnswer: false))
+        answerList.append(Answer(text: "By displaying a 'stop' sign", correctAnswer: true))
+        answerList.append(Answer(text: "By giving you an arm signal", correctAnswer: false))
+
+        //Q1310
+        answerList.append(Answer(text: "Continue on your way", correctAnswer: false))
+        answerList.append(Answer(text: "Wave to the person to cross", correctAnswer: false))
+        answerList.append(Answer(text: "Wave to the person to wait", correctAnswer: false))
+        answerList.append(Answer(text: "Be prepared to stop", correctAnswer: true))
+        
+        //Q1311
+        answerList.append(Answer(text: "Prepare to slow down and stop", correctAnswer: true))
+        answerList.append(Answer(text: "Stop and wave the pedestrians across", correctAnswer: false))
+        answerList.append(Answer(text: "Speed up and pass by quickly", correctAnswer: false))
+        answerList.append(Answer(text: "Drive on unless the pedestrians step out", correctAnswer: false))
+
+        //Q1312
+        answerList.append(Answer(text: "Bicycle", correctAnswer: true))
+        answerList.append(Answer(text: "Tractor", correctAnswer: false))
+        answerList.append(Answer(text: "Milk float", correctAnswer: false))
+        answerList.append(Answer(text: "Car", correctAnswer: false))
+
+        //Q1313
+        answerList.append(Answer(text: "Sound your horn to alert other road users", correctAnswer: false))
+        answerList.append(Answer(text: "Stop to allow children to cross", correctAnswer: false))
+        answerList.append(Answer(text: "You must not wait or park on these lines", correctAnswer: true))
+        answerList.append(Answer(text: "You must not drive over these lines", correctAnswer: false))
+
+        //Q1314
+        answerList.append(Answer(text: "Allow less room so you can be seen in their mirrors", correctAnswer: false))
+        answerList.append(Answer(text: "Overtake them immediately", correctAnswer: false))
+        answerList.append(Answer(text: "Allow extra room in case they swerve to avoid potholes", correctAnswer: true))
+        answerList.append(Answer(text: "Allow the same room as normal because road surfaces do not affect motorcyclists", correctAnswer: false))
+
+        //Q1315
+        answerList.append(Answer(text: "Overtake without any delay", correctAnswer: false))
+        answerList.append(Answer(text: "Stay close behind until you can pass", correctAnswer: false))
+        answerList.append(Answer(text: "Stay well back and allow them room", correctAnswer: true))
+        answerList.append(Answer(text: "Sound your horn as you get close", correctAnswer: false))
+
+        //Q1316
+        answerList.append(Answer(text: "To look for pedestrians about to cross", correctAnswer: false))
+        answerList.append(Answer(text: "To check for overtaking vehicles", correctAnswer: true))
+        answerList.append(Answer(text: "To make sure the side road is clear", correctAnswer: false))
+        answerList.append(Answer(text: "To check for emerging traffic", correctAnswer: false))
+
+        //Q1317
+        answerList.append(Answer(text: "Wave them across so they know that you have seen them", correctAnswer: false))
+        answerList.append(Answer(text: "Be patient and allow them to cross in their own time", correctAnswer: true))
+        answerList.append(Answer(text: "Rev the engine to let them know that you are waiting", correctAnswer: false))
+        answerList.append(Answer(text: "Tap the horn in case they are hard of hearing", correctAnswer: false))
+
+        //Q1318
+        answerList.append(Answer(text: "To allow school children to be dropped off", correctAnswer: false))
+        answerList.append(Answer(text: "To allow teachers to park", correctAnswer: false))
+        answerList.append(Answer(text: "To allow school children to be picked up", correctAnswer: false))
+        answerList.append(Answer(text: "To allow an unobstructed view of the area", correctAnswer: true))
+
+        //Q1319
+        answerList.append(Answer(text: "They must do so by law", correctAnswer: false))
+        answerList.append(Answer(text: "It helps keep them cool in summer", correctAnswer: false))
+        answerList.append(Answer(text: "The colours are popular", correctAnswer: false))
+        answerList.append(Answer(text: "To help other road users to see them", correctAnswer: true))
+
+        //Q1320
+        answerList.append(Answer(text: "Give them extra room", correctAnswer: true))
+        answerList.append(Answer(text: "Drive alongside them", correctAnswer: false))
+        answerList.append(Answer(text: "Try to pass them", correctAnswer: false))
+        answerList.append(Answer(text: "Stay close behind them", correctAnswer: false))
+
+//        //Q1321
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1302
+//        //Q1322
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1303
+//        //Q1323
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1304
+//        //Q1324
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1305
+//        //Q1325
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1306
+//        //Q1326
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1307
+//        //Q1327
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1308
+//        //Q1328
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1309
+//        //Q1329
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1310
+//        //Q1330
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
     }
 }

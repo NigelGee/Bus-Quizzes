@@ -1577,17 +1577,40 @@ class QuestionBank {
         questionList.append(Question(text: "Why do motorcyclists often look over their right shoulder just before turning right?", image: ""))
         questionList.append(Question(text: "You're driving past a bus that's waiting at a bus stop on the other side of the road. Why should you be careful?", image: ""))
 
-//        //1301-1310
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
-//        questionList.append(Question(text: "<#T##String#>", image: ""))
+        //1301-1310
+        questionList.append(Question(text: "What should you do when you're driving through a bus station?", image: ""))
+        questionList.append(Question(text: "Which vehicles are most at risk from spilt diesel fuel?", image: ""))
+        questionList.append(Question(text: "Which road users are especially at risk at a road junction?", image: ""))
+        questionList.append(Question(text: "What should you do when you're following a car driven by an elderly driver?", image: ""))
+        questionList.append(Question(text: "You see a horse rider as you approach a roundabout. What should you do if they're signalling right but keeping well to the left?", image: ""))
+        questionList.append(Question(text: "When are motorcyclists particularly vulnerable?", image: ""))
+        questionList.append(Question(text: "You're driving in a town. What should you do when you see this sign on a stationary bus ahead?", image: "5-26-buses-and-children"))
+        questionList.append(Question(text: "You're driving near a school in heavy traffic. What should you do when there are children walking close to the kerb on your side of the road?", image: ""))
+        questionList.append(Question(text: "How will a school crossing patrol signal you to stop?", image: ""))
+        questionList.append(Question(text: "You're driving towards a zebra crossing. What should you do if you see that a person in a wheelchair is waiting to cross?", image: ""))
 
+        //1311-1320
+        questionList.append(Question(text: "What should you do when you're approaching this zebra crossing?", image: "zebra-crossing"))
+        questionList.append(Question(text: "You're emerging from a side road into a queue of traffic. Which of these vehicles is especially hard to see?", image: ""))
+        questionList.append(Question(text: "What do yellow zigzag lines on the road outside a school mean?", image: "15-1257-school-keep-clear"))
+        questionList.append(Question(text: "What should you do when you're following a motorcyclist on an uneven road?", image: ""))
+        questionList.append(Question(text: "What should you do when you're following a scooter on a poor road surface?", image: ""))
+        questionList.append(Question(text: "You're at the front of a queue of traffic waiting to turn right into a side road. Why should you check your right-hand mirror just before turning?", image: ""))
+        questionList.append(Question(text: "What action would you take when elderly people are crossing the road?", image: ""))
+        questionList.append(Question(text: "Why must these road markings be kept clear?", image: "15-1257-school-keep-clear"))
+        questionList.append(Question(text: "Why are motorcyclists advised to wear bright clothing?", image: ""))
+        questionList.append(Question(text: "You're following a motorcyclist along a potholed road. How should you adjust your driving to take account of this situation?", image: ""))
+
+//        //1321-1330
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
+//        questionList.append(Question(text: "<#T##String#>", image: ""))
     }
 }
