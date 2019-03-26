@@ -1464,7 +1464,7 @@ class QuestionBank {
         questionList.append(Question(text: "What does this sign mean?", image: "roadsigns-3-4"))
         questionList.append(Question(text: "Where would you find these flashing red lights?", image: "15-1205-flashing-red-lights"))
         questionList.append(Question(text: "In which part of the United Kingdom do traffic officers operate?", image: ""))
-        questionList.append(Question(text: "What does this motorway sign mean?", image: ""))
+        questionList.append(Question(text: "What does this motorway sign mean?", image: "15-1207-four-amber-lights-flashing"))
         questionList.append(Question(text: "You see this traffic light ahead. Which light or lights will come on next?", image: "roadsigns-3-3"))
         questionList.append(Question(text: "What must you do when you're approaching a pelican crossing in its flashing amber phase?", image: ""))
         questionList.append(Question(text: "What are traffic officers authorised to do?", image: ""))
@@ -1601,7 +1601,43 @@ class QuestionBank {
         questionList.append(Question(text: "Why are motorcyclists advised to wear bright clothing?", image: ""))
         questionList.append(Question(text: "You're following a motorcyclist along a potholed road. How should you adjust your driving to take account of this situation?", image: ""))
 
-//        //1321-1330
+        //1321-1330
+        questionList.append(Question(text: "What must you be aware of when you're driving a bus with a high driving position?", image: ""))
+        questionList.append(Question(text: "Why may coaches be subject to a search by immigration authorities at international ports?", image: ""))
+        questionList.append(Question(text: "You're driving a double-deck bus. What's the minimum depth of tread required over three-quarters of each tyre's width?", image: ""))
+        questionList.append(Question(text: "What's your main responsibility as a bus driver?", image: ""))
+        questionList.append(Question(text: "The bus you're driving is fitted with automatic transmission. When would you use kickdown?", image: ""))
+        questionList.append(Question(text: "What should you do when making a short stop, facing uphill?", image: ""))
+        questionList.append(Question(text: "You're driving a three-axle double-deck bus and have the steering turned onto full lock. What should you do to avoid rear tyre scrub?", image: ""))
+        questionList.append(Question(text: "Where should you park your vehicle before checking the engine oil level?", image: ""))
+        questionList.append(Question(text: "Your coach often tows a trailer. How often should you check the trailer tyres for pressure?", image: ""))
+        questionList.append(Question(text: "What should you do before uncoupling your trailer?", image: ""))
+        
+        //1331-1340
+        questionList.append(Question(text: "What do the codes shown on the side walls of bus and lorry tyres refer to?", image: ""))
+        questionList.append(Question(text: "You're driving at night on a very busy road when your headlights fail. What should you do if the fuse box is on the outside of the bus, on the right-hand side?", image: ""))
+        questionList.append(Question(text: "When can a bus driver use hazard warning lights?", image: ""))
+        questionList.append(Question(text: "You're approaching a large puddle near the left-hand kerb. What should you do if pedestrians are close to the water?", image: ""))
+        questionList.append(Question(text: "You're driving a bus on a local service. When can you use this lane?", image: "1-4-motor-car-in-bus-lane"))
+        questionList.append(Question(text: "You hit the kerb at speed. What part of your vehicle should you check for damage?", image: ""))
+        questionList.append(Question(text: "On a coach with high side windows, it can be difficult to see either side. What should you do before you move off in one of these vehicles?", image: ""))
+        questionList.append(Question(text: "What does the term 'maximum authorised mass' (MAM) mean?", image: ""))
+        questionList.append(Question(text: "It is only legal to drive an empty, half-cab bus when the passenger access has", image: ""))
+        questionList.append(Question(text: "Many modern vehicles are fitted with an additional near-side mirror. this is positioned so that the driver can see", image: ""))
+
+        //1341-1350
+        questionList.append(Question(text: "Before changing a wheel on your vehicle you should", image: ""))
+        questionList.append(Question(text: "Certain weight limit signs do not apply to buses. How would the driver know?", image: ""))
+        questionList.append(Question(text: "You are driving a bus in a built-up area. You should NOT", image: ""))
+        questionList.append(Question(text: "You are a driver of a 1996 bus, which must be fitted with a speed limiter. At what speed is the limiter set?", image: ""))
+        questionList.append(Question(text: "Before each journey you should check all warning lights. What should you do if a warning light remains lit?", image: ""))
+        questionList.append(Question(text: "Your vehicle has a turbo engine. What should you do before swithing off?", image: ""))
+        questionList.append(Question(text: "You are driving a vehicle which has a two-speed axle. This:-", image: ""))
+        questionList.append(Question(text: "One of your passengers tells you they have noticed a wheen nut is missing. How often should you check them?", image: ""))
+        questionList.append(Question(text: "You should beckon pedestrains to cross the road at", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with a reverse warning bleeper. You MUST switch it off between the hours of 11.30pm and 7.00am on a road with:-", image: ""))
+
+//        //1351-1360
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))

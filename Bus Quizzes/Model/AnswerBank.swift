@@ -3856,8 +3856,8 @@ class AnswerBank {
         
         //Q640
         answerList.append(Answer(text: "Six within a one-year period", correctAnswer: false))
-        answerList.append(Answer(text: "Six within a two-year period", correctAnswer: true))
-        answerList.append(Answer(text: "12 within a three-year period", correctAnswer: false))
+        answerList.append(Answer(text: "Six within a two-year period", correctAnswer: false))
+        answerList.append(Answer(text: "12 within a three-year period", correctAnswer: true))
         answerList.append(Answer(text: "Eight within a two-year period", correctAnswer: false))
         
         //Q641
@@ -7940,61 +7940,241 @@ class AnswerBank {
         answerList.append(Answer(text: "Try to pass them", correctAnswer: false))
         answerList.append(Answer(text: "Stay close behind them", correctAnswer: false))
 
-//        //Q1321
+        //Q1321
+        answerList.append(Answer(text: "The blind area close in front", correctAnswer: true))
+        answerList.append(Answer(text: "Your judgement of speed will be impaired", correctAnswer: false))
+        answerList.append(Answer(text: "Passengers will have to look up to you", correctAnswer: false))
+        answerList.append(Answer(text: "The lack of headroom in the cab", correctAnswer: false))
+
+        //Q1322
+        answerList.append(Answer(text: "For national security", correctAnswer: true))
+        answerList.append(Answer(text: "To check for red diesel", correctAnswer: false))
+        answerList.append(Answer(text: "For tachograph regulations", correctAnswer: false))
+        answerList.append(Answer(text: "To check vehicle condition", correctAnswer: false))
+
+        //Q1323
+        answerList.append(Answer(text: "0.8 mm", correctAnswer: false))
+        answerList.append(Answer(text: "1 mm", correctAnswer: true))
+        answerList.append(Answer(text: "1.6 mm", correctAnswer: false))
+        answerList.append(Answer(text: "2 mm", correctAnswer: false))
+
+        //Q1324
+        answerList.append(Answer(text: "The safety and comfort of your passengers", correctAnswer: true))
+        answerList.append(Answer(text: "The collecting of fares", correctAnswer: false))
+        answerList.append(Answer(text: "Keeping to a strict timetable", correctAnswer: false))
+        answerList.append(Answer(text: "The issuing of tickets", correctAnswer: false))
+
+        //Q1325
+        answerList.append(Answer(text: "When stopping in an emergency", correctAnswer: false))
+        answerList.append(Answer(text: "When driving at slow speed", correctAnswer: false))
+        answerList.append(Answer(text: "When changing to a higher gear", correctAnswer: false))
+        answerList.append(Answer(text: "When needing brisk acceleration", correctAnswer: true))
+
+        //Q1326
+        answerList.append(Answer(text: "Hold the vehicle on the clutch", correctAnswer: false))
+        answerList.append(Answer(text: "Select neutral and apply the parking brake", correctAnswer: false))
+        answerList.append(Answer(text: "Hold the vehicle on the footbrake", correctAnswer: false))
+        answerList.append(Answer(text: "Apply the parking brake after stopping", correctAnswer: true))
+
+        //Q1327
+        answerList.append(Answer(text: "Use the highest gear possible", correctAnswer: false))
+        answerList.append(Answer(text: "Drive at a very low speed", correctAnswer: true))
+        answerList.append(Answer(text: "Apply the exhaust brake (retarder)", correctAnswer: false))
+        answerList.append(Answer(text: "Reduce the pressure in the rear tyres", correctAnswer: false))
+
+        //Q1328
+        answerList.append(Answer(text: "On sloping ground", correctAnswer: false))
+        answerList.append(Answer(text: "On flat ground", correctAnswer: true))
+        answerList.append(Answer(text: "On a steep gradient", correctAnswer: false))
+        answerList.append(Answer(text: "On a downhill slope", correctAnswer: false))
+
+        //Q1329
+        answerList.append(Answer(text: "At least once a week when they're cold", correctAnswer: true))
+        answerList.append(Answer(text: "At least once a week when they're hot", correctAnswer: false))
+        answerList.append(Answer(text: "At least once a month when they're hot", correctAnswer: false))
+        answerList.append(Answer(text: "At least once a month when the trailer is fully laden", correctAnswer: false))
+
+        //Q1330
+        answerList.append(Answer(text: "Disconnect the battery", correctAnswer: false))
+        answerList.append(Answer(text: "Park in a well-lit location", correctAnswer: false))
+        answerList.append(Answer(text: "Park on a firm, level surface", correctAnswer: true))
+        answerList.append(Answer(text: "Unload some of the cargo", correctAnswer: false))
+
+        //Q1331
+        answerList.append(Answer(text: "Tread pattern", correctAnswer: false))
+        answerList.append(Answer(text: "Maximum load", correctAnswer: true))
+        answerList.append(Answer(text: "Minimum temperature", correctAnswer: false))
+        answerList.append(Answer(text: "Running pressure", correctAnswer: false))
+        
+        //Q1332
+        answerList.append(Answer(text: "Ask a passenger to watch for traffic", correctAnswer: false))
+        answerList.append(Answer(text: "Fix the problem yourself", correctAnswer: false))
+        answerList.append(Answer(text: "Drive on without lights", correctAnswer: false))
+        answerList.append(Answer(text: "Wait for the breakdown services", correctAnswer: true))
+
+        //Q1333
+        answerList.append(Answer(text: "When children are getting off a school bus", correctAnswer: true))
+        answerList.append(Answer(text: "When stopping at a pedestrian crossing", correctAnswer: false))
+        answerList.append(Answer(text: "To thank a driver who has given way", correctAnswer: false))
+        answerList.append(Answer(text: "When parking your bus on yellow lines", correctAnswer: false))
+
+        //Q1334
+        answerList.append(Answer(text: "Ignore the puddle", correctAnswer: false))
+        answerList.append(Answer(text: "Brake suddenly and sound your horn", correctAnswer: false))
+        answerList.append(Answer(text: "Try to avoid splashing the pedestrians", correctAnswer: true))
+        answerList.append(Answer(text: "Wave at the pedestrians to keep back", correctAnswer: false))
+
+        //Q1335
+        answerList.append(Answer(text: "Between 4.00 pm and 6.30 pm only", correctAnswer: false))
+        answerList.append(Answer(text: "At any time of the day", correctAnswer: true))
+        answerList.append(Answer(text: "Before 4.00 pm and after 6.30 pm only", correctAnswer: false))
+        answerList.append(Answer(text: "Any time except Saturdays", correctAnswer: false))
+
+        //Q1336
+        answerList.append(Answer(text: "Exhaust", correctAnswer: false))
+        answerList.append(Answer(text: "Lights", correctAnswer: false))
+        answerList.append(Answer(text: "Brakes", correctAnswer: false))
+        answerList.append(Answer(text: "Tyres", correctAnswer: true))
+
+        //Q1337
+        answerList.append(Answer(text: "Get out of your vehicle and stop the traffic", correctAnswer: false))
+        answerList.append(Answer(text: "Indicate before checking all of your mirrors", correctAnswer: false))
+        answerList.append(Answer(text: "Ask a passenger to make sure it's safe to move off", correctAnswer: false))
+        answerList.append(Answer(text: "Open the window and look down and round to the right", correctAnswer: true))
+
+        //Q1338
+        answerList.append(Answer(text: "The weight of your vehicle, with passengers but no luggage", correctAnswer: false))
+        answerList.append(Answer(text: "The weight of your vehicle, with luggage but no passengers", correctAnswer: false))
+        answerList.append(Answer(text: "The weight of your vehicle, without passengers or luggage", correctAnswer: false))
+        answerList.append(Answer(text: "The weight of your vehicle, with both luggage and passengers", correctAnswer: true))
+
+        //Q1339
+        answerList.append(Answer(text: "A vertical pole", correctAnswer: false))
+        answerList.append(Answer(text: "No high steps", correctAnswer: false))
+        answerList.append(Answer(text: "No obstructions", correctAnswer: false))
+        answerList.append(Answer(text: "A chain or strap", correctAnswer: true))
+
+        //Q1340
+        answerList.append(Answer(text: "The front wheel in relation to the kerb", correctAnswer: true))
+        answerList.append(Answer(text: "The exhaust to check for excessive emissions", correctAnswer: false))
+        answerList.append(Answer(text: "The rear of the vehicle when reversing", correctAnswer: false))
+        answerList.append(Answer(text: "The distance the following vehicle is behind", correctAnswer: false))
+
+        //Q1341
+        answerList.append(Answer(text: "Leave the parking brake off", correctAnswer: false))
+        answerList.append(Answer(text: "Use chocks if available", correctAnswer: true))
+        answerList.append(Answer(text: "Dismantle the wheel and tyre", correctAnswer: false))
+        answerList.append(Answer(text: "Get someone to check the other tyres", correctAnswer: false))
+        
+        //Q1342
+        answerList.append(Answer(text: "By a plate fitted beneath the weight limit sign", correctAnswer: true))
+        answerList.append(Answer(text: "By the colour of the weight limit sign", correctAnswer: false))
+        answerList.append(Answer(text: "By a plate attached to the vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "By a certificate carried by the driver", correctAnswer: false))
+        
+        //Q1343
+        answerList.append(Answer(text: "Block side road junctions", correctAnswer: true))
+        answerList.append(Answer(text: "Leave a safe stopping distance", correctAnswer: false))
+        answerList.append(Answer(text: "Anticipate traffic ahead", correctAnswer: false))
+        answerList.append(Answer(text: "Use the MSM routine", correctAnswer: false))
+        
+        //Q1344
+        answerList.append(Answer(text: "60 MPH (96 KPH)", correctAnswer: false))
+        answerList.append(Answer(text: "62 MPH (100 KPH)", correctAnswer: true))
+        answerList.append(Answer(text: "70 MPH (112 KPH)", correctAnswer: false))
+        answerList.append(Answer(text: "75 MPH (120 KPH)", correctAnswer: false))
+        
+        //Q1345
+        answerList.append(Answer(text: "Report the fault when you return", correctAnswer: false))
+        answerList.append(Answer(text: "Have the fault checked before setting off", correctAnswer: true))
+        answerList.append(Answer(text: "Have the fault checked at the next service", correctAnswer: false))
+        answerList.append(Answer(text: "Ignore it until the fault shows up", correctAnswer: false))
+        
+        //Q1346
+        answerList.append(Answer(text: "Release the air suspension valve", correctAnswer: false))
+        answerList.append(Answer(text: "Allow the engine to idle", correctAnswer: true))
+        answerList.append(Answer(text: "Select reverse gear", correctAnswer: false))
+        answerList.append(Answer(text: "Rev the engine up sharply", correctAnswer: false))
+        
+        //Q1347
+        answerList.append(Answer(text: "Halves the number of gears", correctAnswer: false))
+        answerList.append(Answer(text: "Doubles the number of gears", correctAnswer: true))
+        answerList.append(Answer(text: "Engages the diff-lock", correctAnswer: false))
+        answerList.append(Answer(text: "Releases the diff-lock", correctAnswer: false))
+        
+        //Q1348
+        answerList.append(Answer(text: "At the end of every week", correctAnswer: false))
+        answerList.append(Answer(text: "At the start of every week", correctAnswer: false))
+        answerList.append(Answer(text: "Every day before starting out", correctAnswer: true))
+        answerList.append(Answer(text: "Only at every service interval", correctAnswer: false))
+        
+        //Q1349
+        answerList.append(Answer(text: "Pedestrain crossings", correctAnswer: false))
+        answerList.append(Answer(text: "No time", correctAnswer: false))
+        answerList.append(Answer(text: "Junctions", correctAnswer: false))
+        answerList.append(Answer(text: "School crossings", correctAnswer: false))
+        
+        //Q1350
+        answerList.append(Answer(text: "30 mph speed limit", correctAnswer: true))
+        answerList.append(Answer(text: "Temporary speed limit", correctAnswer: false))
+        answerList.append(Answer(text: "National speed limit", correctAnswer: false))
+        answerList.append(Answer(text: "40 mph speed limit", correctAnswer: false))
+        
+//        //Q1351
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1322
+//        //Q1352
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1323
+//        //Q1353
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1324
+//        //Q1354
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1325
+//        //Q1355
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1326
+//        //Q1356
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1327
+//        //Q1357
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1328
+//        //Q1358
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1329
+//        //Q1359
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //
-//        //Q1330
+//        //Q1360
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
