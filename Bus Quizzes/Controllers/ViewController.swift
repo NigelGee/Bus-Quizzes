@@ -27,9 +27,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageQuestion: UIImageView!
     @IBOutlet weak var progressLabel: UIView!
     @IBOutlet weak var answerText1: UIButton!
+    @IBOutlet weak var viewAnswerText1: UIView!
     @IBOutlet weak var answerText2: UIButton!
+    @IBOutlet weak var viewAnswerText2: UIView!
     @IBOutlet weak var answerText3: UIButton!
+    @IBOutlet weak var viewAnswerText3: UIView!
     @IBOutlet weak var answerText4: UIButton!
+    @IBOutlet weak var viewAnswerText4: UIView!
     @IBOutlet weak var enlargeImage: UIButton!
     
     
@@ -46,11 +50,11 @@ class ViewController: UIViewController {
             fatalError("Check the number of questions")
         }
         
-        answerText1.layer.cornerRadius = 10
-        answerText2.layer.cornerRadius = 10
-        answerText3.layer.cornerRadius = 10
-        answerText3.layer.cornerRadius = 10
-        answerText4.layer.cornerRadius = 10
+        viewAnswerText1.layer.cornerRadius = 10
+        viewAnswerText2.layer.cornerRadius = 10
+        viewAnswerText3.layer.cornerRadius = 10
+        viewAnswerText3.layer.cornerRadius = 10
+        viewAnswerText4.layer.cornerRadius = 10
         imageQuestion.layer.cornerRadius = 10
         imageQuestion.layer.masksToBounds = true
         progressLabel.layer.cornerRadius = 7
@@ -171,11 +175,11 @@ class ViewController: UIViewController {
     func showResults() {
         
         enlargeImage.isHidden = true
-        answerText1.backgroundColor = UIColor(named: "76D6FF")
+        viewAnswerText1.backgroundColor = UIColor(named: "76D6FF")
         answerText1.setTitle("", for: .normal)
-        answerText2.backgroundColor = UIColor(named: "76D6FF")
+        viewAnswerText2.backgroundColor = UIColor(named: "76D6FF")
         answerText2.setTitle("", for: .normal)
-        answerText4.backgroundColor = .red
+        viewAnswerText4.backgroundColor = .red
         answerText4.setTitle("Try again!", for: .normal)
         progressLabel.isHidden = true
         
@@ -183,8 +187,7 @@ class ViewController: UIViewController {
         
         if scorePrecentage == 100 {
             questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
-            //answerText3.isHidden = true
-            answerText3.backgroundColor = UIColor(named: "76D6FF")
+            viewAnswerText3.backgroundColor = UIColor(named: "76D6FF")
             answerText3.setTitle("", for: .normal)
             imageQuestion.image = UIImage(named: "PerfectEmoji")
         }
@@ -200,7 +203,7 @@ class ViewController: UIViewController {
             
         }
         else if scorePrecentage >= 50 {
-            questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage)))%. Great work and so close to a pass. Keep on practising and try again!"
+            questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage)))%. Great work and so close to a pass of 85%. Keep on practising. Try again!"
             imageQuestion.image = UIImage(named: "crying-face")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
@@ -215,10 +218,10 @@ class ViewController: UIViewController {
     
     // MARK:- RESTART
     func startAgain (){
-        answerText1.backgroundColor = .blue
-        answerText2.backgroundColor = .blue
-        answerText3.backgroundColor = .blue
-        answerText4.backgroundColor = .blue
+        viewAnswerText1.backgroundColor = .blue
+        viewAnswerText2.backgroundColor = .blue
+        viewAnswerText3.backgroundColor = .blue
+        viewAnswerText4.backgroundColor = .blue
         progressLabel.isHidden = false
         score = 0
         count = 1

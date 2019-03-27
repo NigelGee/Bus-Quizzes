@@ -2533,10 +2533,10 @@ class AnswerBank {
         answerList.append(Answer(text: "So the motorcyclist is more visible to other road users", correctAnswer: true))
         
         //Q420
-        answerList.append(Answer(text: "be ok to drive as long as it's a legal medicine", correctAnswer: false))
-        answerList.append(Answer(text: "not take the full dose on days you need to drive", correctAnswer: false))
-        answerList.append(Answer(text: "ask a friend for their advice", correctAnswer: false))
-        answerList.append(Answer(text: "read the medicine's label, and speak to your doctor", correctAnswer: true))
+        answerList.append(Answer(text: "Be ok to drive as long as it's a legal medicine", correctAnswer: false))
+        answerList.append(Answer(text: "Not take the full dose on days you need to drive", correctAnswer: false))
+        answerList.append(Answer(text: "Ask a friend for their advice", correctAnswer: false))
+        answerList.append(Answer(text: "Read the medicine's label, and speak to your doctor", correctAnswer: true))
         
         
         //Q421

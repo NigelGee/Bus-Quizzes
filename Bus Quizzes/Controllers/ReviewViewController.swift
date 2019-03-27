@@ -18,9 +18,13 @@ class ReviewViewController: UIViewController {
     @IBOutlet weak var reviewQuestions: UILabel!
     @IBOutlet weak var reviewImage: UIImageView!
     @IBOutlet weak var reviewAnswer1: UILabel!
+    @IBOutlet weak var viewAnswer1: UIView!
     @IBOutlet weak var reviewAnswer2: UILabel!
+    @IBOutlet weak var viewAnswer2: UIView!
     @IBOutlet weak var reviewAnswer3: UILabel!
+    @IBOutlet weak var viewAnswer3: UIView!
     @IBOutlet weak var reviewAnswer4: UILabel!
+    @IBOutlet weak var viewAnswer4: UIView!
     @IBOutlet weak var reviewChoose: UIButton!
     @IBOutlet weak var reviewNext: UIButton!
     @IBOutlet weak var questionNumber: UILabel!
@@ -32,14 +36,14 @@ class ReviewViewController: UIViewController {
         
         reviewImage.layer.cornerRadius = 10
         reviewImage.layer.masksToBounds = true
-        reviewAnswer1.layer.cornerRadius = 10
-        reviewAnswer1.layer.masksToBounds = true
-        reviewAnswer2.layer.cornerRadius = 10
-        reviewAnswer2.layer.masksToBounds = true
-        reviewAnswer3.layer.cornerRadius = 10
-        reviewAnswer3.layer.masksToBounds = true
-        reviewAnswer4.layer.cornerRadius = 10
-        reviewAnswer4.layer.masksToBounds = true
+        viewAnswer1.layer.cornerRadius = 10
+        viewAnswer1.layer.masksToBounds = true
+        viewAnswer2.layer.cornerRadius = 10
+        viewAnswer2.layer.masksToBounds = true
+        viewAnswer3.layer.cornerRadius = 10
+        viewAnswer3.layer.masksToBounds = true
+        viewAnswer4.layer.cornerRadius = 10
+        viewAnswer4.layer.masksToBounds = true
         
         updateUI()
         
@@ -48,13 +52,13 @@ class ReviewViewController: UIViewController {
     
     func updateUI () {
         
-        reviewAnswer1.backgroundColor = .blue
+        viewAnswer1.backgroundColor = .blue
         reviewAnswer1.textColor = .white
-        reviewAnswer2.backgroundColor = .blue
+        viewAnswer2.backgroundColor = .blue
         reviewAnswer2.textColor = .white
-        reviewAnswer3.backgroundColor = .blue
+        viewAnswer3.backgroundColor = .blue
         reviewAnswer3.textColor = .white
-        reviewAnswer4.backgroundColor = .blue
+        viewAnswer4.backgroundColor = .blue
         reviewAnswer4.textColor = .white
         
         if arrayNumber == 0 {
@@ -98,16 +102,16 @@ class ReviewViewController: UIViewController {
         reviewAnswer4.text = answerD.answerText
         
         if answerA.answer == true {
-            reviewAnswer1.backgroundColor = .green
+            viewAnswer1.backgroundColor = .green
             reviewAnswer1.textColor = .black
         } else if answerB.answer == true {
-            reviewAnswer2.backgroundColor = .green
+            viewAnswer2.backgroundColor = .green
             reviewAnswer2.textColor = .black
         } else if answerC.answer == true {
-            reviewAnswer3.backgroundColor = .green
+            viewAnswer3.backgroundColor = .green
             reviewAnswer3.textColor = .black
         } else if answerD.answer == true {
-            reviewAnswer4.backgroundColor = .green
+            viewAnswer4.backgroundColor = .green
             reviewAnswer4.textColor = .black
         }
         
