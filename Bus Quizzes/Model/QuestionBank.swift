@@ -1637,7 +1637,19 @@ class QuestionBank {
         questionList.append(Question(text: "You should beckon pedestrains to cross the road at", image: ""))
         questionList.append(Question(text: "Your vehicle is fitted with a reverse warning bleeper. You MUST switch it off between the hours of 11.30pm and 7.00am on a road with:-", image: ""))
 
-//        //1351-1360
+        //1351-1360
+        questionList.append(Question(text: "The nearside mirror is used for checking", image: ""))
+        questionList.append(Question(text: "You are driving a double decker half-cab bus. Passengers can only be carried if:-", image: ""))
+        questionList.append(Question(text: "Why should you use an approved coolant solution in your engine?", image: ""))
+        questionList.append(Question(text: "How frequently should a walk-round check be done?", image: ""))
+        questionList.append(Question(text: "You are driving in busy traffic. You lose your way. What should you do?", image: ""))
+        questionList.append(Question(text: "You are driving a three-axle double-deck bus and using full steering lock. Why should you take extra care?", image: ""))
+        questionList.append(Question(text: "In a bus with a high driving position you may have to have a look out for:-", image: ""))
+        questionList.append(Question(text: "A new engine has just been fitted to your vehicle. Why may it be necessary to bleed the fuel system?", image: ""))
+        questionList.append(Question(text: "Why should your engine oil be changed at the recommended intervals?", image: ""))
+        questionList.append(Question(text: "A disabled passenger is boarding your bus. They tell you that getting on board is not a problem to them. You should:-", image: ""))
+        
+//        //1361-1370
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
@@ -1648,5 +1660,6 @@ class QuestionBank {
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
+
     }
 }

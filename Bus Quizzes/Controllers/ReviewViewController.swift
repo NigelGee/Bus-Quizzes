@@ -35,15 +35,10 @@ class ReviewViewController: UIViewController {
         super.viewDidLoad()
         
         reviewImage.layer.cornerRadius = 10
-        reviewImage.layer.masksToBounds = true
         viewAnswer1.layer.cornerRadius = 10
-        viewAnswer1.layer.masksToBounds = true
         viewAnswer2.layer.cornerRadius = 10
-        viewAnswer2.layer.masksToBounds = true
         viewAnswer3.layer.cornerRadius = 10
-        viewAnswer3.layer.masksToBounds = true
         viewAnswer4.layer.cornerRadius = 10
-        viewAnswer4.layer.masksToBounds = true
         
         updateUI()
         

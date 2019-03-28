@@ -186,7 +186,7 @@ class ViewController: UIViewController {
         let scorePrecentage = CGFloat(score) / CGFloat(countLimit) * 100
         
         if scorePrecentage == 100 {
-            questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion - Int(countLimit)) other questions that are possible. Try again and see if can get another perfect score."
+            questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion - usedQuestion.count) other questions that are possible. Try again and see if can get another perfect score."
             viewAnswerText3.backgroundColor = UIColor(named: "76D6FF")
             answerText3.setTitle("", for: .normal)
             imageQuestion.image = UIImage(named: "PerfectEmoji")
