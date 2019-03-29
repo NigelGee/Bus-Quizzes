@@ -1623,7 +1623,7 @@ class QuestionBank {
         questionList.append(Question(text: "On a coach with high side windows, it can be difficult to see either side. What should you do before you move off in one of these vehicles?", image: ""))
         questionList.append(Question(text: "What does the term 'maximum authorised mass' (MAM) mean?", image: ""))
         questionList.append(Question(text: "It is only legal to drive an empty, half-cab bus when the passenger access has", image: ""))
-        questionList.append(Question(text: "Many modern vehicles are fitted with an additional near-side mirror. this is positioned so that the driver can see", image: ""))
+        questionList.append(Question(text: "Many modern vehicles are fitted with an additional near-side mirror. this is positioned so that the driver can see:", image: ""))
 
         //1341-1350
         questionList.append(Question(text: "Before changing a wheel on your vehicle you should", image: ""))
@@ -1635,7 +1635,7 @@ class QuestionBank {
         questionList.append(Question(text: "You are driving a vehicle which has a two-speed axle. This:-", image: ""))
         questionList.append(Question(text: "One of your passengers tells you they have noticed a wheen nut is missing. How often should you check them?", image: ""))
         questionList.append(Question(text: "You should beckon pedestrains to cross the road at", image: ""))
-        questionList.append(Question(text: "Your vehicle is fitted with a reverse warning bleeper. You MUST switch it off between the hours of 11.30pm and 7.00am on a road with:-", image: ""))
+        questionList.append(Question(text: "Your vehicle is fitted with a reverse warning bleeper. You MUST switch it off between the hours of 11.30pm and 7.00am on a road with:", image: ""))
 
         //1351-1360
         questionList.append(Question(text: "The nearside mirror is used for checking", image: ""))
@@ -1644,10 +1644,10 @@ class QuestionBank {
         questionList.append(Question(text: "How frequently should a walk-round check be done?", image: ""))
         questionList.append(Question(text: "You are driving in busy traffic. You lose your way. What should you do?", image: ""))
         questionList.append(Question(text: "You are driving a three-axle double-deck bus and using full steering lock. Why should you take extra care?", image: ""))
-        questionList.append(Question(text: "In a bus with a high driving position you may have to have a look out for:-", image: ""))
+        questionList.append(Question(text: "In a bus with a high driving position you may have to have a look out for:", image: ""))
         questionList.append(Question(text: "A new engine has just been fitted to your vehicle. Why may it be necessary to bleed the fuel system?", image: ""))
         questionList.append(Question(text: "Why should your engine oil be changed at the recommended intervals?", image: ""))
-        questionList.append(Question(text: "A disabled passenger is boarding your bus. They tell you that getting on board is not a problem to them. You should:-", image: ""))
+        questionList.append(Question(text: "A disabled passenger is boarding your bus. They tell you that getting on board is not a problem to them. You should:", image: ""))
         
 //        //1361-1370
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
