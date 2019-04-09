@@ -11,11 +11,13 @@ import UIKit
 class ChooseViewController: UIViewController {
     
     var chosenNumber: Int = 0
+    var soundOnSwitch: Bool = true
     
     @IBOutlet weak var button25: UIButton!
     @IBOutlet weak var button50: UIButton!
     @IBOutlet weak var button100: UIButton!
     @IBOutlet weak var button10: UIButton!
+    @IBOutlet weak var soundSwitchState: UISwitch!
     
     
     
@@ -43,12 +45,24 @@ class ChooseViewController: UIViewController {
         
     }
     
+    @IBAction func soundSwitch(_ sender: UISwitch) {
+       changeSoundSwitch()
+    }
+    
+    func changeSoundSwitch() {
+        if soundSwitchState.isOn {
+            soundOnSwitch = true
+        }else{
+            soundOnSwitch = false
+        }
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToQuiz" {
             
             let destinationVC = segue.destination as! ViewController
             
             destinationVC.countLimit = chosenNumber
+            destinationVC.soundOn = soundOnSwitch
             
         }
     }

@@ -434,7 +434,7 @@ class QuestionBank {
         questionList.append(Question(text: "A Statutory Off Road Notification, also known as SORN, is valid:", image: ""))
         questionList.append(Question(text: "You are giving your mate's kids a lift to school. They are both 10 years old. Whose responsibility is it to ensure that they use a seatbelt or an appropriate child restraint if needed?", image: ""))
         questionList.append(Question(text: "At what time do you need to show your certificate of motor insurance?", image: ""))
-        questionList.append(Question(text: "At what time do you need to show your certificate of motor insurance?", image: ""))
+        questionList.append(Question(text: "You have approached a pelican crossing. There is a flashing light that's amber in colour. This means:", image: ""))
         
         //351-360
         questionList.append(Question(text: "During heavy snowfall, you need to:", image: ""))
@@ -1648,7 +1648,7 @@ class QuestionBank {
         questionList.append(Question(text: "A new engine has just been fitted to your vehicle. Why may it be necessary to bleed the fuel system?", image: ""))
         questionList.append(Question(text: "Why should your engine oil be changed at the recommended intervals?", image: ""))
         questionList.append(Question(text: "A disabled passenger is boarding your bus. They tell you that getting on board is not a problem to them. You should:", image: ""))
-        
+
 //        //1361-1370
 //        questionList.append(Question(text: "<#T##String#>", image: ""))
 //        questionList.append(Question(text: "<#T##String#>", image: ""))

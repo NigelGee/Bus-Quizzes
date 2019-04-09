@@ -57,19 +57,15 @@ class ReviewViewController: UIViewController {
         reviewAnswer4.textColor = .white
         
         if arrayNumber == 0 {
-            reviewChoose.setTitleColor(.white, for: .normal)
-            reviewChoose.isEnabled = false
+            reviewChoose.isHidden = true
         } else {
-            reviewChoose.setTitleColor(.black, for: .normal)
-            reviewChoose.isEnabled = true
+            reviewChoose.isHidden = false
         }
         
         if reviewQuestionArray.count == arrayNumber + 1 {
-            reviewNext.setTitleColor(.white, for: .normal)
-            reviewNext.isEnabled = false
+            reviewNext.isHidden = true
         } else {
-            reviewNext.setTitleColor(.black, for: .normal)
-            reviewNext.isEnabled = true
+            reviewNext.isHidden = false
         }
         
         let incorrectQuestionNumber = reviewQuestionArray[arrayNumber]

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -19,8 +20,9 @@ class ViewController: UIViewController {
     var count: Int = 1
     var countLimit: Int = 0
     var totalQuestion: Int = 0
-    var questionSingle = ""
-    var askedImage = ""
+    var askedImage : String = ""
+    var audioPlayer : AVAudioPlayer!
+    var soundOn : Bool = false
     
     
     @IBOutlet weak var questionLabel: UILabel!
@@ -53,14 +55,13 @@ class ViewController: UIViewController {
         viewAnswerText1.layer.cornerRadius = 10
         viewAnswerText2.layer.cornerRadius = 10
         viewAnswerText3.layer.cornerRadius = 10
-        viewAnswerText3.layer.cornerRadius = 10
         viewAnswerText4.layer.cornerRadius = 10
         imageQuestion.layer.cornerRadius = 10
         imageQuestion.layer.masksToBounds = true
         progressLabel.layer.cornerRadius = 7
         
-        totalQuestion = maxQuestion
-        
+        totalQuestion = maxQuestion - 1
+        print (maxQuestion)
         randomQuestion()
         
     }
@@ -82,7 +83,7 @@ class ViewController: UIViewController {
         
         let maxUsedQuestion = usedQuestion.count
         
-        var randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
+        var randomNumber = Int.random(in: 0...totalQuestion)
         
         if usedQuestion.isEmpty == false {                                   //Check to see if first question
             var checkUsedQuestion = 0
@@ -92,8 +93,8 @@ class ViewController: UIViewController {
                     
                     if randomNumber == usedQuestion[checkUsedQuestion] {    //Check to see if question number has been used
                         
-                        randomNumber = Int(arc4random_uniform(UInt32(totalQuestion)))
-                        checkUsedQuestion = -1                              //Reset to last number to recheck new random number
+                        randomNumber = Int.random(in: 0...totalQuestion)
+                        checkUsedQuestion = -1                             //Reset to last number to recheck new random number
                         
                     }
                     
@@ -149,13 +150,18 @@ class ViewController: UIViewController {
     func checkAnswer(pickedAnswer: Int) {
         
         let correctAnswer = allAnswer.answerList[answerNumber + pickedAnswer].answer
+        var soundTone : String = ""
         
         if correctAnswer == true {
+            soundTone = "Correct"
             ProgressHUD.showSuccess("Correct")
+            playSounds(soundFileName: soundTone)
             score += 1
             
         } else {
+            soundTone = "Incorrect"
             ProgressHUD.showError("Wrong!")
+            playSounds(soundFileName: soundTone)
             incorrectAnswer.append(answerNumber / 4)
         }
         
@@ -174,6 +180,8 @@ class ViewController: UIViewController {
     //MARK:- SHOW RESULTS
     func showResults() {
         
+        var questionSingle : String = ""
+        
         enlargeImage.isHidden = true
         viewAnswerText1.backgroundColor = UIColor(named: "76D6FF")
         answerText1.setTitle("", for: .normal)
@@ -186,7 +194,7 @@ class ViewController: UIViewController {
         let scorePrecentage = CGFloat(score) / CGFloat(countLimit) * 100
         
         if scorePrecentage == 100 {
-            questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion - usedQuestion.count) other questions that are possible. Try again and see if can get another perfect score."
+            questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion + 1 - usedQuestion.count) other questions that are possible. Try again and see if can get another perfect score."
             viewAnswerText3.backgroundColor = UIColor(named: "76D6FF")
             answerText3.setTitle("", for: .normal)
             imageQuestion.image = UIImage(named: "PerfectEmoji")
@@ -216,6 +224,21 @@ class ViewController: UIViewController {
         }
     }
     
+    // MARK:- PLAY SOUNDS
+    
+    func playSounds(soundFileName : String) {
+        if soundOn == true {
+            let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "mp3")
+    
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+            }catch{
+                print(error)
+            }
+            audioPlayer.play()
+        }
+    }
+    
     // MARK:- RESTART
     func startAgain (){
         viewAnswerText1.backgroundColor = .blue
@@ -226,7 +249,6 @@ class ViewController: UIViewController {
         score = 0
         count = 1
         incorrectAnswer = []
-        print("\(usedQuestion.count) + \(countLimit) >= \(totalQuestion)")
         if usedQuestion.count + countLimit >= totalQuestion {
             usedQuestion = []
         }

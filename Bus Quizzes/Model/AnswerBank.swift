@@ -761,10 +761,10 @@ class AnswerBank {
         answerList.append(Answer(text: "Your visibility will be impeded", correctAnswer: true))
         
         //Q125
-        answerList.append(Answer(text: "Warn other drivers", correctAnswer: false))
+        answerList.append(Answer(text: "Warn other drivers", correctAnswer: true))
         answerList.append(Answer(text: "Remove the motorcyclist's helmet", correctAnswer: false))
         answerList.append(Answer(text: "Move the motor cycle out of the road", correctAnswer: false))
-        answerList.append(Answer(text: "Get the motor cyclist out of the road", correctAnswer: true))
+        answerList.append(Answer(text: "Get the motor cyclist out of the road", correctAnswer: false))
         
         //Q126
         answerList.append(Answer(text: "Distilled water", correctAnswer: true))
@@ -1433,10 +1433,10 @@ class AnswerBank {
         answerList.append(Answer(text: "Have a look in your interior mirror", correctAnswer: false))
         
         //Q237
-        answerList.append(Answer(text: "at the first stop line you reach", correctAnswer: true))
-        answerList.append(Answer(text: "at the stop line closest to the junction", correctAnswer: false))
-        answerList.append(Answer(text: "at the first stop line, then move forward to the next one when it is safe", correctAnswer: false))
-        answerList.append(Answer(text: "at the stop line closest to the junction if there are no cyclists present", correctAnswer: false))
+        answerList.append(Answer(text: "At the first stop line you reach", correctAnswer: true))
+        answerList.append(Answer(text: "At the stop line closest to the junction", correctAnswer: false))
+        answerList.append(Answer(text: "At the first stop line, then move forward to the next one when it is safe", correctAnswer: false))
+        answerList.append(Answer(text: "At the stop line closest to the junction if there are no cyclists present", correctAnswer: false))
         
         //Q238
         answerList.append(Answer(text: "Make sure that your brakes are working properly", correctAnswer: true))
@@ -1759,10 +1759,10 @@ class AnswerBank {
         answerList.append(Answer(text: "Passing your driving test on the first attempt", correctAnswer: false))
         
         //Q291
-        answerList.append(Answer(text: "a Vehicle that has broken down", correctAnswer: false))
-        answerList.append(Answer(text: "an Emergency services vehicle", correctAnswer: false))
-        answerList.append(Answer(text: "a School bus", correctAnswer: true))
-        answerList.append(Answer(text: "an Ice cream van", correctAnswer: false))
+        answerList.append(Answer(text: "A Vehicle that has broken down", correctAnswer: false))
+        answerList.append(Answer(text: "An Emergency services vehicle", correctAnswer: false))
+        answerList.append(Answer(text: "A School bus", correctAnswer: true))
+        answerList.append(Answer(text: "An Ice cream van", correctAnswer: false))
         
         //Q292
         answerList.append(Answer(text: "Place your car as much to the left-hand side of your current road as possible", correctAnswer: false))
@@ -6351,7 +6351,7 @@ class AnswerBank {
         answerList.append(Answer(text: "When you think the ambulance is coming", correctAnswer: false))
 
         //Q1056
-        answerList.append(Answer(text: "Stop, then report the accident to the police within 24 hours", correctAnswer: false))
+        answerList.append(Answer(text: "Stop, then report the accident to the police within 24 hours", correctAnswer: true))
         answerList.append(Answer(text: "Leave the scene. Do not report the accident if there are no witnesses", correctAnswer: false))
         answerList.append(Answer(text: "Stop, then report the accident to the police after 48 hours", correctAnswer: false))
         answerList.append(Answer(text: "Leave the scene. Do not report the accident if there were no injuries", correctAnswer: false))
