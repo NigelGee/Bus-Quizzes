@@ -31,11 +31,13 @@ class ChooseViewController: UIViewController {
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func changeSoundSwitch() {
+        if soundSwitchState.isOn {
+            soundOnSwitch = true
+        }else{
+            soundOnSwitch = false
+        }
     }
-    
     
     @IBAction func bottonPressed(_ sender: UIButton) {
         
@@ -49,13 +51,7 @@ class ChooseViewController: UIViewController {
        changeSoundSwitch()
     }
     
-    func changeSoundSwitch() {
-        if soundSwitchState.isOn {
-            soundOnSwitch = true
-        }else{
-            soundOnSwitch = false
-        }
-    }
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToQuiz" {
             

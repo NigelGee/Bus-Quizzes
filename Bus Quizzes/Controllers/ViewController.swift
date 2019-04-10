@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     let allAnswer = AnswerBank()
     var answerNumber = 0
     var usedQuestion = [Int]()
-    var incorrectAnswer = [Int]()
+    var incorrectQuestion = [Int]()
     var score: Int = 0
     var count: Int = 1
     var countLimit: Int = 0
@@ -60,6 +60,7 @@ class ViewController: UIViewController {
         imageQuestion.layer.masksToBounds = true
         progressLabel.layer.cornerRadius = 7
         
+        progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         totalQuestion = maxQuestion - 1
         print (maxQuestion)
         randomQuestion()
@@ -69,7 +70,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToReview" {
             let reviewVC = segue.destination as! ReviewViewController
-            reviewVC.reviewQuestionArray = incorrectAnswer
+            reviewVC.reviewQuestionArray = incorrectQuestion
         }
         if segue.identifier == "goToPhoto" {
             let photoVC = segue.destination as! PhotoViewController
@@ -162,7 +163,7 @@ class ViewController: UIViewController {
             soundTone = "Incorrect"
             ProgressHUD.showError("Wrong!")
             playSounds(soundFileName: soundTone)
-            incorrectAnswer.append(answerNumber / 4)
+            incorrectQuestion.append(answerNumber / 4)
         }
         
         count += 1
@@ -248,7 +249,7 @@ class ViewController: UIViewController {
         progressLabel.isHidden = false
         score = 0
         count = 1
-        incorrectAnswer = []
+        incorrectQuestion = []
         if usedQuestion.count + countLimit >= totalQuestion {
             usedQuestion = []
         }

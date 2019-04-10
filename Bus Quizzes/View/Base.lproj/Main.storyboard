@@ -95,18 +95,19 @@
                                 </constraints>
                             </view>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GRA-fD-jk1">
-                                <rect key="frame" x="310" y="414" width="51" height="31"/>
+                                <rect key="frame" x="296" y="414" width="51" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="49" id="ACx-xs-f9R"/>
                                     <constraint firstAttribute="height" constant="31" id="f17-jh-bEV"/>
                                 </constraints>
+                                <color key="tintColor" red="0.015686274509803921" green="0.20000000000000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="onTintColor" red="0.015686274509803921" green="0.20000000000000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
                                     <action selector="soundSwitch:" destination="0jS-KU-69l" eventType="valueChanged" id="AHr-bT-nKo"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sound" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fs8-Hm-rDT">
-                                <rect key="frame" x="16" y="414" width="278" height="31"/>
+                                <rect key="frame" x="16" y="414" width="264" height="31"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -117,7 +118,7 @@
                             <constraint firstItem="vMH-zy-NEz" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" id="0Kp-tu-oHd"/>
                             <constraint firstAttribute="bottom" secondItem="vMH-zy-NEz" secondAttribute="bottom" constant="26" id="A80-B5-q2p"/>
                             <constraint firstItem="ccR-cZ-GE8" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="16" id="IYW-58-cDA"/>
-                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="GRA-fD-jk1" secondAttribute="trailing" constant="16" id="Ii5-ae-U0O"/>
+                            <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="GRA-fD-jk1" secondAttribute="trailing" constant="30" id="Ii5-ae-U0O"/>
                             <constraint firstItem="vMH-zy-NEz" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" id="NfO-2X-XQU"/>
                             <constraint firstItem="npn-pn-7W5" firstAttribute="trailing" secondItem="ccR-cZ-GE8" secondAttribute="trailing" constant="16" id="QD8-au-9bg"/>
                             <constraint firstItem="fs8-Hm-rDT" firstAttribute="top" secondItem="ccR-cZ-GE8" secondAttribute="bottom" id="RIO-XB-vG0"/>

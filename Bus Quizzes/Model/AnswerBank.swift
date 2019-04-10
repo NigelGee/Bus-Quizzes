@@ -4110,7 +4110,7 @@ class AnswerBank {
         answerList.append(Answer(text: "Who's driving", correctAnswer: false))
         answerList.append(Answer(text: "Illness", correctAnswer: false))
         answerList.append(Answer(text: "Weekly rest periods", correctAnswer: false))
-        answerList.append(Answer(text: "other work", correctAnswer: true))
+        answerList.append(Answer(text: "Other work", correctAnswer: true))
 
         //Q683
         answerList.append(Answer(text: "7 hours", correctAnswer: false))
@@ -4251,7 +4251,7 @@ class AnswerBank {
         answerList.append(Answer(text: "EU and AETR", correctAnswer: false))
 
         //Q706
-        answerList.append(Answer(text: "Control card", correctAnswer: false))
+        answerList.append(Answer(text: "Control card", correctAnswer: true))
         answerList.append(Answer(text: "CPC card", correctAnswer: false))
         answerList.append(Answer(text: "Company card", correctAnswer: false))
         answerList.append(Answer(text: "Workshop card", correctAnswer: false))
@@ -6639,7 +6639,7 @@ class AnswerBank {
         answerList.append(Answer(text: "Give the rider reassurance", correctAnswer: false))
 
         //Q1104
-        answerList.append(Answer(text: "Rapid pulse and sweating", correctAnswer: false))
+        answerList.append(Answer(text: "Rapid pulse and sweating", correctAnswer: true))
         answerList.append(Answer(text: "Flushed complexion and deep breathing", correctAnswer: false))
         answerList.append(Answer(text: "Slow pulse and dry skin", correctAnswer: false))
         answerList.append(Answer(text: "Muscle spasms and an itchy rash", correctAnswer: false))
