@@ -198,7 +198,7 @@ class ViewController: UIViewController {
             questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion + 1 - usedQuestion.count) other questions that are possible. Try again and see if can get another perfect score."
             viewAnswerText3.backgroundColor = UIColor(named: "76D6FF")
             answerText3.setTitle("", for: .normal)
-            imageQuestion.image = UIImage(named: "PerfectEmoji")
+            imageQuestion.image = UIImage(named: "face-Perfect")
         }
         else if scorePrecentage >= 86 {
             if countLimit - score == 1 {
@@ -207,19 +207,19 @@ class ViewController: UIViewController {
                 questionSingle = "questions"
             }
             questionLabel.text = "Well done. Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage)))%. You would have passed, however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
-            imageQuestion.image = UIImage(named: "smiley-face")
+            imageQuestion.image = UIImage(named: "face-smiley")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
         }
         else if scorePrecentage >= 50 {
             questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage)))%. Great work and so close to a pass of 85%. Keep on practising. Try again!"
-            imageQuestion.image = UIImage(named: "crying-face")
+            imageQuestion.image = UIImage(named: "face-crying")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
         }
         else {
             questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage)))%. Try to check answers using \"The Highway Code\". Try again and see if you can get better next time."
-            imageQuestion.image = UIImage(named: "loudly-crying-face")
+            imageQuestion.image = UIImage(named: "face-loudly-crying")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
         }
@@ -259,7 +259,7 @@ class ViewController: UIViewController {
     
     //MARK:- BUTTON PRESSED
     @IBAction func answerPressed(_ sender: UIButton) {
-        
+
         let buttonPressed = sender.tag - 1
         if count <= (countLimit) {
             checkAnswer(pickedAnswer: buttonPressed)

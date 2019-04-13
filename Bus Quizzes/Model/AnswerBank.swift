@@ -1868,7 +1868,7 @@ class AnswerBank {
         
         //Q309
         answerList.append(Answer(text: "Parking the car in a dimly-lit environment", correctAnswer: false))
-        answerList.append(Answer(text: "Parking the car in a well-lit environmen", correctAnswer: true))
+        answerList.append(Answer(text: "Parking the car in a well-lit environment", correctAnswer: true))
         answerList.append(Answer(text: "Leaving the steering lock deactivated", correctAnswer: false))
         answerList.append(Answer(text: "Parking in a side road that doesn’t have much traffic", correctAnswer: false))
         
@@ -2936,10 +2936,10 @@ class AnswerBank {
         answerList.append(Answer(text: "Stop in all circumstances, even when there is no traffic in sight", correctAnswer: true))
         
         //Q487
-        answerList.append(Answer(text: "Use the steering wheel delicately, turning to the left", correctAnswer: true))
+        answerList.append(Answer(text: "Use the steering wheel delicately, turning to the left", correctAnswer: false))
         answerList.append(Answer(text: "Apply maximum pressure to the brakes, and turn to the left", correctAnswer: false))
         answerList.append(Answer(text: "Apply maximum pressure to the brakes, and don't use the steering wheel", correctAnswer: false))
-        answerList.append(Answer(text: "Use the steering wheel delicately, turning to the right", correctAnswer: false))
+        answerList.append(Answer(text: "Use the steering wheel delicately, turning to the right", correctAnswer: true))
         
         //Q488
         answerList.append(Answer(text: "10mph", correctAnswer: false))
@@ -3562,8 +3562,8 @@ class AnswerBank {
         
         //Q591
         answerList.append(Answer(text: "30 mph (48 km/h)", correctAnswer: false))
-        answerList.append(Answer(text: "60 mph (96 km/h)", correctAnswer: true))
-        answerList.append(Answer(text: "50 mph (80 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "60 mph (96 km/h)", correctAnswer: false))
+        answerList.append(Answer(text: "50 mph (80 km/h)", correctAnswer: true))
         answerList.append(Answer(text: "70 mph (112 km/h)", correctAnswer: false))
 
         //Q592
@@ -6474,7 +6474,7 @@ class AnswerBank {
         answerList.append(Answer(text: "Reassure them confidently", correctAnswer: true))
         answerList.append(Answer(text: "Offer them a cigarette", correctAnswer: false))
         answerList.append(Answer(text: "Keep them moving", correctAnswer: false))
-        answerList.append(Answer(text: "T##StringGive them a warm drink", correctAnswer: false))
+        answerList.append(Answer(text: "Give them a warm drink", correctAnswer: false))
 
         //Q1077
         answerList.append(Answer(text: "A metal pole", correctAnswer: false))
@@ -8181,10 +8181,10 @@ class AnswerBank {
         answerList.append(Answer(text: "Do nothing,you cannot leave your seat", correctAnswer: false))
 
 //        //Q1361
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+//        answerList.append(Answer(text: "At the entrance to a car park", correctAnswer: false))
+//        answerList.append(Answer(text: "On the approach to an arched bridge", correctAnswer: false))
+//        answerList.append(Answer(text: "At the start of a cycle lane", correctAnswer: false))
+//        answerList.append(Answer(text: "On the approach to a lifting barrier", correctAnswer: false))
 //
 //        //Q1362
 //        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
