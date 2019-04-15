@@ -11,7 +11,8 @@ import UIKit
 class ChooseViewController: UIViewController {
     
     var chosenNumber: Int = 0
-    var soundOnSwitch: Bool = true
+    var soundOnSwitch: Bool = false
+    let defaults = UserDefaults.standard
     
     @IBOutlet weak var button25: UIButton!
     @IBOutlet weak var button50: UIButton!
@@ -29,16 +30,10 @@ class ChooseViewController: UIViewController {
         button50.layer.cornerRadius = 10
         button100.layer.cornerRadius = 10
         
+        soundOnSwitch = defaults.bool(forKey: "switchStatus")
+        soundSwitchState.isOn = soundOnSwitch
     }
-    
-    func changeSoundSwitch() {
-        if soundSwitchState.isOn {
-            soundOnSwitch = true
-        }else{
-            soundOnSwitch = false
-        }
-    }
-    
+        
     @IBAction func bottonPressed(_ sender: UIButton) {
         
         chosenNumber = sender.tag
@@ -48,7 +43,8 @@ class ChooseViewController: UIViewController {
     }
     
     @IBAction func soundSwitch(_ sender: UISwitch) {
-       changeSoundSwitch()
+        soundOnSwitch = sender.isOn
+        defaults.set(soundOnSwitch, forKey: "switchStatus")
     }
     
 

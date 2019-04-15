@@ -110,9 +110,8 @@ class ReviewViewController: UIViewController {
     
     
     @IBAction func reviewButtonPressed(_ sender: UIButton) {
-        let buttonPressed = sender.tag
         
-        if buttonPressed == 1 {
+        if sender.tag == 1 {
             arrayNumber -= 1
             updateUI()
         } else {

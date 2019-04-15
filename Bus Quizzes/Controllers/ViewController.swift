@@ -23,6 +23,9 @@ class ViewController: UIViewController {
     var askedImage : String = ""
     var audioPlayer : AVAudioPlayer!
     var soundOn : Bool = false
+    var scoreCorrectQuestion: Int = 0
+    var scoreTotalQuestion: Int = 0
+    let defaults = UserDefaults.standard
     
     
     @IBOutlet weak var questionLabel: UILabel!
@@ -44,6 +47,7 @@ class ViewController: UIViewController {
         
         let maxQuestion : Int = allQuestion.questionList.count
         let maxAnswer : Int = allAnswer.answerList.count
+        
         if maxAnswer != maxQuestion * 4 {
             fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
         }
@@ -62,7 +66,7 @@ class ViewController: UIViewController {
         
         progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         totalQuestion = maxQuestion - 1
-        print (maxQuestion)
+        print("Total Questions: \(maxQuestion)")
         randomQuestion()
         
     }
@@ -183,9 +187,11 @@ class ViewController: UIViewController {
         
         var questionSingle : String = ""
         
+        let scoreAverage = averageScore()
+        
         enlargeImage.isHidden = true
         viewAnswerText1.backgroundColor = UIColor(named: "76D6FF")
-        answerText1.setTitle("", for: .normal)
+        answerText1.setTitle("Average Score: \(scoreAverage)%", for: .normal)
         viewAnswerText2.backgroundColor = UIColor(named: "76D6FF")
         answerText2.setTitle("", for: .normal)
         viewAnswerText4.backgroundColor = .red
@@ -206,29 +212,59 @@ class ViewController: UIViewController {
             } else {
                 questionSingle = "questions"
             }
-            questionLabel.text = "Well done. Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage)))%. You would have passed, however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
+            questionLabel.text = "Well done. Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage))%). You would have passed, however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
             imageQuestion.image = UIImage(named: "face-smiley")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
         }
         else if scorePrecentage >= 50 {
-            questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage)))%. Great work and so close to a pass of 85%. Keep on practising. Try again!"
+            questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage))%). Great work and so close to a pass of 85%. Keep on practising. Try again!"
             imageQuestion.image = UIImage(named: "face-crying")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
         }
         else {
-            questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage)))%. Try to check answers using \"The Highway Code\". Try again and see if you can get better next time."
+            questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage))%). Try to check answers using \"The Highway Code\". Try again and see if you can get better next time."
             imageQuestion.image = UIImage(named: "face-loudly-crying")
             answerText3.setTitle("Review incorrect answers", for: .normal)
             
         }
     }
     
+    // MARK:- AVERAGE SCORE
+    
+    func averageScore() -> Int{
+        
+        scoreCorrectQuestion = score + defaults.integer(forKey: "AddScoreCorrect")
+        scoreTotalQuestion = countLimit + defaults.integer(forKey: "AddTotalQuestionAsked")
+        
+        let average = Int(CGFloat (scoreCorrectQuestion) / CGFloat (scoreTotalQuestion) * 100)
+        
+        defaults.set(scoreCorrectQuestion, forKey: "AddScoreCorrect")
+        defaults.set(scoreTotalQuestion, forKey: "AddTotalQuestionAsked")
+        
+        return average
+    }
+    
+    func resetAverageScore() {
+        
+        let alert = UIAlertController(title: "RESET AVERAGE SCORE", message: "Do you want to reset average score?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default) { (UIAlertAction) in
+            self.defaults.set(0, forKey: "AddScoreCorrect")
+            self.defaults.set(0, forKey: "AddTotalQuestionAsked")
+            self.answerText1.setTitle("No Average Score", for: .normal)
+        })
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+
+        present(alert, animated: true, completion: nil)
+    }
+    
     // MARK:- PLAY SOUNDS
     
     func playSounds(soundFileName : String) {
-        if soundOn == true {
+        
+        if soundOn == false {
             let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "mp3")
     
             do {
@@ -260,13 +296,15 @@ class ViewController: UIViewController {
     //MARK:- BUTTON PRESSED
     @IBAction func answerPressed(_ sender: UIButton) {
 
-        let buttonPressed = sender.tag - 1
         if count <= (countLimit) {
+            let buttonPressed = sender.tag - 1
             checkAnswer(pickedAnswer: buttonPressed)
-        } else if buttonPressed == 3 {
-            startAgain()
-        } else if buttonPressed == 2 {
+        }else if sender.tag == 1 {
+            resetAverageScore()
+        }else if sender.tag == 3 {
             performSegue(withIdentifier: "goToReview", sender: self)
+        }else if sender.tag == 4 {
+            startAgain()
         }
     }
     

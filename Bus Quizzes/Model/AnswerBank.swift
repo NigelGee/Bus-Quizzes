@@ -5217,7 +5217,7 @@ class AnswerBank {
         answerList.append(Answer(text: "Make a short journey to see if the medicine is affecting your driving", correctAnswer: false))
         
         //Q867
-        answerList.append(Answer(text: "On motorways", correctAnswer: false))
+        answerList.append(Answer(text: "On motorways", correctAnswer: true))
         answerList.append(Answer(text: "In one-way streets", correctAnswer: false))
         answerList.append(Answer(text: "On rural roads", correctAnswer: false))
         answerList.append(Answer(text: "On tourist routes", correctAnswer: false))
@@ -8110,7 +8110,7 @@ class AnswerBank {
         
         //Q1349
         answerList.append(Answer(text: "Pedestrain crossings", correctAnswer: false))
-        answerList.append(Answer(text: "No time", correctAnswer: false))
+        answerList.append(Answer(text: "No time", correctAnswer: true))
         answerList.append(Answer(text: "Junctions", correctAnswer: false))
         answerList.append(Answer(text: "School crossings", correctAnswer: false))
         
