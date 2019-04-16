@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import MessageUI
 
-class ReviewViewController: UIViewController {
+class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
     let allQuestion = QuestionBank()
     let allAnswer = AnswerBank()
     var reviewQuestionArray = [Int]()
     var arrayNumber = 0
+    var incorrectQuestionNumber = 0
     
     @IBOutlet weak var reviewQuestions: UILabel!
     @IBOutlet weak var reviewImage: UIImageView!
@@ -27,8 +29,6 @@ class ReviewViewController: UIViewController {
     @IBOutlet weak var viewAnswer4: UIView!
     @IBOutlet weak var reviewChoose: UIButton!
     @IBOutlet weak var reviewNext: UIButton!
-    @IBOutlet weak var questionNumber: UILabel!
-    
     
     
     override func viewDidLoad() {
@@ -68,12 +68,12 @@ class ReviewViewController: UIViewController {
             reviewNext.isHidden = false
         }
         
-        let incorrectQuestionNumber = reviewQuestionArray[arrayNumber]
-        
+        incorrectQuestionNumber = reviewQuestionArray[arrayNumber]
+        print("Question Nr: \(incorrectQuestionNumber)")
         let question = allQuestion.questionList[incorrectQuestionNumber]
         
         reviewQuestions.text = question.questionText
-        questionNumber.text = "\(incorrectQuestionNumber + 1)"
+        
         
         if question.questionImage != "" {
             reviewImage.image = UIImage(named: question.questionImage)
@@ -108,6 +108,36 @@ class ReviewViewController: UIViewController {
         
     }
     
+    func configuredMailComposeViewController () -> MFMailComposeViewController {
+        let mailComposerVC = MFMailComposeViewController()
+        mailComposerVC.mailComposeDelegate = self
+        let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
+        
+        mailComposerVC.setToRecipients(["nigel_gee@yahoo.com"])
+        mailComposerVC.setSubject("Bus Quizzes (\(appVersion)) for Question number: \(incorrectQuestionNumber)")
+        mailComposerVC.setMessageBody("Please give details of what you think is incorrect", isHTML: false)
+        
+        return mailComposerVC
+    }
+    
+    func showSendMailErrorAlert(){
+        let sendMailErrorAlert = UIAlertController(title: "Unable to send Email", message: "Your devise could not send Email. Please check Email setting and try again.", preferredStyle: .alert)
+        sendMailErrorAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(sendMailErrorAlert, animated: true, completion: nil)
+    }
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func emailButtonPressed(_ sender: UIButton) {
+        let mailComposeViewController = configuredMailComposeViewController()
+        if MFMailComposeViewController.canSendMail() {
+            self.present(mailComposeViewController, animated: true, completion: nil)
+        }else{
+            self.showSendMailErrorAlert()
+        }
+    }
     
     @IBAction func reviewButtonPressed(_ sender: UIButton) {
         
