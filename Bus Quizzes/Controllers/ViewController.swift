@@ -47,12 +47,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let maxQuestion : Int = allQuestion.questionList.count
-        let maxAnswer : Int = allAnswer.answerList.count
         
-        if maxAnswer != maxQuestion * 4 {
-            fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
-        }
-        
+        // Check to number questions selected is less then total number of available questions
         if countLimit >= maxQuestion {
             fatalError("Check the number of questions")
         }
@@ -67,7 +63,9 @@ class ViewController: UIViewController {
         
         progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         totalQuestion = maxQuestion - 1
-        print("Total Questions: \(maxQuestion)")
+        
+        checkData(maxQuestion: maxQuestion)
+        
         randomQuestion()
         
     }
@@ -294,6 +292,40 @@ class ViewController: UIViewController {
         randomQuestion()
     }
     
+    func checkData(maxQuestion: Int) {
+        
+        let maxAnswer : Int = allAnswer.answerList.count
+        
+        print("Total Questions: \(maxQuestion)")
+        
+        // Check that there are 4 answers to every question
+        if maxAnswer != maxQuestion * 4 {
+            fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
+        }
+        
+        // Check if one true answer for every quesstion and display question to check        
+        var answerTrueCount = 0
+        for number in 0...(maxAnswer / 4) - 1 {
+            
+            var answerTrue = 0
+            for num in 0...3 {
+                let numberArray = number * 4 + num
+                let answerTrueArray = allAnswer.answerList[numberArray]
+                if answerTrueArray.answer == true {
+                    answerTrueCount += 1
+                    answerTrue += 1
+                }
+            }
+            
+            if answerTrue != 1 {
+                print("Check Question: \(number + 1)")
+            }
+        }
+        
+        print("Answer True Nr: \(answerTrueCount)")
+        
+    }
+    
     //MARK:- BUTTON PRESSED
     @IBAction func answerPressed(_ sender: UIButton) {
 
@@ -312,7 +344,6 @@ class ViewController: UIViewController {
     @IBAction func imagePressed(_ sender: UIButton) {
         performSegue(withIdentifier: "goToPhoto", sender: self)
     }
-    
     
 }
 

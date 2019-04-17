@@ -2966,8 +2966,8 @@ class AnswerBank {
         answerList.append(Answer(text: "All of the above", correctAnswer: false))
 
         //Q492
-        answerList.append(Answer(text: "On any road in between the hours of 23:30 and 06:00", correctAnswer: true))
-        answerList.append(Answer(text: "In built-up areas in between the hours of 23:30 and 07:00", correctAnswer: false))
+        answerList.append(Answer(text: "On any road in between the hours of 23:30 and 06:00", correctAnswer: false))
+        answerList.append(Answer(text: "In built-up areas in between the hours of 23:30 and 07:00", correctAnswer: true))
         answerList.append(Answer(text: "In built-up areas at all times", correctAnswer: false))
         answerList.append(Answer(text: "In built-up areas in between the hours of 22:00 and 06:00", correctAnswer: false))
 
@@ -3406,7 +3406,7 @@ class AnswerBank {
 
         //Q565
         answerList.append(Answer(text: "The left lane so long as you do not hold up traffic", correctAnswer: false))
-        answerList.append(Answer(text: "The left lane unless you are overtaking", correctAnswer: false))
+        answerList.append(Answer(text: "The left lane unless you are overtaking", correctAnswer: true))
         answerList.append(Answer(text: "The left lane only", correctAnswer: false))
         answerList.append(Answer(text: "The right lane only", correctAnswer: false))
 
@@ -5382,7 +5382,7 @@ class AnswerBank {
         answerList.append(Answer(text: "Signal right, so you're ready to move off", correctAnswer: false))
         answerList.append(Answer(text: "Turn on your hazard warning lights", correctAnswer: false))
         answerList.append(Answer(text: "Make sure you've cancelled any signal", correctAnswer: true))
-        answerList.append(Answer(text: "Signal left, to let others know you're not ready to move off", correctAnswer: true))
+        answerList.append(Answer(text: "Signal left, to let others know you're not ready to move off", correctAnswer: false))
         
         //Q895
         answerList.append(Answer(text: "Be prepared to move off", correctAnswer: false))
@@ -5537,7 +5537,7 @@ class AnswerBank {
         //Q920
         answerList.append(Answer(text: "To see if they're carrying bags", correctAnswer: false))
         answerList.append(Answer(text: "To remove the threat of violence", correctAnswer: false))
-        answerList.append(Answer(text: "To be courteous and polite", correctAnswer: false))
+        answerList.append(Answer(text: "To be courteous and polite", correctAnswer: true))
         answerList.append(Answer(text: "To show them you're in charge", correctAnswer: false))
 
         //Q921
@@ -5979,7 +5979,7 @@ class AnswerBank {
         answerList.append(Answer(text: "Increase your speed gently", correctAnswer: false))
         
         //Q994
-        answerList.append(Answer(text: "Cutting in", correctAnswer: false))
+        answerList.append(Answer(text: "Cutting in", correctAnswer: true))
         answerList.append(Answer(text: "Increasing your speed", correctAnswer: false))
         answerList.append(Answer(text: "Changing gear", correctAnswer: false))
         answerList.append(Answer(text: "Signalling", correctAnswer: false))
@@ -8175,7 +8175,7 @@ class AnswerBank {
         answerList.append(Answer(text: "To improve clutch wear", correctAnswer: false))
 
         //Q1360
-        answerList.append(Answer(text: "Let them board without help", correctAnswer: false))
+        answerList.append(Answer(text: "Let them board without help", correctAnswer: true))
         answerList.append(Answer(text: "Ask a passenger to help them", correctAnswer: false))
         answerList.append(Answer(text: "Leave your cab and help them", correctAnswer: false))
         answerList.append(Answer(text: "Do nothing,you cannot leave your seat", correctAnswer: false))

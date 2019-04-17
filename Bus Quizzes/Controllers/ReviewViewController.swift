@@ -69,7 +69,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         }
         
         incorrectQuestionNumber = reviewQuestionArray[arrayNumber]
-        print("Question Nr: \(incorrectQuestionNumber)")
+        print("Question Nr: \(incorrectQuestionNumber + 1)")
         let question = allQuestion.questionList[incorrectQuestionNumber]
         
         reviewQuestions.text = question.questionText
@@ -114,18 +114,12 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
         
         mailComposerVC.setToRecipients(["nigel_gee@yahoo.com"])
-        mailComposerVC.setSubject("Bus Quizzes (\(appVersion)) for Question number: \(incorrectQuestionNumber)")
+        mailComposerVC.setSubject("Bus Quizzes (\(appVersion)) for Question number: \(incorrectQuestionNumber + 1)")
         mailComposerVC.setMessageBody("Please give details of what you think is incorrect", isHTML: false)
         
         return mailComposerVC
     }
-    
-    func showSendMailErrorAlert(){
-        let sendMailErrorAlert = UIAlertController(title: "Unable to send Email", message: "Your devise could not send Email. Please check Email setting and try again.", preferredStyle: .alert)
-        sendMailErrorAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        present(sendMailErrorAlert, animated: true, completion: nil)
-    }
-    
+        
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         controller.dismiss(animated: true, completion: nil)
     }
@@ -134,8 +128,6 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         let mailComposeViewController = configuredMailComposeViewController()
         if MFMailComposeViewController.canSendMail() {
             self.present(mailComposeViewController, animated: true, completion: nil)
-        }else{
-            self.showSendMailErrorAlert()
         }
     }
     
