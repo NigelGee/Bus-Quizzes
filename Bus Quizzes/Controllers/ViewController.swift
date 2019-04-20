@@ -12,11 +12,12 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    //MARK:- VARIABLES
     let allQuestion = QuestionBank()
     let allAnswer = AnswerBank()
-    var answerNumber = 0
     var usedQuestion = [Int]()
     var incorrectQuestion = [Int]()
+    var answerNumber: Int = 0
     var score: Int = 0
     var count: Int = 1
     var countLimit: Int = 0
@@ -24,11 +25,9 @@ class ViewController: UIViewController {
     var askedImage : String = ""
     var audioPlayer : AVAudioPlayer!
     var soundOn : Bool = false
-    var scoreCorrectQuestion: Int = 0
-    var scoreTotalQuestion: Int = 0
     let defaults = UserDefaults.standard
     
-    
+    //MARK:- UI VIEW OUTLETS
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var imageQuestion: UIImageView!
     @IBOutlet weak var progressLabel: UIView!
@@ -42,9 +41,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var viewAnswerText4: UIView!
     @IBOutlet weak var enlargeImage: UIButton!
     
-    
+    //MARK:- OVERRIDES
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = Colours.screenBackground
         
         let maxQuestion : Int = allQuestion.questionList.count
         
@@ -53,18 +54,9 @@ class ViewController: UIViewController {
             fatalError("Check the number of questions")
         }
         
-        viewAnswerText1.layer.cornerRadius = 10
-        viewAnswerText2.layer.cornerRadius = 10
-        viewAnswerText3.layer.cornerRadius = 10
-        viewAnswerText4.layer.cornerRadius = 10
-        imageQuestion.layer.cornerRadius = 10
-        imageQuestion.layer.masksToBounds = true
-        progressLabel.layer.cornerRadius = 7
-        
-        progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
         totalQuestion = maxQuestion - 1
         
-        checkData(maxQuestion: maxQuestion)
+//        checkData(maxQuestion: maxQuestion)
         
         randomQuestion()
         
@@ -82,7 +74,7 @@ class ViewController: UIViewController {
     }
     
     
-    //MARK- CHECK RANDOM QUESTIONS FROM ARRAY
+    //MARK:- RANDOM QUESTIONS
     func randomQuestion () {
         
         let maxUsedQuestion = usedQuestion.count
@@ -115,7 +107,7 @@ class ViewController: UIViewController {
     }
     
     //MARK:- UPDATE TO UI VIEWS
-    func updateUI (pickedRandomNumber number : Int) {
+    func updateUI (pickedRandomNumber number: Int) {
         
         // Question UI Label update
         
@@ -184,24 +176,25 @@ class ViewController: UIViewController {
     //MARK:- SHOW RESULTS
     func showResults() {
         
-        var questionSingle : String = ""
-        
+        var questionSingle = ""
         let scoreAverage = averageScore()
+        let scorePrecentage = CGFloat(score) / CGFloat(countLimit) * 100
         
+        viewAnswerText1.backgroundColor = Colours.screenBackground
+        viewAnswerText2.backgroundColor = Colours.screenBackground
+        viewAnswerText4.backgroundColor = Colours.restart
         enlargeImage.isHidden = true
-        viewAnswerText1.backgroundColor = UIColor(named: "76D6FF")
-        answerText1.setTitle("Average Score: \(scoreAverage)%", for: .normal)
-        viewAnswerText2.backgroundColor = UIColor(named: "76D6FF")
-        answerText2.setTitle("", for: .normal)
-        viewAnswerText4.backgroundColor = .red
-        answerText4.setTitle("Try again!", for: .normal)
         progressLabel.isHidden = true
         
-        let scorePrecentage = CGFloat(score) / CGFloat(countLimit) * 100
+        answerText1.setTitleColor(Colours.backButtonText, for: .normal)
+        answerText1.setTitle("Average Score: \(scoreAverage)%", for: .normal)
+        answerText2.setTitle("", for: .normal)
+        answerText4.setTitle("Try again!", for: .normal)
         
         if scorePrecentage == 100 {
             questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion + 1 - usedQuestion.count) other questions that are possible. Try again and see if can get another perfect score."
-            viewAnswerText3.backgroundColor = UIColor(named: "76D6FF")
+            viewAnswerText3.backgroundColor = Colours.screenBackground
+            answerText3.isEnabled = false
             answerText3.setTitle("", for: .normal)
             imageQuestion.image = UIImage(named: "face-Perfect")
         }
@@ -234,8 +227,8 @@ class ViewController: UIViewController {
     
     func averageScore() -> Int{
         
-        scoreCorrectQuestion = score + defaults.integer(forKey: "AddScoreCorrect")
-        scoreTotalQuestion = countLimit + defaults.integer(forKey: "AddTotalQuestionAsked")
+        let scoreCorrectQuestion = score + defaults.integer(forKey: "AddScoreCorrect")
+        let scoreTotalQuestion = countLimit + defaults.integer(forKey: "AddTotalQuestionAsked")
         
         let average = Int(CGFloat (scoreCorrectQuestion) / CGFloat (scoreTotalQuestion) * 100)
         
@@ -277,14 +270,23 @@ class ViewController: UIViewController {
     
     // MARK:- RESTART
     func startAgain (){
-        viewAnswerText1.backgroundColor = .blue
-        viewAnswerText2.backgroundColor = .blue
-        viewAnswerText3.backgroundColor = .blue
-        viewAnswerText4.backgroundColor = .blue
+        
+        let layout = ResetLayout()
+        
+        layout.resetChoose()
+        
+        answerText1.setTitleColor(Colours.answerText, for: .normal)
+        viewAnswerText1.backgroundColor = Colours.answerBackground
+        viewAnswerText2.backgroundColor = Colours.answerBackground
+        viewAnswerText3.backgroundColor = Colours.answerBackground
+        viewAnswerText4.backgroundColor = Colours.answerBackground
+        answerText3.isEnabled = true
         progressLabel.isHidden = false
+        
         score = 0
         count = 1
         incorrectQuestion = []
+        
         if usedQuestion.count + countLimit >= totalQuestion {
             usedQuestion = []
         }
@@ -292,6 +294,7 @@ class ViewController: UIViewController {
         randomQuestion()
     }
     
+    // MARK:- CHECK DATA
     func checkData(maxQuestion: Int) {
         
         let maxAnswer : Int = allAnswer.answerList.count
@@ -326,7 +329,8 @@ class ViewController: UIViewController {
         
     }
     
-    //MARK:- BUTTON PRESSED
+    
+    //MARK:- BUTTONS PRESSED
     @IBAction func answerPressed(_ sender: UIButton) {
 
         if count <= (countLimit) {

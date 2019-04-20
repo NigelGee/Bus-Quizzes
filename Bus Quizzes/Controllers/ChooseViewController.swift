@@ -25,13 +25,10 @@ class ChooseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        button10.layer.cornerRadius = 10
-        button25.layer.cornerRadius = 10
-        button50.layer.cornerRadius = 10
-        button100.layer.cornerRadius = 10
-        
+        view.backgroundColor = Colours.screenBackground
         soundOnSwitch = defaults.bool(forKey: "switchStatus")
         soundSwitchState.isOn = soundOnSwitch
+        
     }
         
     @IBAction func bottonPressed(_ sender: UIButton) {

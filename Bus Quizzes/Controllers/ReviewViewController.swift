@@ -34,27 +34,22 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        reviewImage.layer.cornerRadius = 10
-        viewAnswer1.layer.cornerRadius = 10
-        viewAnswer2.layer.cornerRadius = 10
-        viewAnswer3.layer.cornerRadius = 10
-        viewAnswer4.layer.cornerRadius = 10
-        
+        view.backgroundColor = Colours.screenBackground
         updateUI()
         
     }
     
     
     func updateUI () {
-        
-        viewAnswer1.backgroundColor = .blue
-        reviewAnswer1.textColor = .white
-        viewAnswer2.backgroundColor = .blue
-        reviewAnswer2.textColor = .white
-        viewAnswer3.backgroundColor = .blue
-        reviewAnswer3.textColor = .white
-        viewAnswer4.backgroundColor = .blue
-        reviewAnswer4.textColor = .white
+                
+        viewAnswer1.backgroundColor = Colours.answerBackground
+        reviewAnswer1.textColor = Colours.answerText
+        viewAnswer2.backgroundColor = Colours.answerBackground
+        reviewAnswer2.textColor = Colours.answerText
+        viewAnswer3.backgroundColor = Colours.answerBackground
+        reviewAnswer3.textColor = Colours.answerText
+        viewAnswer4.backgroundColor = Colours.answerBackground
+        reviewAnswer4.textColor = Colours.answerText
         
         if arrayNumber == 0 {
             reviewChoose.isHidden = true
@@ -93,17 +88,17 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         reviewAnswer4.text = answerD.answerText
         
         if answerA.answer == true {
-            viewAnswer1.backgroundColor = .green
-            reviewAnswer1.textColor = .black
+            viewAnswer1.backgroundColor = Colours.trueBackground
+            reviewAnswer1.textColor = Colours.trueText
         } else if answerB.answer == true {
-            viewAnswer2.backgroundColor = .green
-            reviewAnswer2.textColor = .black
+            viewAnswer2.backgroundColor = Colours.trueBackground
+            reviewAnswer2.textColor = Colours.trueText
         } else if answerC.answer == true {
-            viewAnswer3.backgroundColor = .green
-            reviewAnswer3.textColor = .black
+            viewAnswer3.backgroundColor = Colours.trueBackground
+            reviewAnswer3.textColor = Colours.trueText
         } else if answerD.answer == true {
-            viewAnswer4.backgroundColor = .green
-            reviewAnswer4.textColor = .black
+            viewAnswer4.backgroundColor = Colours.trueBackground
+            reviewAnswer4.textColor = Colours.trueText
         }
         
     }
@@ -113,7 +108,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         mailComposerVC.mailComposeDelegate = self
         let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
         
-        mailComposerVC.setToRecipients(["nigel_gee@yahoo.com"])
+        mailComposerVC.setToRecipients(["nigel.gee@icloud.com"])
         mailComposerVC.setSubject("Bus Quizzes (\(appVersion)) for Question number: \(incorrectQuestionNumber + 1)")
         mailComposerVC.setMessageBody("Please give details of what you think is incorrect", isHTML: false)
         

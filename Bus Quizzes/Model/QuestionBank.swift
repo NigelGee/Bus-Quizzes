@@ -906,7 +906,7 @@ class QuestionBank {
         questionList.append(Question(text: "You've just started the engine. What must you do if the brake air-pressure warning light is showing?", image: ""))
 
         //741-750
-        questionList.append(Question(text: "Your vehicle is fully loaded. Where should you be braking when dealing with bends?", image: ""))
+        questionList.append(Question(text: "Your bus is fully loaded. Where should you be braking when dealing with bends?", image: ""))
         questionList.append(Question(text: "When should an endurance brake (retarder) be used?", image: ""))
         questionList.append(Question(text: "A lorry is overtaking you on a two-lane motorway. What should you do if it doesn't have the speed to get past?", image: ""))
         questionList.append(Question(text: "What should anti-lock brakes let you do when you have to stop in an emergency?", image: ""))
