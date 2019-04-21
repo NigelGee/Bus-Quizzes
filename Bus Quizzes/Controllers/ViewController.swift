@@ -9,7 +9,6 @@
 import UIKit
 import AVFoundation
 
-
 class ViewController: UIViewController {
     
     //MARK:- VARIABLES
@@ -270,11 +269,7 @@ class ViewController: UIViewController {
     
     // MARK:- RESTART
     func startAgain (){
-        
-        let layout = ResetLayout()
-        
-        layout.resetChoose()
-        
+                
         answerText1.setTitleColor(Colours.answerText, for: .normal)
         viewAnswerText1.backgroundColor = Colours.answerBackground
         viewAnswerText2.backgroundColor = Colours.answerBackground

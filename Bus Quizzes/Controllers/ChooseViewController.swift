@@ -20,31 +20,15 @@ class ChooseViewController: UIViewController {
     @IBOutlet weak var button10: UIButton!
     @IBOutlet weak var soundSwitchState: UISwitch!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = Colours.screenBackground
-        soundOnSwitch = defaults.bool(forKey: "switchStatus")
+        soundOnSwitch = defaults.bool(forKey: "soundStatus")
         soundSwitchState.isOn = soundOnSwitch
         
     }
-        
-    @IBAction func bottonPressed(_ sender: UIButton) {
-        
-        chosenNumber = sender.tag
-        
-        performSegue(withIdentifier: "goToQuiz", sender: self)
-        
-    }
     
-    @IBAction func soundSwitch(_ sender: UISwitch) {
-        soundOnSwitch = sender.isOn
-        defaults.set(soundOnSwitch, forKey: "switchStatus")
-    }
-    
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToQuiz" {
             
@@ -55,5 +39,23 @@ class ChooseViewController: UIViewController {
             
         }
     }
+    
+    
+    @IBAction func bottonPressed(_ sender: UIButton) {
+        
+        chosenNumber = sender.tag
+        
+        performSegue(withIdentifier: "goToQuiz", sender: self)
+        
+    }
+    
+    
+    @IBAction func soundSwitch(_ sender: UISwitch) {
+        soundOnSwitch = sender.isOn
+        defaults.set(soundOnSwitch, forKey: "soundStatus")
+    }
+    
+
+    
     
 }

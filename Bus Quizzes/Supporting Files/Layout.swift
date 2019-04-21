@@ -9,20 +9,6 @@
 import Foundation
 import UIKit
 
-class ResetLayout: ViewController {
-    
-    func resetChoose() {
-        print("resetChoose")
-//        viewAnswerText1.backgroundColor = Colours.answerBackground
-//        viewAnswerText2.backgroundColor = Colours.answerBackground
-//        viewAnswerText3.backgroundColor = Colours.answerBackground
-//        viewAnswerText4.backgroundColor = Colours.answerBackground
-//        answerText3.isEnabled = true
-//        progressLabel.isHidden = false
-    }
-    
-}
-
 class ContainerViewLayout: UIView {
     
     override init(frame: CGRect) {
@@ -124,6 +110,23 @@ class LabelLayout: UILabel {
     
     private func setUpLayout() {
         textColor = Colours.answerText
+    }
+}
+
+class QuestionLayout: UILabel {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setUpLayout()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setUpLayout()
+    }
+    
+    private func setUpLayout() {
+        textColor = Colours.backButtonText
     }
 }
 

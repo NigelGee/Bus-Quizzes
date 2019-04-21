@@ -8179,66 +8179,66 @@ class AnswerBank {
         answerList.append(Answer(text: "Ask a passenger to help them", correctAnswer: false))
         answerList.append(Answer(text: "Leave your cab and help them", correctAnswer: false))
         answerList.append(Answer(text: "Do nothing,you cannot leave your seat", correctAnswer: false))
+/*
+        //Q1361
+        answerList.append(Answer(text: "At the entrance to a car park", correctAnswer: false))
+        answerList.append(Answer(text: "On the approach to an arched bridge", correctAnswer: false))
+        answerList.append(Answer(text: "At the start of a cycle lane", correctAnswer: false))
+        answerList.append(Answer(text: "On the approach to a lifting barrier", correctAnswer: false))
 
-//        //Q1361
-//        answerList.append(Answer(text: "At the entrance to a car park", correctAnswer: false))
-//        answerList.append(Answer(text: "On the approach to an arched bridge", correctAnswer: false))
-//        answerList.append(Answer(text: "At the start of a cycle lane", correctAnswer: false))
-//        answerList.append(Answer(text: "On the approach to a lifting barrier", correctAnswer: false))
-//
-//        //Q1362
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q1363
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q1364
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q1365
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q1366
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q1367
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q1368
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q1369
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//
-//        //Q1370
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
-//        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        //Q1362
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
 
+        //Q1363
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q1364
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q1365
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q1366
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q1367
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q1368
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q1369
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+
+        //Q1370
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+        answerList.append(Answer(text: "<#T##String#>", correctAnswer: false))
+*/
     }
 }
