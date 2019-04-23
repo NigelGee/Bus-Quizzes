@@ -101,9 +101,9 @@
 		8B2BACF92129A7F70050AF17 = {
 			isa = PBXGroup;
 			children = (
-				8B0DBB50212DD79000D95D2B /* Default-568h@2x.png */,
 				8B2BAD042129A7F70050AF17 /* Bus Quizzes */,
 				8B2BAD032129A7F70050AF17 /* Products */,
+				8B0DBB50212DD79000D95D2B /* Default-568h@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,12 +118,12 @@
 		8B2BAD042129A7F70050AF17 /* Bus Quizzes */ = {
 			isa = PBXGroup;
 			children = (
-				8B2BAD112129A7F80050AF17 /* Info.plist */,
 				8B0DBB48212DD07F00D95D2B /* Model */,
 				8B0DBB4B212DD14E00D95D2B /* Controllers */,
 				8B0DBB49212DD0AE00D95D2B /* View */,
 				8BC16833226333F400673F92 /* Supporting Files */,
 				8BA0B1B7225CD295002681EC /* Sounds */,
+				8B2BAD112129A7F80050AF17 /* Info.plist */,
 			);
 			path = "Bus Quizzes";
 			sourceTree = "<group>";
