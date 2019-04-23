@@ -16,6 +16,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
     var reviewQuestionArray = [Int]()
     var arrayNumber = 0
     var incorrectQuestionNumber = 0
+    var darkModeOnSwitch: Bool = false
     
     @IBOutlet weak var reviewQuestions: UILabel!
     @IBOutlet weak var reviewImage: UIImageView!
@@ -29,27 +30,21 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
     @IBOutlet weak var viewAnswer4: UIView!
     @IBOutlet weak var reviewChoose: UIButton!
     @IBOutlet weak var reviewNext: UIButton!
+    @IBOutlet weak var sendEmail: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = Colours.screenBackground
+        
         updateUI()
         
     }
     
     
     func updateUI () {
-                
-        viewAnswer1.backgroundColor = Colours.answerBackground
-        reviewAnswer1.textColor = Colours.answerText
-        viewAnswer2.backgroundColor = Colours.answerBackground
-        reviewAnswer2.textColor = Colours.answerText
-        viewAnswer3.backgroundColor = Colours.answerBackground
-        reviewAnswer3.textColor = Colours.answerText
-        viewAnswer4.backgroundColor = Colours.answerBackground
-        reviewAnswer4.textColor = Colours.answerText
+        
+        setColours(for: darkModeOnSwitch)
         
         if arrayNumber == 0 {
             reviewChoose.isHidden = true
@@ -87,21 +82,64 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         reviewAnswer3.text = answerC.answerText
         reviewAnswer4.text = answerD.answerText
         
-        if answerA.answer == true {
+        if answerA.answer == true && darkModeOnSwitch == true {
+            viewAnswer1.backgroundColor = DarkModeColours.trueBackground
+            reviewAnswer1.textColor = DarkModeColours.lightText
+        }else if answerB.answer == true && darkModeOnSwitch == true {
+            viewAnswer2.backgroundColor = DarkModeColours.trueBackground
+            reviewAnswer2.textColor = DarkModeColours.lightText
+        }else if answerC.answer == true && darkModeOnSwitch == true {
+            viewAnswer3.backgroundColor = DarkModeColours.trueBackground
+            reviewAnswer3.textColor = DarkModeColours.lightText
+        }else if answerD.answer == true && darkModeOnSwitch == true {
+            viewAnswer4.backgroundColor = DarkModeColours.trueBackground
+            reviewAnswer4.textColor = DarkModeColours.lightText
+        }else if answerA.answer == true && darkModeOnSwitch == false {
             viewAnswer1.backgroundColor = Colours.trueBackground
-            reviewAnswer1.textColor = Colours.trueText
-        } else if answerB.answer == true {
+            reviewAnswer1.textColor = Colours.darkText
+        }else if answerB.answer == true && darkModeOnSwitch == false {
             viewAnswer2.backgroundColor = Colours.trueBackground
-            reviewAnswer2.textColor = Colours.trueText
-        } else if answerC.answer == true {
+            reviewAnswer2.textColor = Colours.darkText
+        }else if answerC.answer == true && darkModeOnSwitch == false {
             viewAnswer3.backgroundColor = Colours.trueBackground
-            reviewAnswer3.textColor = Colours.trueText
-        } else if answerD.answer == true {
+            reviewAnswer3.textColor = Colours.darkText
+        }else if answerD.answer == true && darkModeOnSwitch == false {
             viewAnswer4.backgroundColor = Colours.trueBackground
-            reviewAnswer4.textColor = Colours.trueText
+            reviewAnswer4.textColor = Colours.darkText
         }
         
     }
+    
+    func setColours (for darkModeStatus: Bool){
+        
+        reviewAnswer1.textColor = Colours.lightText
+        reviewAnswer2.textColor = Colours.lightText
+        reviewAnswer3.textColor = Colours.lightText
+        reviewAnswer4.textColor = Colours.lightText
+        
+        if darkModeStatus == true {
+            view.backgroundColor = DarkModeColours.screenBackground
+            viewAnswer1.backgroundColor = DarkModeColours.answerBackground
+            viewAnswer2.backgroundColor = DarkModeColours.answerBackground
+            viewAnswer3.backgroundColor = DarkModeColours.answerBackground
+            viewAnswer4.backgroundColor = DarkModeColours.answerBackground
+            reviewQuestions.textColor = DarkModeColours.darkText
+            sendEmail.setTitleColor(DarkModeColours.darkText, for: .normal)
+            reviewChoose.setTitleColor(DarkModeColours.darkText, for: .normal)
+            reviewNext.setTitleColor(DarkModeColours.darkText, for: .normal)
+        }else{
+            view.backgroundColor = Colours.screenBackground
+            viewAnswer1.backgroundColor = Colours.answerBackground
+            viewAnswer2.backgroundColor = Colours.answerBackground
+            viewAnswer3.backgroundColor = Colours.answerBackground
+            viewAnswer4.backgroundColor = Colours.answerBackground
+            reviewQuestions.textColor = Colours.darkText
+            sendEmail.setTitleColor(Colours.darkText, for: .normal)
+            reviewChoose.setTitleColor(Colours.darkText, for: .normal)
+            reviewNext.setTitleColor(Colours.darkText, for: .normal)
+        }
+    }
+    
     
     func configuredMailComposeViewController () -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()

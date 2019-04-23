@@ -23,7 +23,6 @@ class ContainerViewLayout: UIView {
     
     private func setUpLayout() {
         layer.cornerRadius = 10
-        backgroundColor = Colours.answerBackground
     }
 }
 
@@ -46,38 +45,6 @@ class ImageLayout: UIImageView {
     
 }
 
-class BackButtonLayout: UIButton{
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setUpLayout()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setUpLayout()
-    }
-    
-    private func setUpLayout() {
-        setTitleColor(Colours.backButtonText, for: .normal)
-    }
-}
-
-class ButtonLayout: UIButton{
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setUpLayout()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setUpLayout()
-    }
-    
-    private func setUpLayout() {
-        setTitleColor(Colours.answerText, for: .normal)
-    }
-}
-
 class StartButtonLayout: UIButton{
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -90,43 +57,7 @@ class StartButtonLayout: UIButton{
     }
     
     private func setUpLayout() {
-        backgroundColor = Colours.answerBackground
-        setTitleColor(Colours.answerText, for: .normal)
         layer.cornerRadius = 10
-    }
-}
-
-class LabelLayout: UILabel {
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setUpLayout()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setUpLayout()
-    }
-    
-    private func setUpLayout() {
-        textColor = Colours.answerText
-    }
-}
-
-class QuestionLayout: UILabel {
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setUpLayout()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setUpLayout()
-    }
-    
-    private func setUpLayout() {
-        textColor = Colours.backButtonText
     }
 }
 
@@ -142,25 +73,9 @@ class ProgressBarLayout: UIView {
     }
     
     private func setUpLayout() {
-        backgroundColor = Colours.restart
         layer.cornerRadius = frame.size.height/2
         isHidden = false
     }
 }
 
-class SwitchLayout: UISwitch {
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setUpLayout()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setUpLayout()
-    }
-    
-    private func setUpLayout() {
-        onTintColor = Colours.answerBackground
-        tintColor = Colours.answerBackground
-    }
-}
+

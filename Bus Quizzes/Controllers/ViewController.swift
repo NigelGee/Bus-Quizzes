@@ -21,9 +21,10 @@ class ViewController: UIViewController {
     var count: Int = 1
     var countLimit: Int = 0
     var totalQuestion: Int = 0
-    var askedImage : String = ""
-    var audioPlayer : AVAudioPlayer!
-    var soundOn : Bool = false
+    var askedImage: String = ""
+    var audioPlayer: AVAudioPlayer!
+    var soundOn: Bool = false
+    var darkModeOnSwitch: Bool = false
     let defaults = UserDefaults.standard
     
     //MARK:- UI VIEW OUTLETS
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = Colours.screenBackground
+        
         
         let maxQuestion : Int = allQuestion.questionList.count
         
@@ -57,6 +58,7 @@ class ViewController: UIViewController {
         
 //        checkData(maxQuestion: maxQuestion)
         
+        setColours(on: darkModeOnSwitch)
         randomQuestion()
         
     }
@@ -65,10 +67,39 @@ class ViewController: UIViewController {
         if segue.identifier == "goToReview" {
             let reviewVC = segue.destination as! ReviewViewController
             reviewVC.reviewQuestionArray = incorrectQuestion
+            reviewVC.darkModeOnSwitch = darkModeOnSwitch
         }
         if segue.identifier == "goToPhoto" {
             let photoVC = segue.destination as! PhotoViewController
             photoVC.enlargeViewImage = askedImage
+        }
+    }
+    
+    func setColours(on darkModeStatus: Bool){
+        
+        answerText1.setTitleColor(Colours.lightText, for: .normal)
+        answerText2.setTitleColor(Colours.lightText, for: .normal)
+        answerText3.setTitleColor(Colours.lightText, for: .normal)
+        answerText4.setTitleColor(Colours.lightText, for: .normal)
+        
+        if darkModeStatus == true {
+            view.backgroundColor = DarkModeColours.screenBackground
+            questionLabel.textColor = DarkModeColours.darkText
+            progressLabel.backgroundColor = DarkModeColours.restart
+            viewAnswerText1.backgroundColor = DarkModeColours.answerBackground
+            viewAnswerText2.backgroundColor = DarkModeColours.answerBackground
+            viewAnswerText3.backgroundColor = DarkModeColours.answerBackground
+            viewAnswerText4.backgroundColor = DarkModeColours.answerBackground
+            enlargeImage.setTitleColor(DarkModeColours.darkText, for: .normal)
+        }else{
+            view.backgroundColor = Colours.screenBackground
+            questionLabel.textColor = Colours.darkText
+            progressLabel.backgroundColor = Colours.restart
+            viewAnswerText1.backgroundColor = Colours.answerBackground
+            viewAnswerText2.backgroundColor = Colours.answerBackground
+            viewAnswerText3.backgroundColor = Colours.answerBackground
+            viewAnswerText4.backgroundColor = Colours.answerBackground
+            enlargeImage.setTitleColor(Colours.darkText, for: .normal)
         }
     }
     
@@ -179,20 +210,33 @@ class ViewController: UIViewController {
         let scoreAverage = averageScore()
         let scorePrecentage = CGFloat(score) / CGFloat(countLimit) * 100
         
-        viewAnswerText1.backgroundColor = Colours.screenBackground
-        viewAnswerText2.backgroundColor = Colours.screenBackground
-        viewAnswerText4.backgroundColor = Colours.restart
+        if darkModeOnSwitch == true {
+            viewAnswerText1.backgroundColor = DarkModeColours.screenBackground
+            viewAnswerText2.backgroundColor = DarkModeColours.screenBackground
+            viewAnswerText4.backgroundColor = DarkModeColours.restart
+            answerText1.setTitleColor(DarkModeColours.darkText, for: .normal)
+        }else{
+            viewAnswerText1.backgroundColor = Colours.screenBackground
+            viewAnswerText2.backgroundColor = Colours.screenBackground
+            viewAnswerText4.backgroundColor = Colours.restart
+            answerText1.setTitleColor(Colours.darkText, for: .normal)
+        }
+        
         enlargeImage.isHidden = true
         progressLabel.isHidden = true
         
-        answerText1.setTitleColor(Colours.backButtonText, for: .normal)
+        
         answerText1.setTitle("Average Score: \(scoreAverage)%", for: .normal)
         answerText2.setTitle("", for: .normal)
         answerText4.setTitle("Try again!", for: .normal)
         
         if scorePrecentage == 100 {
             questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion + 1 - usedQuestion.count) other questions that are possible. Try again and see if can get another perfect score."
-            viewAnswerText3.backgroundColor = Colours.screenBackground
+            if darkModeOnSwitch == true {
+                viewAnswerText3.backgroundColor = DarkModeColours.screenBackground
+            }else{
+                viewAnswerText3.backgroundColor = Colours.screenBackground
+            }
             answerText3.isEnabled = false
             answerText3.setTitle("", for: .normal)
             imageQuestion.image = UIImage(named: "face-Perfect")
@@ -270,14 +314,10 @@ class ViewController: UIViewController {
     // MARK:- RESTART
     func startAgain (){
                 
-        answerText1.setTitleColor(Colours.answerText, for: .normal)
-        viewAnswerText1.backgroundColor = Colours.answerBackground
-        viewAnswerText2.backgroundColor = Colours.answerBackground
-        viewAnswerText3.backgroundColor = Colours.answerBackground
-        viewAnswerText4.backgroundColor = Colours.answerBackground
-        answerText3.isEnabled = true
-        progressLabel.isHidden = false
+        setColours(on: darkModeOnSwitch)
         
+        progressLabel.isHidden = false
+        answerText3.isEnabled = true
         score = 0
         count = 1
         incorrectQuestion = []

@@ -20,10 +20,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="App Forest" translatesAutoresizingMaskIntoConstraints="NO" id="YFD-DW-ziO">
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YFD-DW-ziO" secondAttribute="trailing" id="17l-GG-5kq"/>
                             <constraint firstItem="YFD-DW-ziO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EHb-Eo-MZH"/>

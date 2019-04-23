@@ -7270,7 +7270,7 @@ class AnswerBank {
 
         //Q1209
         answerList.append(Answer(text: "Give way to pedestrians who are crossing", correctAnswer: true))
-        answerList.append(Answer(text: "Give way to pedestrians who are crossing", correctAnswer: false))
+        answerList.append(Answer(text: "Give way to pedestrians who are waiting to crossing", correctAnswer: false))
         answerList.append(Answer(text: "Wait until the green light appears", correctAnswer: false))
         answerList.append(Answer(text: "Stop even if the crossing is clear", correctAnswer: false))
 
@@ -8129,7 +8129,7 @@ class AnswerBank {
         //Q1352
         answerList.append(Answer(text: "No one uses the upper deck", correctAnswer: false))
         answerList.append(Answer(text: "You can see them in your mirror", correctAnswer: false))
-        answerList.append(Answer(text: "A responsible is in charge of them", correctAnswer: true))
+        answerList.append(Answer(text: "A responsible person is in charge of them", correctAnswer: true))
         answerList.append(Answer(text: "They are all travelling to the same destination", correctAnswer: false))
 
         //Q1353
