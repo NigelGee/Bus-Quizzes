@@ -167,7 +167,7 @@ class AnswerBank {
         //Q26
         answerList.append(Answer(text: "Give the person a wave that signals they should cross as quickly as possible", correctAnswer: false))
         answerList.append(Answer(text: "Flash your headlights so the person is aware you are waiting", correctAnswer: false))
-        answerList.append(Answer(text: "Remain stationary until they have reached a pedestrian foot", correctAnswer: true))
+        answerList.append(Answer(text: "Remain stationary until they have reached a pedestrian footpath", correctAnswer: true))
         answerList.append(Answer(text: "Rev the car's engine so they cross the road more quickly", correctAnswer: false))
         
         //Q27

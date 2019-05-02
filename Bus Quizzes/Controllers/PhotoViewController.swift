@@ -11,11 +11,18 @@ import UIKit
 class PhotoViewController: UIViewController {
     
     var enlargeViewImage: String = ""
+    var darkModeOnSwitch: Bool = false
     
     @IBOutlet weak var roadSignImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if darkModeOnSwitch == true {
+            view.backgroundColor = DarkModeColours.screenBackground
+        }else{
+            view.backgroundColor = Colours.screenBackground
+        }
         
         roadSignImage.image = UIImage(named: enlargeViewImage)
         

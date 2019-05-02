@@ -60,13 +60,12 @@ class ChooseViewController: UIViewController {
             
             let navBarAttributesDictionary: [NSObject: AnyObject]? = [NSAttributedString.Key.foregroundColor as NSObject: DarkModeColours.darkText]
             navigationController?.navigationBar.titleTextAttributes = navBarAttributesDictionary as? [NSAttributedString.Key : Any]
-            
             navigationController?.navigationBar.barTintColor = DarkModeColours.screenBackground
+            
             view.backgroundColor = DarkModeColours.screenBackground
             soundSwitchState.onTintColor = DarkModeColours.answerBackground
             soundSwitchState.tintColor = DarkModeColours.answerBackground
             darkModeSwitchState.onTintColor = DarkModeColours.answerBackground
-            darkModeSwitchState.tintColor = DarkModeColours.answerBackground
             button10.backgroundColor = DarkModeColours.answerBackground
             button25.backgroundColor = DarkModeColours.answerBackground
             button50.backgroundColor = DarkModeColours.answerBackground
@@ -79,8 +78,8 @@ class ChooseViewController: UIViewController {
             
             let navBarAttributesDictionary: [NSObject: AnyObject]? = [NSAttributedString.Key.foregroundColor as NSObject: Colours.darkText]
             navigationController?.navigationBar.titleTextAttributes = navBarAttributesDictionary as? [NSAttributedString.Key : Any]
-            
             navigationController?.navigationBar.barTintColor = Colours.screenBackground
+            
             view.backgroundColor = Colours.screenBackground
             soundSwitchState.onTintColor = Colours.answerBackground
             soundSwitchState.tintColor = Colours.answerBackground

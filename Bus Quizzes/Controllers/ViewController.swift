@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         
 //        checkData(maxQuestion: maxQuestion)
         
-        setColours(on: darkModeOnSwitch)
+        setColours()
         randomQuestion()
         
     }
@@ -72,17 +72,19 @@ class ViewController: UIViewController {
         if segue.identifier == "goToPhoto" {
             let photoVC = segue.destination as! PhotoViewController
             photoVC.enlargeViewImage = askedImage
+            photoVC.darkModeOnSwitch = darkModeOnSwitch
         }
     }
     
-    func setColours(on darkModeStatus: Bool){
+    //MARK:- COLOURS SET
+    func setColours(){
         
         answerText1.setTitleColor(Colours.lightText, for: .normal)
         answerText2.setTitleColor(Colours.lightText, for: .normal)
         answerText3.setTitleColor(Colours.lightText, for: .normal)
         answerText4.setTitleColor(Colours.lightText, for: .normal)
         
-        if darkModeStatus == true {
+        if darkModeOnSwitch == true {
             view.backgroundColor = DarkModeColours.screenBackground
             questionLabel.textColor = DarkModeColours.darkText
             progressLabel.backgroundColor = DarkModeColours.restart
@@ -314,7 +316,7 @@ class ViewController: UIViewController {
     // MARK:- RESTART
     func startAgain (){
                 
-        setColours(on: darkModeOnSwitch)
+        setColours()
         
         progressLabel.isHidden = false
         answerText3.isEnabled = true

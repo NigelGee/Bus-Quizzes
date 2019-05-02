@@ -36,7 +36,6 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         updateUI()
         
     }
@@ -44,7 +43,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
     
     func updateUI () {
         
-        setColours(for: darkModeOnSwitch)
+        setColours()
         
         if arrayNumber == 0 {
             reviewChoose.isHidden = true
@@ -110,14 +109,14 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         
     }
     
-    func setColours (for darkModeStatus: Bool){
+    func setColours (){
         
         reviewAnswer1.textColor = Colours.lightText
         reviewAnswer2.textColor = Colours.lightText
         reviewAnswer3.textColor = Colours.lightText
         reviewAnswer4.textColor = Colours.lightText
         
-        if darkModeStatus == true {
+        if darkModeOnSwitch == true {
             view.backgroundColor = DarkModeColours.screenBackground
             viewAnswer1.backgroundColor = DarkModeColours.answerBackground
             viewAnswer2.backgroundColor = DarkModeColours.answerBackground
