@@ -98,6 +98,9 @@ class ChooseViewController: UIViewController {
     
     
     @IBAction func bottonPressed(_ sender: UIButton) {
+        let generator = UIImpactFeedbackGenerator(style: .heavy)
+        generator.impactOccurred()
+        
         
         chosenNumber = sender.tag
         
@@ -107,11 +110,15 @@ class ChooseViewController: UIViewController {
     
     
     @IBAction func soundSwitch(_ sender: UISwitch) {
+        let generator = UISelectionFeedbackGenerator()
+        generator.selectionChanged()
         soundOnSwitch = sender.isOn
         defaults.set(soundOnSwitch, forKey: "soundStatus")
     }
     
     @IBAction func darkModeSwitch(_ sender: UISwitch) {
+        let generator = UISelectionFeedbackGenerator()
+        generator.selectionChanged()
         darkModeOnSwitch = sender.isOn
         defaults.set(darkModeOnSwitch, forKey: "darkModeStatus")
         setColours(for: darkModeOnSwitch)

@@ -176,17 +176,19 @@ class ViewController: UIViewController {
     
     //MARK:- CHECK ANSWER AFTER BUTTON PRESSED
     func checkAnswer(pickedAnswer: Int) {
-        
+        let generator = UINotificationFeedbackGenerator()
         let correctAnswer = allAnswer.answerList[answerNumber + pickedAnswer].answer
         var soundTone : String = ""
         
         if correctAnswer == true {
+            generator.notificationOccurred(.success)
             soundTone = "Correct"
             ProgressHUD.showSuccess("Correct")
             playSounds(soundFileName: soundTone)
             score += 1
             
         } else {
+            generator.notificationOccurred(.error)
             soundTone = "Incorrect"
             ProgressHUD.showError("Wrong!")
             playSounds(soundFileName: soundTone)

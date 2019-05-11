@@ -164,7 +164,8 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
     }
     
     @IBAction func reviewButtonPressed(_ sender: UIButton) {
-        
+        let generator = UIImpactFeedbackGenerator()
+        generator.impactOccurred()
         if sender.tag == 1 {
             arrayNumber -= 1
             updateUI()
