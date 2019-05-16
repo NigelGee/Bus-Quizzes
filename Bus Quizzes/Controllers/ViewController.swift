@@ -85,6 +85,7 @@ class ViewController: UIViewController {
         answerText4.setTitleColor(Colours.lightText, for: .normal)
         
         if darkModeOnSwitch == true {
+            
             view.backgroundColor = DarkModeColours.screenBackground
             questionLabel.textColor = DarkModeColours.darkText
             progressLabel.backgroundColor = DarkModeColours.restart
@@ -93,7 +94,9 @@ class ViewController: UIViewController {
             viewAnswerText3.backgroundColor = DarkModeColours.answerBackground
             viewAnswerText4.backgroundColor = DarkModeColours.answerBackground
             enlargeImage.setTitleColor(DarkModeColours.darkText, for: .normal)
-        }else{
+            
+        } else {
+            
             view.backgroundColor = Colours.screenBackground
             questionLabel.textColor = Colours.darkText
             progressLabel.backgroundColor = Colours.restart
@@ -102,6 +105,7 @@ class ViewController: UIViewController {
             viewAnswerText3.backgroundColor = Colours.answerBackground
             viewAnswerText4.backgroundColor = Colours.answerBackground
             enlargeImage.setTitleColor(Colours.darkText, for: .normal)
+            
         }
     }
     

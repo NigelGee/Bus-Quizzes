@@ -74,7 +74,7 @@ class ChooseViewController: UIViewController {
             darkModeLabel.textColor = DarkModeColours.darkText
             chooseLabel.textColor = DarkModeColours.darkText
             
-        }else{
+        } else {
             
             let navBarAttributesDictionary: [NSObject: AnyObject]? = [NSAttributedString.Key.foregroundColor as NSObject: Colours.darkText]
             navigationController?.navigationBar.titleTextAttributes = navBarAttributesDictionary as? [NSAttributedString.Key : Any]
@@ -100,7 +100,6 @@ class ChooseViewController: UIViewController {
     @IBAction func bottonPressed(_ sender: UIButton) {
         let generator = UIImpactFeedbackGenerator(style: .heavy)
         generator.impactOccurred()
-        
         
         chosenNumber = sender.tag
         

@@ -1633,7 +1633,7 @@ class QuestionBank {
         questionList.append(Question(text: "Before each journey you should check all warning lights. What should you do if a warning light remains lit?", image: ""))
         questionList.append(Question(text: "Your vehicle has a turbo engine. What should you do before swithing off?", image: ""))
         questionList.append(Question(text: "You are driving a vehicle which has a two-speed axle. This:-", image: ""))
-        questionList.append(Question(text: "One of your passengers tells you they have noticed a wheen nut is missing. How often should you check them?", image: ""))
+        questionList.append(Question(text: "One of your passengers tells you they have noticed a wheel nut is missing. How often should you check them?", image: ""))
         questionList.append(Question(text: "You should beckon pedestrains to cross the road at", image: ""))
         questionList.append(Question(text: "Your vehicle is fitted with a reverse warning bleeper. You MUST switch it off between the hours of 11.30pm and 7.00am on a road with:", image: ""))
 

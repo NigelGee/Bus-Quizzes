@@ -117,6 +117,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         reviewAnswer4.textColor = Colours.lightText
         
         if darkModeOnSwitch == true {
+            
             view.backgroundColor = DarkModeColours.screenBackground
             viewAnswer1.backgroundColor = DarkModeColours.answerBackground
             viewAnswer2.backgroundColor = DarkModeColours.answerBackground
@@ -126,7 +127,9 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
             sendEmail.setTitleColor(DarkModeColours.darkText, for: .normal)
             reviewChoose.setTitleColor(DarkModeColours.darkText, for: .normal)
             reviewNext.setTitleColor(DarkModeColours.darkText, for: .normal)
-        }else{
+            
+        } else {
+            
             view.backgroundColor = Colours.screenBackground
             viewAnswer1.backgroundColor = Colours.answerBackground
             viewAnswer2.backgroundColor = Colours.answerBackground
@@ -136,6 +139,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
             sendEmail.setTitleColor(Colours.darkText, for: .normal)
             reviewChoose.setTitleColor(Colours.darkText, for: .normal)
             reviewNext.setTitleColor(Colours.darkText, for: .normal)
+            
         }
     }
     
