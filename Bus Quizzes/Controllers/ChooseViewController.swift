@@ -96,7 +96,6 @@ class ChooseViewController: UIViewController {
         }
     }
     
-    
     @IBAction func bottonPressed(_ sender: UIButton) {
         let generator = UIImpactFeedbackGenerator(style: .heavy)
         generator.impactOccurred()
@@ -106,7 +105,6 @@ class ChooseViewController: UIViewController {
         performSegue(withIdentifier: "goToQuiz", sender: self)
         
     }
-    
     
     @IBAction func soundSwitch(_ sender: UISwitch) {
         let generator = UISelectionFeedbackGenerator()
@@ -122,7 +120,5 @@ class ChooseViewController: UIViewController {
         defaults.set(darkModeOnSwitch, forKey: "darkModeStatus")
         setColours(for: darkModeOnSwitch)
     }
-    
-    
     
 }

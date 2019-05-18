@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         
         totalQuestion = maxQuestion - 1
         
-//        checkData(maxQuestion: maxQuestion)
+        //        checkData(maxQuestion: maxQuestion)
         
         setColours()
         randomQuestion()
@@ -238,7 +238,8 @@ class ViewController: UIViewController {
         answerText2.setTitle("", for: .normal)
         answerText4.setTitle("Try again!", for: .normal)
         
-        if scorePrecentage == 100 {
+        switch scorePrecentage {
+        case 100:
             questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion + 1 - usedQuestion.count) other questions that are possible. Try again and see if can get another perfect score."
             if darkModeOnSwitch == true {
                 viewAnswerText3.backgroundColor = DarkModeColours.screenBackground
@@ -248,8 +249,7 @@ class ViewController: UIViewController {
             answerText3.isEnabled = false
             answerText3.setTitle("", for: .normal)
             imageQuestion.image = UIImage(named: "face-Perfect")
-        }
-        else if scorePrecentage >= 86 {
+        case 86 ..< 100:
             if countLimit - score == 1 {
                 questionSingle = "question"
             } else {
@@ -258,20 +258,16 @@ class ViewController: UIViewController {
             questionLabel.text = "Well done. Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage))%). You would have passed, however you got \(Int(countLimit - score)) \(String(questionSingle)) wrong. Try again as practice makes perfect!"
             imageQuestion.image = UIImage(named: "face-smiley")
             answerText3.setTitle("Review incorrect answers", for: .normal)
-            
-        }
-        else if scorePrecentage >= 50 {
+        case 50 ..< 86:
             questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage))%). Great work and so close to a pass of 85%. Keep on practising. Try again!"
             imageQuestion.image = UIImage(named: "face-crying")
             answerText3.setTitle("Review incorrect answers", for: .normal)
-            
-        }
-        else {
+        default:
             questionLabel.text = "Your score is \(score) out of \(countLimit) (\(Int(scorePrecentage))%). Try to check answers using \"The Highway Code\". Try again and see if you can get better next time."
             imageQuestion.image = UIImage(named: "face-loudly-crying")
             answerText3.setTitle("Review incorrect answers", for: .normal)
-            
         }
+        
     }
     
     // MARK:- AVERAGE SCORE
@@ -299,7 +295,7 @@ class ViewController: UIViewController {
         })
         
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-
+        
         present(alert, animated: true, completion: nil)
     }
     
@@ -309,7 +305,7 @@ class ViewController: UIViewController {
         
         if soundOn == false {
             let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "mp3")
-    
+            
             do {
                 audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
             }catch{
@@ -321,7 +317,7 @@ class ViewController: UIViewController {
     
     // MARK:- RESTART
     func startAgain (){
-                
+        
         setColours()
         
         progressLabel.isHidden = false
@@ -349,7 +345,7 @@ class ViewController: UIViewController {
             fatalError("\(maxQuestion) question should have \(maxQuestion * 4) answers with only have \(maxAnswer) answers")
         }
         
-        // Check if one true answer for every quesstion and display question to check        
+        // Check if one true answer for every quesstion and display question to check
         var answerTrueCount = 0
         for number in 0...(maxAnswer / 4) - 1 {
             
@@ -375,8 +371,8 @@ class ViewController: UIViewController {
     
     //MARK:- BUTTONS PRESSED
     @IBAction func answerPressed(_ sender: UIButton) {
-
-        if count <= (countLimit) {
+        
+        if count <= countLimit {
             let buttonPressed = sender.tag - 1
             checkAnswer(pickedAnswer: buttonPressed)
         }else if sender.tag == 1 {
