@@ -11,6 +11,7 @@
 		8B0DBB4F212DD77800D95D2B /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DBB4E212DD77800D95D2B /* QuestionBank.swift */; };
 		8B0DBB51212DD79000D95D2B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DBB50212DD79000D95D2B /* Default-568h@2x.png */; };
 		8B153B962138771000A2D736 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B153B952138771000A2D736 /* ChooseViewController.swift */; };
+		8B25B79522936008000AA04A /* QuestionImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B25B79422936008000AA04A /* QuestionImages.xcassets */; };
 		8B2BAD062129A7F70050AF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BAD052129A7F70050AF17 /* AppDelegate.swift */; };
 		8B2BAD082129A7F70050AF17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BAD072129A7F70050AF17 /* ViewController.swift */; };
 		8B2BAD0B2129A7F70050AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BAD092129A7F70050AF17 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		8B0DBB4E212DD77800D95D2B /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		8B0DBB50212DD79000D95D2B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8B153B952138771000A2D736 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		8B25B79422936008000AA04A /* QuestionImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QuestionImages.xcassets; sourceTree = "<group>"; };
 		8B2BAD022129A7F70050AF17 /* Bus Quizzes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bus Quizzes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2BAD052129A7F70050AF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B2BAD072129A7F70050AF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				8B2BAD0E2129A7F80050AF17 /* LaunchScreen.storyboard */,
 				8B2BAD092129A7F70050AF17 /* Main.storyboard */,
 				8BF6D7442242CC17003B8ABE /* Assets.xcassets */,
+				8B25B79422936008000AA04A /* QuestionImages.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B2BAD102129A7F80050AF17 /* LaunchScreen.storyboard in Resources */,
+				8B25B79522936008000AA04A /* QuestionImages.xcassets in Resources */,
 				8BA0B1B3225CC81F002681EC /* Correct.mp3 in Resources */,
 				8B0DBB51212DD79000D95D2B /* Default-568h@2x.png in Resources */,
 				8BD0FBB421328FEC00F50734 /* ProgressHUD.bundle in Resources */,
