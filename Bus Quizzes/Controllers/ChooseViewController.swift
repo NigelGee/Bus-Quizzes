@@ -10,11 +10,13 @@ import UIKit
 
 class ChooseViewController: UIViewController {
     
+    //MARK:- VARIABLES
     var chosenNumber: Int = 0
     var soundOnSwitch: Bool = false
     var darkModeOnSwitch: Bool = false
     let defaults = UserDefaults.standard
     
+    //MARK:- UI VIEW OUTLETS
     @IBOutlet weak var chooseLabel: UILabel!
     @IBOutlet weak var muteLabel: UILabel!
     @IBOutlet weak var darkModeLabel: UILabel!
@@ -25,6 +27,7 @@ class ChooseViewController: UIViewController {
     @IBOutlet weak var soundSwitchState: UISwitch!
     @IBOutlet weak var darkModeSwitchState: UISwitch!
     
+    //MARK:- OVERRIDES
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -48,31 +51,82 @@ class ChooseViewController: UIViewController {
             
         }
     }
+    //TODO:- Change Colours
     
+    //MARK:- COLOURS
     func setColours(for darkModeOn: Bool){
         
-        button10.setTitleColor(Colours.lightText, for: .normal)
-        button25.setTitleColor(Colours.lightText, for: .normal)
-        button50.setTitleColor(Colours.lightText, for: .normal)
-        button100.setTitleColor(Colours.lightText, for: .normal)
+        if #available(iOS 13.0, *) {
+            darkModeLabel.text = "Dark Colour"
+            if darkModeOn == true {
+                
+                darkScene()
+                
+            } else {
+                
+                lightScene()
+                
+            }
+            
+        } else {
+            
+            button10.setTitleColor(Colours.lightText, for: .normal)
+            button25.setTitleColor(Colours.lightText, for: .normal)
+            button50.setTitleColor(Colours.lightText, for: .normal)
+            button100.setTitleColor(Colours.lightText, for: .normal)
+            
+            if darkModeOn == true {
+                
+                darkScene()
+                
+            } else {
+                
+                lightScene()
+                
+            }
+        }
+    }
+    
+    func darkScene() {
         
-        if darkModeOn == true {
+        let navBarAttributesDictionary: [NSObject: AnyObject]? = [NSAttributedString.Key.foregroundColor as NSObject: DarkModeColours.darkText]
+        navigationController?.navigationBar.titleTextAttributes = navBarAttributesDictionary as? [NSAttributedString.Key : Any]
+        navigationController?.navigationBar.barTintColor = DarkModeColours.screenBackground
+        
+        view.backgroundColor = DarkModeColours.screenBackground
+        soundSwitchState.onTintColor = DarkModeColours.answerBackground
+        soundSwitchState.tintColor = DarkModeColours.answerBackground
+        darkModeSwitchState.onTintColor = DarkModeColours.answerBackground
+        button10.backgroundColor = DarkModeColours.answerBackground
+        button25.backgroundColor = DarkModeColours.answerBackground
+        button50.backgroundColor = DarkModeColours.answerBackground
+        button100.backgroundColor = DarkModeColours.answerBackground
+        muteLabel.textColor = DarkModeColours.darkText
+        darkModeLabel.textColor = DarkModeColours.darkText
+        chooseLabel.textColor = DarkModeColours.darkText
+        
+    }
+    
+    func lightScene() {
+        
+        if #available(iOS 13.0, *) {
             
-            let navBarAttributesDictionary: [NSObject: AnyObject]? = [NSAttributedString.Key.foregroundColor as NSObject: DarkModeColours.darkText]
+            let navBarAttributesDictionary: [NSObject: AnyObject]? = [NSAttributedString.Key.foregroundColor as NSObject: Colours.darkText]
             navigationController?.navigationBar.titleTextAttributes = navBarAttributesDictionary as? [NSAttributedString.Key : Any]
-            navigationController?.navigationBar.barTintColor = DarkModeColours.screenBackground
+            navigationController?.navigationBar.barTintColor = UIColor.systemTeal
             
-            view.backgroundColor = DarkModeColours.screenBackground
-            soundSwitchState.onTintColor = DarkModeColours.answerBackground
-            soundSwitchState.tintColor = DarkModeColours.answerBackground
-            darkModeSwitchState.onTintColor = DarkModeColours.answerBackground
-            button10.backgroundColor = DarkModeColours.answerBackground
-            button25.backgroundColor = DarkModeColours.answerBackground
-            button50.backgroundColor = DarkModeColours.answerBackground
-            button100.backgroundColor = DarkModeColours.answerBackground
-            muteLabel.textColor = DarkModeColours.darkText
-            darkModeLabel.textColor = DarkModeColours.darkText
-            chooseLabel.textColor = DarkModeColours.darkText
+            view.backgroundColor = UIColor.systemTeal
+            soundSwitchState.onTintColor = UIColor.systemBlue
+            soundSwitchState.tintColor = UIColor.systemBlue
+            darkModeSwitchState.onTintColor = UIColor.systemBlue
+            darkModeSwitchState.tintColor = UIColor.systemBlue
+            button10.backgroundColor = UIColor.systemBlue
+            button25.backgroundColor = UIColor.systemBlue
+            button50.backgroundColor = UIColor.systemBlue
+            button100.backgroundColor = UIColor.systemBlue
+            muteLabel.textColor = Colours.darkText
+            darkModeLabel.textColor = Colours.darkText
+            chooseLabel.textColor = Colours.darkText
             
         } else {
             
@@ -96,6 +150,7 @@ class ChooseViewController: UIViewController {
         }
     }
     
+    //MARK:- BUTTONS PRESSED
     @IBAction func bottonPressed(_ sender: UIButton) {
         let generator = UIImpactFeedbackGenerator(style: .heavy)
         generator.impactOccurred()
