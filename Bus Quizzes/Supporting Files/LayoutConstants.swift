@@ -13,16 +13,15 @@ struct Colours {
     
     static let lightText = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
     static let darkText = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
- 
+    
     static let screenBackground = UIColor(red: 0.843, green: 0.969, blue: 0.961, alpha: 1)
     static let trueBackground = UIColor(red: 0.459, green: 0.792, blue: 0.765, alpha: 1)
     static let answerBackground = UIColor(red: 0.165, green: 0.380, blue: 0.443, alpha: 1)
     static let restart = UIColor(red: 0.953, green: 0.271, blue: 0.451, alpha: 1)
 
-    
 }
 
-class DarkModeColours {
+struct DarkModeColours {
     
     static let lightText = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
     static let darkText = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
