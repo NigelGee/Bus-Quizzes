@@ -21,7 +21,11 @@ class PhotoViewController: UIViewController {
         if darkModeOnSwitch == true {
             view.backgroundColor = DarkModeColours.screenBackground
         }else{
-            view.backgroundColor = Colours.screenBackground
+            if #available(iOS 13.0, *) {
+                view.backgroundColor = UIColor.secondarySystemBackground
+            }else{
+                view.backgroundColor = Colours.screenBackground
+            }
         }
         
         roadSignImage.image = UIImage(named: enlargeViewImage)

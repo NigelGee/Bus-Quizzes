@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Wt-SG-0h4">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Wt-SG-0h4">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,10 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many questions you would like to answer?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ccR-cZ-GE8">
-                                <rect key="frame" x="16" y="88" width="343" height="279"/>
+                                <rect key="frame" x="16" y="104" width="343" height="263"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMH-zy-NEz">
                                 <rect key="frame" x="16" y="457" width="343" height="321"/>
@@ -136,7 +140,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Mode" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8M-f6-0hY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Appearance" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8M-f6-0hY">
                                 <rect key="frame" x="16" y="375" width="264" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="4sB-Sc-PW9"/>
@@ -175,7 +179,7 @@
                             <constraint firstItem="fs8-Hm-rDT" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="16" id="gXP-E5-JjJ"/>
                             <constraint firstItem="Aj2-Mx-rHA" firstAttribute="leading" secondItem="K8M-f6-0hY" secondAttribute="trailing" constant="16" id="i8r-KO-un9"/>
                             <constraint firstItem="ccR-cZ-GE8" firstAttribute="leading" secondItem="npn-pn-7W5" secondAttribute="leading" constant="16" id="l8e-qv-I1Q"/>
-                            <constraint firstItem="ccR-cZ-GE8" firstAttribute="top" secondItem="npn-pn-7W5" secondAttribute="top" id="qsg-6R-R4t"/>
+                            <constraint firstItem="ccR-cZ-GE8" firstAttribute="top" secondItem="npn-pn-7W5" secondAttribute="top" constant="16" id="qsg-6R-R4t"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="npn-pn-7W5"/>
                     </view>

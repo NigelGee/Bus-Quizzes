@@ -11,6 +11,7 @@ import MessageUI
 
 class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
+    //MARK:- VARIABLES
     let allQuestion = QuestionBank()
     let allAnswer = AnswerBank()
     var reviewQuestionArray = [Int]()
@@ -18,6 +19,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
     var incorrectQuestionNumber = 0
     var darkModeOnSwitch: Bool = false
     
+    //MARK:- UI VIEW OUTLETS
     @IBOutlet weak var reviewQuestions: UILabel!
     @IBOutlet weak var reviewImage: UIImageView!
     @IBOutlet weak var reviewAnswer1: UILabel!
@@ -32,7 +34,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
     @IBOutlet weak var reviewNext: UIButton!
     @IBOutlet weak var sendEmail: UIButton!
     
-    
+    //MARK:- OVERRIDES
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,7 +42,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         
     }
     
-    
+    //MARK:- UPDATE TO UI VIEWS
     func updateUI () {
         
         setColours()
@@ -109,26 +111,53 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         
     }
     
+    //MARK:- UI COLOURS
     func setColours (){
         
+        if darkModeOnSwitch == true {
+            darkScene()
+        } else {
+            lightScene()
+        }
+    }
+    
+    func darkScene() {
+        
+        view.backgroundColor = DarkModeColours.screenBackground
+        viewAnswer1.backgroundColor = DarkModeColours.answerBackground
+        viewAnswer2.backgroundColor = DarkModeColours.answerBackground
+        viewAnswer3.backgroundColor = DarkModeColours.answerBackground
+        viewAnswer4.backgroundColor = DarkModeColours.answerBackground
+        reviewQuestions.textColor = DarkModeColours.darkText
+        sendEmail.setTitleColor(DarkModeColours.darkText, for: .normal)
+        reviewChoose.setTitleColor(DarkModeColours.darkText, for: .normal)
+        reviewNext.setTitleColor(DarkModeColours.darkText, for: .normal)
         reviewAnswer1.textColor = Colours.lightText
         reviewAnswer2.textColor = Colours.lightText
         reviewAnswer3.textColor = Colours.lightText
         reviewAnswer4.textColor = Colours.lightText
         
-        if darkModeOnSwitch == true {
+    }
+    
+    func lightScene() {
+        
+        if #available(iOS 13.0, *) {
             
-            view.backgroundColor = DarkModeColours.screenBackground
-            viewAnswer1.backgroundColor = DarkModeColours.answerBackground
-            viewAnswer2.backgroundColor = DarkModeColours.answerBackground
-            viewAnswer3.backgroundColor = DarkModeColours.answerBackground
-            viewAnswer4.backgroundColor = DarkModeColours.answerBackground
-            reviewQuestions.textColor = DarkModeColours.darkText
-            sendEmail.setTitleColor(DarkModeColours.darkText, for: .normal)
-            reviewChoose.setTitleColor(DarkModeColours.darkText, for: .normal)
-            reviewNext.setTitleColor(DarkModeColours.darkText, for: .normal)
+            view.backgroundColor = UIColor.secondarySystemBackground
+            viewAnswer1.backgroundColor = UIColor.systemTeal
+            viewAnswer2.backgroundColor = UIColor.systemTeal
+            viewAnswer3.backgroundColor = UIColor.systemTeal
+            viewAnswer4.backgroundColor = UIColor.systemTeal
+            reviewQuestions.textColor = UIColor.label
+            sendEmail.setTitleColor(UIColor.label, for: .normal)
+            reviewChoose.setTitleColor(UIColor.label, for: .normal)
+            reviewNext.setTitleColor(UIColor.label, for: .normal)
+            reviewAnswer1.textColor = UIColor.lightText
+            reviewAnswer2.textColor = UIColor.lightText
+            reviewAnswer3.textColor = UIColor.lightText
+            reviewAnswer4.textColor = UIColor.lightText
             
-        } else {
+        }else{
             
             view.backgroundColor = Colours.screenBackground
             viewAnswer1.backgroundColor = Colours.answerBackground
@@ -139,11 +168,15 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
             sendEmail.setTitleColor(Colours.darkText, for: .normal)
             reviewChoose.setTitleColor(Colours.darkText, for: .normal)
             reviewNext.setTitleColor(Colours.darkText, for: .normal)
+            reviewAnswer1.textColor = Colours.lightText
+            reviewAnswer2.textColor = Colours.lightText
+            reviewAnswer3.textColor = Colours.lightText
+            reviewAnswer4.textColor = Colours.lightText
             
         }
     }
     
-    
+    // MARK:- EMAIL
     func configuredMailComposeViewController () -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self
@@ -160,6 +193,7 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         controller.dismiss(animated: true, completion: nil)
     }
     
+    //MARK:- BUTTONS PRESSED
     @IBAction func emailButtonPressed(_ sender: UIButton) {
         let mailComposeViewController = configuredMailComposeViewController()
         if MFMailComposeViewController.canSendMail() {

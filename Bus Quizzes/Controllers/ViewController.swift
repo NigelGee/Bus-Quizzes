@@ -79,23 +79,48 @@ class ViewController: UIViewController {
     //MARK:- COLOURS SET
     func setColours(){
         
+        if darkModeOnSwitch == true {
+            darkScene()
+        } else {
+            lightScene()
+        }
+    }
+    
+    func darkScene() {
+        
+        view.backgroundColor = DarkModeColours.screenBackground
+        questionLabel.textColor = DarkModeColours.darkText
+        progressLabel.backgroundColor = DarkModeColours.restart
+        viewAnswerText1.backgroundColor = DarkModeColours.answerBackground
+        viewAnswerText2.backgroundColor = DarkModeColours.answerBackground
+        viewAnswerText3.backgroundColor = DarkModeColours.answerBackground
+        viewAnswerText4.backgroundColor = DarkModeColours.answerBackground
+        enlargeImage.setTitleColor(DarkModeColours.darkText, for: .normal)
         answerText1.setTitleColor(Colours.lightText, for: .normal)
         answerText2.setTitleColor(Colours.lightText, for: .normal)
         answerText3.setTitleColor(Colours.lightText, for: .normal)
         answerText4.setTitleColor(Colours.lightText, for: .normal)
         
-        if darkModeOnSwitch == true {
+    }
+    
+    func lightScene() {
+        
+        if #available(iOS 13.0, *) {
             
-            view.backgroundColor = DarkModeColours.screenBackground
-            questionLabel.textColor = DarkModeColours.darkText
-            progressLabel.backgroundColor = DarkModeColours.restart
-            viewAnswerText1.backgroundColor = DarkModeColours.answerBackground
-            viewAnswerText2.backgroundColor = DarkModeColours.answerBackground
-            viewAnswerText3.backgroundColor = DarkModeColours.answerBackground
-            viewAnswerText4.backgroundColor = DarkModeColours.answerBackground
-            enlargeImage.setTitleColor(DarkModeColours.darkText, for: .normal)
+            view.backgroundColor = UIColor.secondarySystemBackground
+            questionLabel.textColor = UIColor.label
+            progressLabel.backgroundColor = Colours.restart
+            viewAnswerText1.backgroundColor = UIColor.systemBlue
+            viewAnswerText2.backgroundColor = UIColor.systemBlue
+            viewAnswerText3.backgroundColor = UIColor.systemBlue
+            viewAnswerText4.backgroundColor = UIColor.systemBlue
+            enlargeImage.setTitleColor(Colours.darkText, for: .normal)
+            answerText1.setTitleColor(Colours.lightText, for: .normal)
+            answerText2.setTitleColor(Colours.lightText, for: .normal)
+            answerText3.setTitleColor(Colours.lightText, for: .normal)
+            answerText4.setTitleColor(Colours.lightText, for: .normal)
             
-        } else {
+        }else{
             
             view.backgroundColor = Colours.screenBackground
             questionLabel.textColor = Colours.darkText
@@ -105,6 +130,10 @@ class ViewController: UIViewController {
             viewAnswerText3.backgroundColor = Colours.answerBackground
             viewAnswerText4.backgroundColor = Colours.answerBackground
             enlargeImage.setTitleColor(Colours.darkText, for: .normal)
+            answerText1.setTitleColor(Colours.lightText, for: .normal)
+            answerText2.setTitleColor(Colours.lightText, for: .normal)
+            answerText3.setTitleColor(Colours.lightText, for: .normal)
+            answerText4.setTitleColor(Colours.lightText, for: .normal)
             
         }
     }
@@ -218,16 +247,10 @@ class ViewController: UIViewController {
         let scoreAverage = averageScore()
         let scorePrecentage = CGFloat(score) / CGFloat(countLimit) * 100
         
-        if darkModeOnSwitch == true {
-            viewAnswerText1.backgroundColor = DarkModeColours.screenBackground
-            viewAnswerText2.backgroundColor = DarkModeColours.screenBackground
-            viewAnswerText4.backgroundColor = DarkModeColours.restart
-            answerText1.setTitleColor(DarkModeColours.darkText, for: .normal)
+        if darkModeOnSwitch {
+            darkResultScreen()
         }else{
-            viewAnswerText1.backgroundColor = Colours.screenBackground
-            viewAnswerText2.backgroundColor = Colours.screenBackground
-            viewAnswerText4.backgroundColor = Colours.restart
-            answerText1.setTitleColor(Colours.darkText, for: .normal)
+            lightResultScreen()
         }
         
         enlargeImage.isHidden = true
@@ -241,8 +264,10 @@ class ViewController: UIViewController {
         switch scorePrecentage {
         case 100:
             questionLabel.text = "Congratulation! You answered all \(score) questions correctly. There are \(totalQuestion + 1 - usedQuestion.count) other questions that are possible. Try again and see if can get another perfect score."
-            if darkModeOnSwitch == true {
+            if darkModeOnSwitch {
                 viewAnswerText3.backgroundColor = DarkModeColours.screenBackground
+            }else if #available(iOS 13.0, *) {
+                viewAnswerText3.backgroundColor = UIColor.secondarySystemBackground
             }else{
                 viewAnswerText3.backgroundColor = Colours.screenBackground
             }
@@ -267,6 +292,32 @@ class ViewController: UIViewController {
             imageQuestion.image = UIImage(named: "face-loudly-crying")
             answerText3.setTitle("Review incorrect answers", for: .normal)
         }
+        
+    }
+    
+    func darkResultScreen() {
+        
+        viewAnswerText1.backgroundColor = DarkModeColours.screenBackground
+        viewAnswerText2.backgroundColor = DarkModeColours.screenBackground
+        viewAnswerText4.backgroundColor = DarkModeColours.restart
+        answerText1.setTitleColor(DarkModeColours.darkText, for: .normal)
+        
+    }
+    
+    func lightResultScreen() {
+        
+        if #available(iOS 13.0, *) {
+            viewAnswerText1.backgroundColor = UIColor.secondarySystemBackground
+            viewAnswerText2.backgroundColor = UIColor.secondarySystemBackground
+            answerText1.setTitleColor(.label, for: .normal)
+        }else{
+            viewAnswerText1.backgroundColor = Colours.screenBackground
+            viewAnswerText2.backgroundColor = Colours.screenBackground
+            answerText1.setTitleColor(Colours.darkText, for: .normal)
+        }
+        
+        viewAnswerText4.backgroundColor = Colours.restart
+        
         
     }
     

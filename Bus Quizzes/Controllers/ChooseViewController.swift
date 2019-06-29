@@ -51,40 +51,16 @@ class ChooseViewController: UIViewController {
             
         }
     }
-    //TODO:- Change Colours
     
-    //MARK:- COLOURS
+    //MARK:- UI COLOURS
     func setColours(for darkModeOn: Bool){
-        
-        if #available(iOS 13.0, *) {
-            darkModeLabel.text = "Dark Colour"
-            if darkModeOn == true {
-                
+                    
+            if darkModeOn {
                 darkScene()
-                
             } else {
-                
                 lightScene()
-                
             }
-            
-        } else {
-            
-            button10.setTitleColor(Colours.lightText, for: .normal)
-            button25.setTitleColor(Colours.lightText, for: .normal)
-            button50.setTitleColor(Colours.lightText, for: .normal)
-            button100.setTitleColor(Colours.lightText, for: .normal)
-            
-            if darkModeOn == true {
-                
-                darkScene()
-                
-            } else {
-                
-                lightScene()
-                
-            }
-        }
+
     }
     
     func darkScene() {
@@ -104,6 +80,10 @@ class ChooseViewController: UIViewController {
         muteLabel.textColor = DarkModeColours.darkText
         darkModeLabel.textColor = DarkModeColours.darkText
         chooseLabel.textColor = DarkModeColours.darkText
+        button10.setTitleColor(Colours.lightText, for: .normal)
+        button25.setTitleColor(Colours.lightText, for: .normal)
+        button50.setTitleColor(Colours.lightText, for: .normal)
+        button100.setTitleColor(Colours.lightText, for: .normal)
         
     }
     
@@ -111,22 +91,26 @@ class ChooseViewController: UIViewController {
         
         if #available(iOS 13.0, *) {
             
-            let navBarAttributesDictionary: [NSObject: AnyObject]? = [NSAttributedString.Key.foregroundColor as NSObject: Colours.darkText]
+            let navBarAttributesDictionary: [NSObject: AnyObject]? = [NSAttributedString.Key.foregroundColor as NSObject: UIColor.label]
             navigationController?.navigationBar.titleTextAttributes = navBarAttributesDictionary as? [NSAttributedString.Key : Any]
-            navigationController?.navigationBar.barTintColor = UIColor.systemTeal
+            navigationController?.navigationBar.barTintColor = UIColor.secondarySystemBackground
             
-            view.backgroundColor = UIColor.systemTeal
-            soundSwitchState.onTintColor = UIColor.systemBlue
-            soundSwitchState.tintColor = UIColor.systemBlue
-            darkModeSwitchState.onTintColor = UIColor.systemBlue
-            darkModeSwitchState.tintColor = UIColor.systemBlue
-            button10.backgroundColor = UIColor.systemBlue
-            button25.backgroundColor = UIColor.systemBlue
-            button50.backgroundColor = UIColor.systemBlue
-            button100.backgroundColor = UIColor.systemBlue
-            muteLabel.textColor = Colours.darkText
-            darkModeLabel.textColor = Colours.darkText
-            chooseLabel.textColor = Colours.darkText
+            view.backgroundColor = UIColor.secondarySystemBackground
+            soundSwitchState.onTintColor = UIColor.systemTeal
+            soundSwitchState.tintColor = UIColor.systemTeal
+            darkModeSwitchState.onTintColor = UIColor.systemTeal
+            darkModeSwitchState.tintColor = UIColor.systemTeal
+            button10.backgroundColor = UIColor.systemTeal
+            button25.backgroundColor = UIColor.systemTeal
+            button50.backgroundColor = UIColor.systemTeal
+            button100.backgroundColor = UIColor.systemTeal
+            muteLabel.textColor = UIColor.label
+            darkModeLabel.textColor = UIColor.label
+            chooseLabel.textColor = UIColor.label
+            button10.setTitleColor(UIColor.darkText, for: .normal)
+            button25.setTitleColor(UIColor.darkText, for: .normal)
+            button50.setTitleColor(UIColor.darkText, for: .normal)
+            button100.setTitleColor(UIColor.darkText, for: .normal)
             
         } else {
             
@@ -146,6 +130,10 @@ class ChooseViewController: UIViewController {
             muteLabel.textColor = Colours.darkText
             darkModeLabel.textColor = Colours.darkText
             chooseLabel.textColor = Colours.darkText
+            button10.setTitleColor(Colours.lightText, for: .normal)
+            button25.setTitleColor(Colours.lightText, for: .normal)
+            button50.setTitleColor(Colours.lightText, for: .normal)
+            button100.setTitleColor(Colours.lightText, for: .normal)
             
         }
     }
