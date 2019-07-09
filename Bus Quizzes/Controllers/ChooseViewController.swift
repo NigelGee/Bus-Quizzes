@@ -37,6 +37,10 @@ class ChooseViewController: UIViewController {
         darkModeOnSwitch = defaults.bool(forKey: "darkModeStatus")
         darkModeSwitchState.isOn = darkModeOnSwitch
         
+        if #available(iOS 13.0, *) {
+            darkModeLabel.text = "Dark Colour"
+        }
+        
         setColours(for: darkModeOnSwitch)
     }
     

@@ -177,7 +177,7 @@ class ViewController: UIViewController {
         // Question UI Label update
         
         progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
-        
+
         let question = allQuestion.questionList[number]
         
         questionLabel.text = question.questionText
