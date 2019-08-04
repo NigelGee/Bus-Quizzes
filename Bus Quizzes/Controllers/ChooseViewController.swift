@@ -104,10 +104,10 @@ class ChooseViewController: UIViewController {
             soundSwitchState.tintColor = UIColor.systemTeal
             darkModeSwitchState.onTintColor = UIColor.systemTeal
             darkModeSwitchState.tintColor = UIColor.systemTeal
-            button10.backgroundColor = UIColor.systemTeal
-            button25.backgroundColor = UIColor.systemTeal
-            button50.backgroundColor = UIColor.systemTeal
-            button100.backgroundColor = UIColor.systemTeal
+            button10.backgroundColor = UIColor.systemBlue
+            button25.backgroundColor = UIColor.systemBlue
+            button50.backgroundColor = UIColor.systemBlue
+            button100.backgroundColor = UIColor.systemBlue
             muteLabel.textColor = UIColor.label
             darkModeLabel.textColor = UIColor.label
             chooseLabel.textColor = UIColor.label

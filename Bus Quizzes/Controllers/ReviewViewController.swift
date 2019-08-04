@@ -144,10 +144,10 @@ class ReviewViewController: UIViewController, MFMailComposeViewControllerDelegat
         if #available(iOS 13.0, *) {
             
             view.backgroundColor = UIColor.secondarySystemBackground
-            viewAnswer1.backgroundColor = UIColor.systemTeal
-            viewAnswer2.backgroundColor = UIColor.systemTeal
-            viewAnswer3.backgroundColor = UIColor.systemTeal
-            viewAnswer4.backgroundColor = UIColor.systemTeal
+            viewAnswer1.backgroundColor = UIColor.systemBlue
+            viewAnswer2.backgroundColor = UIColor.systemBlue
+            viewAnswer3.backgroundColor = UIColor.systemBlue
+            viewAnswer4.backgroundColor = UIColor.systemBlue
             reviewQuestions.textColor = UIColor.label
             sendEmail.setTitleColor(UIColor.label, for: .normal)
             reviewChoose.setTitleColor(UIColor.label, for: .normal)
