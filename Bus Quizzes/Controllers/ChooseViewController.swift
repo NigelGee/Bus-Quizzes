@@ -58,13 +58,17 @@ class ChooseViewController: UIViewController {
     
     //MARK:- UI COLOURS
     func setColours(for darkModeOn: Bool){
-                    
-            if darkModeOn {
-                darkScene()
-            } else {
-                lightScene()
-            }
-
+        
+        button10.setTitleColor(Colours.lightText, for: .normal)
+        button25.setTitleColor(Colours.lightText, for: .normal)
+        button50.setTitleColor(Colours.lightText, for: .normal)
+        button100.setTitleColor(Colours.lightText, for: .normal)
+        
+        if darkModeOn {
+            darkScene()
+        } else {
+            lightScene()
+        }
     }
     
     func darkScene() {
@@ -84,10 +88,6 @@ class ChooseViewController: UIViewController {
         muteLabel.textColor = DarkModeColours.darkText
         darkModeLabel.textColor = DarkModeColours.darkText
         chooseLabel.textColor = DarkModeColours.darkText
-        button10.setTitleColor(Colours.lightText, for: .normal)
-        button25.setTitleColor(Colours.lightText, for: .normal)
-        button50.setTitleColor(Colours.lightText, for: .normal)
-        button100.setTitleColor(Colours.lightText, for: .normal)
         
     }
     
@@ -111,10 +111,6 @@ class ChooseViewController: UIViewController {
             muteLabel.textColor = UIColor.label
             darkModeLabel.textColor = UIColor.label
             chooseLabel.textColor = UIColor.label
-            button10.setTitleColor(UIColor.darkText, for: .normal)
-            button25.setTitleColor(UIColor.darkText, for: .normal)
-            button50.setTitleColor(UIColor.darkText, for: .normal)
-            button100.setTitleColor(UIColor.darkText, for: .normal)
             
         } else {
             
@@ -134,10 +130,6 @@ class ChooseViewController: UIViewController {
             muteLabel.textColor = Colours.darkText
             darkModeLabel.textColor = Colours.darkText
             chooseLabel.textColor = Colours.darkText
-            button10.setTitleColor(Colours.lightText, for: .normal)
-            button25.setTitleColor(Colours.lightText, for: .normal)
-            button50.setTitleColor(Colours.lightText, for: .normal)
-            button100.setTitleColor(Colours.lightText, for: .normal)
             
         }
     }

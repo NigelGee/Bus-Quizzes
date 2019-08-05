@@ -79,6 +79,11 @@ class ViewController: UIViewController {
     //MARK:- COLOURS SET
     func setColours(){
         
+        answerText1.setTitleColor(Colours.lightText, for: .normal)
+        answerText2.setTitleColor(Colours.lightText, for: .normal)
+        answerText3.setTitleColor(Colours.lightText, for: .normal)
+        answerText4.setTitleColor(Colours.lightText, for: .normal)
+        
         if darkModeOnSwitch == true {
             darkScene()
         } else {
@@ -96,10 +101,7 @@ class ViewController: UIViewController {
         viewAnswerText3.backgroundColor = DarkModeColours.answerBackground
         viewAnswerText4.backgroundColor = DarkModeColours.answerBackground
         enlargeImage.setTitleColor(DarkModeColours.darkText, for: .normal)
-        answerText1.setTitleColor(Colours.lightText, for: .normal)
-        answerText2.setTitleColor(Colours.lightText, for: .normal)
-        answerText3.setTitleColor(Colours.lightText, for: .normal)
-        answerText4.setTitleColor(Colours.lightText, for: .normal)
+        
         
     }
     
@@ -115,12 +117,9 @@ class ViewController: UIViewController {
             viewAnswerText3.backgroundColor = UIColor.systemBlue
             viewAnswerText4.backgroundColor = UIColor.systemBlue
             enlargeImage.setTitleColor(Colours.darkText, for: .normal)
-            answerText1.setTitleColor(Colours.lightText, for: .normal)
-            answerText2.setTitleColor(Colours.lightText, for: .normal)
-            answerText3.setTitleColor(Colours.lightText, for: .normal)
-            answerText4.setTitleColor(Colours.lightText, for: .normal)
             
-        }else{
+            
+        } else {
             
             view.backgroundColor = Colours.screenBackground
             questionLabel.textColor = Colours.darkText
@@ -130,10 +129,7 @@ class ViewController: UIViewController {
             viewAnswerText3.backgroundColor = Colours.answerBackground
             viewAnswerText4.backgroundColor = Colours.answerBackground
             enlargeImage.setTitleColor(Colours.darkText, for: .normal)
-            answerText1.setTitleColor(Colours.lightText, for: .normal)
-            answerText2.setTitleColor(Colours.lightText, for: .normal)
-            answerText3.setTitleColor(Colours.lightText, for: .normal)
-            answerText4.setTitleColor(Colours.lightText, for: .normal)
+            
             
         }
     }
@@ -177,6 +173,7 @@ class ViewController: UIViewController {
         // Question UI Label update
         
         progressLabel.frame.size.width = (view.frame.size.width / CGFloat(countLimit)) * CGFloat(count)
+        
         let question = allQuestion.questionList[number]
         
         questionLabel.text = question.questionText
